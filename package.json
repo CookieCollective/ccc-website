@@ -1,0 +1,21 @@
+{
+  "name": "cookie-compilation-website",
+  "version": "0.0.1",
+  "description": "Portfolio website for the Cookie Collective Compilation",
+  "main": "index.html",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "BuboBubo",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11tyrocks/eleventy-plugin-sass-lightningcss": "^1.2.0",
+    "eleventy": "^1.0.7"
+  },
+  "browserslist": [
+  ]
+}

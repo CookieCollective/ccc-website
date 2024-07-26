@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
+	</head>
+	<body>
+       <div class="top-bar">
+            <div class="logo"><a class="logo-link" href="/">CCC</a></div>
+			<div class="">
+            	<div  class="horizontal-scroller">
+            	    {% for project in collections.projects %}
+            	        <a class="nav-link" href="{{ project.url }}">{{ project.data.title }}</a>
+            	    {% endfor %}
+            	    <a class="nav-link" href="/project_list">All Projects</a>
+            	    <a class="nav-link" href="/about">About</a>
+            	</div>
+			</div>
+        </div>
+
+		<main>
+			{{ content }}
+		</main>
+		<script>
+		    const hamburger = document.getElementById('hamburger');
+		    const navLinks = document.getElementById('nav-links');
+		
+		    hamburger.addEventListener('click', () => {
+		        navLinks.classList.toggle('active');
+		    });
+		</script>
+	</body>
+</html>

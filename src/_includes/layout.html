@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
+	</head>
+	<body>
+        <div class="top-bar">
+           	<div class="logo"><a class="logo-link" href="/">CCC</a></div>
+           	<div class="horizontal-scroller">
+           	    {% for project in collections.projects %}
+					<div>
+           	        	<a class="nav-link" href="{{ project.url }}">{{ project.data.title }}</a>
+					</div>
+           	    {% endfor %}
+           	    <a class="nav-link" href="/project_list">All Projects</a>
+           	    <a class="nav-link" href="/about">About</a>
+         	</div>
+        </div>
+		<main>
+			{{ content }}
+		</main>
+	</body>
+</html>
