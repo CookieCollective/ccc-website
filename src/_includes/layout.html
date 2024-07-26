@@ -6,20 +6,32 @@
 		<link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
 	</head>
 	<body>
-        <div class="top-bar">
+        <div class="main-bar">
            	<div class="logo"><a class="logo-link" href="/">CCC</a></div>
            	<div class="horizontal-scroller">
            	    {% for project in collections.projects %}
 					<div>
-           	        	<a class="nav-link" href="{{ project.url }}">{{ project.data.title }}</a>
+           	        	<a class="navlink" href="{{ project.url }}">{{ project.data.title }}</a>
 					</div>
            	    {% endfor %}
-           	    <a class="nav-link" href="/project_list">All Projects</a>
-           	    <a class="nav-link" href="/about">About</a>
+				<div><a class="navlink" href="/project_list">All Projects</a></div>
+				<div><a class="navlink" href="/about">About</a></div>
          	</div>
         </div>
 		<main>
 			{{ content }}
 		</main>
+		<script>
+			// This small script allows the horizontal scroller to work with the mouse wheel
+			document.addEventListener('DOMContentLoaded', (event) => {
+			    const scroller = document.querySelector('.horizontal-scroller');
+			    if (scroller) {
+			        scroller.addEventListener('wheel', (evt) => {
+			            evt.preventDefault();
+			            scroller.scrollLeft += evt.deltaY;
+			        });
+			    }
+			});
+		</script>
 	</body>
 </html>
