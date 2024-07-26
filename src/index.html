@@ -1,7 +1,8 @@
 ---
 title: Cookie Compilation
-layout: layout.html
 ---
+{%include "_head.html" %}
+
 
 <div class="video-container">
     <video autoplay muted loop id="background-video">
@@ -12,21 +13,3 @@ layout: layout.html
         CCC
     </div>
 </div>
-
-
-<!-- <p style="padding: 16px">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae esse adipisci dolore tempore, officiis ut illum libero odit totam, sunt aliquam, impedit quaerat error ratione. Reiciendis labore ea pariatur expedita. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt rem ipsum cupiditate et architecto voluptate nobis fugit rerum, quasi magnam ad quidem at sequi facere! Ipsum a obcaecati odit quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quaerat assumenda illo dicta. Consequatur maiores autem rerum ea sit possimus mollitia, minus veniam blanditiis cumque repellendus, quaerat libero, recusandae iste.</p>
-<main>
-    <div class="gallery" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; padding: 16px;">
-        {% for project in collections.projects %}
-            <div class="gallery-item" style="background-color: #f9f9f9; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; transition: transform 0.2s;">
-                <a href="{{ project.url }}" style="text-decoration: none; color: inherit; display: block; height: 100%;">
-                    <img src="https://picsum.photos/1600/1200" alt="{{ project.data.title }}" style="width: 100%; height: auto; display: block; object-fit: contain; max-height: 400px;">
-                    <div class="gallery-item-content" style="padding: 16px;">
-                        <h2 style="margin: 0; font-size: 1.25em; text-align: center;">{{ project.data.title }}</h2>
-                    </div>
-                </a>
-            </div>
-        {% endfor %}
-    </div>
-    {{ content }}
-</main> -->

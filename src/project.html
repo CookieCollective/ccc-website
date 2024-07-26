@@ -1,0 +1,26 @@
+---
+pagination:
+  data: projects
+  size: 1
+  alias: project
+permalink: "projects/{{ project.title | slugify }}/"
+---
+{% include "_head.html" %}
+
+<div class="page-container">
+
+<h1>{{ project.title }} by {{ project.author }}</h1>
+
+Ces pages sont auto-générées à partir des données présentes dans `projects.json`.
+Ajouter des méta-données dans ce fichier et utiliser les données ici...
+
+</div>
+
+<style>
+.page-container {
+  max-width: 1600;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 2em;
+}
+</style>
