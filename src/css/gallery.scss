@@ -1,5 +1,4 @@
 
-
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -8,13 +7,11 @@
     // Limit the vertical size to the size of the viewport then scroll
     max-height: 80vh;
     overflow-y: auto;
-
 }
 
 .gallery-item {
     position: relative;
     background-color: #f9f9f9;
-    border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
     transition: transform 0.2s;

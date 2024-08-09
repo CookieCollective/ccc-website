@@ -28,5 +28,125 @@
 				}
 			]
 		}
+	},
+	{
+		"title": "DRD2",
+		"folder": "damien-rene-danger",
+		"videast":
+		{
+			"name": "Damien",
+			"bio": "Programmeur et dévelopeur de jeu vidéo. J'ai découvert Pico8 il y a un an lors d'une demo party.",
+			"description": "Demo réalisée en utilisant Pico8, une Fantasy Console qui propose un environement developement de jeu complet (code,sprite,son,level design) inspirée des  console 8bit.<br/><br/>Démo réalisée en 1 mois, avec le gros de l'optimisation fait pendant la Revision 2024 Pico8 simulant également les soucis de performance des console 8bit. L'on utilise donc pas la puissance brut de l'ordinateur.<br/><br/><a href='https://www.lexaloffle.com/pico-8.php'>https://www.lexaloffle.com/pico-8.php</a>"
+		},
+		"musician":
+		{
+			"name": "Rene Danger",
+			"bio": "Dans ses concerts, René Danger superpose sa voix aux synthétiseurs modulaires et à sa gameboy, pour un mélange entre gwerzoù (complaintes) bretonnes et breakbeat, mélodies traditionnelles et sonorités dub ou electro. Un style que l'on pourrait qualifier de chip-trad ou gwerz-dub.<br/><br/>Il a co-fondé le micro-label Editentités, avec lequel il explore musiques traditionnelles ou futuristes. DJ sur LYL radio pour sa propre émission, il expérimente également avec le format radiophonique au sein d'Ondorphine, radio pirate et rêveuse qui utilise la bande FM comme canal éphémère de convivialité, savoir et expérimentation. <br/><br/>Entre quelques apparitions sur des labels bretons et parisiens, René Danger a sorti son premier album \"Pacifique Atlantique\" en 2019 sur Supergenius Records, et son deuxième intitulé \"Randonerd EP\" en 2022 sur son propre label Editentités. \"Gwerz Boy\", son dernier opus, est paru en mai 2023 accompagné d'un jeu pour gameboy entièrement développé par René lui-même.",
+			"links":
+			[
+				{
+					"name": "soundcloud",
+					"url": "https://soundcloud.com/rene-danger"
+				},
+				{
+					"name": "instagram",
+					"url": "https://www.instagram.com/rene_dangerrr/"
+				},
+				{
+					"name": "website",
+					"url": "https://aledreff.github.io/"
+				}
+			]
+		}
+	},
+	{
+		"title": "DRD3",
+		"folder": "damien-rene-danger",
+		"videast":
+		{
+			"name": "Damien",
+			"bio": "Programmeur et dévelopeur de jeu vidéo. J'ai découvert Pico8 il y a un an lors d'une demo party.",
+			"description": "Demo réalisée en utilisant Pico8, une Fantasy Console qui propose un environement developement de jeu complet (code,sprite,son,level design) inspirée des  console 8bit.<br/><br/>Démo réalisée en 1 mois, avec le gros de l'optimisation fait pendant la Revision 2024 Pico8 simulant également les soucis de performance des console 8bit. L'on utilise donc pas la puissance brut de l'ordinateur.<br/><br/><a href='https://www.lexaloffle.com/pico-8.php'>https://www.lexaloffle.com/pico-8.php</a>"
+		},
+		"musician":
+		{
+			"name": "Rene Danger",
+			"bio": "Dans ses concerts, René Danger superpose sa voix aux synthétiseurs modulaires et à sa gameboy, pour un mélange entre gwerzoù (complaintes) bretonnes et breakbeat, mélodies traditionnelles et sonorités dub ou electro. Un style que l'on pourrait qualifier de chip-trad ou gwerz-dub.<br/><br/>Il a co-fondé le micro-label Editentités, avec lequel il explore musiques traditionnelles ou futuristes. DJ sur LYL radio pour sa propre émission, il expérimente également avec le format radiophonique au sein d'Ondorphine, radio pirate et rêveuse qui utilise la bande FM comme canal éphémère de convivialité, savoir et expérimentation. <br/><br/>Entre quelques apparitions sur des labels bretons et parisiens, René Danger a sorti son premier album \"Pacifique Atlantique\" en 2019 sur Supergenius Records, et son deuxième intitulé \"Randonerd EP\" en 2022 sur son propre label Editentités. \"Gwerz Boy\", son dernier opus, est paru en mai 2023 accompagné d'un jeu pour gameboy entièrement développé par René lui-même.",
+			"links":
+			[
+				{
+					"name": "soundcloud",
+					"url": "https://soundcloud.com/rene-danger"
+				},
+				{
+					"name": "instagram",
+					"url": "https://www.instagram.com/rene_dangerrr/"
+				},
+				{
+					"name": "website",
+					"url": "https://aledreff.github.io/"
+				}
+			]
+		}
+	},
+	{
+		"title": "DRD4",
+		"folder": "damien-rene-danger",
+		"videast":
+		{
+			"name": "Damien",
+			"bio": "Programmeur et dévelopeur de jeu vidéo. J'ai découvert Pico8 il y a un an lors d'une demo party.",
+			"description": "Demo réalisée en utilisant Pico8, une Fantasy Console qui propose un environement developement de jeu complet (code,sprite,son,level design) inspirée des  console 8bit.<br/><br/>Démo réalisée en 1 mois, avec le gros de l'optimisation fait pendant la Revision 2024 Pico8 simulant également les soucis de performance des console 8bit. L'on utilise donc pas la puissance brut de l'ordinateur.<br/><br/><a href='https://www.lexaloffle.com/pico-8.php'>https://www.lexaloffle.com/pico-8.php</a>"
+		},
+		"musician":
+		{
+			"name": "Rene Danger",
+			"bio": "Dans ses concerts, René Danger superpose sa voix aux synthétiseurs modulaires et à sa gameboy, pour un mélange entre gwerzoù (complaintes) bretonnes et breakbeat, mélodies traditionnelles et sonorités dub ou electro. Un style que l'on pourrait qualifier de chip-trad ou gwerz-dub.<br/><br/>Il a co-fondé le micro-label Editentités, avec lequel il explore musiques traditionnelles ou futuristes. DJ sur LYL radio pour sa propre émission, il expérimente également avec le format radiophonique au sein d'Ondorphine, radio pirate et rêveuse qui utilise la bande FM comme canal éphémère de convivialité, savoir et expérimentation. <br/><br/>Entre quelques apparitions sur des labels bretons et parisiens, René Danger a sorti son premier album \"Pacifique Atlantique\" en 2019 sur Supergenius Records, et son deuxième intitulé \"Randonerd EP\" en 2022 sur son propre label Editentités. \"Gwerz Boy\", son dernier opus, est paru en mai 2023 accompagné d'un jeu pour gameboy entièrement développé par René lui-même.",
+			"links":
+			[
+				{
+					"name": "soundcloud",
+					"url": "https://soundcloud.com/rene-danger"
+				},
+				{
+					"name": "instagram",
+					"url": "https://www.instagram.com/rene_dangerrr/"
+				},
+				{
+					"name": "website",
+					"url": "https://aledreff.github.io/"
+				}
+			]
+		}
+	},
+	{
+		"title": "DRD5",
+		"folder": "damien-rene-danger",
+		"videast":
+		{
+			"name": "Damien",
+			"bio": "Programmeur et dévelopeur de jeu vidéo. J'ai découvert Pico8 il y a un an lors d'une demo party.",
+			"description": "Demo réalisée en utilisant Pico8, une Fantasy Console qui propose un environement developement de jeu complet (code,sprite,son,level design) inspirée des  console 8bit.<br/><br/>Démo réalisée en 1 mois, avec le gros de l'optimisation fait pendant la Revision 2024 Pico8 simulant également les soucis de performance des console 8bit. L'on utilise donc pas la puissance brut de l'ordinateur.<br/><br/><a href='https://www.lexaloffle.com/pico-8.php'>https://www.lexaloffle.com/pico-8.php</a>"
+		},
+		"musician":
+		{
+			"name": "Rene Danger",
+			"bio": "Dans ses concerts, René Danger superpose sa voix aux synthétiseurs modulaires et à sa gameboy, pour un mélange entre gwerzoù (complaintes) bretonnes et breakbeat, mélodies traditionnelles et sonorités dub ou electro. Un style que l'on pourrait qualifier de chip-trad ou gwerz-dub.<br/><br/>Il a co-fondé le micro-label Editentités, avec lequel il explore musiques traditionnelles ou futuristes. DJ sur LYL radio pour sa propre émission, il expérimente également avec le format radiophonique au sein d'Ondorphine, radio pirate et rêveuse qui utilise la bande FM comme canal éphémère de convivialité, savoir et expérimentation. <br/><br/>Entre quelques apparitions sur des labels bretons et parisiens, René Danger a sorti son premier album \"Pacifique Atlantique\" en 2019 sur Supergenius Records, et son deuxième intitulé \"Randonerd EP\" en 2022 sur son propre label Editentités. \"Gwerz Boy\", son dernier opus, est paru en mai 2023 accompagné d'un jeu pour gameboy entièrement développé par René lui-même.",
+			"links":
+			[
+				{
+					"name": "soundcloud",
+					"url": "https://soundcloud.com/rene-danger"
+				},
+				{
+					"name": "instagram",
+					"url": "https://www.instagram.com/rene_dangerrr/"
+				},
+				{
+					"name": "website",
+					"url": "https://aledreff.github.io/"
+				}
+			]
+		}
 	}
 ]
