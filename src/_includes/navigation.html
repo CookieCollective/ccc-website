@@ -1,0 +1,84 @@
+
+<div class="main-bar">
+    <div class="logo">
+        <a href="/">
+            <img src="/media/icon/cookie_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg">
+        </a>
+    </div>
+    <div class="horizontal-scroller">
+        {% for project in projects %}
+        <div>
+            <a class="navlink" href="/projects/{{ project.title | slugify }}">{{ project.title }}</a>
+        </div>
+        {% endfor %}
+        <div><a class="navlink" href="/project_list">A</a></div>
+        <div><a class="navlink" href="/about">Q</a></div>
+    </div>
+</div>
+
+<style>
+
+    .main-bar
+    {
+        display: flex;
+        width: auto;
+        height: var(--navigation-size);
+        background-color: #333;
+        color: white;
+        justify-content: space-between;
+        align-items: center;
+        white-space: nowrap;
+    }
+
+    .logo img
+    {
+        line-height: var(--navigation-size);
+        padding: 0 10px;
+    }
+
+    .logo-link
+    {
+        text-decoration: none;
+        color: white;
+    }
+
+    .logo a:hover
+    {
+        background-color: #333;
+        color: white;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .horizontal-scroller
+    {
+        display: flex;
+        gap: 16px;
+        padding: 16px;
+        /**used to scroll text*/
+        white-space: nowrap;    
+        overflow-x: scroll;
+        scrollbar-width: none;
+        overflow-y: hidden;
+    }
+
+    .navlink
+    {
+        white-space: nowrap;
+        text-decoration: none;
+        color: white;
+        font-size: 2vh;
+        padding-left: 1vh;
+        padding-right: 1vh;
+        width: 100%;
+    }
+
+    .navlink:hover
+    {
+        background: white;
+        color: black;
+        padding: 1vh;
+        padding-bottom: 1vh;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+</style>

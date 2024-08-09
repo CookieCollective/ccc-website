@@ -1,115 +1,64 @@
 ---
 pagination:
-  data: projects
-  size: 1
-  alias: project
+    data: projects
+    size: 1
+    alias: project
 permalink: "projects/{{ project.title | slugify }}/"
 ---
-{% include "_head.html" %}
+{% include "head.html" %}
+{% include "navigation.html" %}
 
 <div class="page-container">
-
-<h1><em>{{ project.title }}</em> by {{ project.videast.pseudonym }} ({{project.videast.name }}) and {{ project.musician.pseudonym }} ({{project.musician.name}}) - {{project.date}}</h1>
-
-<div class="project-description">
-  <p><b>Description: </b>{{ project.description }}</p>
-</div>
-
-  <div class="container">
-      <div class="column">
-          <h2>Videast: {{ project.videast.pseudonym }}</h2>
-          <div class="info">
-              <strong>Bio:</strong>
-              <p>{{ project.videast.bio }}</p>
-          </div>
-          <div class="info">
-              <strong>Website:</strong>
-              <p><a href="{{ project.videast.website }}">{{ project.videast.website }}</a></p>
-          </div>
-          <div class="info">
-              <strong>Social Media:</strong>
-              <p>
-                  <a href="{{ project.videast.links.youtube }}">YouTube</a><br>
-                  <a href="{{ project.videast.links.instagram }}">Instagram</a>
-              </p>
-          </div>
-          <h3>Gear</h3>
-          <ul class="gear">
-              <li><strong>Camera:</strong> {{ project.videast.technology.camera }}</li>
-              <li><strong>Lens:</strong> {{ project.videast.technology.lens }}</li>
-              <li><strong>Software:</strong> {{ project.videast.technology.software }}</li>
-          </ul>
-      </div>
-      <div class="column">
-          <h2>Musician: {{ project.musician.pseudonym }}</h2>
-          <div class="info">
-              <strong>Bio:</strong>
-              <p>{{ project.musician.bio }}</p>
-          </div>
-          <div class="info">
-              <strong>Website:</strong>
-              <p><a href="{{ project.musician.website }}">{{ project.musician.website }}</a></p>
-          </div>
-          <div class="info">
-              <strong>Social Media:</strong>
-              <p>
-                  <a href="{{ project.musician.links.youtube }}">YouTube</a><br>
-                  <a href="{{ project.musician.links.instagram }}">Instagram</a>
-              </p>
-          </div>
-          <h3>Gear</h3>
-          <ul class="gear">
-              <li><strong>Instrument:</strong> {{ project.musician.technology.instrument }}</li>
-              <li><strong>Software:</strong> {{ project.musician.technology.software }}</li>
-          </ul>
-      </div>
-  </div>
-
+    
+    <div class="container">
+        <img class="preview" src="/content/{{ project.folder }}/screenshot.png" />
+        <div class="column frost">
+            <h2>{{ project.videast.name }}</h2>
+            <p>{{ project.videast.bio }}</p>
+            <p>{{ project.videast.description }}</p>
+        </div>
+        <div class="column frost">
+            <h2>{{ project.musician.name }}</h2>
+            <p>{{ project.musician.bio }}</p>
+            {% for link in project.musician.links %}
+            <p><a href={{ link.url }}>{{ link.name }}</a></p>
+            {% endfor %}
+        </div>
+    </div>
+    
 </div>
 
 <style>
-.page-container {
-  max-width: 1600;
-  margin: 0 auto;
-  padding: 20px;
-  font-size: 1.5em;
-}
-.project-description {
-  padding-top:20px;
-  padding-bottom: 40px;
-}
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.column {
-    flex: 1;
-    padding: 20px;
-    box-sizing: border-box;
-    max-width: 45%;
-    border: 1px solid #ddd;
-    margin: 10px;
-    border-radius: 5px;
-}
-.column h2 {
-    margin-top: 0;
-}
-.info {
-    margin-bottom: 10px;
-}
-.info strong {
-    display: block;
-    margin-bottom: 5px;
-}
-.gear {
-    list-style: none;
-    padding: 0;
-}
-.gear li {
-    background: #f4f4f4;
-    margin: 5px 0;
-    padding: 10px;
-    border-radius: 3px;
-}
+    
+    .page-container
+    {
+        position: absolute;
+        top: var(--navigation-size);
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    
+    .preview
+    {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .container
+    {
+        display: flex;
+    }
+    
+    .column
+    {
+        color: white;
+        flex: 1;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 10px;
+        z-index: 1;
+    }
+    
 </style>

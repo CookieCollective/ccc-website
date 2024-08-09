@@ -1,79 +1,32 @@
 [
 	{
-		"title": "Envi 2 terroir",
-		"description": "On a voulu collaborer avec des artistes locaux pour créer un projet qui met en valeur la culture de notre ville et les nombreux produits de la région.",
-		"date": "27-07-2024",
-		"videast": {
-			"name": "Jean",
-			"pseudonym": "Jean Lafuma",
-			"role": "videast",
-			"bio": "Jean est un vidéaste parisien bienheureux.",
-			"website": "https://jeanjean.com",
-			"links": {
-				"youtube": "https://youtube.com/jeanjean",
-				"instagram": "https://instagram.com/jeanjean",
-				"website": "https://jeanjean.com"
-			},
-			"technology": {
-				"camera": "Canon EOS 5D Mark IV",
-				"lens": "Canon EF 24-70mm f/2.8L II USM",
-				"software": "Adobe Premiere Pro"
-			}
+		"title": "DRD",
+		"folder": "damien-rene-danger",
+		"videast":
+		{
+			"name": "Damien",
+			"bio": "Programmeur et dévelopeur de jeu vidéo. J'ai découvert Pico8 il y a un an lors d'une demo party.",
+			"description": "Demo réalisée en utilisant Pico8, une Fantasy Console qui propose un environement developement de jeu complet (code,sprite,son,level design) inspirée des  console 8bit.<br/><br/>Démo réalisée en 1 mois, avec le gros de l'optimisation fait pendant la Revision 2024 Pico8 simulant également les soucis de performance des console 8bit. L'on utilise donc pas la puissance brut de l'ordinateur.<br/><br/><a href='https://www.lexaloffle.com/pico-8.php'>https://www.lexaloffle.com/pico-8.php</a>"
 		},
-		"musician": {
-			"name": "Paul",
-			"pseudonym": "Paul Reebok",
-			"role": "musician",
-			"bio": "Paul est un musicien parisien bienheureux.",
-			"website": "https://paulpaul.com",
-			"links": {
-				"youtube": "https://youtube.com/paulpaul",
-				"instagram": "https://instagram.com/paulpaul",
-				"website": "https://paulpaul.com"
-			},
-			"technology": {
-				"instrument": "Gibson Les Paul",
-				"software": "Ableton Live"
-			}
+		"musician":
+		{
+			"name": "Rene Danger",
+			"bio": "Dans ses concerts, René Danger superpose sa voix aux synthétiseurs modulaires et à sa gameboy, pour un mélange entre gwerzoù (complaintes) bretonnes et breakbeat, mélodies traditionnelles et sonorités dub ou electro. Un style que l'on pourrait qualifier de chip-trad ou gwerz-dub.<br/><br/>Il a co-fondé le micro-label Editentités, avec lequel il explore musiques traditionnelles ou futuristes. DJ sur LYL radio pour sa propre émission, il expérimente également avec le format radiophonique au sein d'Ondorphine, radio pirate et rêveuse qui utilise la bande FM comme canal éphémère de convivialité, savoir et expérimentation. <br/><br/>Entre quelques apparitions sur des labels bretons et parisiens, René Danger a sorti son premier album \"Pacifique Atlantique\" en 2019 sur Supergenius Records, et son deuxième intitulé \"Randonerd EP\" en 2022 sur son propre label Editentités. \"Gwerz Boy\", son dernier opus, est paru en mai 2023 accompagné d'un jeu pour gameboy entièrement développé par René lui-même.",
+			"links":
+			[
+				{
+					"name": "soundcloud",
+					"url": "https://soundcloud.com/rene-danger"
+				},
+				{
+					"name": "instagram",
+					"url": "https://www.instagram.com/rene_dangerrr/"
+				},
+				{
+					"name": "website",
+					"url": "https://aledreff.github.io/"
+				}
+			]
 		}
-	},
-	{
-    	"title": "Urban Harmony",
-    	"description": "Un projet collaboratif visant à capturer l'essence de la vie urbaine à travers des images et des sons. Nous avons parcouru la ville avec un appareil photo afin de capter les meilleurs instants de vie... tant que nous sommes encore jeunes !",
-    	"date": "15-08-2024",
-    	"videast": {
-    	    "name": "Marie",
-    	    "pseudonym": "Marie Lumière",
-    	    "role": "videast",
-    	    "bio": "Marie est une vidéaste passionnée de Lyon, spécialisée dans les documentaires urbains.",
-    	    "website": "https://marielumiere.com",
-    	    "links": {
-    	        "youtube": "https://youtube.com/marielumiere",
-    	        "instagram": "https://instagram.com/marielumiere",
-    	        "website": "https://marielumiere.com"
-    	    },
-    	    "technology": {
-    	        "camera": "Sony A7 III",
-    	        "lens": "Sony FE 35mm f/1.4 GM",
-    	        "software": "Final Cut Pro"
-    	    }
-    	},
-    	"musician": {
-    	    "name": "Lucas",
-    	    "pseudonym": "Lucas Beats",
-    	    "role": "musician",
-    	    "bio": "Lucas est un musicien lyonnais spécialisé dans la production de musique électronique.",
-    	    "website": "https://lucasbeats.com",
-    	    "links": {
-    	        "youtube": "https://youtube.com/lucasbeats",
-    	        "instagram": "https://instagram.com/lucasbeats",
-    	        "website": "https://lucasbeats.com"
-    	    },
-    	    "technology": {
-    	        "instrument": "Novation Launchpad",
-    	        "software": "FL Studio"
-    	    }
-    	}
-}
-
+	}
 ]
