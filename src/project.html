@@ -30,6 +30,14 @@ permalink: "projects/{{ project.title | slugify }}/"
             <p><a href={{ link.url }}>{{ link.name }}</a></p>
             {% endfor %}
 
+            {% for sources in project.videast.sources %}
+            <p class="button">
+                <a href="/content/{{ project.folder }}/more/{{ sources.file }}">
+                    {{ sources.name }}
+                </a>
+            </p>
+            {% endfor %}
+
         </div>
         <div class="column frost">
 
@@ -44,7 +52,19 @@ permalink: "projects/{{ project.title | slugify }}/"
             {% endfor %}
             
             {% for link in project.musician.links %}
-            <p><a href={{ link.url }}>{{ link.name }}</a></p>
+            <p class="button">
+                <a href={{ link.url }}>{{ link.name }}</a>
+            </p>
+            {% endfor %}
+
+            <br/>
+
+            {% for sources in project.musician.sources %}
+            <p class="button">
+                <a href="/content/{{ project.folder }}/more/{{ sources.file }}">
+                    {{ sources.name }}
+                </a>
+            </p>
             {% endfor %}
 
         </div>
@@ -93,6 +113,28 @@ permalink: "projects/{{ project.title | slugify }}/"
     {
         position: relative;
         width: 100%;
+    }
+
+    .button
+    {
+        margin-top: 20px;
+        margin-left: -10px;
+        display: inline-block;
+    }
+
+    .button a
+    {
+        border-radius: 20px;
+        background-color: white;
+        color: black;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    .button a:hover
+    {
+        background-color: black;
+        color: white;
     }
     
 </style>
