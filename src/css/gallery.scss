@@ -1,7 +1,7 @@
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 16px;
     padding: 16px;
     // Limit the vertical size to the size of the viewport then scroll
@@ -45,11 +45,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgba(0, 0, 0, 0.5);
-    box-shadow: 0 0 20px black inset;
+    box-shadow: 0 0 20px black;
     color: white;
-    padding: 16px;
-    text-align: center;
 }
 
 .gallery-item-content h2 {

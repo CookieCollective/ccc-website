@@ -9,20 +9,44 @@ permalink: "projects/{{ project.title | slugify }}/"
 {% include "navigation.html" %}
 
 <div class="page-container">
-    
+    <div class="head">
+        <video class="view box-shadow borders" controls>
+            <source src="/content/{{ project.folder }}/clip.mp4" type="video/mp4" />
+        </video>
+    </div>
     <div class="container">
-        <img class="preview" src="/content/{{ project.folder }}/screenshot.png" />
         <div class="column frost">
             <h2>{{ project.videast.name }}</h2>
-            <p>{{ project.videast.bio }}</p>
-            <p>{{ project.videast.description }}</p>
+            
+            {% for paragraph in project.videast.bio %}
+            <p>{{ paragraph }}</p>
+            {% endfor %}
+            
+            {% for paragraph in project.videast.description %}
+            <p>{{ paragraph }}</p>
+            {% endfor %}
+            
+            {% for link in project.videast.links %}
+            <p><a href={{ link.url }}>{{ link.name }}</a></p>
+            {% endfor %}
+
         </div>
         <div class="column frost">
+
             <h2>{{ project.musician.name }}</h2>
-            <p>{{ project.musician.bio }}</p>
+            
+            {% for paragraph in project.musician.bio %}
+            <p>{{ paragraph }}</p>
+            {% endfor %}
+            
+            {% for paragraph in project.musician.description %}
+            <p>{{ paragraph }}</p>
+            {% endfor %}
+            
             {% for link in project.musician.links %}
             <p><a href={{ link.url }}>{{ link.name }}</a></p>
             {% endfor %}
+
         </div>
     </div>
     
@@ -32,33 +56,43 @@ permalink: "projects/{{ project.title | slugify }}/"
     
     .page-container
     {
-        position: absolute;
-        top: var(--navigation-size);
-        left: 0;
-        right: 0;
-        bottom: 0;
-    }
-    
-    .preview
-    {
-        position: absolute;
-        width: 100%;
-        height: 100%;
+        background: center / contain url("/content/{{ project.folder }}/screenshot.png");
     }
     
     .container
     {
         display: flex;
+        flex-wrap: wrap;
+        align-items: start;
+        justify-content: center;
     }
     
     .column
     {
         color: white;
         flex: 1;
+        min-width: 200px;
+        max-width: 500px;
         padding: 20px;
         margin: 10px;
         border-radius: 10px;
         z-index: 1;
+        position: relative;
+        overflow: auto;
+    }
+
+    .head
+    {
+        position: relative;
+        max-width: 1080px;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .view
+    {
+        position: relative;
+        width: 100%;
     }
     
 </style>
