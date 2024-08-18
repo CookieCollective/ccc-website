@@ -9,6 +9,7 @@ permalink: "projects/{{ project.title | slugify }}/"
 {% include "navigation.html" %}
 
 <div class="page-container">
+    <div class="background"></div>
     <div class="head">
         <video class="view box-shadow borders" controls>
             <source src="/content/{{ project.folder }}/clip.mp4" type="video/mp4" />
@@ -78,7 +79,19 @@ permalink: "projects/{{ project.title | slugify }}/"
     
     .page-container
     {
-        background: center / contain url("/content/{{ project.folder }}/screenshot.png");
+        background: black;
+    }
+
+    .background
+    {
+        background: center / contain url("/content/{{ project.folder }}/screenshot.png") ;
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        filter: blur(8px);
     }
     
     .container
