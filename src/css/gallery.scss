@@ -49,6 +49,12 @@
     color: white;
 }
 
+.gallery-item-content h1 {
+    margin: 0;
+    font-size: 2em;
+    transition: transform 0.2s;
+}
+
 .gallery-item-content h2 {
     margin: 0;
     font-size: 1.25em;
@@ -56,6 +62,10 @@
 }
 
 .gallery-item:hover h2 {
+    transform: scale(1.2);
+}
+
+.gallery-item:hover h1 {
     transform: scale(1.2);
 }
 
