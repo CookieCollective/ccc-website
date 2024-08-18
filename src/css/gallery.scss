@@ -52,6 +52,11 @@
 .gallery-item-content h2 {
     margin: 0;
     font-size: 1.25em;
+    transition: transform 0.2s;
+}
+
+.gallery-item:hover h2 {
+    transform: scale(1.2);
 }
 
 .gallery-item-content p {
