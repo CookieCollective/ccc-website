@@ -27,12 +27,12 @@ permalink: "projects/{{ project.title | slugify }}/"
             {% endfor %}
             
             {% for link in project.videast.links %}
-            <p><a href={{ link.url }}>{{ link.name }}</a></p>
+            <p><a href={{ link.url }} target="_blank">{{ link.name }}</a></p>
             {% endfor %}
 
             {% for sources in project.videast.sources %}
             <p class="button">
-                <a href="/content/{{ project.folder }}/more/{{ sources.file }}">
+                <a href="/content/{{ project.folder }}/more/{{ sources.file }}" target="_blank">
                     {{ sources.name }}
                 </a>
             </p>
@@ -53,7 +53,7 @@ permalink: "projects/{{ project.title | slugify }}/"
             
             {% for link in project.musician.links %}
             <p class="button">
-                <a href={{ link.url }}>{{ link.name }}</a>
+                <a href={{ link.url }} target="_blank">{{ link.name }}</a>
             </p>
             {% endfor %}
 
@@ -61,7 +61,7 @@ permalink: "projects/{{ project.title | slugify }}/"
 
             {% for sources in project.musician.sources %}
             <p class="button">
-                <a href="/content/{{ project.folder }}/more/{{ sources.file }}">
+                <a href="/content/{{ project.folder }}/more/{{ sources.file }}" target="_blank">
                     {{ sources.name }}
                 </a>
             </p>
