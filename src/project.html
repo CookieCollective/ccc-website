@@ -18,7 +18,7 @@ permalink: "projects/{{ project.title | slugify }}/"
     <div class="container">
         <div class="column frost">
             <h2>{{ project.videast.name }}</h2>
-            <h3>artiste visuel</h3>
+            <h3 class="role">👁️</h3>
             
             {% for paragraph in project.videast.bio %}
             <p>{{ paragraph }}</p>
@@ -44,7 +44,7 @@ permalink: "projects/{{ project.title | slugify }}/"
         <div class="column frost">
 
             <h2>{{ project.musician.name }}</h2>
-            <h3>artiste musicien</h3>
+            <h3 class="role">👂</h3>
             
             {% for paragraph in project.musician.bio %}
             <p>{{ paragraph }}</p>
@@ -55,7 +55,7 @@ permalink: "projects/{{ project.title | slugify }}/"
             {% endfor %}
             
             {% for link in project.musician.links %}
-            <p class="button">
+            <p class="">
                 <a href={{ link.url }} target="_blank">{{ link.name }}</a>
             </p>
             {% endfor %}
@@ -130,6 +130,11 @@ permalink: "projects/{{ project.title | slugify }}/"
         margin: 0;
     }
 
+    .role
+    {
+        font-size: 40px;
+    }
+
     .view
     {
         position: relative;
@@ -139,7 +144,6 @@ permalink: "projects/{{ project.title | slugify }}/"
     .button
     {
         margin-top: 20px;
-        margin-left: -10px;
         display: inline-block;
     }
 
