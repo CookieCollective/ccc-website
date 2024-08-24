@@ -1,11 +1,11 @@
 [
 	{
-		"title": "DRD",
+		"title": "Divagation",
 		"folder": "damien-rene-danger",
 		"videast":
 		{
-			"name": "Damien",
-			"bio": 
+			"name": "damien",
+			"bio":
 			[
 				"Programmeur et dévelopeur de jeu vidéo. J'ai découvert Pico8 il y a un an lors d'une demo party."
 			],
@@ -31,7 +31,7 @@
 			"bio":
 			[
 				"Dans ses concerts, René Danger superpose sa voix aux synthétiseurs modulaires et à sa gameboy, pour un mélange entre gwerzoù (complaintes) bretonnes et breakbeat, mélodies traditionnelles et sonorités dub ou electro. Un style que l'on pourrait qualifier de chip-trad ou gwerz-dub.",
-				
+
 				"Il a co-fondé le micro-label Editentités, avec lequel il explore musiques traditionnelles ou futuristes. DJ sur LYL radio pour sa propre émission, il expérimente également avec le format radiophonique au sein d'Ondorphine, radio pirate et rêveuse qui utilise la bande FM comme canal éphémère de convivialité, savoir et expérimentation.",
 
 				"Entre quelques apparitions sur des labels bretons et parisiens, René Danger a sorti son premier album \"Pacifique Atlantique\" en 2019 sur Supergenius Records, et son deuxième intitulé \"Randonerd EP\" en 2022 sur son propre label Editentités. \"Gwerz Boy\", son dernier opus, est paru en mai 2023 accompagné d'un jeu pour gameboy entièrement développé par René lui-même."
@@ -69,122 +69,235 @@
 		}
 	},
 	{
-		"title": "DRD2",
-		"folder": "damien-rene-danger",
+		"title": "Glisser sur l'autoroute",
+		"folder": "13fle-fuzzy",
 		"videast":
 		{
-			"name": "Damien",
-			"bio": "Programmeur et dévelopeur de jeu vidéo. J'ai découvert Pico8 il y a un an lors d'une demo party.",
-			"description": "Demo réalisée en utilisant Pico8, une Fantasy Console qui propose un environement developement de jeu complet (code,sprite,son,level design) inspirée des  console 8bit.<br/><br/>Démo réalisée en 1 mois, avec le gros de l'optimisation fait pendant la Revision 2024 Pico8 simulant également les soucis de performance des console 8bit. L'on utilise donc pas la puissance brut de l'ordinateur.<br/><br/><a href='https://www.lexaloffle.com/pico-8.php'>https://www.lexaloffle.com/pico-8.php</a>"
-		},
+			"name": "13fle",
+			"bio":
+			[
+				"Logiciel utilisé: Première Pro"
+			],
+			"description":
+			[
+				"Localisation: Cergy",
+				"Inspiration(s) très désordonnées :",
+
+				"« Désormais Youtube est mon chaudron cinéma. Histoires tentaculaires de monstres, de débordements, de films tournés à partir d’une portion congrue et puissante du monde, de copiages, de collages, de ratages, d’essais, d’extraits de conférences bioniques, de clips réinventés, de films traditionnels ou introuvables, d’extraits jubilatoires, magma cent queues et cent têtes, d’horreurs rejetées, de publicités insupportables, jonchés de perles rares non diffusées ailleurs, de films associatifs, de cris, de spectacles fancy-fair, d’inventivité de vacances, de bouts abandonnants le surplomb, se mélangeant à la boue, tutoriels pour les ongles et les griffes, capsules vidéo de faux docteurs politisés, de mainstream qui fait du bien.»<br><I>Donna Haraway, Vivre avec le trouble.</I>",
+
+				"<a href='https://www.youtube.com/watch?v=7Xp7U-lyNM0&list=PLzJ-JEqWr7GCyiB0VbjhLzIN_GTKggH4V&index=93'> <I>Martial dit l’homme bus</I>, Michel Etter</a>",
+
+				"<a href='https://www.youtube.com/watch?v=BesHd0TN3Ok&list=PLzJ-JEqWr7GCyiB0VbjhLzIN_GTKggH4V&index=102'> <I>Ten minutes older</I>, Herz Frank</a>",
+
+				"<a href='https://www.youtube.com/watch?v=BesHd0TN3Ok&list=PLzJ-JEqWr7GCyiB0VbjhLzIN_GTKggH4V&index=102'> Delia Derbyshire sur un film de Harry Smith</a>",
+
+				"<a href='https://www.youtube.com/watch?v=xMIk3RO1x-s&list=PLzJ-JEqWr7GCyiB0VbjhLzIN_GTKggH4V&index=151'> No No Nooky T.V Barbara Hammer</a>",
+
+				"<a href='https://www.youtube.com/watch?v=gOZc9jGugew&list=PLvy4APdETxV6j_JZ0qzdgz5DbEOqRO94t'> Commercial album (clips) The Residents</a>",
+
+				"<I>Processus de montage</I> \"monter comme tu penses\"?",
+
+				"C’est comme une pensée qui avance, qui clignote fort quand ça scintille, c'est que ça me fait du bien ? <br>Ça rebondit, ça oscille un peu comme une onde sinusoïdale dans la tête et dans les mains. L’onde elle cherche, elle crie beaucoup quand elle arrive à sortir elle se calme.",
+
+				"Des images comme de la musique, c’est du rythme",
+
+				"Les images que j’utilise c’est des publicités de structures de jeux pour enfants. Je sais pas bien pourquoi ces images me touchent.<br>Quelque chose dans le tourniquet, trébucher du tourniquet. Le fait qu’elles soient un peu crades ces images et en même temps très cadrées.<br>C’est des notes du téléphone, des pensées qui fusent, qui jouent en même temps. Prendre tout ça en temps que jeu ça détend.",
+
+				"Les images c’est une chienne aussi, c’est à la fin, c’est quand elle trace dans le jardin de mon arrière grand mère. Mon arrière- grand-mère est morte, il reste sa maison. Cette chienne c’est un bébé elle clignote elle réagit elle est sensitive si ça l’intéresse pas elle s’en fout.<br>Si le chant d’un oiseau est plus intéressant que toi elle s’en fout de toi elle trace elle y va. Y’a quelque chose qui me bouleverse là dedans d’une réaction active du corps immédiate à n’importe quelle émotion sensation.",
+
+				"Les pieds avancent reculent poum poum poum<br>Ils restent en mouvement hop bondit on essaye on y va",
+
+				"C’est des techniques de collage comme une pensée qui ne propose pas de narration fixe mais qui produit un fil en mouvement.Quelque chose de pas très stable de pas très sûr c’est une perception brinquebalante, saccadée, mais elle est boursouflée de tendresse.<br>Souvent j’ai peur que ce soit chiant comme y’a pas de narration. J’ai peur que ce soit trop abstrait.<br>J’aime exprimer quelque chose du mouvement. Il peut parler d’une journée, d’une année, d’être amoureuse ou anxieuse. Parfois c’est tout en haut parfois c’est tout en bas mais ça avance.",
+
+				"C’est difficile de ne pas être dans l’abstraction pour parler de choses comme ça."
+			]
+},
+
 		"musician":
 		{
-			"name": "René Danger",
-			"bio": "Dans ses concerts, René Danger superpose sa voix aux synthétiseurs modulaires et à sa gameboy, pour un mélange entre gwerzoù (complaintes) bretonnes et breakbeat, mélodies traditionnelles et sonorités dub ou electro. Un style que l'on pourrait qualifier de chip-trad ou gwerz-dub.<br/><br/>Il a co-fondé le micro-label Editentités, avec lequel il explore musiques traditionnelles ou futuristes. DJ sur LYL radio pour sa propre émission, il expérimente également avec le format radiophonique au sein d'Ondorphine, radio pirate et rêveuse qui utilise la bande FM comme canal éphémère de convivialité, savoir et expérimentation. <br/><br/>Entre quelques apparitions sur des labels bretons et parisiens, René Danger a sorti son premier album \"Pacifique Atlantique\" en 2019 sur Supergenius Records, et son deuxième intitulé \"Randonerd EP\" en 2022 sur son propre label Editentités. \"Gwerz Boy\", son dernier opus, est paru en mai 2023 accompagné d'un jeu pour gameboy entièrement développé par René lui-même.",
-			"links":
+			"name": "Fuzzy",
+			"bio": "I live in Aubervilliers 93, in France, near the canal. (he/him)<br></br>I was inspired by the video, but my inspiration for the music was from listening to a lot of contemporary/post-romantic music (Debussy, Rhys Chatham and Arvo Part) in the past 2 weeks and some circa-2015 NL drum n bass this morning.",
+
+			"description":
+			[
+				"This was recorded in a single take the 14th of april, to keep it «natural» and organic and balance the eclecticism of the video.",
+
+				"Arvo Part (Dies Irae) inspired the main theme. It’s just an F minor chord, across a cloud and few VCOs. When the video is more abstract, some FM gets added and makes the thing more gritty and nervous.",
+
+				"Very little post-processing was done, just some dynamic treatments using some compressor and adding more reverb to get the stereo more immersive and spacious (the single track was fully mono otherwise, even though it had some spectral delay treatment from the custom DSP (some modded firmware based on Mutable instruments Cloud module) running in the Daisy Patch)",
+
+				"Eurorack = Lifeforms SV1 oscillators, hermod for the midi-CV conversion, and a doepfer EG controlling the Lifeforms’ lowpass filter, that’s basically it.",
+
+				"Mixing/syncing/recording  = I use reaper for this kind of task,  the eurorack track is going through Adam Szabo Solaris VST (it’s pretty cool and deep, and it’s free (not FOSS though) was up during the take as it adds a lot of depth, the track went through SSL buss compressor*, and ProQ3 set to dynamic EQ in order to prevent the upper-mids from being too annoying when listened to loud.<br>I also added a kick drum sample in order to have a clear “boom” when the 2nd part of the video kicks in, it’s going through a long reverb and Moog filter*.<br>The master goes in the precision maximizer*",
+
+				"*those plugin are from UAD",
+
+				"Here's a picture of  my system as patched when recording the piece."
+			],
+			"sources":
 			[
 				{
-					"name": "soundcloud",
-					"url": "https://soundcloud.com/rene-danger"
-				},
-				{
-					"name": "instagram",
-					"url": "https://www.instagram.com/rene_dangerrr/"
-				},
-				{
-					"name": "website",
-					"url": "https://aledreff.github.io/"
+					"name": "picture.png",
+					"file": "instrument.png"
 				}
 			]
 		}
 	},
 	{
-		"title": "DRD3",
-		"folder": "damien-rene-danger",
+		"title": "Anatomie d'une vague",
+		"folder": "valentin-sismann-lucieter",
 		"videast":
 		{
-			"name": "Damien",
-			"bio": "Programmeur et dévelopeur de jeu vidéo. J'ai découvert Pico8 il y a un an lors d'une demo party.",
-			"description": "Demo réalisée en utilisant Pico8, une Fantasy Console qui propose un environement developement de jeu complet (code,sprite,son,level design) inspirée des  console 8bit.<br/><br/>Démo réalisée en 1 mois, avec le gros de l'optimisation fait pendant la Revision 2024 Pico8 simulant également les soucis de performance des console 8bit. L'on utilise donc pas la puissance brut de l'ordinateur.<br/><br/><a href='https://www.lexaloffle.com/pico-8.php'>https://www.lexaloffle.com/pico-8.php</a>"
+			"name": "Valentin Sismann",
+			"bio": "Valentin Sismann est un artiste français travaillant principalement dans les champs de la musique acousmatique, du cinéma expérimental et de lab vidéo. L’un de ses plus importants travaux est In Repetito Religare, un film expérimental réalisé en couple avec Audrey Colard qui a fait sa premièreb lors d'une exposition à The Film Gallery puis a été sélectionné à plusieurs festivals internationaux. Ses pièces acousmatiques ont été jouées à plusieurs festivals en France ainsi qu’à la radio. Depuis, il travaille la vidéo comme avec Plasformes exposée au festivals Light Matter aux États-Unis et CUVO en Espagne tout au long de l'année 2023 et 2024.<br> Le travail de Valentin Sismann s'articule autour d'une réflexion sur les supports de fixations et de leurs possibilités d'écriture. Il cherche à développer dans ses œuvres, acousmatiques ou vidéo, un langage relatif à ces time-based media, une écriture temporelle invoquant poésie, sémiologie et musicalité.",
+
+			"description": [
+
+				"Vidéo, 4'04'' 4:3, fichier numérique SD, couleur, muet",
+				"Anatomie d'une vague est une étude de mouvement, un héritage de la chronophotographie à l'ère de la vidéo. Dans un système de dissection du temps, l'objet étudié est finalement recomposé. Cet objet se confond d'abord avec l'objet filmé, de manière évidente, la vague mais aussi les deux personnages qui l'explorent dans son espace. D'un autre côté, c'est une enquête sur le médium lui-même: la vidéo mais aussi l'archive. De la même manière que l'un de mes autres travaux vidéo Le mystère du collier disparu, il s'agit d'une approche de found footage personnelle interrogeant l'enfance, ici le lien entre mon grand frère et moi."
+			]
 		},
 		"musician":
 		{
-			"name": "Rene Danger",
-			"bio": "Dans ses concerts, René Danger superpose sa voix aux synthétiseurs modulaires et à sa gameboy, pour un mélange entre gwerzoù (complaintes) bretonnes et breakbeat, mélodies traditionnelles et sonorités dub ou electro. Un style que l'on pourrait qualifier de chip-trad ou gwerz-dub.<br/><br/>Il a co-fondé le micro-label Editentités, avec lequel il explore musiques traditionnelles ou futuristes. DJ sur LYL radio pour sa propre émission, il expérimente également avec le format radiophonique au sein d'Ondorphine, radio pirate et rêveuse qui utilise la bande FM comme canal éphémère de convivialité, savoir et expérimentation. <br/><br/>Entre quelques apparitions sur des labels bretons et parisiens, René Danger a sorti son premier album \"Pacifique Atlantique\" en 2019 sur Supergenius Records, et son deuxième intitulé \"Randonerd EP\" en 2022 sur son propre label Editentités. \"Gwerz Boy\", son dernier opus, est paru en mai 2023 accompagné d'un jeu pour gameboy entièrement développé par René lui-même.",
+			"name": "Lucieter",
+			"bio": "lucieter plays with atmospheric electronic production with her own vocals and poesy apposed to it. She looks for an emotional and experimental - sometimes dance - music",
+
+				"description": [
+					"Aujourd’hui je divague, je dis les vagues. Si Live et mon petit clavier Akai me permettent d’habitude de me recentrer, aujourd’hui ma concentration n’a de visage que dans la divagation. Aujourd’hui, comme tout ces derniers jours, je ne sais plus où je vis, ni de ce que demain sera fait. Aujourd’hui, mon corps tout entier rejette sa réalité, et mon esprit divaguant compose fébrilement assisté de mes mains qui seules semblent se soustraire à la torpeur ambiante. Les vagues me manquent, peut être seraient elle le seul remède à ma divagation.  Je m’apprête à les dire, à les transcrire, puis à m’y fondre. Mon seul souhait : que mon corps s’y retrouve, que la musique s’y étende, pour finir sa trajectoire sur les rives espérées d’une autre réalité."
+				]
+		}
+	},
+	{
+		"title": "Drift",
+		"folder": "julia-pieczynska-mckinley-street",
+		"videast":
+		{
+			"name": "Julia Pieczynska",
+			"bio": [
+				"<b>Location</b>: Poland<br><b>Gender</b>: Female<br><b>Inspiration</b>: Sound waves<br><b>About me:</b> I am an artist and graphic designer. In addition to my own artistic and design work, I teach graphic design classes and am an assistant in the Digital Image and Creative Coding studio at the Academy of Fine Arts in Łódź, Poland. In my work I combine art with technology"
+			],
+			"description": [
+				"<b>Software:</b> Processing",
+				"<b>Description of project:</b><br>I created a generative kinetic projection that generates in real time based on the code I wrote in the Processing environment. The work consists of many deformed circles. Their number and appearance change while generating the projection, but within the ranges I set. The size of the shapes tries to align with an invisible circle that changes its size from time to time. The use of randomness helped me achieve unpredictable and very diverse effects. The projection can be displayed on any size display because it is responsive. However, it looks best when presented on a larger scale (e.g. 170 x 170 cm) using a projector on a wall or on a clean white canvas hung on a wall.",
+
+				"<b>Description of my idea:</b><br>When creating this project, I focused on divagation, understood as deviating from the topic during a conversation, because when we translate this word into my native language (Polish), this is its main meaning.<br>The deformed circles visible in the projection represent various topics that appear during the conversation. The more the topics differ from each other, the more visible are the differences between the shapes (degree of deformation, size, color). The main meaning of the conversation may change over time, and so does the size of the circle to which all shapes strive.",
+
+				"*The recordings and photos I have attached are sample parts of the projection. Work has no defined beginning and end. It’s not an animation. It’s a generative kinetic image."
+			]
+		},
+		"musician":
+		{
+			"name": "mickie / Mckinley Street",
+
+			"bio": "american from Little Rock, Arkansas<br>living in Paris<br>working with desktop performances and video",
+
+			"description": [
+				"﻿using tidal to companion Julia Pieczyńska starting with \"casio\" #note \"c2\" shifting back and forth between variations of \"casio 808*2sd casio 808*20sd\" # note \"c2 a f2 e2\""
+			],
+
 			"links":
 			[
 				{
-					"name": "soundcloud",
-					"url": "https://soundcloud.com/rene-danger"
-				},
-				{
 					"name": "instagram",
-					"url": "https://www.instagram.com/rene_dangerrr/"
+					"url": "https://www.instagram.com/mckinleystreett/"
 				},
 				{
 					"name": "website",
-					"url": "https://aledreff.github.io/"
+					"url": "https://mckinleystreett.com/"
 				}
 			]
 		}
 	},
 	{
-		"title": "DRD4",
-		"folder": "damien-rene-danger",
+		"title": "Divagations",
+		"folder": "daria-luka-lucky",
 		"videast":
 		{
-			"name": "Damien",
-			"bio": "Programmeur et dévelopeur de jeu vidéo. J'ai découvert Pico8 il y a un an lors d'une demo party.",
-			"description": "Demo réalisée en utilisant Pico8, une Fantasy Console qui propose un environement developement de jeu complet (code,sprite,son,level design) inspirée des  console 8bit.<br/><br/>Démo réalisée en 1 mois, avec le gros de l'optimisation fait pendant la Revision 2024 Pico8 simulant également les soucis de performance des console 8bit. L'on utilise donc pas la puissance brut de l'ordinateur.<br/><br/><a href='https://www.lexaloffle.com/pico-8.php'>https://www.lexaloffle.com/pico-8.php</a><br/>"
-		},
-		"musician":
-		{
-			"name": "Rene Danger",
-			"bio": "Dans ses concerts, René Danger superpose sa voix aux synthétiseurs modulaires et à sa gameboy, pour un mélange entre gwerzoù (complaintes) bretonnes et breakbeat, mélodies traditionnelles et sonorités dub ou electro. Un style que l'on pourrait qualifier de chip-trad ou gwerz-dub.<br/><br/>Il a co-fondé le micro-label Editentités, avec lequel il explore musiques traditionnelles ou futuristes. DJ sur LYL radio pour sa propre émission, il expérimente également avec le format radiophonique au sein d'Ondorphine, radio pirate et rêveuse qui utilise la bande FM comme canal éphémère de convivialité, savoir et expérimentation. <br/><br/>Entre quelques apparitions sur des labels bretons et parisiens, René Danger a sorti son premier album \"Pacifique Atlantique\" en 2019 sur Supergenius Records, et son deuxième intitulé \"Randonerd EP\" en 2022 sur son propre label Editentités. \"Gwerz Boy\", son dernier opus, est paru en mai 2023 accompagné d'un jeu pour gameboy entièrement développé par René lui-même.",
+			"name": "Daria Luka",
+
+			"bio": "I'm creative coder and motion designer based in Poland, working in processing, p5js and unity.",
+
+			"description":
+			[
+				"link to interactive version of work and code (works only in chrome)<a href='https://editor.p5js.org/daria.luka.kontakt/full/OK_zZB0yj'>link</a> ",
+
+			"I'm excited to share my interactive work, crafted using an open-source, freely available JavaScript-based program called P5.js. Within this framework, I utilize a voice recognition library built upon Google Chrome's mechanisms for speech recognition.",
+
+			"Here's how it works: The program listens to what you say, displays the message, then translateseach world into \"bla\" to expres pointlessnes of divagations. After that each element has the freedom to move and wander in directions of its own choosing.",
+
+			"To enhance readability and maintain interest, after a brief pause in speech, a new divagation begins, introducing a change in the font style of the messages."
+		],
 			"links":
 			[
 				{
-					"name": "soundcloud",
-					"url": "https://soundcloud.com/rene-danger"
-				},
-				{
 					"name": "instagram",
-					"url": "https://www.instagram.com/rene_dangerrr/"
-				},
-				{
-					"name": "website",
-					"url": "https://aledreff.github.io/"
+					"url": "https://www.instagram.com/keep_it_graphic/"
 				}
+			]
+		},
+
+		"musician":
+		{
+			"name": "Lucky",
+			"bio": "Je suis une live codeuse de Bruxelles, et j’utilise Tidal Cycles!",
+
+			"description":[
+				"I used samples of my voice saying syllabes we recorded a few years ago with Ralt144mi, and played around with them while watching the video using Tidal Cycles.",
+				"d1<br>$jux (rev)<br>$chop 3<br>$ s\"b:1 b:2 a*2\"<br>#delay 0.5<br>#delayfb 0.3",
+
+				"d2<br>$striate 7<br>$sometimesBy 0.95 (#speed \"<0.1 0.5 0.2 0.7>\")<br>$ s\"a*50 b*16 a*30 v*60\"<br>#gain 0.9<br>#delay 0.4<br>#delayfb 0.3",
+
+				"d3<br>$jux (rev)<br>$chop 7<br>$sometimesBy 0.75 (#fshift \"<100 10 260 430 825>\")<br>$ s\"l:1 v:3 o*3\"<br>#room 0.5<br>#sz 0.5<br>#gain 0.95",
+
+				"hush",
+
+				"panic"
 			]
 		}
 	},
 	{
-		"title": "DRD5",
-		"folder": "damien-rene-danger",
+		"title": "ı/ˇ¡3M©zéμ©3¥|ï~Áμ~ÕE+Δ~X€ú",
+		"folder": "mckie-marlen",
 		"videast":
 		{
-			"name": "Damien",
-			"bio": "Programmeur et dévelopeur de jeu vidéo. J'ai découvert Pico8 il y a un an lors d'une demo party.",
-			"description": "Demo réalisée en utilisant Pico8, une Fantasy Console qui propose un environement developement de jeu complet (code,sprite,son,level design) inspirée des  console 8bit.<br/><br/>Démo réalisée en 1 mois, avec le gros de l'optimisation fait pendant la Revision 2024 Pico8 simulant également les soucis de performance des console 8bit. L'on utilise donc pas la puissance brut de l'ordinateur.<br/><br/><a href='https://www.lexaloffle.com/pico-8.php'>https://www.lexaloffle.com/pico-8.php</a>"
-		},
-		"musician":
-		{
-			"name": "Rene Danger",
-			"bio": "Dans ses concerts, René Danger superpose sa voix aux synthétiseurs modulaires et à sa gameboy, pour un mélange entre gwerzoù (complaintes) bretonnes et breakbeat, mélodies traditionnelles et sonorités dub ou electro. Un style que l'on pourrait qualifier de chip-trad ou gwerz-dub.<br/><br/>Il a co-fondé le micro-label Editentités, avec lequel il explore musiques traditionnelles ou futuristes. DJ sur LYL radio pour sa propre émission, il expérimente également avec le format radiophonique au sein d'Ondorphine, radio pirate et rêveuse qui utilise la bande FM comme canal éphémère de convivialité, savoir et expérimentation. <br/><br/>Entre quelques apparitions sur des labels bretons et parisiens, René Danger a sorti son premier album \"Pacifique Atlantique\" en 2019 sur Supergenius Records, et son deuxième intitulé \"Randonerd EP\" en 2022 sur son propre label Editentités. \"Gwerz Boy\", son dernier opus, est paru en mai 2023 accompagné d'un jeu pour gameboy entièrement développé par René lui-même.",
+			"name": "Mckinley Street",
+
+			"bio": "american from Little Rock, Arkansas<br>living in Paris<br>working with desktop performances and video",
+
+			"description": "Hi ::) my video is pretty simple in term of process;<br>I just used BB Edit : <a href='https://www.barebones.com/products/bbedit/'> https://www.barebones.com/products/bbedit/</a> and this max patch (attached)",
+
 			"links":
 			[
 				{
-					"name": "soundcloud",
-					"url": "https://soundcloud.com/rene-danger"
-				},
-				{
 					"name": "instagram",
-					"url": "https://www.instagram.com/rene_dangerrr/"
+					"url": "https://www.instagram.com/mckinleystreett/"
 				},
 				{
 					"name": "website",
-					"url": "https://aledreff.github.io/"
+					"url": "https://mckinleystreett.com/"
 				}
+			]
+		},
+
+		"musician":
+		{
+			"name": "Tlazolteotl",
+			"bio": "",
+
+			"description":[
+				"1- Récupe de qq sons. Dans les détails :<br>~ le Death Whistle, ou sifflet de la mort, utilisé par les aztèques pour faire fuir les ennemis.<br>~ Tlazolteotl prononcé par une machine.<br>~ Sons d'oiseaux : coucou, corbeau, mesange et rossignol.<br>~ Les touches d'un minitel et un bon vieux modem.<br>~ Extrait d'une chaude soirée entre amis, à looper des sons érotique et ainsi tenter de faire face à l'ennuis.<br>~ Récupe d'une phrase extraite d'une pièce sonore d'un ami. Je l'ai inversée et maltraitée, il ne se reconnaîtrait donc pas... Tant mieux pour moi. Je fais une vilaine Cerber;)",
+
+				"2- Livecoding avec ORCA et Sunvox,pour la part de rêverie.Y'a aussi une bricole Vital.",
+
+				"3- Inversion et accélération.",
+
+				"4- Coupe, colle, bidouille.",
+
+				"5- Mange des graines de tournesol. Pour se donner de l’entrain !",
+
+				"6- L’export déconne, la loose...",
+
+				"Un grand merci à Claire pour sa voix si suave."
 			]
 		}
 	}

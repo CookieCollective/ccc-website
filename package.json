@@ -16,6 +16,5 @@
     "@11tyrocks/eleventy-plugin-sass-lightningcss": "^1.2.0",
     "eleventy": "^1.0.7"
   },
-  "browserslist": [
-  ]
+  "browserslist": []
 }
