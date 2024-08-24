@@ -935,67 +935,966 @@
 		}
 	},
 	{
-		"title": "new6",
-		"folder": "minuit-marlen",
+		"title": "Webs Of Power, la suite",
+		"folder": "berenice-slayeur",
 		"videast":
 		{
-			"name": "Minuit",
+			"name": "Bérénice Courtin",
 
-			"bio": "Dorian Rigal alias Minuit explore le monde nocturne. Il propose d’habiter la nuit urbaine, symbole d’une liberté décomplexée, à l’opposé des codes sociaux contraignants du jour. C’est par ce prisme qu’il utilise l’art numérique : projection architecturale, film d’animation, sculpture écranique et réalité virtuelle pour créer un monde imaginaire où, à la manière des surréalistes, la dureté du réel se déforme pour devenir un paysage fantastique.",
+			"bio": "“Le travail de Bérénice Courtin prend cohttps://www.instagram.com/cosmoslayeur/mme point de départ l’étude de la machine électromécanique utilisée par son grand-père résistant polonais Kazimierz Gaca, pour chiffrer et déchiffrer des informations.<br>Dans sa pratique artistique, elle compare l’utilisation de cette machine au métier à tisser dans lequel elle insère des codes informatiques.<br>À travers une installation sous forme de métier à tisser collectif, le public est invité à participer à ce dialogue entre artisanat et ère digitale.<br>Il peut interagir avec des personnages modélisés en 3D et des symboles qui sont projetés après manipulation dans un dia- logue entre la matière et le numérique.<br>Le tissage permet ainsi d’établir une forme de langage où cohabitent la structure et la symbolique grâce à l’élaboration de motifs pixelisés.”",
 
 			"description": "",
 
 			"links":
-			[]
+			[
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/berenice_gaca_courtin/"
+				},
+				{
+					"name": "Website",
+					"url": "https://www.berenicecourtin.com/"
+				}
+			],
+			"sources":
+			[
+				{
+					"name": "process.pdf",
+					"file": "process.pdf"
+				}
+			]
 		},
 
 		"musician":
 		{
-			"name": "Marlen",
-			"bio": "<b>«Hier j’avais très envie de manger une glace et finalement j’ai acheté du chocolat...»</b><br>C’est toujours pas gagné de dire quelque chose sur moi...",
+			"name": "Slay3eur",
+			"bio": [
+				"Nom : Mahoungou<br>Prénom : Theo<br>Également : /H\\, Slay3eur, Captain",
+
+				"Être vivant, humain, 1 mètre 85, yeux noires, cheveux noirs, peau noire, dessine à l’encre de chine sur sa peau, passionné par la beauté et la grâce sous toutes ses formes et aussi triple champion de son quartier des plus longues siestes à la chaine.<br>Âgées de 25 ans et est localisé entre Saint-Brice sous Forêt et l’ensemble du bassin parisien. A été étudiant aux beaux-arts de Paris ses deux dernières années, ou /H\\ a pu pratiquer la peinture, le dessin, la céramique, la mosaïque, la performance et l’immobilité, faire quelque recherche sur internet, les machines et leurs liens avec la nature des choses et également bidouiller et créer des sons étranges assistée par ordinateurs.<br> Auteur, interprète, Slay3eur va sortir cette année et défendre sur scène et partout ailleurs son premier projet de musique aux influences hip-hop et rock nommé pour l’instant « 1jour2plui3 »."
+			],
 
 			"description":[
-				"<b>1</b>- Installer des marqueurs sur After Effect pour trouver des moments clés.<br><b>2</b>- Ouvrir reaper et remettre ces marqueurs.<br><b>3</b>- Récupe de bruits de : Foule à Dublin, vagues de Syracuse, poulailler de papa Gérard, bruits d’oiseaux de Sologne, marché de Catagne et de Dijon, poussée de chansonnette avec la Rue Ketanou sur une grève en mode off du Festival de Loire, percu party à l’anniversaire de Didi, tour de piano SCNF avec une amie brésilienne, etc. Bref, des souvenirs rigolos, afin de ne pas oublier qu’il y a parfois de beaux moments de vie.<br><b>4</b>- Essayer de créer des objets sonores différents entres ces marqueurs : la foule, vers la vague, vers les oiseaux, jusqu’à la retombée de poulets.<br><b>5</b>- Basculer le son sur After Effect.<br><b>6</b>- Exporter le tout.<br><b>7</b>- Hop ! C’est plié."
+				"/H\\ + Slay3eur",
+
+				"Je me suis penché sur le travail de Bérénice Gaça Courtin, « Webs of power » et de l’ensemble de son processus de création ainsi que ses inspirations pour créer l’œuvre numérique composé d’image créer par ordinateur et des pièces textiles ayant des patterns spécifiques portés par des performeur/euses.<br> J’ai ensuite visionné la vidéo à plusieurs reprises pour m’inhiber des gestes, signes, couleurs et éléments qui pourraient me guider dans l’élaboration d’une bande son.<br>Perdu entre divers programmes, monde digital, machine, mystique et tissus relatant un mythe, un conte, une histoire passé ou futur, rattaché au corps car portés en tant que vêtement sur des humains reflétant probablement leurs intériorités.",
+
+				"Il me fallait être spontané et commencer une recherche et une mise en place d’un échantillonnage de plusieurs sons afin de coller avec une certaine intention.",
+
+				"Je suis donc parti à la recherche de ce dont je voulais parler en oubliant un peu le propos initial, mais avec la volonté de complété l’œuvre de façon sonore.<br>Connecté un rythme à une électronique douce pas vraiment dénaturé ou déformé en y alliant les pouvoirs ancestraux du mouvement de la terre, carte mère de notre existence.<br>Fusionner technologie et tradition dans un son.",
+
+				"Mise en place du matériel, séquenceur sonore, ordinateur, carte son, casque et différents câbles pour aider au bon fonctionnement du circuit.<br>J’ai pu m’appliquer à chercher sur le web de la matière pour faire des échantillonnages sonores que j’ai réarrangé en suivant mon intention et en y incorporant des prises voix.<br> Arranger le tout et essayer de faire coïncider des éléments sonores avec la vidéo de Bérénice source de ce travail sonore."
 			],
 
 			"links":
 			[
 				{
-					"name": "instagram",
-					"url": "https://www.instagram.com/m.a.r.l.e.n_b/"
+					"name": "Instagram",
+					"url": "https://www.instagram.com/cosmoslayeur/"
 				}
 			]
 		}
 	},
 	{
-		"title": "new7",
-		"folder": "minuit-marlen",
+		"title": "Aqueous divagation",
+		"folder": "wiktoria-içsyp",
 		"videast":
 		{
-			"name": "Minuit",
+			"name": "Wiktoria Glowacka",
 
-			"bio": "Dorian Rigal alias Minuit explore le monde nocturne. Il propose d’habiter la nuit urbaine, symbole d’une liberté décomplexée, à l’opposé des codes sociaux contraignants du jour. C’est par ce prisme qu’il utilise l’art numérique : projection architecturale, film d’animation, sculpture écranique et réalité virtuelle pour créer un monde imaginaire où, à la manière des surréalistes, la dureté du réel se déforme pour devenir un paysage fantastique.",
+			"bio": [
+				"I am a first-grade student at the Strzeminski Academy of Art in Lodz, where I am pursuing a degree in New Media. This program has introduced me to the world of creative coding, and despite being relatively new to this field, I am deeply passionate about exploring its possibilities.",
 
-			"description": "",
+				"Art has been a significant part of my life for as long as I can remember, and discovering the intersection of art and technology has been a transformative experience for me. Embracing new ways to express my creativity through coding has reignited my passion for art, making me feel rejuvenated and inspired to push the boundaries of my artistic journey."
+			],
+
+			"description": [
+				"Inspiration: The concept for \"Aqueous Divagation\" was born from a desire to evoke a watery effect within an interconnected pixel network, aligning with theme of divagation.",
+
+				"Prototype code: The prototype focused on reducing pixeel count for performance, incorporating PVector dynamics, and establishing dynamic connections. Forces were applied between connected pixels, resulting in smooth but chaotic effect."
+			],
 
 			"links":
-			[]
+			[],
+
+			"sources":
+			[
+				{
+					"name": "description.png",
+					"file": "screenshot1.png"
+				},
+				{
+					"name": "documentation.png",
+					"file": "screenshot2.png"
+				}
+			]
 		},
 
 		"musician":
 		{
-			"name": "Marlen",
-			"bio": "<b>«Hier j’avais très envie de manger une glace et finalement j’ai acheté du chocolat...»</b><br>C’est toujours pas gagné de dire quelque chose sur moi...",
+			"name": "Içsyp",
+			"bio": [
+				"sérgio, from Porto, Portugal.",
+
+				"inspired by the universe, creating art installations, repairing tech and things in general.<br>from physical computing to sound, interfaces and artistic expression.",
+
+				"diy, open-source and comunnity learning.",
+
+				"developing and sharing technological and creativity empowerment tools."
+			],
 
 			"description":[
-				"<b>1</b>- Installer des marqueurs sur After Effect pour trouver des moments clés.<br><b>2</b>- Ouvrir reaper et remettre ces marqueurs.<br><b>3</b>- Récupe de bruits de : Foule à Dublin, vagues de Syracuse, poulailler de papa Gérard, bruits d’oiseaux de Sologne, marché de Catagne et de Dijon, poussée de chansonnette avec la Rue Ketanou sur une grève en mode off du Festival de Loire, percu party à l’anniversaire de Didi, tour de piano SCNF avec une amie brésilienne, etc. Bref, des souvenirs rigolos, afin de ne pas oublier qu’il y a parfois de beaux moments de vie.<br><b>4</b>- Essayer de créer des objets sonores différents entres ces marqueurs : la foule, vers la vague, vers les oiseaux, jusqu’à la retombée de poulets.<br><b>5</b>- Basculer le son sur After Effect.<br><b>6</b>- Exporter le tout.<br><b>7</b>- Hop ! C’est plié."
+				"for the \"Cookie_Collective_Compilation <=> Cool Creative Content  - 31/05/2024\" I was selected to create the sound for the video created by Wiktoria Głowacka -\"wiktoria_glowacka3_muted.mp4\".<br>driven by the flow of the content flowing, I interpreted it by using simple sound sources controlled by a simple superCollider algorithm.",
+
+				"driving divagations into spatial sounds flowing by the ears and bodies that will perceive them. <3",
+
+				"thank you for making this happen <3"
+
 			],
 
 			"links":
 			[
 				{
-					"name": "instagram",
-					"url": "https://www.instagram.com/m.a.r.l.e.n_b/"
+					"name": "linktr.ee",
+					"url": "https://linktr.ee/sergiiio"
+				},
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/sergio_cachibache/"
+				}
+			],
+
+			"sources":
+			[
+				{
+					"name": "code.scd",
+					"file": "code.scd"
+				}
+			]
+		}
+	},
+	{
+		"title": "UNTILTED 3",
+		"folder": "ugo-crash",
+		"videast":
+		{
+			"name": "Ugo Arsac",
+
+			"bio": [
+				"<I>Ugo Arsac is a digital and visual artist based in Marseille. Combining urban and human, mythology and anthropology, he produces flms, installations, immersive experiences and graphic works. His work is regularly exhibited at national and international events.</I>",
+
+				"<I>Recently, he has been resident at Villa Albertine in New York and featured in the ofcial selection of the SXSW festival in Austin, Texas. Concurrently, he is once again a prize-winner in the Chroniques Création platform.</I>"
+			],
+
+			"description": [
+				""
+			],
+
+			"links":
+			[],
+
+			"sources":
+			[]
+		},
+		"musician":
+		{
+			"name": "CrashServer",
+			"bio": [
+				"Post Mayhem Livecoding Music"
+			],
+
+			"description":[
+				"Jam ambiante improvisée à 4 mains avec le logiciel de livecoding FoxDot."
+
+			],
+
+			"links":
+			[
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/crashserver"
+				},
+				{
+					"name": "Website",
+					"url": "https://crashserver.fr/"
+				},
+				{
+					"name": "Facebook",
+					"url": "https://www.facebook.com/crashserverlive"
+				},
+				{
+					"name": "X",
+					"url": "https://twitter.com/crashserver2"
+				}
+			]
+		}
+	},
+	{
+		"title": "UNTILTED 4",
+		"folder": "ugo-parvague",
+		"videast":
+		{
+			"name": "Ugo Arsac",
+
+			"bio": [
+				"<I>Ugo Arsac is a digital and visual artist based in Marseille. Combining urban and human, mythology and anthropology, he produces flms, installations, immersive experiences and graphic works. His work is regularly exhibited at national and international events.</I>",
+
+				"<I>Recently, he has been resident at Villa Albertine in New York and featured in the ofcial selection of the SXSW festival in Austin, Texas. Concurrently, he is once again a prize-winner in the Chroniques Création platform.</I>"
+			],
+
+			"description": [
+				""
+			],
+
+			"links":
+			[],
+
+			"sources":
+			[
+
+			]
+		},
+		"musician":
+		{
+			"name": "ParVagues",
+			"bio": [
+				"<b><I>ParVagues, c'est des ondes sonores qui naissent dans un océan binaire pour parfois s'échouer sur vos plages sonores.</I></b>",
+
+				"Du code pour composer et un contrôleur pour interpréter : ParVagues est un projet de musique électronique live à l’intersection de multiples influences. Rythmes technos et drums breaks; guitares funk et basses de gameboy; voix éthérées et synthés fous; tous cohabitent au service d’une ambiance qui va du trip-hop expérimental à la techno instrumentale, utilisant des outils libres pour créer de la musique libre <3"
+			],
+
+			"description":[
+				"<b><I>ParVagues: TidalCycles Livecoding + Ardour DAW + MIDI Input + Audacity Mastering</I></b>",
+
+				"Je compose mes musiques avec TidalCycles, un framework de création musicale permettant de décrire du son avec du code en contrôlant un sampler/séquenceur.<br>Avec ce framework, je construis chaque morceau piste par piste, faisant boucler des samples ou faisant jouer des séquences à des synthétiseurs ; puis en programmant des effets sonores piste par piste ou en les groupant.<br> Je connecte ensuite les volumes de chaque piste et certains effets à un contrôleur MIDI, me permettant d’orchestrer ces pistes et de jouer le morceau final en improvisant son intro, ses transitions, et sa conclusion.",
+
+				"Cet équilibre entre code structuré et improvisation libre permet de remettre du vivant dans cette création numérique, faisant de chaque morceau une collaboration entre l’Humain et la Machine."
+
+			],
+
+			"links":
+			[
+			],
+
+			"sources":
+			[
+				{
+					"name": "process.pdf",
+					"file": "process.pdf"
+				}
+			]
+		}
+	},
+	{
+		"title": "UNTILTED 5",
+		"folder": "ugo-fanny",
+		"videast":
+		{
+			"name": "Ugo Arsac",
+
+			"bio": [
+				"<I>Ugo Arsac is a digital and visual artist based in Marseille. Combining urban and human, mythology and anthropology, he produces flms, installations, immersive experiences and graphic works. His work is regularly exhibited at national and international events.</I>",
+
+				"<I>Recently, he has been resident at Villa Albertine in New York and featured in the ofcial selection of the SXSW festival in Austin, Texas. Concurrently, he is once again a prize-winner in the Chroniques Création platform.</I>"
+			],
+
+			"description": [
+				""
+			],
+
+			"links":
+			[],
+
+			"sources":
+			[
+			]
+		},
+		"musician":
+		{
+			"name": "Fanny Testas",
+			"bio": [
+				"Elle produit des compositions et installations sonores ainsi que des documentaires radiophoniques"
+			],
+
+			"description":[
+				"<I><b>Gyre</I></b><br>Inspirée par l’onde sonore, « Gyre » est une exploration qui se joue des mouvements vibratoires, des espaces invisibles et de ce vers ta track qu’évoque l’errance, la propagation ou encore la résonance."
+
+			],
+
+			"links":
+			[
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/fanny.testas/"
+				}
+			],
+
+			"sources":
+			[
+			]
+		}
+	},
+	{
+		"title": "RAS dans le caison",
+		"folder": "azertype-byt3m3",
+		"videast":
+		{
+			"name": "azertype",
+
+			"bio": [
+				"Ici azertype Pokemon n450 de type cyborg.",
+
+				"Certains dresseurs affirment avoir été sauvés par un azertype sauvage.<br>C’est un Pokemon extrêmement rare et au grand cœur.<br>C’est un Pokemon solitaire doté d’une sensibilité hors du commun grâce à ces multiples capteurs bio-chimique, il est très sensible aux variations de son environnement et a besoin d’être stimulé en permanence.",
+
+				"Déchaîner sa colère serait la pire chose à faire, car malgré son tempérament pacifique, il maîtrise des attaques dévastatrices comme Rayon hypomaniaque.<br>Si vous le mettez en colère, il vous exterminera ou s’autodétruira en essayant",
+
+				"La plupart du temps, il se cache l’hiver et ne dort jamais l’été. On raconte qu’il baragouine des choses que personne ne comprend, pas même les siens.<br>Difficile à capturer, n’espère pas lui faire bouger le moindre petit doigt a moins que vos intentions soit noble et juste.<br>Toute échange d’azertype est donc à bannir.<br>On raconte que son expression favorite « non », que ce Pokemon adore les cookies<br>Certaines personnes pensent que c’est en lui donnant du lithium pour recharger ses batteries qu’il sera plus facile à capturer.<br>Cependant les dernières recherches laissent plutôt à penser le contraire…"
+			],
+
+			"description": [
+				"C’est une capta dans un caisson de transport de satellite, ou on peut me voir bouger, il y a des projection sur une des façade qui est gene pas le soft de livecoding hydra.<br>Cela a ete tournée a St lys Terre blanc un lieu autogere lors du rencontre interhack",
+
+				"Le tout glitché en temps reel avec le lecteur VLC en live"
+			],
+
+			"links":
+			[],
+
+			"sources":
+			[
+			]
+		},
+		"musician":
+		{
+			"name": "byt3 m3chanic",
+			"bio": [
+				"I am a foolish programmer, and computer nerd who grew up with a Commodore 64 and Amiga 500. I started to make weird music and noise with early tracker programs, even getting some music into videos games in college.",
+
+				"I work as a web developer in Washington DC, and code shaders in my spare time when not making music. New to the demoscene even though I feel like I’ve been around it all my life.",
+
+				"Keyboard fanatic, loves tiny computers and new technology, I’m not smart but brute force/hacc my life to the fullest."
+			],
+
+			"description":[
+				"I chose to make music for RAS dans le caison",
+
+				"My song is called Ethereal, I felt it went with the slow moving forms and images in the video.",
+
+				"For the video I started with trying to find sounds and samples that fit the mood. Usually I pick stuff from youtube or other sources and slice them up in an editor (AudioCataylist) and then bring them into Milky Tracker or Renoise (tracker programs). I grew up using early trackers on the Amiga and early PCs.",
+
+				"Once I had the sounds and samples I liked, I started to lay down the beat and drums. I try to block out the time of the video and create changes based as needed. Next I'd slowly edit sections or looping parts as the video progressed.",
+
+				"The rest is iterative editing and tweaking till I felt it sounded good and matched what I saw. The pink colors and slowly moving forms made me feel a deep bass and ethereal chimes and bells, as if a daydream."
+
+			],
+
+			"links":
+			[
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/pjkarlik"
+				},
+				{
+					"name": "Souncloud",
+					"url": "https://soundcloud.com/pjkarlik"
+				},
+				{
+					"name": "X",
+					"url": "https://twitter.com/byt3m3chanic "
+				}
+			],
+
+			"sources":
+			[
+			]
+		}
+	},
+	{
+		"title": "Personne absente",
+		"folder": "aka-jules",
+		"videast":
+		{
+			"name": "Aka.rien",
+
+			"bio": [
+				"Type au hasard, qui fait des trucs pseudo aléatoires.<br>Ce que je fais n’est pas très intéressant, mais au moins c’est original vous ne trouverez pas ça ailleurs.Je sais que je suis qu’un acarien, faut pas se voiler la face.<br>Mes sentiments sont qu’un moyen de rester vivant.",
+
+				"Ce que dieux t’as donné c’est pour toi, ce que 10e t’as pas donné c’est pas pour toi.",
+
+				"« C'est Dieu qui a fait tous les humains hein?<br>Alors pourquoi il a pas fait tout le monde pareil ??<br>Il manque beaucoup de vis à Baya.<br>Des vis pour mon ❤, tu comprends ??<br>Il est cassé, il faut le réparer.C'est Dieu qui m’a fait tout cassé.<br>Tout cassé, oui ?!<br>Et lui aussi, ils et elles l’on cassé. Manque des vis aussi, des vis pour réparer son❤.<br>Mais moi je crois que j’ai toutes les vis pour bien le réparer, tu vois ??<br>Et je sais qu’il a toutes les vis pour me repérer. Toutes les vis qu’il faut ?! Toutes les vis »",
+
+				"Blanc pour Noir - Amer Beton"
+			],
+
+			"description": [
+				"Ca glitch par ici, glitch avec vlc aka meilleur logiciel d'édition vidéo, j’aimerai bien quitter l’interface graphique et utiliser ffmpeg en ligne de commande mais j’ai pas encore le lvl"
+			],
+
+			"links":
+			[],
+
+			"sources":
+			[
+				{
+					"name": "description.png",
+					"file": "screenshot1.png"
+				},
+				{
+					"name": "documentation.png",
+					"file": "screenshot2.png"
+				}
+			]
+		},
+		"musician":
+		{
+			"name": "Déluges",
+			"bio": [
+				"jules déjardin aka Déluges",
+
+				"j’aime le chiffre (-5) en tout cas je l’utilise souvent. Je pense que mon plat préféré en ce moment c’est des aubergines vapeur au sésame et grillé à la poêle. J’utilise supercollider depuis quelques temps car ce langage va me faire accéder aux sons que je fantasme, j’espère. Il me semble aussi que j’aime le sentiment de liberté qu’il procure : tu décris, sa crie. La synthèse c’est méga cool et je voulais pas en faire pendant longtemps, je veux dire que je l’ai boudé pendant une longue période, “ça s'entend trop”. Avant je faisais surtout des prises de son comme source de son. Attention, “que mes précieux sons”, c’est de l’artisanat ou je suis un sale voleur sans identité ? -> je vie/vécu intensément le dilemme du preset, supercollider vanilla ptdr, comme si on pouvait tout faire soit même de AZ. Je n’en veux plus c’est bon, place à l’amusement ! Volez mon <a href='https://github.com/Jules-dejardin'>code</a> et mes <a href='https://freesound.org/people/104-Moonj/'>sons</a> s'il vous plait"
+			],
+
+			"description":[
+				"Personne absente m’a bien inspiré. C’est intime, un peu sombre et saturé. Même si je ne comprends pas l’histoire, le sujet ressort. Le film se prépare puis chante un peu. J’avais une bronchite et je voulais enregistrer le corps malade, le souffle sifflant. Après le REC, la découpe [zombie, dark, duck, couine, plock] hop hop ni une ni deux dans SC. Un petit chaînage d'effets simple que voici dans le fichier.scd",
+
+				"Tout les essais, tests sont REC puis il faut trier un peu. Après avoir choisi j’ai tout monter dans Reaper, en plus on peu mettre des vidéos dedans ça marche super. Y’a d’autres sons fait avec SC ou modifiés dedans en plus."
+
+			],
+
+			"links":
+			[
+				{
+					"name": "Souncloud",
+					"url": "https://soundcloud.com/deluge_jules"
+				},
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/jules_dejardin/"
+				}
+			],
+
+			"sources":
+			[
+				{
+					"name": "fichier.scd",
+					"file": "code.scd"
+				}
+			]
+		}
+	},
+	{
+		"title": "anti bitmap -> pro vectoriel",
+		"folder": "dr-youssra",
+		"videast":
+		{
+			"name": "dr.one",
+
+			"bio": [
+				"Je navigue sur le vaisseau terre.",
+
+				"Mon activité principale est la respiration",
+
+				"J’aime les choses précises, les choses que l’on peut transposer sans perdre en qualité (comme les idées), les choses non périssables, ce qui sera toujours vrai, abstrait.",
+
+				"Durant mon adolescence j’étais obsédé par la recherche de « la vérité » ce qui est immuable, être dans le monde des idées, depuis un certain temps j’ai renoncé, car je m’intéresse plus à l’humain et aussi parce que trop de masturbation ce n’est pas terrible pour les relations sociales askip ? J’ai beaucoup de difficultés à mémoriser les visages et prénoms, ce qui m’engendre quelques soucis, car je suis jugé prétentieux, alors que je suis plutôt dans l’oubli de ma personne au profit des entités extérieures.",
+
+				".",
+
+				"J’ai pas mal d’obsession, je déteste qu’on me dise ce que je dois faire, on me perçoit comme un être plutôt social, mais c’est compliqué pour moi d’interagir avec les êtres humains surtout quand il y en a beaucoup, souvent on me comprend mal et je comprends mal les choses comme les blagues ^_^. On m’a souvent dit d’aller regarder du côté TSA, c’est sûrement une bonne idée à creuser, mais pour l’instant je dois finir de travailler sur d’autres sujets.",
+
+				"Ça fait plusieurs années que j’ai arrêté de demander au voleur la permission pour récupérer ce qu’ils ont pris, illégal ou pas. Et je vous invite à en faire de même.",
+
+				"Depuis peu, je me suis remis à croire en Jésus, mais pas le celui travesti par l’église",
+
+				"Jésus le OG Gamertags, Jésus le révolutionnaire, comme les Sans Roi.",
+
+				"Vive le peuple, préparons la révolution.",
+
+				"La violence peut-être légitime, la vraie question c’est où et quand",
+
+				"NE JAMAIS PAYER PHOTOSHOP.",
+
+				"vive le vectoriel"
+			],
+
+			"description": [
+				"Un jour quand j'étais en train d’utiliser photoshop cs6 alors que je déteste ça, il est c’est passé un truc d'intéressant.C’est un peu comme si photoshop mélangeais ce qu’il avait dans son cache.J'ai donc lancer une capture vidéo, depuis j'ai une énorme bibliothèque de visu dans laquelle je pioche dès que je dois trouver un visu<br>J’ai essayé de refaire ce bug un jour  => sans succès"
+			],
+
+			"links":
+			[],
+
+			"sources":
+			[
+			]
+		},
+		"musician":
+		{
+			"name": "Youssra",
+			"bio": [
+				"Violoncelliste, improvisateur.rice et compositeur.rice, non binaire. Originaire de Tourcoing.<br>En Amour avec la solitude."
+			],
+
+			"description":[
+				"En voyant la vidéo, j'ai su que je voulais faire quelque chose autour de son pattern de batterie qui se déconstruit.",
+
+				"J'ai d'abord trouvé un pattern qui me plaisait sur une boîte à rythmes – je l'ai enregistré en improvisant pour modifier la structure du pattern et le faire évoluer.",
+
+				"J'ai également voulu garder les sons déjà présents dans la vidéo, afin de les remettre par moments au premier plan, en utilisant des sons captés pendant le processus de création de la vidéo – je trouvais que c'était une jolie mise en abyme.",
+
+				"J'ai ensuite improvisé avec un synthé semi-modulaire pour trouver d'autres éléments intéressants.",
+
+				"Enfin, j'ai beaucoup découpé et transformé les matières, car j'avais trop de contenu, afin de leur donner une forme qui raconte quelque chose."
+
+			],
+
+			"links":
+			[
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/youssrakhechai/"
+				},
+				{
+					"name": "Website",
+					"url": "https://youssra-khechai.jimdosite.com/"
+				}
+			],
+
+			"sources":
+			[
+			]
+		}
+	},
+	{
+		"title": "Finding love and Keep it",
+		"folder": "adel-aya",
+		"videast":
+		{
+			"name": "ADL faure",
+
+			"bio": [
+				"I'm Adel Faure and my work is motivated by an experimental relationship with text-based interfaces. Interested in the design of tools, their influence on creation and culture, I bring back to life forms and practices from a computing era considered obsolete, turn them into games, animation design and illustrations."
+			],
+
+			"description": [
+				"This video is a recording of a little generative sofware I made using Textor.<br>Textor is a javacript, browser-based text mode engine I'm working on. It rely on a render method inspired by GLSL programming (shaders) and focus on the use of custom bitmap fonts with semigraphics.",
+
+				"Here the source :"
+			],
+
+			"links":
+			[],
+
+			"sources":
+			[
+				{
+					"name": "source.txt",
+					"file": "code"
+				}
+			]
+		},
+		"musician":
+		{
+			"name": "aYaTo",
+			"bio": [
+				"French musician, guitarist, HAK lo fi record"
+			],
+
+			"description":[
+				" k7, guitars, overdub"
+
+			],
+
+			"links":
+			[
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/ayato_sn1984/"
+				},
+				{
+					"name": "Soundcloud",
+					"url": "https://soundcloud.com/ayato-sounds"
+				},
+				{
+					"name": "X",
+					"url": "https://ayato.bandcamp.com/"
+				},
+				{
+					"name": "Facebook",
+					"url": "https://www.facebook.com/profile.php?id=100050961081837&locale=fr_FR"
+				}
+			],
+
+			"sources":
+			[
+				{
+					"name": "code.scd",
+					"file": "code.scd"
+				}
+			]
+		}
+	},
+	{
+		"title": "new2",
+		"folder": "wiktoria-içsyp",
+		"videast":
+		{
+			"name": "Wiktoria Glowacka",
+
+			"bio": [
+				"I am a first-grade student at the Strzeminski Academy of Art in Lodz, where I am pursuing a degree in New Media. This program has introduced me to the world of creative coding, and despite being relatively new to this field, I am deeply passionate about exploring its possibilities.",
+
+				"Art has been a significant part of my life for as long as I can remember, and discovering the intersection of art and technology has been a transformative experience for me. Embracing new ways to express my creativity through coding has reignited my passion for art, making me feel rejuvenated and inspired to push the boundaries of my artistic journey."
+			],
+
+			"description": [
+				"Inspiration: The concept for \"Aqueous Divagation\" was born from a desire to evoke a watery effect within an interconnected pixel network, aligning with theme of divagation.",
+
+				"Prototype code: The prototype focused on reducing pixeel count for performance, incorporating PVector dynamics, and establishing dynamic connections. Forces were applied between connected pixels, resulting in smooth but chaotic effect."
+			],
+
+			"links":
+			[],
+
+			"sources":
+			[
+				{
+					"name": "description.png",
+					"file": "screenshot1.png"
+				},
+				{
+					"name": "documentation.png",
+					"file": "screenshot2.png"
+				}
+			]
+		},
+		"musician":
+		{
+			"name": "Içsyp",
+			"bio": [
+				"sérgio, from Porto, Portugal.",
+
+				"inspired by the universe, creating art installations, repairing tech and things in general.<br>from physical computing to sound, interfaces and artistic expression.",
+
+				"diy, open-source and comunnity learning.",
+
+				"developing and sharing technological and creativity empowerment tools."
+			],
+
+			"description":[
+				"for the \"Cookie_Collective_Compilation <=> Cool Creative Content  - 31/05/2024\" I was selected to create the sound for the video created by Wiktoria Głowacka -\"wiktoria_glowacka3_muted.mp4\".<br>driven by the flow of the content flowing, I interpreted it by using simple sound sources controlled by a simple superCollider algorithm.",
+
+				"driving divagations into spatial sounds flowing by the ears and bodies that will perceive them. <3",
+
+				"thank you for making this happen <3"
+
+			],
+
+			"links":
+			[
+				{
+					"name": "linktr.ee",
+					"url": "https://linktr.ee/sergiiio"
+				}
+			],
+
+			"sources":
+			[
+				{
+					"name": "code.scd",
+					"file": "code.scd"
+				}
+			]
+		}
+	},
+	{
+		"title": "new3",
+		"folder": "wiktoria-içsyp",
+		"videast":
+		{
+			"name": "Wiktoria Glowacka",
+
+			"bio": [
+				"I am a first-grade student at the Strzeminski Academy of Art in Lodz, where I am pursuing a degree in New Media. This program has introduced me to the world of creative coding, and despite being relatively new to this field, I am deeply passionate about exploring its possibilities.",
+
+				"Art has been a significant part of my life for as long as I can remember, and discovering the intersection of art and technology has been a transformative experience for me. Embracing new ways to express my creativity through coding has reignited my passion for art, making me feel rejuvenated and inspired to push the boundaries of my artistic journey."
+			],
+
+			"description": [
+				"Inspiration: The concept for \"Aqueous Divagation\" was born from a desire to evoke a watery effect within an interconnected pixel network, aligning with theme of divagation.",
+
+				"Prototype code: The prototype focused on reducing pixeel count for performance, incorporating PVector dynamics, and establishing dynamic connections. Forces were applied between connected pixels, resulting in smooth but chaotic effect."
+			],
+
+			"links":
+			[],
+
+			"sources":
+			[
+				{
+					"name": "description.png",
+					"file": "screenshot1.png"
+				},
+				{
+					"name": "documentation.png",
+					"file": "screenshot2.png"
+				}
+			]
+		},
+		"musician":
+		{
+			"name": "Içsyp",
+			"bio": [
+				"sérgio, from Porto, Portugal.",
+
+				"inspired by the universe, creating art installations, repairing tech and things in general.<br>from physical computing to sound, interfaces and artistic expression.",
+
+				"diy, open-source and comunnity learning.",
+
+				"developing and sharing technological and creativity empowerment tools."
+			],
+
+			"description":[
+				"for the \"Cookie_Collective_Compilation <=> Cool Creative Content  - 31/05/2024\" I was selected to create the sound for the video created by Wiktoria Głowacka -\"wiktoria_glowacka3_muted.mp4\".<br>driven by the flow of the content flowing, I interpreted it by using simple sound sources controlled by a simple superCollider algorithm.",
+
+				"driving divagations into spatial sounds flowing by the ears and bodies that will perceive them. <3",
+
+				"thank you for making this happen <3"
+
+			],
+
+			"links":
+			[
+				{
+					"name": "linktr.ee",
+					"url": "https://linktr.ee/sergiiio"
+				}
+			],
+
+			"sources":
+			[
+				{
+					"name": "code.scd",
+					"file": "code.scd"
+				}
+			]
+		}
+	},
+	{
+		"title": "new4",
+		"folder": "wiktoria-içsyp",
+		"videast":
+		{
+			"name": "Wiktoria Glowacka",
+
+			"bio": [
+				"I am a first-grade student at the Strzeminski Academy of Art in Lodz, where I am pursuing a degree in New Media. This program has introduced me to the world of creative coding, and despite being relatively new to this field, I am deeply passionate about exploring its possibilities.",
+
+				"Art has been a significant part of my life for as long as I can remember, and discovering the intersection of art and technology has been a transformative experience for me. Embracing new ways to express my creativity through coding has reignited my passion for art, making me feel rejuvenated and inspired to push the boundaries of my artistic journey."
+			],
+
+			"description": [
+				"Inspiration: The concept for \"Aqueous Divagation\" was born from a desire to evoke a watery effect within an interconnected pixel network, aligning with theme of divagation.",
+
+				"Prototype code: The prototype focused on reducing pixeel count for performance, incorporating PVector dynamics, and establishing dynamic connections. Forces were applied between connected pixels, resulting in smooth but chaotic effect."
+			],
+
+			"links":
+			[],
+
+			"sources":
+			[
+				{
+					"name": "description.png",
+					"file": "screenshot1.png"
+				},
+				{
+					"name": "documentation.png",
+					"file": "screenshot2.png"
+				}
+			]
+		},
+		"musician":
+		{
+			"name": "Içsyp",
+			"bio": [
+				"sérgio, from Porto, Portugal.",
+
+				"inspired by the universe, creating art installations, repairing tech and things in general.<br>from physical computing to sound, interfaces and artistic expression.",
+
+				"diy, open-source and comunnity learning.",
+
+				"developing and sharing technological and creativity empowerment tools."
+			],
+
+			"description":[
+				"for the \"Cookie_Collective_Compilation <=> Cool Creative Content  - 31/05/2024\" I was selected to create the sound for the video created by Wiktoria Głowacka -\"wiktoria_glowacka3_muted.mp4\".<br>driven by the flow of the content flowing, I interpreted it by using simple sound sources controlled by a simple superCollider algorithm.",
+
+				"driving divagations into spatial sounds flowing by the ears and bodies that will perceive them. <3",
+
+				"thank you for making this happen <3"
+
+			],
+
+			"links":
+			[
+				{
+					"name": "linktr.ee",
+					"url": "https://linktr.ee/sergiiio"
+				}
+			],
+
+			"sources":
+			[
+				{
+					"name": "code.scd",
+					"file": "code.scd"
+				}
+			]
+		}
+	},
+	{
+		"title": "new5",
+		"folder": "wiktoria-içsyp",
+		"videast":
+		{
+			"name": "Wiktoria Glowacka",
+
+			"bio": [
+				"I am a first-grade student at the Strzeminski Academy of Art in Lodz, where I am pursuing a degree in New Media. This program has introduced me to the world of creative coding, and despite being relatively new to this field, I am deeply passionate about exploring its possibilities.",
+
+				"Art has been a significant part of my life for as long as I can remember, and discovering the intersection of art and technology has been a transformative experience for me. Embracing new ways to express my creativity through coding has reignited my passion for art, making me feel rejuvenated and inspired to push the boundaries of my artistic journey."
+			],
+
+			"description": [
+				"Inspiration: The concept for \"Aqueous Divagation\" was born from a desire to evoke a watery effect within an interconnected pixel network, aligning with theme of divagation.",
+
+				"Prototype code: The prototype focused on reducing pixeel count for performance, incorporating PVector dynamics, and establishing dynamic connections. Forces were applied between connected pixels, resulting in smooth but chaotic effect."
+			],
+
+			"links":
+			[],
+
+			"sources":
+			[
+				{
+					"name": "description.png",
+					"file": "screenshot1.png"
+				},
+				{
+					"name": "documentation.png",
+					"file": "screenshot2.png"
+				}
+			]
+		},
+		"musician":
+		{
+			"name": "Içsyp",
+			"bio": [
+				"sérgio, from Porto, Portugal.",
+
+				"inspired by the universe, creating art installations, repairing tech and things in general.<br>from physical computing to sound, interfaces and artistic expression.",
+
+				"diy, open-source and comunnity learning.",
+
+				"developing and sharing technological and creativity empowerment tools."
+			],
+
+			"description":[
+				"for the \"Cookie_Collective_Compilation <=> Cool Creative Content  - 31/05/2024\" I was selected to create the sound for the video created by Wiktoria Głowacka -\"wiktoria_glowacka3_muted.mp4\".<br>driven by the flow of the content flowing, I interpreted it by using simple sound sources controlled by a simple superCollider algorithm.",
+
+				"driving divagations into spatial sounds flowing by the ears and bodies that will perceive them. <3",
+
+				"thank you for making this happen <3"
+
+			],
+
+			"links":
+			[
+				{
+					"name": "linktr.ee",
+					"url": "https://linktr.ee/sergiiio"
+				}
+			],
+
+			"sources":
+			[
+				{
+					"name": "code.scd",
+					"file": "code.scd"
+				}
+			]
+		}
+	},
+	{
+		"title": "new6",
+		"folder": "wiktoria-içsyp",
+		"videast":
+		{
+			"name": "Wiktoria Glowacka",
+
+			"bio": [
+				"I am a first-grade student at the Strzeminski Academy of Art in Lodz, where I am pursuing a degree in New Media. This program has introduced me to the world of creative coding, and despite being relatively new to this field, I am deeply passionate about exploring its possibilities.",
+
+				"Art has been a significant part of my life for as long as I can remember, and discovering the intersection of art and technology has been a transformative experience for me. Embracing new ways to express my creativity through coding has reignited my passion for art, making me feel rejuvenated and inspired to push the boundaries of my artistic journey."
+			],
+
+			"description": [
+				"Inspiration: The concept for \"Aqueous Divagation\" was born from a desire to evoke a watery effect within an interconnected pixel network, aligning with theme of divagation.",
+
+				"Prototype code: The prototype focused on reducing pixeel count for performance, incorporating PVector dynamics, and establishing dynamic connections. Forces were applied between connected pixels, resulting in smooth but chaotic effect."
+			],
+
+			"links":
+			[],
+
+			"sources":
+			[
+				{
+					"name": "description.png",
+					"file": "screenshot1.png"
+				},
+				{
+					"name": "documentation.png",
+					"file": "screenshot2.png"
+				}
+			]
+		},
+		"musician":
+		{
+			"name": "Içsyp",
+			"bio": [
+				"sérgio, from Porto, Portugal.",
+
+				"inspired by the universe, creating art installations, repairing tech and things in general.<br>from physical computing to sound, interfaces and artistic expression.",
+
+				"diy, open-source and comunnity learning.",
+
+				"developing and sharing technological and creativity empowerment tools."
+			],
+
+			"description":[
+				"for the \"Cookie_Collective_Compilation <=> Cool Creative Content  - 31/05/2024\" I was selected to create the sound for the video created by Wiktoria Głowacka -\"wiktoria_glowacka3_muted.mp4\".<br>driven by the flow of the content flowing, I interpreted it by using simple sound sources controlled by a simple superCollider algorithm.",
+
+				"driving divagations into spatial sounds flowing by the ears and bodies that will perceive them. <3",
+
+				"thank you for making this happen <3"
+
+			],
+
+			"links":
+			[
+				{
+					"name": "linktr.ee",
+					"url": "https://linktr.ee/sergiiio"
+				}
+			],
+
+			"sources":
+			[
+				{
+					"name": "code.scd",
+					"file": "code.scd"
 				}
 			]
 		}
