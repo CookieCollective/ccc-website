@@ -300,5 +300,704 @@
 				"Un grand merci à Claire pour sa voix si suave."
 			]
 		}
+	},
+	{
+		"title": "mon chien errant",
+		"folder": "harmonie-sport",
+		"videast":
+		{
+			"name": "Harmonie Aupetit",
+
+			"bio": "Harmonie Aupetit est née à Guéret en 1989 et vit aujourd’hui à Nanterre. Artiste autodidacte, elle explore divers champs et techniques pour créer des œuvres hybrides. Un « bricolage » qui s’inscrit dans une démarche et une esthétique DIY.",
+
+			"description": "Réalisation de l'animation \"Mon chien errant\"&nbsp;:<br> - images en code ASCII avec le logiciel Notepad++ <br>- broderie à la main <br>- photographie numérique des broderies réalisées<br>- colorisation du fond et des images ASCII + montage des différentes phases d'animation sous Photoshop",
+
+			"links":
+			[
+			]
+		},
+
+		"musician":
+		{
+			"name": "Sport en famille",
+			"bio": "Bio : Lors d'une randonnée sempiternelle au Namsan Park de Séoul avec les spitz nains en poussettes<br>Suite bio : et les entrepreneurs en survêts de velours rouge, nous nous sentions, enfin, en famille.",
+
+			"description":[
+				"« Extrait de la première variation verrillon » est une tentative de sport de glisse : les doigts frôlent les crêtes en boucle."
+			]
+		}
+	},
+	{
+		"title": "Looking_for-something-I-had_before",
+		"folder": "verbalizer-francois",
+		"videast":
+		{
+			"name": "VERBALIZER",
+
+			"bio": [
+				"VERBALIZER - Michal Liberak",
+			"• location: Gdańsk, Poland<br>• gender: male<br>• Inspiration source(s): analogue equipment, obsolete technologies",
+
+			"a text about myself:<br>Michał (Wojna) Liberak - electronic music and multimedia producer / performer. Audiovisual manipulator. A humanoid in disguise. During the warm season, can be found near meadows and forests. In winter, he appears mainly in bunkers, vacant buildings and devastated basements. Sleeps in an inflatable coffin at the edge of the cemetery by the sea. Likes to travel. Generates sounds and images out of machines. Supporter of the anti-fascist, teknopunk movement and sound system culture."
+		],
+
+		"description": [
+			"Software: <br>Background video footage source: gifs from <a href='https://giphy.com/'> Giphy API</a><br>Background video footage mix: <a href='https://azopsoft.com/'> GGV2 (Glitch Gif VJ) </a> <br>Recording the live final mix: <a href='https://obsproject.com/'>OBS</a>",
+			"Hardware:<br>Background video footage player: <a href='https://github.com/cyberboy666/r_e_c_u_r'>r_e_c_u_r</a> open source video sampler<br>Video synth Equations: <a href='https://github.com/cfoge/Video_EQ'>by CFOGE</a><br>Video synth CatVi$$ion (old prototype): <a href='https://www.catfullofghosts.xyz/'>by CFOGE</a><br>SyncShredder also by CFOGE<br><a href='https://gieskes.nl/visual-equipment/?file=schele-mixer'>Schele Mixer2B</a> by Gijs Gieskes <br>Video mixers: Edirol V4 x 2<br>Video splitter: RV-8/16PRC<br>AV to HDMI converter: Rei XD-M901<br>Feedback camera #1: Sony SSC-DC378P<br>Feedback camera #2: noname \"spy\" SD mini cam",
+			"Process: no computer, no postproduction. Recorded live."
+],
+			"links":
+			[
+				{
+					"name": "linktree",
+					"url": "https://linktr.ee/verbalizer"
+				}
+			]
+		},
+
+		"musician":
+		{
+			"name": "PPM",
+			"bio": [
+				"<b>FRANÇOIS GALLAND</b>",
+				"<b>Synthétiseur Modulaire</b><br>« N’est valable en art que la qualité de la sensibilité de l’artiste, et l’art n’est que le moyen d’extériorisation mais un moyen fou, sans règle ni calcul. »<br><b>Jean Fautrier</b> - « Parallèles sur l’informel », Blätter + Bilder, mars-avril 1959.",
+				"Cet acronyme existe déjà pour désigner plusieurs choses comme « Peak to Peak Meter » dans les mesures des signaux ou « Pulsation Par Minute » ou encore « Partie Par Million » en science ou même la société « Papiers Peintures Mosellans » ...<br>Il est comme le synthétiseur, modulaire donc et change en fonction de ce à quoi on l’associe.<br>Ce nom qui reste générique s’adapte à l’actualité du travail et de l’évolution de la Psychédélique Punk Machine. Sans « Parti Pris Moral » dans un « Propos Purement Musical » l’artiste se réclame simplement d’une expression libre dans un art informel."
+			],
+
+			"description":[
+				"Synthétiseur modulaire exclusivement.<br>Plusieurs stems enregistrés en stéréo sur Tascam portable DR44WR à 96kHz puis monté en synchronisation avec la vidéo sur ProTools.<br>Export en PCM 96kHz / 32b float."
+			]
+		}
+	},
+	{
+		"title": "Light tissues",
+		"folder": "aga-fyodor",
+		"videast":
+		{
+			"name": "Aga Nowacka",
+
+			"bio": "Hi, I am Aga Nowacka. I am a female artist from Poland.<br>I create in the field of visual arts, music, dance and performance.<br>I am designing lights for theater performances therfore my interest in light which I am experimenting with in analogue projections.",
+
+			"sources":
+			[
+				{
+					"name": "process.mp4",
+					"file": "process.mp4"
+				}
+			],
+
+			"links":
+			[
+				{
+					"name": "instagram",
+					"url": "https://www.instagram.com/aganowacka/"
+				}
+			]
+		},
+
+		"musician":
+		{
+			"name": "Fyodor",
+			"bio": [
+			"<b>(he/them)<br><br>Artist statement</b>",
+
+			"Being born in Russia to a Ukrainian family into the aftermath of the Soviet Union’s collapse and later migrating to Europe with no possibility of returning, has defined my work for many years, permeating it with a sense of displacement and dispossession, while also fuelling my fascination with transient, shifting identities inherent in sound.",
+			"Beginning my artistic career as a jazz musician, I worked in a variety of projects ranging from classical and baroque music to experimental jazz and free improvisation. In recent years I prefer to work on sound art or improvise in smaller groups of electro-acoustic musicians. My approach combines field recording with hand-crafted audio-processing tolls in Pure Data."
+		],
+
+			"description":[
+				"<b>Working Process</b>",
+				"I’ve composed and recorded the entire track in Pure Data, using Ableton for mixing and mastering only.",
+				"I often work with random processes and probability and draw my inspiration from electromagnetic listening, so normally my workflow consists of preparing relatively long sections in PD, 30sec to 2min in this case, listening back and selecting pieces that work together best.",
+
+				"The first step in my process was to watch the video several times and try to describe what I see, and mark every important “landmark” on the timecode. After few experiments with the music, however, I have decided against trying to match the image with sound completely, but rather make the sound match the image in mood and essence. In the end I’ve decided to divide the piece in 4 loose section.",
+
+				"These became <I>Intro+Flower</I> (0-1:36), <I>Field</I> (1:36-3:47), <I>Stretti</I>  (3:47-4:24), <I>Recap</I>  (4:24-end).",
+				"I liked a sense of shimmering shifting identities the visual produce, and tried to match them with all the permutations of the voice sample and the lower drone in <I>Flower</I>, <I>Stretti</I> and <I>Recap</I>. I used this project as an opportunity to experiment with a vocoder patch from a <b><a href='https://github.com/porres/Live-Electronics-Tutorial'>tutorial</a></b> by Alexandre Torres Porres. I think the voice part trying to fold itself into a proper phrase, but constantly failing at that, conveys well how the shapes from the video constantly promise to shift into something familiar but never fulfilling the promise. The other aspect contributing to this feeling is the lower drone, which is originally a combination of a feedback synth patch I made awhile back and a field recording, that sounds like an enveloping ambience, but is unsteady and always in danger of breaking into a train of short pulses.",
+
+				"For the middle section, <I>Field</I>, being the most intense, I’ve decided to choose a more “extraverted” feel. I’ve used an emulation of Mutable Instruments’ Plaits module from PD’s ELSE library combined with my own older patches for the ambience. The granulated sample of a breaking glass put through the vocoder patch mentioned earlier is heard on the foreground. In that patch the order of grains is decided upon by a simple Markov chain, creating flowing organic patterns. There are two short subsections where the flow of <I>Field</I> gets broken. They may not fit too well with the image, but in my opinion they contribute to the disorienting feeling the video produces.",
+
+				"The last two sections function as a recapitulation of sorts. They return to the ideas introduced in the beginning but have a more subdued tone to match the video."
+			],
+			"sources":
+			[
+				{
+					"name": "PD_Hat_sweep.png",
+					"file": "screenshot1.png"
+				},
+				{
+					"name": "PD_Voices.png",
+					"file": "screenshot2.png"
+				},
+				{
+					"name": "PD_Glask-groove.png",
+					"file": "screenshot3.png"
+				},
+				{
+					"name": "PD_Voice-intro.png",
+					"file": "screenshot4.png"
+				}
+			]
+		}
+	},
+	{
+		"title": "Pixelated bad dream",
+		"folder": "nusan-diffty",
+		"videast":
+		{
+			"name": "NuSan",
+
+			"bio": "Hello I’m Nusan (she/her) a 39 year old French numeric artist<br>I mostly practice shader live coding but I like everything creative!<br>I do some demoscene productions on <a href='https://www.youtube.com/@NuSan_fx/videos'>Youtube</a><br>I’m also a graphic programmer and technical artist, I make small indie games too that you can find on <a href='https://nusan.itch.io/'>nusan.itch.io</a>",
+
+			"description": [
+				"<b>CCC Nusan 2024<br>Pixelated bad dream</b>",
+				"I'm using a \"fantasy console\" called TIC-80, which is open source and lets you make tiny retro games or animations using LUA<br>TIC-80 limits you to a resolution of 240x136 and only 16 colors palette, but there is a trick I use to change the palette before each scanline, so you can have a lot more colors on screen. <br>All my effects use some sort of remanence, that is not clearing the screen fully at the start of the frame, but keeping whatever is there, and only changing a few pixels per frame to a darker color, so things fade to black slowly. This lets me blend all my effects together while providing an interesting texture to everything.<br>I’m using a specific version of TIC-80 dedicated to live coding, where an FFT of the background sound is available, letting you make audio-reactives effects.<br>I made the final video in two steps, I first improvised several effects in TIC-80 that react on music and then I recorded them playing while putting some background music and live changing the sound’s volume to influence the level of the FFT and so the “intensity” of my effects, I made several recordings until I was satisfied with the result",
+
+				"<a href='https://github.com/nesbox/TIC-80/'>TIC-80 website</a><br> <a href='https://github.com/glastonbridge/TIC-80/releases/tag/hack.fft.1_0_2'>TIC-80 FFT version</a>"
+			],
+
+			"links":
+			[
+				{
+					"name": "youtube",
+					"url": "https://www.youtube.com/@NuSan_fx/videos"
+				},
+				{
+					"name": "games",
+					"url": "https://nusan.itch.io/"
+				}
+			]
+		},
+
+		"musician":
+		{
+			"name": "50D",
+			"bio": "French bass music DJ and producer. More DJ than producer tbh.Heavily inspired by slick drum&bass, dumb dubstep and hard bass, fun uk garage, glittery hyperpop and bass music tracks that tell stories without words. Of course, you can hardly find any of that in the work I submitted to CCC, but that's ok.",
+
+			"description":[
+				"<I><b>Through a Decade of Changes</b></I>",
+				"Software, plugins & material used :<br>* Bitwig Studio<br>* Serum<br>* Arturia Stage-73 V<br>* Spitfire Audio BBC Orchestra Discover<br>* A few drums and misc samples",
+				"I mostly worked by watching and rewatching Nusan's videos, imagining sounds and instruments that could match several features of her visual composition. For example, plucked square wave notes that represent the squared \"rain drops\", or plucked sinwave notes when circle sprites.<br>The lush parts of the video composition inspired me a cinematic bright orchestral string ensemble, that became a huge part of the finished soundtrack, especially in the chillest parts of the video, contrasting with the more intenses parts where I assembled some more danceable shuffled drum breaks, matching with the visually busier mood of these parts.<br>I noticed that Nusan also put some video glitch effects on top of her composition, which I synced with some bitcrush FX applied on the whole composition.<br>Then, I found that the animated wave that grows to a wide abstract tornado (that inspired me the string parts) was lacking some sound design to match its visual language. So I added some filtered white noise synced to its animation to create a strong wind effect, reminding the sound of some slightly hostile storm replaced by the brigher and dreamy strings arrangement that predate in most parts of the composition.",
+
+				"On a more technical side note, I used TouchDesigner to help me sync the video to my Bitwig composition, by creating a very tiny patch to retrieve the DAW timecode and play Nusan's video synced in realtime along the audio track playhead."
+			],
+
+			"links":
+			[
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/diffty/"
+				},
+				{
+					"name": "Website",
+					"url": "https://freddyclement.com"
+				},
+				{
+					"name": "X",
+					"url": "https://x.com/diffty"
+				}
+			]
+		}
+	},
+	{
+		"title": "Narvik Stockholm",
+		"folder": "bastide-8trix",
+		"videast":
+		{
+			"name": "Raphael Bastide",
+
+			"bio": "I live in Montreuil (FR), I teach in Paris and do some visual and sonic art. I went to north Norway by train and it was both epic (lots of night train difficulties) and beautiful (Norway’s nature is incredibly beautiful).",
+
+			"description": [
+				"License: CC-BY-NC",
+				"Short description: Live coded CSS in the train to Stockholm.",
+				"Long description: During a train trip from Narvik (NO) to Stockholm (SE), I shot a 5 minutes uncut footage of the landscape I traveled through. Then I made an HTML page with the resulting video as a background and improvised a CSS animated composition over it. The CSS is live-coded in the Firefox browser’s developer panel as long as the video is played."
+			],
+
+			"links":
+			[
+				{
+					"name": "Website",
+					"url": "https://raphaelbastide.com/"
+				}
+			]
+		},
+
+		"musician":
+		{
+			"name": "8rix",
+			"bio": "8rix is an artist from Paris who uses his phone to make chiptune music, melted with everyday sounds he records on-the-fly.<br> As a music enthusiast he likes to put some hip-hop, grime, ambient or latino influence among four-on-the-floor tracks. His universe is an unexpected assembly of station announcements, birds singing, reverberated voices, distorted and pitched sounds, children construction games, where trains go on their rails endlessly.<br>When on stage he works with LimeLimeWire, a multi-gifted artist and ally whose hypnotizing visuals perfectly fit his music.",
+
+			"description":[
+				"<b><I>still beating despite it all</I></b>",
+				"Get into a train. Watch the view go by. Get hypnotized. Start nanoloop mobile. Record train, birds, people. Transcend feelings."
+			],
+
+			"links":
+			[
+				{
+					"name": "Website",
+					"url": "https://8-rix.github.io"
+				},
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/8rix_official"
+				},
+				{
+					"name": "Facebook",
+					"url": "https://www.instagram.com/8rix_official"
+				},
+				{
+					"name": "X",
+					"url": "https://8rix.bandcamp.com"
+				}
+			]
+		}
+	},
+	{
+		"title": "Napoli",
+		"folder": "minuit-marlen",
+		"videast":
+		{
+			"name": "Minuit",
+
+			"bio": "Dorian Rigal alias Minuit explore le monde nocturne. Il propose d’habiter la nuit urbaine, symbole d’une liberté décomplexée, à l’opposé des codes sociaux contraignants du jour. C’est par ce prisme qu’il utilise l’art numérique : projection architecturale, film d’animation, sculpture écranique et réalité virtuelle pour créer un monde imaginaire où, à la manière des surréalistes, la dureté du réel se déforme pour devenir un paysage fantastique.",
+
+			"description": "",
+
+			"links":
+			[]
+		},
+
+		"musician":
+		{
+			"name": "Marlen",
+			"bio": "<b>«Hier j’avais très envie de manger une glace et finalement j’ai acheté du chocolat...»</b><br>C’est toujours pas gagné de dire quelque chose sur moi...",
+
+			"description":[
+				"<b>1</b>- Installer des marqueurs sur After Effect pour trouver des moments clés.<br><b>2</b>- Ouvrir reaper et remettre ces marqueurs.<br><b>3</b>- Récupe de bruits de : Foule à Dublin, vagues de Syracuse, poulailler de papa Gérard, bruits d’oiseaux de Sologne, marché de Catagne et de Dijon, poussée de chansonnette avec la Rue Ketanou sur une grève en mode off du Festival de Loire, percu party à l’anniversaire de Didi, tour de piano SCNF avec une amie brésilienne, etc. Bref, des souvenirs rigolos, afin de ne pas oublier qu’il y a parfois de beaux moments de vie.<br><b>4</b>- Essayer de créer des objets sonores différents entres ces marqueurs : la foule, vers la vague, vers les oiseaux, jusqu’à la retombée de poulets.<br><b>5</b>- Basculer le son sur After Effect.<br><b>6</b>- Exporter le tout.<br><b>7</b>- Hop ! C’est plié."
+			],
+
+			"links":
+			[
+				{
+					"name": "instagram",
+					"url": "https://www.instagram.com/m.a.r.l.e.n_b/"
+				}
+			]
+		}
+	},
+	{
+		"title": "UNTILTED",
+		"folder": "andy-verbalizer",
+		"videast":
+		{
+			"name": "Andy",
+
+			"bio": "Je m'appelle ANDY. Je suis un.e Glitch artist et musicien.ne, travaillant à la croisée des disciplines, je me considère comme trans-indisciplinaire. Ma pratique se focalise principalement sur la manipulation analogique d'images et la création musicale. Actuellement je suis en pleine composition de mon premier EP.",
+
+			"description": [
+				"-Adapted an open-source virtual art gallery from <a href='http://github.com/ClementCariou/virtual-art-gallery'>github.com</a>, my modified version is displayed on my <a href='http://www.serendippo.me'>website</a><br>-Captured video while navigating this gallery, simulating endless exploration.<br>-Converted the digital video to analog.<br>-Processed the analog signal into hardware, creating glitches, analog video feedback, titler effect, and recolorization intensifying the disorientation effect typical of the idea of «Divagation»",
+				"This project simulates an art gallery in your browser using <a href='https://github.com/regl-project/regl'>REGL</a>. It aims at reproducing the experience of a real art gallery. The architecture is generated using a 10km long 6th order <a href='https://en.wikipedia.org/wiki/Hilbert_curve'>Hilbert Curve</a>. The paintings are asynchronously loaded from the <a href='https://api.artic.edu'>ARTIC</a> and placed on the walls. You can use this project to display your own artworks.",
+				" <a href='https://clementcariou.github.io/virtual-art-gallery/build'>Virtual art gallery</a> by <a href='https://github.com/ClementCariou/virtual-art-gallery/commits?author=ClementCariou'>Clement Cariou</a>",
+
+				"<b>Setup</b>",
+
+				"Installation :<br>git clone https://github.com/ClementCariou/virtual-art-gallery.git npm install",
+
+				"Start the budo dev server :<br>npm start",
+
+				"Build :<br>npm build",
+
+				"Using it with <a href='https://clementcariou.github.io/virtual-art-gallery/build?api=local'>local images</a>",
+
+				"The local api is accessible using this URI params in the address bar: ?api=local (it's possible to load automatically this API by changing the default API in the api.js file). You can change the displayed images in the folder <a href='https://github.com/ClementCariou/virtual-art-gallery/blob/master/images'>images</a>, you will need to rebuild the project (or relauch the dev server) to apply the modifications."
+			],
+
+			"links":
+			[
+			]
+		},
+
+		"musician":
+		{
+			"name": "VERBALIZER",
+			"bio": "VERBALIZER aka Michał (Wojna) Liberak - electronic music and multimedia producer / performer. Audiovisual manipulator. A humanoid in disguise. During the warm season, can be found near meadows and forests. In winter, he appears mainly in bunkers, vacant buildings and devastated basements. Sleeps in an inflatable coffin at the edge of the cemetery by the sea somewhere in Poland. Likes to travel. Generates sounds and images out of machines. Supporter of the anti-fascist, teknopunk movement and sound system culture.",
+
+			"description":[
+				"Instruments used:<br> - 2 units of pikocore - open source handmade, handheld li-fi sample mangler <a href='https://pikocore.com/'>https://pikocore.com/</a> by infinitedigits<br>- 1 zeptocore - open source handmade, handheld sample hi-fi sample mangler <a href='https://zeptocore.com/'>https://zeptocore.com/</a> by infinitedigits<br>- korg mini kaossillator 1<br>- korg mini kaosspad 1<br>- ipad2 runniung animoog app<br>- audio mixer xenyx q802",
+
+				"Recorded live, in one take. No postproduction."
+			],
+
+			"links":
+			[
+				{
+					"name": "linktree",
+					"url": "https://linktr.ee/verbalizer"
+				}
+			],
+
+			"sources":
+			[
+				{
+					"name": "setup.png",
+					"file": "screenshot1.png"
+				},
+				{
+					"name": "more_setup.png",
+					"file": "screenshot2.png"
+				}
+			]
+		}
+	},
+	{
+		"title": "Fire flow forest",
+		"folder": "illest-mari",
+		"videast":
+		{
+			"name": "IIllestpreacha",
+
+			"bio": [
+				"Kofi Oduro (illestpreacha) is an Experiential Storyteller that transforms sounds, images, data, words & code into experiences that nurtures discussion, reflection & interaction. He creates & designs through his decade plus involvement in performance, event and audiovisual production.",
+
+				"His artistic practice is an observation of the world around us that he puts into artworks for others to relate to or disagree with. Through Videography, Poetry and Creative Coding, He tries to highlight the realms of human performance and the human mind in different scenarios. These situations can be described as social, internal, or even biological, which we face in our everyday lives. Adding music and visuals often helps to perceive one's own feelings, and to highlight the different subtleties that make us human."
+			],
+
+			"description": "",
+
+			"links":
+			[]
+		},
+
+		"musician":
+		{
+			"name": "Mari Moura & Joenio M. Costa",
+			"bio": [
+				"My name is Mari Moura. I’m a black Brazilian performer artist interested in the relationship between body and technology in tangible space and cyberspace. I'm Artist and Researcher in Performance Art, activist for the presence of black women in Art and Technology. I'm interested in the relationship between art, the body, algorithmic patterns and technology in tangible space and cyberspace, together with visual arts, live coding and body notation. I'm PhD in Visual Arts in the Art and Technology research line at UNB, with a sandwich doctorate in Paris V at the Institut des sciences du sport-santé de Paris V",
+
+				"Me chamo Joenio Marques da Costa, sou estudande de Doutorado em Ciência da Computação na <a href='https://www.ufba.br/'>Universidade Federal da Bahia</a>(UFBA), trabalho atualmente como Engenheiro de <a href='https://joenio.me/software-para-pesquisa'>Software para Pesquisa</a> (Research Software Engineer) na <a href='https://www.cortext.net/'>pataforma CorTexT</a>, sou também apoiador do <a href='https://joenio.me/software-livre'>Software Livre</a> (Free Software), desenvolvedor Debian, instrutor The Carpentries, embaixador do Software Heritage e co-criador junto com Mari Moura do laboratório <a href='https://4two.art/'>4two.art</a> de pesquisa, criação e experimentação em arte, ciência e tecnologia."
+			],
+
+			"description":[
+				""
+			],
+
+			"links":
+			[
+				{
+					"name": "Website Mari",
+					"url": "https://marimoura.4two.art"
+				},
+				{
+					"name": "Website Joenio",
+					"url": "https://joenio.me"
+				},
+				{
+					"name": "Instagram Mari",
+					"url": "https://www.instagram.com/marimoura5/"
+				},
+				{
+					"name": "Instagram Joenio",
+					"url": "https://www.instagram.com/joenio.costa/"
+				}
+			]
+		}
+	},
+	{
+		"title": "Motion#39",
+		"folder": "sheglitch-pango",
+		"videast":
+		{
+			"name": "≈sheglitchr",
+
+			"bio": [
+				"Camille GRIGAUT alias ≈sheglitchr (she/elle).<br>Paris, France",
+
+				" ≈sheglitchr a rejoint le mouvement Glitch Art en 2015. Elle détruit des images pour en créer de nouvelles. Sa phrase préférée : « Creation from destruction ».",
+
+				"Inspirée par la nostalgie naissante et fracturée d'une époque qu'elle n'a pas connue, elle puise ses différentes énergies dans la musique qu'elle écoute et dans les expériences qu'elle a vécu en les exprimant au travers des shows en VJ, de clips ou de pochettes d'albums.",
+
+				"TV cathodiques, lecteurs VHS et machines analogiques sont ses médias de prédilection. Elle fait désormais partie de beLow, un collectif qui travaille sur de la scénographie, des expériences visuelles et possède un label de musique électronique.",
+
+				" Lives récents :<br>- Phantom Traffic - Point Éphémère, Paris<br>- Baraka, release party- Point Éphémère, Paris<br>- 15 ans de la Mamie's - La Machine du Moulin Rouge, Paris,<br>- Texture Festival w/beLow - Salle de la Cité, Rennes<br>- 10 Ans d'Allo Floride avec TVStore, Paris",
+
+				" Des expositions :<br>- Fu:/bar.  exposition à Zagreb, Croatie<br>- Les Matins Blancs, Paris, France<br>- La Nuit Blanche, Villette Makerz, Paris<br>- Bleu x/80, Villette Makerz, Paris"
+			],
+
+			"description": [
+				"<b>﻿make make take take tweak tweak</b><br>* create a funny contrasted shape in blender<br>* make it pass in a usb-c to vga converter<br>* make the vga cable flow in a vga to composite converter<br>* take a cute composite cable to transport your video into a broken* video machine<br>* take another cute composite cable and plug it into a crt tv<br>* tweak the knobs of your broken* video machine<br>* capture that with a camera and be happy for all the colors that come out of broken things",
+
+				"*circuit-bent devices"
+			],
+
+			"links":
+			[
+				{
+				"name": "Instagram",
+				"url": "https://www.instagram.com/sheglitchr.vj/"
+			},
+			{
+				"name": "Facebook",
+				"url": "https://www.facebook.com/sheglitchr"
+			}
+		]
+		},
+
+		"musician":
+		{
+			"name": "Pango Ornithorynx",
+			"bio": "A changing and composite being, evolving in epochs and spaces while adapting to each.",
+
+			"description":[
+				"Explore Integrate Iterate Enjoy"
+			],
+
+			"links":
+			[
+			]
+		}
+	},
+	{
+		"title": "La rue",
+		"folder": "oxni-hildegarde",
+		"videast":
+		{
+			"name": "oXni",
+
+			"bio": "Bestiole synthétique auto-enfantée dans le plaisir, oXni en fait trop avec moins que R et accouche en .txt (rap, poésie, chanson) .mp3 (trap, ballade, pop, chanson française) & .img (clips documentaires, expérimental, conceptuel, art numérique) sur l'instrumentale.",
+
+			"description": [
+				"je l’ai fait en une aprem<br>et l’idée est venu spontanément<br>pour le coup les doigts dans le nez<br>tout est dans l’idée",
+
+				"une fois que j’ai eu l’idée c’était fait :)<br>et ça a été dans des festivals d’arts contemporains et tout lol mais ça osef",
+
+				"Pendant que certain.e.s sont cloîtré.e.s dedans, d'autres sont enfermé.e.s dehors. Le vidéo-clip La Rue propose une dérive musico-poétique dystopique dans l’espace public virtualisé sur Google Maps, une surveillance de la surveillance de.s masse.s prises en panoptech'.",
+
+				"Dans cette mise en abîme se superposent la surveillance en présentiel, exercée par les forces de l'ordre - dépositaire de l'exercice de la violence légitime et omni-présentes dans le quartier de la Porte de la Chapelle - et la télé-surveillance qui s'en fait ici le témoin. L’Oeil du pouvoir est dupliqué : celui punitif et centralisateur de l'Etat et celui omniscient et ubiquitaire des bigs datas. Cette vidéo personnifie la rue en lui faisant conter les contrastes qui l'habitent donnent aussi à voir l'indifférence collective face aux drames qui traversent les villes mondialisées - pourtant désormais à une portée de clics de l’Oeil de toustes.",
+
+				"mais globalement : c’est une poème que j’ai écrit à 18 ans quand je suis arrivé à Paris, qui parle de la violence de l’indifférence dans l’espace public. En 2019 j’ai décidé de le mettre en chanson et en vidéo. À cette époque je passais beaucoup de temps à errer sur google maps, ce que je fais encore parfois, c’est mieux que d’errer sur les réseaux sociaux je trouve (même si je le fais aussi). Alors je suis allé errer autour de porte d’aubervilliers, où à l’époque il y avait un grand camp d’exilé·e·s (qui depuis ont été expulsé·e·s je ne sais pas où....). La vidéo montre la violence de ce décalage de niveau de vie, la ségrégation et la surveillance policière qui l’accompagne. C’est aussi la constatation d’une double surveillance de l’espace public : physique, corporelle : policière - mais aussi virtuelle, via google maps. Notre surveillance à nous - spectateur·ice - s’y ajoute - et nous voilà prisxe dans le panoptique ou plutôt le panoptech’."
+			],
+
+			"links":
+			[]
+		},
+
+		"musician":
+		{
+			"name": "Hildegarde",
+			"bio": "French Performer and producer, eeverything is about autodetermination, based in Brittany",
+
+			"description":[
+				"La Rue, vidéo d'oXni interprêtée par Hildegarde",
+
+				"Parmi les propositions reçues, j'ai choisi la vidéo d'oXni car j'ai reconnu le nom et le travail de mon ami.e (j'avoue) qui est un.e artiste militant.e pluridisciplinaire.<br>Je savais que cette vidéo était conçue par lui et sûrement destinée à devenir un de ses clips, et ses clips ont la force d'être largement représenté lorsqu'elle performe ses chansons sur scène.<br>De plus, cette vidéo représente une traversée de Paris et son périphérique à travers Google street view, un outil que j'ai toujours trouvé intriguant, glaque et poétique.<br>Cette esthétique post internet résonne très bien avec mes problématiques artistiques.",
+
+				"Ainsi, j'ai pu produire le son en visionnant la vidéo directement grâce à la possibilité de lire une piste visuelle en synchronicité avec des pistes audio sur le DAW que j'utilise.<br>Ce qui m'a permis d'ajouter des effets correspondants à certaines scènes mais aussi au texte que j'ai pu enregistrer avec ma voix et traiter, puisque les sous-titres étaient inclus dans la vidéo.<br>Du coup c'est un drôle de ping-pong d'une musique, à une vidéo, à une re-musique. "
+			],
+
+			"links":
+			[
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/_.h.i.l.d.e.g.a.r.d.e._/"
+				},
+				{
+					"name": "Website",
+					"url": "http://hildegarde-music.com/"
+				},
+				{
+					"name": "Facebook",
+					"url": "https://www.facebook.com/hildegarde.whocares"
+				}
+			]
+		}
+	},
+	{
+		"title": "Data compost",
+		"folder": "leila-maeline",
+		"videast":
+		{
+			"name": "Lëila Chaix",
+
+			"bio": [
+			"Je suis Lëila Chaix aussi connue sous : datashift, Melody Nyx, autodrône, les gens qui doutent, chaise, cyberflemme, ouidire",
+
+			 "En dehors d’ingurgiter de l’air je suis principalement poète, ficanasse,",
+
+			"Chroniqueuse et artiviste. J’appartiens au 33.",
+
+			"J’aime plus que tout les fourmis et le fromage"
+],
+			"description": [
+				"j’ai monté plusieurs photos et vidéos ensemble sur un logiciel de montage et j’ai ajouté des morceaux d’enregistrements radio",
+
+				"je me souviens plus du logiciel"
+			],
+
+			"links":
+			[]
+		},
+
+		"musician":
+		{
+			"name": "Maeline",
+			"bio": "﻿Je m’appelle Maeline, j’ai une fascination pour le gingembre.<br>Je réfléchis depuis quelque temps aux dynamiques de pouvoir liées à l’attente.<br>J’aime bien mettre en suspension des trucs.<br>J’aime les clochettes.",
+
+			"description":[
+				"﻿J’ai utilisé Photosounder pour la production de sons, Reaper et Bespoke pour le mixage/montage. Je me suis appuyée sur des captures d’écran de la vidéo de Leila que j’ai rentrées dans Photosounder (qui fait de la synthèse sonore) afin d’en générer des sons, que j’ai ensuite utilisés dans la composition."
+			],
+
+			"links":
+			[
+			],
+			"sources":
+			[
+				{
+					"name": "screenhot-1.png",
+					"file": "screenshot1.png"
+				},
+				{
+					"name": "screenhot-2.png",
+					"file": "screenshot2.png"
+				},
+				{
+					"name": "screenhot-3.png",
+					"file": "screenshot3.png"
+				},
+				{
+					"name": "screenhot-4.png",
+					"file": "screenshot4.png"
+				}
+			]
+		}
+	},
+	{
+		"title": "UNTILTED 2",
+		"folder": "afalf-harmonie",
+		"videast":
+		{
+			"name": "ΛFΛLFL",
+
+			"bio": ["<b>Discussion entre deux sociologues sur la notion d'Anthropocène <br>Sociologue 1</b>: As-tu lu l'article de Bruno Latour dans le dernier numéro de \"La Découverte\" ? Il propose une vision très intéressante de l'Anthropocène, en la reliant à la notion de \"modernité réflexive\". <b>Sociologue 2</b>: Oui, je l'ai trouvé très stimulant. Il a raison de dire que nous sommes entrés dans une nouvelle ère où l'homme est devenu une force géologique majeure. Cela pose des questions fondamentales sur notre rapport à la nature et à la planète. <br><b>Sociologue 1</b>: Ce qui me frappe dans l'Anthropocène, c'est la rupture qu'elle représente avec les époques précédentes. L'homme a toujours eu un impact sur son environnement, mais jamais à une telle échelle.exclamation<br><b>Sociologue 2</b>: C'est vrai. La question est de savoir comment nous pouvons réagir à cette rupture. Faut-il accepter l'Anthropocène comme une nouvelle réalité et essayer de la gérer au mieux ? Ou bien devons-nous essayer de revenir à un mode de vie plus en harmonie avec la nature ?<br></b>Sociologue 1</b>: Je ne pense pas qu'il y ait une réponse simple à cette question. Il y a des arguments à défendre pour les deux points de vue.<br><b>Sociologue 2</b>: D'un côté, il est clair que nous ne pouvons pas revenir en arrière. L'Anthropocène est une réalité avec laquelle nous devons composer.<br><b>Sociologue 1</b>: Mais de l'autre côté, nous ne pouvons pas non plus continuer comme si de rien n'était. L'impact de l'homme sur la planète est en train de devenir dévastateur.<br><b>Sociologue 2</b>: C'est vrai. Il nous faut trouver un moyen de vivre en équilibre avec la nature. Mais comment faire ?<br><b>Sociologue 1</b>: C'est la grande question à laquelle nous devons répondre. Il n'y a pas de solution miracle, mais il est urgent de trouver des solutions.<br><b>Sociologue 2</b>: Je suis d'accord. L'avenir de la planète en dépend.",
+
+			"<b>En plus de la discussion, voici quelques points importants à souligner :</b><br>- L'Anthropocène est un concept controversé.expand_more Certains scientifiques et philosophes le contestent, arguant qu'il est anthropocentriste et ne prend pas en compte la complexité des interactions entre l'homme et la nature.expand_more<br>- La notion d'Anthropocène a des implications importantes pour la politique, l'économie et la société.expand_more Elle nous oblige à repenser notre rapport à la nature et à la planète.<br>- Il est nécessaire de mener des recherches approfondies sur l'Anthropocène afin de mieux comprendre ses implications et de trouver des solutions aux problèmes qu'il pose.",
+
+			"<b>Voici quelques ressources supplémentaires pour en savoir plus sur l'Anthropocène :</b><br>L'Anthropocène : Une histoire de l'humanité: [URL non valide supprimée] de Christophe Bonneuil et Jean-Baptiste Fressoz<br>- L'Anthropocène et la crise de l'humanisme: [URL non valide supprimée] de Bruno Latourexclamation<br>- Le site web du groupe de recherche \"Anthropocene\": [URL non valide supprimée]",
+
+			"<b>J'espère que cette discussion vous aura été utile.</b>",
+
+			"ΛFΛLFL<br>Born in Mauritania and based in Paris, Mamady Diarra is a former DJ, now a musician and live coder.<br>After studying Social and Human Sciences, he decided to focus on his passion for music and digital arts."
+		],
+
+			"description": [
+				"J’ai souhaité explorer le thème de l’open call CCC “divagation’’ par le prisme du mot Anthropocene.<br>The Anthropocene is a new geological epoch characterized by the advent of humans as the main force of change on Earth, surpassing geophysical forces. This is the age of humans! That of an unprecedented planetary disorder.<br>But this word “Anthropocene” – not a concept! – does it simply take its place in the long list by which cultures and societies attempted to express the spiritual situation of an era? Or does it make a leap that is both qualitative and quantitative, linking natural history and history in an unprecedented way?",
+				"By saying that “we are in the Anthropocene”, what are we saying? This statement formulates a diagnostic ambition. It also calls for a polemical discussion. A diagnostic word, the word “Anthropocene” translates the superb and painful memory that the Earth keeps of the passage of humans. This neologism uses the radical “cene” which, in geology, designates the Cenozoic eras, such as the Pleistocene or the Holocene."
+			],
+
+			"links":
+			[
+				{
+				"name": "Website",
+				"url": "https://afalflart.carrd.co/"
+			}
+		]
+		},
+
+		"musician":
+		{
+			"name": "Harmonie Aupetit",
+			"bio": "Harmonie Aupetit est née à Guéret en 1989 et vit aujourd’hui à Nanterre. Artiste autodidacte, elle explore divers champs et techniques pour créer des œuvres hybrides. Un « bricolage » qui s’inscrit dans une démarche et une esthétique DIY. Elle fait de la musique au sein du groupe de freak folk Chiens de Faïence.",
+
+			"description":[
+				"Pour faire l'audio sur l'animation d'AFALFL, j'ai utilisé une guitare folk et ma voix, passée dans la pédale d'effets Vocal 300 de DigiTech."
+			],
+
+			"links":
+			[
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/harmonieaupetit/"
+				},
+				{
+					"name": "Website",
+					"url": "https://www.harmonieaupetit.com/"
+				},
+				{
+					"name": "Facebook",
+					"url": "https://www.facebook.com/harmonieaupetitgifs"
+				},
+				{
+					"name": "X",
+					"url": "https://twitter.com/harmonie_a"
+				}
+			]
+		}
+	},
+	{
+		"title": "new6",
+		"folder": "minuit-marlen",
+		"videast":
+		{
+			"name": "Minuit",
+
+			"bio": "Dorian Rigal alias Minuit explore le monde nocturne. Il propose d’habiter la nuit urbaine, symbole d’une liberté décomplexée, à l’opposé des codes sociaux contraignants du jour. C’est par ce prisme qu’il utilise l’art numérique : projection architecturale, film d’animation, sculpture écranique et réalité virtuelle pour créer un monde imaginaire où, à la manière des surréalistes, la dureté du réel se déforme pour devenir un paysage fantastique.",
+
+			"description": "",
+
+			"links":
+			[]
+		},
+
+		"musician":
+		{
+			"name": "Marlen",
+			"bio": "<b>«Hier j’avais très envie de manger une glace et finalement j’ai acheté du chocolat...»</b><br>C’est toujours pas gagné de dire quelque chose sur moi...",
+
+			"description":[
+				"<b>1</b>- Installer des marqueurs sur After Effect pour trouver des moments clés.<br><b>2</b>- Ouvrir reaper et remettre ces marqueurs.<br><b>3</b>- Récupe de bruits de : Foule à Dublin, vagues de Syracuse, poulailler de papa Gérard, bruits d’oiseaux de Sologne, marché de Catagne et de Dijon, poussée de chansonnette avec la Rue Ketanou sur une grève en mode off du Festival de Loire, percu party à l’anniversaire de Didi, tour de piano SCNF avec une amie brésilienne, etc. Bref, des souvenirs rigolos, afin de ne pas oublier qu’il y a parfois de beaux moments de vie.<br><b>4</b>- Essayer de créer des objets sonores différents entres ces marqueurs : la foule, vers la vague, vers les oiseaux, jusqu’à la retombée de poulets.<br><b>5</b>- Basculer le son sur After Effect.<br><b>6</b>- Exporter le tout.<br><b>7</b>- Hop ! C’est plié."
+			],
+
+			"links":
+			[
+				{
+					"name": "instagram",
+					"url": "https://www.instagram.com/m.a.r.l.e.n_b/"
+				}
+			]
+		}
+	},
+	{
+		"title": "new7",
+		"folder": "minuit-marlen",
+		"videast":
+		{
+			"name": "Minuit",
+
+			"bio": "Dorian Rigal alias Minuit explore le monde nocturne. Il propose d’habiter la nuit urbaine, symbole d’une liberté décomplexée, à l’opposé des codes sociaux contraignants du jour. C’est par ce prisme qu’il utilise l’art numérique : projection architecturale, film d’animation, sculpture écranique et réalité virtuelle pour créer un monde imaginaire où, à la manière des surréalistes, la dureté du réel se déforme pour devenir un paysage fantastique.",
+
+			"description": "",
+
+			"links":
+			[]
+		},
+
+		"musician":
+		{
+			"name": "Marlen",
+			"bio": "<b>«Hier j’avais très envie de manger une glace et finalement j’ai acheté du chocolat...»</b><br>C’est toujours pas gagné de dire quelque chose sur moi...",
+
+			"description":[
+				"<b>1</b>- Installer des marqueurs sur After Effect pour trouver des moments clés.<br><b>2</b>- Ouvrir reaper et remettre ces marqueurs.<br><b>3</b>- Récupe de bruits de : Foule à Dublin, vagues de Syracuse, poulailler de papa Gérard, bruits d’oiseaux de Sologne, marché de Catagne et de Dijon, poussée de chansonnette avec la Rue Ketanou sur une grève en mode off du Festival de Loire, percu party à l’anniversaire de Didi, tour de piano SCNF avec une amie brésilienne, etc. Bref, des souvenirs rigolos, afin de ne pas oublier qu’il y a parfois de beaux moments de vie.<br><b>4</b>- Essayer de créer des objets sonores différents entres ces marqueurs : la foule, vers la vague, vers les oiseaux, jusqu’à la retombée de poulets.<br><b>5</b>- Basculer le son sur After Effect.<br><b>6</b>- Exporter le tout.<br><b>7</b>- Hop ! C’est plié."
+			],
+
+			"links":
+			[
+				{
+					"name": "instagram",
+					"url": "https://www.instagram.com/m.a.r.l.e.n_b/"
+				}
+			]
+		}
 	}
 ]
