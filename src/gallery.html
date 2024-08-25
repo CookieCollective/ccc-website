@@ -10,8 +10,8 @@
         {% for project in projects %}
         <div class="gallery-item">
             <a href="/projects/{{ project.title | slugify }}">
-                <video class="video-preview" muted loop alt="{{ project.title }}">
-                    <source type="video/mp4" src="/content/{{ project.folder }}/clip.mp4" />
+                <video class="video-preview" muted autoplay loop alt="{{ project.title }}">
+                    <source type="video/mp4" src="/content/{{ project.folder }}/reduced.mp4" />
                 </video>
                 <div class="gallery-item-content">
                     <h1>{{ project.title }}</h1>
