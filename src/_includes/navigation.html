@@ -4,13 +4,33 @@
     </div>
     <div class="horizontal-scroller">
         <div><a class="navlink" href="/gallery">All</a></div>
-        <div><a class="navlink" href="/">Random</a></div>
-        <div><a class="navlink" href="/">Mur du son</a></div>
+        <!-- <div><a class="navlink" href="/random/{{ here i should get a random slug from projects }}">Random</a></div> -->
+        <div><a class="navlink random-link" href="#">Random</a></div>
+        <div><a class="navlink" href="/wall-of-sound">Wall of Sound</a></div>
         <div><a class="navlink" href="/">Cinema</a></div>
         <div><a class="navlink" href="/">Fanzine</a></div>
         <div><a class="navlink" href="/"><img src="/media/icon/cookie_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"></a></div>
     </div>
 </div>
+
+<script>
+    var projectSlugs = [
+        {% for project in projects %}
+            "{{ project.title | slugify }}"{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+    ];
+
+    function getRandomSlug() {
+        return projectSlugs[Math.floor(Math.random() * projectSlugs.length)];
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+        var randomSlug = getRandomSlug();
+        var randomLink = document.querySelector('.random-link');
+        randomLink.href = "/projects/" + randomSlug;
+    });
+
+</script>
 
 <style>
 
