@@ -13,6 +13,7 @@
   "author": "BuboBubo",
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "@11tyrocks/eleventy-plugin-sass-lightningcss": "^1.2.0",
     "eleventy": "^1.0.7"
   },
