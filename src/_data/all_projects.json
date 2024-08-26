@@ -1,0 +1,2804 @@
+[
+	{
+		"title": "Divagation",
+		"folder": "damien-rene-danger",
+		"videast":
+		{
+			"name": "damien",
+			"bio":
+			[
+				"Programmeur et dévelopeur de jeu vidéo. J'ai découvert Pico8 il y a un an lors d'une demo party."
+			],
+			"description":
+			[
+				"Demo réalisée en utilisant Pico8, une Fantasy Console qui propose un environement developement de jeu complet (code,sprite,son,level design) inspirée des  console 8bit.",
+
+				"Démo réalisée en 1 mois, avec le gros de l'optimisation fait pendant la Revision 2024 Pico8 simulant également les soucis de performance des console 8bit. L'on utilise donc pas la puissance brut de l'ordinateur.",
+
+				"<a href='https://www.lexaloffle.com/pico-8.php'>https://www.lexaloffle.com/pico-8.php</a>"
+			],
+			"sources":
+			[
+				{
+					"name": "sources.p8",
+					"file": "sources.zip"
+				}
+			]
+		},
+		"musician":
+		{
+			"name": "Rene Danger",
+			"links":
+			[
+				{
+					"name": "soundcloud",
+					"url": "https://soundcloud.com/rene-danger"
+				},
+				{
+					"name": "instagram",
+					"url": "https://www.instagram.com/rene_dangerrr/"
+				},
+				{
+					"name": "website",
+					"url": "https://aledreff.github.io/"
+				}
+			],
+			"sources":
+			[
+				{
+					"name": "sources.gbc",
+					"file": "sources.zip"
+				},
+				{
+					"name": "sources.sav",
+					"file": "sources.zip"
+				},
+				{
+					"name": "process.txt",
+					"file": "sources.zip"
+				}
+			]
+		}
+	},
+	{
+		"title": "Glisser sur l'autoroute",
+		"folder": "13fle-fuzzy",
+		"videast":
+		{
+			"name": "13fle",
+			"bio":
+			[
+				"Logiciel utilisé: Première Pro"
+			],
+			"description":
+			[
+				"Localisation: Cergy",
+				"Inspiration(s) très désordonnées :",
+
+				"« Désormais Youtube est mon chaudron cinéma. Histoires tentaculaires de monstres, de débordements, de films tournés à partir d’une portion congrue et puissante du monde, de copiages, de collages, de ratages, d’essais, d’extraits de conférences bioniques, de clips réinventés, de films traditionnels ou introuvables, d’extraits jubilatoires, magma cent queues et cent têtes, d’horreurs rejetées, de publicités insupportables, jonchés de perles rares non diffusées ailleurs, de films associatifs, de cris, de spectacles fancy-fair, d’inventivité de vacances, de bouts abandonnants le surplomb, se mélangeant à la boue, tutoriels pour les ongles et les griffes, capsules vidéo de faux docteurs politisés, de mainstream qui fait du bien.»<br><I>Donna Haraway, Vivre avec le trouble.</I>",
+
+				"<a href='https://www.youtube.com/watch?v=7Xp7U-lyNM0&list=PLzJ-JEqWr7GCyiB0VbjhLzIN_GTKggH4V&index=93'> <I>Martial dit l’homme bus</I>, Michel Etter</a>",
+
+				"<a href='https://www.youtube.com/watch?v=BesHd0TN3Ok&list=PLzJ-JEqWr7GCyiB0VbjhLzIN_GTKggH4V&index=102'> <I>Ten minutes older</I>, Herz Frank</a>",
+
+				"<a href='https://www.youtube.com/watch?v=BesHd0TN3Ok&list=PLzJ-JEqWr7GCyiB0VbjhLzIN_GTKggH4V&index=102'> Delia Derbyshire sur un film de Harry Smith</a>",
+
+				"<a href='https://www.youtube.com/watch?v=xMIk3RO1x-s&list=PLzJ-JEqWr7GCyiB0VbjhLzIN_GTKggH4V&index=151'> No No Nooky T.V Barbara Hammer</a>",
+
+				"<a href='https://www.youtube.com/watch?v=gOZc9jGugew&list=PLvy4APdETxV6j_JZ0qzdgz5DbEOqRO94t'> Commercial album (clips) The Residents</a>",
+
+				"<I>Processus de montage</I> \"monter comme tu penses\"?",
+
+				"C’est comme une pensée qui avance, qui clignote fort quand ça scintille, c'est que ça me fait du bien ? <br>Ça rebondit, ça oscille un peu comme une onde sinusoïdale dans la tête et dans les mains. L’onde elle cherche, elle crie beaucoup quand elle arrive à sortir elle se calme.",
+
+				"Des images comme de la musique, c’est du rythme",
+
+				"Les images que j’utilise c’est des publicités de structures de jeux pour enfants. Je sais pas bien pourquoi ces images me touchent.<br>Quelque chose dans le tourniquet, trébucher du tourniquet. Le fait qu’elles soient un peu crades ces images et en même temps très cadrées.<br>C’est des notes du téléphone, des pensées qui fusent, qui jouent en même temps. Prendre tout ça en temps que jeu ça détend.",
+
+				"Les images c’est une chienne aussi, c’est à la fin, c’est quand elle trace dans le jardin de mon arrière grand mère. Mon arrière- grand-mère est morte, il reste sa maison. Cette chienne c’est un bébé elle clignote elle réagit elle est sensitive si ça l’intéresse pas elle s’en fout.<br>Si le chant d’un oiseau est plus intéressant que toi elle s’en fout de toi elle trace elle y va. Y’a quelque chose qui me bouleverse là dedans d’une réaction active du corps immédiate à n’importe quelle émotion sensation.",
+
+				"Les pieds avancent reculent poum poum poum<br>Ils restent en mouvement hop bondit on essaye on y va",
+
+				"C’est des techniques de collage comme une pensée qui ne propose pas de narration fixe mais qui produit un fil en mouvement.Quelque chose de pas très stable de pas très sûr c’est une perception brinquebalante, saccadée, mais elle est boursouflée de tendresse.<br>Souvent j’ai peur que ce soit chiant comme y’a pas de narration. J’ai peur que ce soit trop abstrait.<br>J’aime exprimer quelque chose du mouvement. Il peut parler d’une journée, d’une année, d’être amoureuse ou anxieuse. Parfois c’est tout en haut parfois c’est tout en bas mais ça avance.",
+
+				"C’est difficile de ne pas être dans l’abstraction pour parler de choses comme ça."
+			]
+},
+
+		"musician":
+		{
+			"name": "Fuzzy",
+			"bio": "I live in Aubervilliers 93, in France, near the canal. (he/him)<br></br>I was inspired by the video, but my inspiration for the music was from listening to a lot of contemporary/post-romantic music (Debussy, Rhys Chatham and Arvo Part) in the past 2 weeks and some circa-2015 NL drum n bass this morning.",
+
+			"description":
+			[
+				"This was recorded in a single take the 14th of april, to keep it «natural» and organic and balance the eclecticism of the video.",
+
+				"Arvo Part (Dies Irae) inspired the main theme. It’s just an F minor chord, across a cloud and few VCOs. When the video is more abstract, some FM gets added and makes the thing more gritty and nervous.",
+
+				"Very little post-processing was done, just some dynamic treatments using some compressor and adding more reverb to get the stereo more immersive and spacious (the single track was fully mono otherwise, even though it had some spectral delay treatment from the custom DSP (some modded firmware based on Mutable instruments Cloud module) running in the Daisy Patch)",
+
+				"Eurorack = Lifeforms SV1 oscillators, hermod for the midi-CV conversion, and a doepfer EG controlling the Lifeforms’ lowpass filter, that’s basically it.",
+
+				"Mixing/syncing/recording  = I use reaper for this kind of task,  the eurorack track is going through Adam Szabo Solaris VST (it’s pretty cool and deep, and it’s free (not FOSS though) was up during the take as it adds a lot of depth, the track went through SSL buss compressor*, and ProQ3 set to dynamic EQ in order to prevent the upper-mids from being too annoying when listened to loud.<br>I also added a kick drum sample in order to have a clear “boom” when the 2nd part of the video kicks in, it’s going through a long reverb and Moog filter*.<br>The master goes in the precision maximizer*",
+
+				"*those plugin are from UAD",
+
+				"Here's a picture of  my system as patched when recording the piece."
+			],
+			"sources":
+			[
+				{
+					"name": "picture.png",
+					"file": "instrument.png"
+				}
+			]
+		}
+	},
+	{
+		"title": "Anatomie d'une vague",
+		"folder": "valentin-sismann-lucieter",
+		"videast":
+		{
+			"name": "Valentin Sismann",
+			"bio": "Valentin Sismann est un artiste français travaillant principalement dans les champs de la musique acousmatique, du cinéma expérimental et de lab vidéo. L’un de ses plus importants travaux est In Repetito Religare, un film expérimental réalisé en couple avec Audrey Colard qui a fait sa premièreb lors d'une exposition à The Film Gallery puis a été sélectionné à plusieurs festivals internationaux. Ses pièces acousmatiques ont été jouées à plusieurs festivals en France ainsi qu’à la radio. Depuis, il travaille la vidéo comme avec Plasformes exposée au festivals Light Matter aux États-Unis et CUVO en Espagne tout au long de l'année 2023 et 2024.<br> Le travail de Valentin Sismann s'articule autour d'une réflexion sur les supports de fixations et de leurs possibilités d'écriture. Il cherche à développer dans ses œuvres, acousmatiques ou vidéo, un langage relatif à ces time-based media, une écriture temporelle invoquant poésie, sémiologie et musicalité.",
+
+			"description": [
+
+				"Vidéo, 4'04'' 4:3, fichier numérique SD, couleur, muet",
+				"Anatomie d'une vague est une étude de mouvement, un héritage de la chronophotographie à l'ère de la vidéo. Dans un système de dissection du temps, l'objet étudié est finalement recomposé. Cet objet se confond d'abord avec l'objet filmé, de manière évidente, la vague mais aussi les deux personnages qui l'explorent dans son espace. D'un autre côté, c'est une enquête sur le médium lui-même: la vidéo mais aussi l'archive. De la même manière que l'un de mes autres travaux vidéo Le mystère du collier disparu, il s'agit d'une approche de found footage personnelle interrogeant l'enfance, ici le lien entre mon grand frère et moi."
+			]
+		},
+		"musician":
+		{
+			"name": "Lucieter",
+			"bio": "lucieter plays with atmospheric electronic production with her own vocals and poesy apposed to it. She looks for an emotional and experimental - sometimes dance - music",
+
+				"description": [
+					"Aujourd’hui je divague, je dis les vagues. Si Live et mon petit clavier Akai me permettent d’habitude de me recentrer, aujourd’hui ma concentration n’a de visage que dans la divagation. Aujourd’hui, comme tout ces derniers jours, je ne sais plus où je vis, ni de ce que demain sera fait. Aujourd’hui, mon corps tout entier rejette sa réalité, et mon esprit divaguant compose fébrilement assisté de mes mains qui seules semblent se soustraire à la torpeur ambiante. Les vagues me manquent, peut être seraient elle le seul remède à ma divagation.Je m’apprête à les dire, à les transcrire, puis à m’y fondre. Mon seul souhait : que mon corps s’y retrouve, que la musique s’y étende, pour finir sa trajectoire sur les rives espérées d’une autre réalité."
+				]
+		}
+	},
+	{
+		"title": "Drift",
+		"folder": "julia-pieczynska-mckinley-street",
+		"videast":
+		{
+			"name": "Julia Pieczynska",
+			"bio": [
+				"<b>Location</b>: Poland<br><b>Gender</b>: Female<br><b>Inspiration</b>: Sound waves<br><b>About me:</b> I am an artist and graphic designer. In addition to my own artistic and design work, I teach graphic design classes and am an assistant in the Digital Image and Creative Coding studio at the Academy of Fine Arts in Łódź, Poland. In my work I combine art with technology"
+			],
+			"description": [
+				"<b>Software:</b> Processing",
+				"<b>Description of project:</b><br>I created a generative kinetic projection that generates in real time based on the code I wrote in the Processing environment. The work consists of many deformed circles. Their number and appearance change while generating the projection, but within the ranges I set. The size of the shapes tries to align with an invisible circle that changes its size from time to time. The use of randomness helped me achieve unpredictable and very diverse effects. The projection can be displayed on any size display because it is responsive. However, it looks best when presented on a larger scale (e.g. 170 x 170 cm) using a projector on a wall or on a clean white canvas hung on a wall.",
+
+				"<b>Description of my idea:</b><br>When creating this project, I focused on divagation, understood as deviating from the topic during a conversation, because when we translate this word into my native language (Polish), this is its main meaning.<br>The deformed circles visible in the projection represent various topics that appear during the conversation. The more the topics differ from each other, the more visible are the differences between the shapes (degree of deformation, size, color). The main meaning of the conversation may change over time, and so does the size of the circle to which all shapes strive.",
+
+				"*The recordings and photos I have attached are sample parts of the projection. Work has no defined beginning and end. It’s not an animation. It’s a generative kinetic image."
+			]
+		},
+		"musician":
+		{
+			"name": "mickie / Mckinley Street",
+
+			"bio": "american from Little Rock, Arkansas<br>living in Paris<br>working with desktop performances and video",
+
+			"description": [
+				"﻿using tidal to companion Julia Pieczyńska starting with \"casio\" #note \"c2\" shifting back and forth between variations of \"casio 808*2sd casio 808*20sd\" # note \"c2 a f2 e2\""
+			],
+
+			"links":
+			[
+				{
+					"name": "instagram",
+					"url": "https://www.instagram.com/mckinleystreett/"
+				},
+				{
+					"name": "website",
+					"url": "https://mckinleystreett.com/"
+				}
+			]
+		}
+	},
+	{
+		"title": "Divagations",
+		"folder": "daria-luka-lucky",
+		"videast":
+		{
+			"name": "Daria Luka",
+
+			"bio": "I'm creative coder and motion designer based in Poland, working in processing, p5js and unity.",
+
+			"description":
+			[
+				"link to interactive version of work and code (works only in chrome)<a href='https://editor.p5js.org/daria.luka.kontakt/full/OK_zZB0yj'>link</a> ",
+
+			"I'm excited to share my interactive work, crafted using an open-source, freely available JavaScript-based program called P5.js. Within this framework, I utilize a voice recognition library built upon Google Chrome's mechanisms for speech recognition.",
+
+			"Here's how it works: The program listens to what you say, displays the message, then translateseach world into \"bla\" to expres pointlessnes of divagations. After that each element has the freedom to move and wander in directions of its own choosing.",
+
+			"To enhance readability and maintain interest, after a brief pause in speech, a new divagation begins, introducing a change in the font style of the messages."
+		],
+			"links":
+			[
+				{
+					"name": "instagram",
+					"url": "https://www.instagram.com/keep_it_graphic/"
+				}
+			]
+		},
+
+		"musician":
+		{
+			"name": "Lucky",
+			"bio": "Je suis une live codeuse de Bruxelles, et j’utilise Tidal Cycles!",
+
+			"description":[
+				"I used samples of my voice saying syllabes we recorded a few years ago with Ralt144mi, and played around with them while watching the video using Tidal Cycles.",
+				"d1<br>$jux (rev)<br>$chop 3<br>$ s\"b:1 b:2 a*2\"<br>#delay 0.5<br>#delayfb 0.3",
+
+				"d2<br>$striate 7<br>$sometimesBy 0.95 (#speed \"<0.1 0.5 0.2 0.7>\")<br>$ s\"a*50 b*16 a*30 v*60\"<br>#gain 0.9<br>#delay 0.4<br>#delayfb 0.3",
+
+				"d3<br>$jux (rev)<br>$chop 7<br>$sometimesBy 0.75 (#fshift \"<100 10 260 430 825>\")<br>$ s\"l:1 v:3 o*3\"<br>#room 0.5<br>#sz 0.5<br>#gain 0.95",
+
+				"hush",
+
+				"panic"
+			]
+		}
+	},
+	{
+		"title": "ı/ˇ¡3M©zéμ©3¥|ï~Áμ~ÕE+Δ~X€ú",
+		"folder": "mckie-marlen",
+		"videast":
+		{
+			"name": "Mckinley Street",
+
+			"bio": "american from Little Rock, Arkansas<br>living in Paris<br>working with desktop performances and video",
+
+			"description": "Hi ::) my video is pretty simple in term of process;<br>I just used BB Edit : <a href='https://www.barebones.com/products/bbedit/'> https://www.barebones.com/products/bbedit/</a> and this max patch (attached)",
+
+			"links":
+			[
+				{
+					"name": "instagram",
+					"url": "https://www.instagram.com/mckinleystreett/"
+				},
+				{
+					"name": "website",
+					"url": "https://mckinleystreett.com/"
+				}
+			]
+		},
+
+		"musician":
+		{
+			"name": "Tlazolteotl",
+			"bio": "",
+
+			"description":[
+				"1- Récupe de qq sons. Dans les détails :<br>~ le Death Whistle, ou sifflet de la mort, utilisé par les aztèques pour faire fuir les ennemis.<br>~ Tlazolteotl prononcé par une machine.<br>~ Sons d'oiseaux : coucou, corbeau, mesange et rossignol.<br>~ Les touches d'un minitel et un bon vieux modem.<br>~ Extrait d'une chaude soirée entre amis, à looper des sons érotique et ainsi tenter de faire face à l'ennuis.<br>~ Récupe d'une phrase extraite d'une pièce sonore d'un ami. Je l'ai inversée et maltraitée, il ne se reconnaîtrait donc pas... Tant mieux pour moi. Je fais une vilaine Cerber;)",
+
+				"2- Livecoding avec ORCA et Sunvox,pour la part de rêverie.Y'a aussi une bricole Vital.",
+
+				"3- Inversion et accélération.",
+
+				"4- Coupe, colle, bidouille.",
+
+				"5- Mange des graines de tournesol. Pour se donner de l’entrain !",
+
+				"6- L’export déconne, la loose...",
+
+				"Un grand merci à Claire pour sa voix si suave."
+			]
+		}
+	},
+	{
+		"title": "mon chien errant",
+		"folder": "harmonie-sport",
+		"videast":
+		{
+			"name": "Harmonie Aupetit",
+
+			"bio": "Harmonie Aupetit est née à Guéret en 1989 et vit aujourd’hui à Nanterre. Artiste autodidacte, elle explore divers champs et techniques pour créer des œuvres hybrides. Un « bricolage » qui s’inscrit dans une démarche et une esthétique DIY.",
+
+			"description": "Réalisation de l'animation \"Mon chien errant\"&nbsp;:<br> - images en code ASCII avec le logiciel Notepad++ <br>- broderie à la main <br>- photographie numérique des broderies réalisées<br>- colorisation du fond et des images ASCII + montage des différentes phases d'animation sous Photoshop",
+
+			"links":
+			[
+			]
+		},
+
+		"musician":
+		{
+			"name": "Sport en famille",
+			"bio": "Bio : Lors d'une randonnée sempiternelle au Namsan Park de Séoul avec les spitz nains en poussettes<br>Suite bio : et les entrepreneurs en survêts de velours rouge, nous nous sentions, enfin, en famille.",
+
+			"description":[
+				"« Extrait de la première variation verrillon » est une tentative de sport de glisse : les doigts frôlent les crêtes en boucle."
+			]
+		},
+
+		"links":
+		[
+			{
+				"name": "Instagram",
+				"url": "https://www.instagram.com/fanny.testas/"
+			}
+		]
+	},
+	{
+		"title": "Looking_for-something-I-had_before",
+		"folder": "verbalizer-francois",
+		"videast":
+		{
+			"name": "VERBALIZER",
+
+			"bio": [
+				"VERBALIZER - Michal Liberak",
+			"• location: Gdańsk, Poland<br>• gender: male<br>• Inspiration source(s): analogue equipment, obsolete technologies",
+
+			"a text about myself:<br>Michał (Wojna) Liberak - electronic music and multimedia producer / performer. Audiovisual manipulator. A humanoid in disguise. During the warm season, can be found near meadows and forests. In winter, he appears mainly in bunkers, vacant buildings and devastated basements. Sleeps in an inflatable coffin at the edge of the cemetery by the sea. Likes to travel. Generates sounds and images out of machines. Supporter of the anti-fascist, teknopunk movement and sound system culture."
+		],
+
+		"description": [
+			"Software: <br>Background video footage source: gifs from <a href='https://giphy.com/'> Giphy API</a><br>Background video footage mix: <a href='https://azopsoft.com/'> GGV2 (Glitch Gif VJ) </a> <br>Recording the live final mix: <a href='https://obsproject.com/'>OBS</a>",
+			"Hardware:<br>Background video footage player: <a href='https://github.com/cyberboy666/r_e_c_u_r'>r_e_c_u_r</a> open source video sampler<br>Video synth Equations: <a href='https://github.com/cfoge/Video_EQ'>by CFOGE</a><br>Video synth CatVi$$ion (old prototype): <a href='https://www.catfullofghosts.xyz/'>by CFOGE</a><br>SyncShredder also by CFOGE<br><a href='https://gieskes.nl/visual-equipment/?file=schele-mixer'>Schele Mixer2B</a> by Gijs Gieskes <br>Video mixers: Edirol V4 x 2<br>Video splitter: RV-8/16PRC<br>AV to HDMI converter: Rei XD-M901<br>Feedback camera #1: Sony SSC-DC378P<br>Feedback camera #2: noname \"spy\" SD mini cam",
+			"Process: no computer, no postproduction. Recorded live."
+],
+			"links":
+			[
+				{
+					"name": "linktree",
+					"url": "https://linktr.ee/verbalizer"
+				}
+			]
+		},
+
+		"musician":
+		{
+			"name": "PPM",
+			"bio": [
+				"<b>FRANÇOIS GALLAND</b>",
+				"<b>Synthétiseur Modulaire</b><br>« N’est valable en art que la qualité de la sensibilité de l’artiste, et l’art n’est que le moyen d’extériorisation mais un moyen fou, sans règle ni calcul. »<br><b>Jean Fautrier</b> - « Parallèles sur l’informel », Blätter + Bilder, mars-avril 1959.",
+				"Cet acronyme existe déjà pour désigner plusieurs choses comme « Peak to Peak Meter » dans les mesures des signaux ou « Pulsation Par Minute » ou encore « Partie Par Million » en science ou même la société « Papiers Peintures Mosellans » ...<br>Il est comme le synthétiseur, modulaire donc et change en fonction de ce à quoi on l’associe.<br>Ce nom qui reste générique s’adapte à l’actualité du travail et de l’évolution de la Psychédélique Punk Machine. Sans « Parti Pris Moral » dans un « Propos Purement Musical » l’artiste se réclame simplement d’une expression libre dans un art informel."
+			],
+
+			"description":[
+				"Synthétiseur modulaire exclusivement.<br>Plusieurs stems enregistrés en stéréo sur Tascam portable DR44WR à 96kHz puis monté en synchronisation avec la vidéo sur ProTools.<br>Export en PCM 96kHz / 32b float."
+			],
+
+			"links":
+			[
+				{
+					"name": "Website",
+					"url": "http://tous-des-sons.com/"
+				},
+				{
+					"name": "Bandcamp",
+					"url": "https://gallandfrancois.bandcamp.com/"
+				}
+			]
+		}
+	},
+	{
+		"title": "Light tissues",
+		"folder": "aga-fyodor",
+		"videast":
+		{
+			"name": "Aga Nowacka",
+
+			"bio": "Hi, I am Aga Nowacka. I am a female artist from Poland.<br>I create in the field of visual arts, music, dance and performance.<br>I am designing lights for theater performances therfore my interest in light which I am experimenting with in analogue projections.",
+
+			"sources":
+			[
+				{
+					"name": "process.mp4",
+					"file": "process.mp4"
+				}
+			],
+
+			"links":
+			[
+				{
+					"name": "instagram",
+					"url": "https://www.instagram.com/aganowacka/"
+				}
+			]
+		},
+
+		"musician":
+		{
+			"name": "Fyodor",
+			"bio": [
+			"<b>(he/them)<br><br>Artist statement</b>",
+
+			"Being born in Russia to a Ukrainian family into the aftermath of the Soviet Union’s collapse and later migrating to Europe with no possibility of returning, has defined my work for many years, permeating it with a sense of displacement and dispossession, while also fuelling my fascination with transient, shifting identities inherent in sound.",
+			"Beginning my artistic career as a jazz musician, I worked in a variety of projects ranging from classical and baroque music to experimental jazz and free improvisation. In recent years I prefer to work on sound art or improvise in smaller groups of electro-acoustic musicians. My approach combines field recording with hand-crafted audio-processing tolls in Pure Data."
+		],
+
+			"description":[
+				"<b>Working Process</b>",
+				"I’ve composed and recorded the entire track in Pure Data, using Ableton for mixing and mastering only.",
+				"I often work with random processes and probability and draw my inspiration from electromagnetic listening, so normally my workflow consists of preparing relatively long sections in PD, 30sec to 2min in this case, listening back and selecting pieces that work together best.",
+
+				"The first step in my process was to watch the video several times and try to describe what I see, and mark every important “landmark” on the timecode. After few experiments with the music, however, I have decided against trying to match the image with sound completely, but rather make the sound match the image in mood and essence. In the end I’ve decided to divide the piece in 4 loose section.",
+
+				"These became <I>Intro+Flower</I> (0-1:36), <I>Field</I> (1:36-3:47), <I>Stretti</I>  (3:47-4:24), <I>Recap</I>  (4:24-end).",
+				"I liked a sense of shimmering shifting identities the visual produce, and tried to match them with all the permutations of the voice sample and the lower drone in <I>Flower</I>, <I>Stretti</I> and <I>Recap</I>. I used this project as an opportunity to experiment with a vocoder patch from a <b><a href='https://github.com/porres/Live-Electronics-Tutorial'>tutorial</a></b> by Alexandre Torres Porres. I think the voice part trying to fold itself into a proper phrase, but constantly failing at that, conveys well how the shapes from the video constantly promise to shift into something familiar but never fulfilling the promise. The other aspect contributing to this feeling is the lower drone, which is originally a combination of a feedback synth patch I made awhile back and a field recording, that sounds like an enveloping ambience, but is unsteady and always in danger of breaking into a train of short pulses.",
+
+				"For the middle section, <I>Field</I>, being the most intense, I’ve decided to choose a more “extraverted” feel. I’ve used an emulation of Mutable Instruments’ Plaits module from PD’s ELSE library combined with my own older patches for the ambience. The granulated sample of a breaking glass put through the vocoder patch mentioned earlier is heard on the foreground. In that patch the order of grains is decided upon by a simple Markov chain, creating flowing organic patterns. There are two short subsections where the flow of <I>Field</I> gets broken. They may not fit too well with the image, but in my opinion they contribute to the disorienting feeling the video produces.",
+
+				"The last two sections function as a recapitulation of sorts. They return to the ideas introduced in the beginning but have a more subdued tone to match the video."
+			],
+			"sources":
+			[
+				{
+					"name": "PD_Hat_sweep.png",
+					"file": "screenshot1.png"
+				},
+				{
+					"name": "PD_Voices.png",
+					"file": "screenshot2.png"
+				},
+				{
+					"name": "PD_Glask-groove.png",
+					"file": "screenshot3.png"
+				},
+				{
+					"name": "PD_Voice-intro.png",
+					"file": "screenshot4.png"
+				}
+			]
+		}
+	},
+	{
+		"title": "Pixelated bad dream",
+		"folder": "nusan-diffty",
+		"videast":
+		{
+			"name": "NuSan",
+
+			"bio": "Hello I’m Nusan (she/her) a 39 year old French numeric artist<br>I mostly practice shader live coding but I like everything creative!<br>I do some demoscene productions on <a href='https://www.youtube.com/@NuSan_fx/videos'>Youtube</a><br>I’m also a graphic programmer and technical artist, I make small indie games too that you can find on <a href='https://nusan.itch.io/'>nusan.itch.io</a>",
+
+			"description": [
+				"<b>CCC Nusan 2024<br>Pixelated bad dream</b>",
+				"I'm using a \"fantasy console\" called TIC-80, which is open source and lets you make tiny retro games or animations using LUA<br>TIC-80 limits you to a resolution of 240x136 and only 16 colors palette, but there is a trick I use to change the palette before each scanline, so you can have a lot more colors on screen. <br>All my effects use some sort of remanence, that is not clearing the screen fully at the start of the frame, but keeping whatever is there, and only changing a few pixels per frame to a darker color, so things fade to black slowly. This lets me blend all my effects together while providing an interesting texture to everything.<br>I’m using a specific version of TIC-80 dedicated to live coding, where an FFT of the background sound is available, letting you make audio-reactives effects.<br>I made the final video in two steps, I first improvised several effects in TIC-80 that react on music and then I recorded them playing while putting some background music and live changing the sound’s volume to influence the level of the FFT and so the “intensity” of my effects, I made several recordings until I was satisfied with the result",
+
+				"<a href='https://github.com/nesbox/TIC-80/'>TIC-80 website</a><br> <a href='https://github.com/glastonbridge/TIC-80/releases/tag/hack.fft.1_0_2'>TIC-80 FFT version</a>"
+			],
+
+			"links":
+			[
+				{
+					"name": "youtube",
+					"url": "https://www.youtube.com/@NuSan_fx/videos"
+				},
+				{
+					"name": "games",
+					"url": "https://nusan.itch.io/"
+				}
+			]
+		},
+
+		"musician":
+		{
+			"name": "50D",
+			"bio": "French bass music DJ and producer. More DJ than producer tbh.Heavily inspired by slick drum&bass, dumb dubstep and hard bass, fun uk garage, glittery hyperpop and bass music tracks that tell stories without words. Of course, you can hardly find any of that in the work I submitted to CCC, but that's ok.",
+
+			"description":[
+				"<I><b>Through a Decade of Changes</b></I>",
+				"Software, plugins & material used :<br>* Bitwig Studio<br>* Serum<br>* Arturia Stage-73 V<br>* Spitfire Audio BBC Orchestra Discover<br>* A few drums and misc samples",
+				"I mostly worked by watching and rewatching Nusan's videos, imagining sounds and instruments that could match several features of her visual composition. For example, plucked square wave notes that represent the squared \"rain drops\", or plucked sinwave notes when circle sprites.<br>The lush parts of the video composition inspired me a cinematic bright orchestral string ensemble, that became a huge part of the finished soundtrack, especially in the chillest parts of the video, contrasting with the more intenses parts where I assembled some more danceable shuffled drum breaks, matching with the visually busier mood of these parts.<br>I noticed that Nusan also put some video glitch effects on top of her composition, which I synced with some bitcrush FX applied on the whole composition.<br>Then, I found that the animated wave that grows to a wide abstract tornado (that inspired me the string parts) was lacking some sound design to match its visual language. So I added some filtered white noise synced to its animation to create a strong wind effect, reminding the sound of some slightly hostile storm replaced by the brigher and dreamy strings arrangement that predate in most parts of the composition.",
+
+				"On a more technical side note, I used TouchDesigner to help me sync the video to my Bitwig composition, by creating a very tiny patch to retrieve the DAW timecode and play Nusan's video synced in realtime along the audio track playhead."
+			],
+
+			"links":
+			[
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/diffty/"
+				},
+				{
+					"name": "Website",
+					"url": "https://freddyclement.com"
+				},
+				{
+					"name": "X",
+					"url": "https://x.com/diffty"
+				}
+			]
+		}
+	},
+	{
+		"title": "Narvik Stockholm",
+		"folder": "bastide-8trix",
+		"videast":
+		{
+			"name": "Raphael Bastide",
+
+			"bio": "I live in Montreuil (FR), I teach in Paris and do some visual and sonic art. I went to north Norway by train and it was both epic (lots of night train difficulties) and beautiful (Norway’s nature is incredibly beautiful).",
+
+			"description": [
+				"License: CC-BY-NC",
+				"Short description: Live coded CSS in the train to Stockholm.",
+				"Long description: During a train trip from Narvik (NO) to Stockholm (SE), I shot a 5 minutes uncut footage of the landscape I traveled through. Then I made an HTML page with the resulting video as a background and improvised a CSS animated composition over it. The CSS is live-coded in the Firefox browser’s developer panel as long as the video is played."
+			],
+
+			"links":
+			[
+				{
+					"name": "Website",
+					"url": "https://raphaelbastide.com/"
+				}
+			]
+		},
+
+		"musician":
+		{
+			"name": "8rix",
+			"bio": "8rix is an artist from Paris who uses his phone to make chiptune music, melted with everyday sounds he records on-the-fly.<br> As a music enthusiast he likes to put some hip-hop, grime, ambient or latino influence among four-on-the-floor tracks. His universe is an unexpected assembly of station announcements, birds singing, reverberated voices, distorted and pitched sounds, children construction games, where trains go on their rails endlessly.<br>When on stage he works with LimeLimeWire, a multi-gifted artist and ally whose hypnotizing visuals perfectly fit his music.",
+
+			"description":[
+				"<b><I>still beating despite it all</I></b>",
+				"Get into a train. Watch the view go by. Get hypnotized. Start nanoloop mobile. Record train, birds, people. Transcend feelings."
+			],
+
+			"links":
+			[
+				{
+					"name": "Website",
+					"url": "https://8-rix.github.io"
+				},
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/8rix_official"
+				},
+				{
+					"name": "Facebook",
+					"url": "https://www.instagram.com/8rix_official"
+				},
+				{
+					"name": "X",
+					"url": "https://8rix.bandcamp.com"
+				}
+			]
+		}
+	},
+	{
+		"title": "Napoli",
+		"folder": "minuit-marlen",
+		"videast":
+		{
+			"name": "Minuit",
+
+			"bio": "Dorian Rigal alias Minuit explore le monde nocturne. Il propose d’habiter la nuit urbaine, symbole d’une liberté décomplexée, à l’opposé des codes sociaux contraignants du jour. C’est par ce prisme qu’il utilise l’art numérique : projection architecturale, film d’animation, sculpture écranique et réalité virtuelle pour créer un monde imaginaire où, à la manière des surréalistes, la dureté du réel se déforme pour devenir un paysage fantastique.",
+
+			"description": "",
+
+			"links":
+			[]
+		},
+
+		"musician":
+		{
+			"name": "Marlen",
+			"bio": "<b>«Hier j’avais très envie de manger une glace et finalement j’ai acheté du chocolat...»</b><br>C’est toujours pas gagné de dire quelque chose sur moi...",
+
+			"description":[
+				"<b>1</b>- Installer des marqueurs sur After Effect pour trouver des moments clés.<br><b>2</b>- Ouvrir reaper et remettre ces marqueurs.<br><b>3</b>- Récupe de bruits de : Foule à Dublin, vagues de Syracuse, poulailler de papa Gérard, bruits d’oiseaux de Sologne, marché de Catagne et de Dijon, poussée de chansonnette avec la Rue Ketanou sur une grève en mode off du Festival de Loire, percu party à l’anniversaire de Didi, tour de piano SCNF avec une amie brésilienne, etc. Bref, des souvenirs rigolos, afin de ne pas oublier qu’il y a parfois de beaux moments de vie.<br><b>4</b>- Essayer de créer des objets sonores différents entres ces marqueurs : la foule, vers la vague, vers les oiseaux, jusqu’à la retombée de poulets.<br><b>5</b>- Basculer le son sur After Effect.<br><b>6</b>- Exporter le tout.<br><b>7</b>- Hop ! C’est plié."
+			],
+
+			"links":
+			[
+				{
+					"name": "instagram",
+					"url": "https://www.instagram.com/m.a.r.l.e.n_b/"
+				}
+			]
+		}
+	},
+	{
+		"title": "UNTILTED",
+		"folder": "andy-verbalizer",
+		"videast":
+		{
+			"name": "Andy",
+
+			"bio": "Je m'appelle ANDY. Je suis un.e Glitch artist et musicien.ne, travaillant à la croisée des disciplines, je me considère comme trans-indisciplinaire. Ma pratique se focalise principalement sur la manipulation analogique d'images et la création musicale. Actuellement je suis en pleine composition de mon premier EP.",
+
+			"description": [
+				"-Adapted an open-source virtual art gallery from <a href='http://github.com/ClementCariou/virtual-art-gallery'>github.com</a>, my modified version is displayed on my <a href='http://www.serendippo.me'>website</a><br>-Captured video while navigating this gallery, simulating endless exploration.<br>-Converted the digital video to analog.<br>-Processed the analog signal into hardware, creating glitches, analog video feedback, titler effect, and recolorization intensifying the disorientation effect typical of the idea of «Divagation»",
+				"This project simulates an art gallery in your browser using <a href='https://github.com/regl-project/regl'>REGL</a>. It aims at reproducing the experience of a real art gallery. The architecture is generated using a 10km long 6th order <a href='https://en.wikipedia.org/wiki/Hilbert_curve'>Hilbert Curve</a>. The paintings are asynchronously loaded from the <a href='https://api.artic.edu'>ARTIC</a> and placed on the walls. You can use this project to display your own artworks.",
+				" <a href='https://clementcariou.github.io/virtual-art-gallery/build'>Virtual art gallery</a> by <a href='https://github.com/ClementCariou/virtual-art-gallery/commits?author=ClementCariou'>Clement Cariou</a>",
+
+				"<b>Setup</b>",
+
+				"Installation :<br>git clone https://github.com/ClementCariou/virtual-art-gallery.git npm install",
+
+				"Start the budo dev server :<br>npm start",
+
+				"Build :<br>npm build",
+
+				"Using it with <a href='https://clementcariou.github.io/virtual-art-gallery/build?api=local'>local images</a>",
+
+				"The local api is accessible using this URI params in the address bar: ?api=local (it's possible to load automatically this API by changing the default API in the api.js file). You can change the displayed images in the folder <a href='https://github.com/ClementCariou/virtual-art-gallery/blob/master/images'>images</a>, you will need to rebuild the project (or relauch the dev server) to apply the modifications."
+			],
+
+			"links":
+			[
+			]
+		},
+
+		"musician":
+		{
+			"name": "VERBALIZER",
+			"bio": "VERBALIZER aka Michał (Wojna) Liberak - electronic music and multimedia producer / performer. Audiovisual manipulator. A humanoid in disguise. During the warm season, can be found near meadows and forests. In winter, he appears mainly in bunkers, vacant buildings and devastated basements. Sleeps in an inflatable coffin at the edge of the cemetery by the sea somewhere in Poland. Likes to travel. Generates sounds and images out of machines. Supporter of the anti-fascist, teknopunk movement and sound system culture.",
+
+			"description":[
+				"Instruments used:<br> - 2 units of pikocore - open source handmade, handheld li-fi sample mangler <a href='https://pikocore.com/'>https://pikocore.com/</a> by infinitedigits<br>- 1 zeptocore - open source handmade, handheld sample hi-fi sample mangler <a href='https://zeptocore.com/'>https://zeptocore.com/</a> by infinitedigits<br>- korg mini kaossillator 1<br>- korg mini kaosspad 1<br>- ipad2 runniung animoog app<br>- audio mixer xenyx q802",
+
+				"Recorded live, in one take. No postproduction."
+			],
+
+			"links":
+			[
+				{
+					"name": "linktree",
+					"url": "https://linktr.ee/verbalizer"
+				}
+			],
+
+			"sources":
+			[
+				{
+					"name": "setup.png",
+					"file": "screenshot1.png"
+				},
+				{
+					"name": "more_setup.png",
+					"file": "screenshot2.png"
+				}
+			]
+		}
+	},
+	{
+		"title": "Fire flow forest",
+		"folder": "illest-mari",
+		"videast":
+		{
+			"name": "IIllestpreacha",
+
+			"bio": [
+				"Kofi Oduro (illestpreacha) is an Experiential Storyteller that transforms sounds, images, data, words & code into experiences that nurtures discussion, reflection & interaction. He creates & designs through his decade plus involvement in performance, event and audiovisual production.",
+
+				"His artistic practice is an observation of the world around us that he puts into artworks for others to relate to or disagree with. Through Videography, Poetry and Creative Coding, He tries to highlight the realms of human performance and the human mind in different scenarios. These situations can be described as social, internal, or even biological, which we face in our everyday lives. Adding music and visuals often helps to perceive one's own feelings, and to highlight the different subtleties that make us human."
+			],
+
+			"description": "",
+
+			"links":
+			[]
+		},
+
+		"musician":
+		{
+			"name": "Mari Moura & Joenio M. Costa",
+			"bio": [
+				"My name is Mari Moura. I’m a black Brazilian performer artist interested in the relationship between body and technology in tangible space and cyberspace. I'm Artist and Researcher in Performance Art, activist for the presence of black women in Art and Technology. I'm interested in the relationship between art, the body, algorithmic patterns and technology in tangible space and cyberspace, together with visual arts, live coding and body notation. I'm PhD in Visual Arts in the Art and Technology research line at UNB, with a sandwich doctorate in Paris V at the Institut des sciences du sport-santé de Paris V",
+
+				"Me chamo Joenio Marques da Costa, sou estudande de Doutorado em Ciência da Computação na <a href='https://www.ufba.br/'>Universidade Federal da Bahia</a>(UFBA), trabalho atualmente como Engenheiro de <a href='https://joenio.me/software-para-pesquisa'>Software para Pesquisa</a> (Research Software Engineer) na <a href='https://www.cortext.net/'>pataforma CorTexT</a>, sou também apoiador do <a href='https://joenio.me/software-livre'>Software Livre</a> (Free Software), desenvolvedor Debian, instrutor The Carpentries, embaixador do Software Heritage e co-criador junto com Mari Moura do laboratório <a href='https://4two.art/'>4two.art</a> de pesquisa, criação e experimentação em arte, ciência e tecnologia."
+			],
+
+			"description":[
+				""
+			],
+
+			"links":
+			[
+				{
+					"name": "Website Mari",
+					"url": "https://marimoura.4two.art"
+				},
+				{
+					"name": "Website Joenio",
+					"url": "https://joenio.me"
+				},
+				{
+					"name": "Instagram Mari",
+					"url": "https://www.instagram.com/marimoura5/"
+				},
+				{
+					"name": "Instagram Joenio",
+					"url": "https://www.instagram.com/joenio.costa/"
+				}
+			]
+		}
+	},
+	{
+		"title": "Motion#39",
+		"folder": "sheglitch-pango",
+		"videast":
+		{
+			"name": "≈sheglitchr",
+
+			"bio": [
+				"Camille GRIGAUT alias ≈sheglitchr (she/elle).<br>Paris, France",
+
+				" ≈sheglitchr a rejoint le mouvement Glitch Art en 2015. Elle détruit des images pour en créer de nouvelles. Sa phrase préférée : « Creation from destruction ».",
+
+				"Inspirée par la nostalgie naissante et fracturée d'une époque qu'elle n'a pas connue, elle puise ses différentes énergies dans la musique qu'elle écoute et dans les expériences qu'elle a vécu en les exprimant au travers des shows en VJ, de clips ou de pochettes d'albums.",
+
+				"TV cathodiques, lecteurs VHS et machines analogiques sont ses médias de prédilection. Elle fait désormais partie de beLow, un collectif qui travaille sur de la scénographie, des expériences visuelles et possède un label de musique électronique.",
+
+				" Lives récents :<br>- Phantom Traffic - Point Éphémère, Paris<br>- Baraka, release party- Point Éphémère, Paris<br>- 15 ans de la Mamie's - La Machine du Moulin Rouge, Paris,<br>- Texture Festival w/beLow - Salle de la Cité, Rennes<br>- 10 Ans d'Allo Floride avec TVStore, Paris",
+
+				" Des expositions :<br>- Fu:/bar.  exposition à Zagreb, Croatie<br>- Les Matins Blancs, Paris, France<br>- La Nuit Blanche, Villette Makerz, Paris<br>- Bleu x/80, Villette Makerz, Paris"
+			],
+
+			"description": [
+				"<b>﻿make make take take tweak tweak</b><br>* create a funny contrasted shape in blender<br>* make it pass in a usb-c to vga converter<br>* make the vga cable flow in a vga to composite converter<br>* take a cute composite cable to transport your video into a broken* video machine<br>* take another cute composite cable and plug it into a crt tv<br>* tweak the knobs of your broken* video machine<br>* capture that with a camera and be happy for all the colors that come out of broken things",
+
+				"*circuit-bent devices"
+			],
+
+			"links":
+			[
+				{
+				"name": "Instagram",
+				"url": "https://www.instagram.com/sheglitchr.vj/"
+			},
+			{
+				"name": "Facebook",
+				"url": "https://www.facebook.com/sheglitchr"
+			}
+		]
+		},
+
+		"musician":
+		{
+			"name": "Pango Ornithorynx",
+			"bio": "A changing and composite being, evolving in epochs and spaces while adapting to each.",
+
+			"description":[
+				"Explore Integrate Iterate Enjoy"
+			],
+
+			"links":
+			[
+			]
+		}
+	},
+	{
+		"title": "La rue",
+		"folder": "oxni-hildegarde",
+		"videast":
+		{
+			"name": "oXni",
+
+			"bio": "Bestiole synthétique auto-enfantée dans le plaisir, oXni en fait trop avec moins que R et accouche en .txt (rap, poésie, chanson) .mp3 (trap, ballade, pop, chanson française) & .img (clips documentaires, expérimental, conceptuel, art numérique) sur l'instrumentale.",
+
+			"description": [
+				"je l’ai fait en une aprem<br>et l’idée est venu spontanément<br>pour le coup les doigts dans le nez<br>tout est dans l’idée",
+
+				"une fois que j’ai eu l’idée c’était fait :)<br>et ça a été dans des festivals d’arts contemporains et tout lol mais ça osef",
+
+				"Pendant que certain.e.s sont cloîtré.e.s dedans, d'autres sont enfermé.e.s dehors. Le vidéo-clip La Rue propose une dérive musico-poétique dystopique dans l’espace public virtualisé sur Google Maps, une surveillance de la surveillance de.s masse.s prises en panoptech'.",
+
+				"Dans cette mise en abîme se superposent la surveillance en présentiel, exercée par les forces de l'ordre - dépositaire de l'exercice de la violence légitime et omni-présentes dans le quartier de la Porte de la Chapelle - et la télé-surveillance qui s'en fait ici le témoin. L’Oeil du pouvoir est dupliqué : celui punitif et centralisateur de l'Etat et celui omniscient et ubiquitaire des bigs datas. Cette vidéo personnifie la rue en lui faisant conter les contrastes qui l'habitent donnent aussi à voir l'indifférence collective face aux drames qui traversent les villes mondialisées - pourtant désormais à une portée de clics de l’Oeil de toustes.",
+
+				"mais globalement : c’est une poème que j’ai écrit à 18 ans quand je suis arrivé à Paris, qui parle de la violence de l’indifférence dans l’espace public. En 2019 j’ai décidé de le mettre en chanson et en vidéo. À cette époque je passais beaucoup de temps à errer sur google maps, ce que je fais encore parfois, c’est mieux que d’errer sur les réseaux sociaux je trouve (même si je le fais aussi). Alors je suis allé errer autour de porte d’aubervilliers, où à l’époque il y avait un grand camp d’exilé·e·s (qui depuis ont été expulsé·e·s je ne sais pas où....). La vidéo montre la violence de ce décalage de niveau de vie, la ségrégation et la surveillance policière qui l’accompagne. C’est aussi la constatation d’une double surveillance de l’espace public : physique, corporelle : policière - mais aussi virtuelle, via google maps. Notre surveillance à nous - spectateur·ice - s’y ajoute - et nous voilà prisxe dans le panoptique ou plutôt le panoptech’."
+			],
+
+			"links":
+			[]
+		},
+
+		"musician":
+		{
+			"name": "Hildegarde",
+			"bio": "French Performer and producer, eeverything is about autodetermination, based in Brittany",
+
+			"description":[
+				"La Rue, vidéo d'oXni interprêtée par Hildegarde",
+
+				"Parmi les propositions reçues, j'ai choisi la vidéo d'oXni car j'ai reconnu le nom et le travail de mon ami.e (j'avoue) qui est un.e artiste militant.e pluridisciplinaire.<br>Je savais que cette vidéo était conçue par lui et sûrement destinée à devenir un de ses clips, et ses clips ont la force d'être largement représenté lorsqu'elle performe ses chansons sur scène.<br>De plus, cette vidéo représente une traversée de Paris et son périphérique à travers Google street view, un outil que j'ai toujours trouvé intriguant, glaque et poétique.<br>Cette esthétique post internet résonne très bien avec mes problématiques artistiques.",
+
+				"Ainsi, j'ai pu produire le son en visionnant la vidéo directement grâce à la possibilité de lire une piste visuelle en synchronicité avec des pistes audio sur le DAW que j'utilise.<br>Ce qui m'a permis d'ajouter des effets correspondants à certaines scènes mais aussi au texte que j'ai pu enregistrer avec ma voix et traiter, puisque les sous-titres étaient inclus dans la vidéo.<br>Du coup c'est un drôle de ping-pong d'une musique, à une vidéo, à une re-musique. "
+			],
+
+			"links":
+			[
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/_.h.i.l.d.e.g.a.r.d.e._/"
+				},
+				{
+					"name": "Website",
+					"url": "http://hildegarde-music.com/"
+				},
+				{
+					"name": "Facebook",
+					"url": "https://www.facebook.com/hildegarde.whocares"
+				}
+			]
+		}
+	},
+	{
+		"title": "Data compost",
+		"folder": "leila-maeline",
+		"videast":
+		{
+			"name": "Lëila Chaix",
+
+			"bio": [
+			"Je suis Lëila Chaix aussi connue sous : datashift, Melody Nyx, autodrône, les gens qui doutent, chaise, cyberflemme, ouidire",
+
+			 "En dehors d’ingurgiter de l’air je suis principalement poète, ficanasse,",
+
+			"Chroniqueuse et artiviste. J’appartiens au 33.",
+
+			"J’aime plus que tout les fourmis et le fromage"
+],
+			"description": [
+				"j’ai monté plusieurs photos et vidéos ensemble sur un logiciel de montage et j’ai ajouté des morceaux d’enregistrements radio",
+
+				"je me souviens plus du logiciel"
+			],
+
+			"links":
+			[]
+		},
+
+		"musician":
+		{
+			"name": "Maeline",
+			"bio": "﻿Je m’appelle Maeline, j’ai une fascination pour le gingembre.<br>Je réfléchis depuis quelque temps aux dynamiques de pouvoir liées à l’attente.<br>J’aime bien mettre en suspension des trucs.<br>J’aime les clochettes.",
+
+			"description":[
+				"﻿J’ai utilisé Photosounder pour la production de sons, Reaper et Bespoke pour le mixage/montage. Je me suis appuyée sur des captures d’écran de la vidéo de Leila que j’ai rentrées dans Photosounder (qui fait de la synthèse sonore) afin d’en générer des sons, que j’ai ensuite utilisés dans la composition."
+			],
+
+			"links":
+			[
+			],
+			"sources":
+			[
+				{
+					"name": "screenhot-1.png",
+					"file": "screenshot1.png"
+				},
+				{
+					"name": "screenhot-2.png",
+					"file": "screenshot2.png"
+				},
+				{
+					"name": "screenhot-3.png",
+					"file": "screenshot3.png"
+				},
+				{
+					"name": "screenhot-4.png",
+					"file": "screenshot4.png"
+				}
+			]
+		}
+	},
+	{
+		"title": "UNTILTED 2",
+		"folder": "afalf-harmonie",
+		"videast":
+		{
+			"name": "ΛFΛLFL",
+
+			"bio": ["<b>Discussion entre deux sociologues sur la notion d'Anthropocène <br>Sociologue 1</b>: As-tu lu l'article de Bruno Latour dans le dernier numéro de \"La Découverte\" ? Il propose une vision très intéressante de l'Anthropocène, en la reliant à la notion de \"modernité réflexive\". <b>Sociologue 2</b>: Oui, je l'ai trouvé très stimulant. Il a raison de dire que nous sommes entrés dans une nouvelle ère où l'homme est devenu une force géologique majeure. Cela pose des questions fondamentales sur notre rapport à la nature et à la planète. <br><b>Sociologue 1</b>: Ce qui me frappe dans l'Anthropocène, c'est la rupture qu'elle représente avec les époques précédentes. L'homme a toujours eu un impact sur son environnement, mais jamais à une telle échelle.exclamation<br><b>Sociologue 2</b>: C'est vrai. La question est de savoir comment nous pouvons réagir à cette rupture. Faut-il accepter l'Anthropocène comme une nouvelle réalité et essayer de la gérer au mieux ? Ou bien devons-nous essayer de revenir à un mode de vie plus en harmonie avec la nature ?<br></b>Sociologue 1</b>: Je ne pense pas qu'il y ait une réponse simple à cette question. Il y a des arguments à défendre pour les deux points de vue.<br><b>Sociologue 2</b>: D'un côté, il est clair que nous ne pouvons pas revenir en arrière. L'Anthropocène est une réalité avec laquelle nous devons composer.<br><b>Sociologue 1</b>: Mais de l'autre côté, nous ne pouvons pas non plus continuer comme si de rien n'était. L'impact de l'homme sur la planète est en train de devenir dévastateur.<br><b>Sociologue 2</b>: C'est vrai. Il nous faut trouver un moyen de vivre en équilibre avec la nature. Mais comment faire ?<br><b>Sociologue 1</b>: C'est la grande question à laquelle nous devons répondre. Il n'y a pas de solution miracle, mais il est urgent de trouver des solutions.<br><b>Sociologue 2</b>: Je suis d'accord. L'avenir de la planète en dépend.",
+
+			"<b>En plus de la discussion, voici quelques points importants à souligner :</b><br>- L'Anthropocène est un concept controversé.expand_more Certains scientifiques et philosophes le contestent, arguant qu'il est anthropocentriste et ne prend pas en compte la complexité des interactions entre l'homme et la nature.expand_more<br>- La notion d'Anthropocène a des implications importantes pour la politique, l'économie et la société.expand_more Elle nous oblige à repenser notre rapport à la nature et à la planète.<br>- Il est nécessaire de mener des recherches approfondies sur l'Anthropocène afin de mieux comprendre ses implications et de trouver des solutions aux problèmes qu'il pose.",
+
+			"<b>Voici quelques ressources supplémentaires pour en savoir plus sur l'Anthropocène :</b><br>L'Anthropocène : Une histoire de l'humanité: [URL non valide supprimée] de Christophe Bonneuil et Jean-Baptiste Fressoz<br>- L'Anthropocène et la crise de l'humanisme: [URL non valide supprimée] de Bruno Latourexclamation<br>- Le site web du groupe de recherche \"Anthropocene\": [URL non valide supprimée]",
+
+			"<b>J'espère que cette discussion vous aura été utile.</b>",
+
+			"ΛFΛLFL<br>Born in Mauritania and based in Paris, Mamady Diarra is a former DJ, now a musician and live coder.<br>After studying Social and Human Sciences, he decided to focus on his passion for music and digital arts."
+		],
+
+			"description": [
+				"J’ai souhaité explorer le thème de l’open call CCC “divagation’’ par le prisme du mot Anthropocene.<br>The Anthropocene is a new geological epoch characterized by the advent of humans as the main force of change on Earth, surpassing geophysical forces. This is the age of humans! That of an unprecedented planetary disorder.<br>But this word “Anthropocene” – not a concept! – does it simply take its place in the long list by which cultures and societies attempted to express the spiritual situation of an era? Or does it make a leap that is both qualitative and quantitative, linking natural history and history in an unprecedented way?",
+				"By saying that “we are in the Anthropocene”, what are we saying? This statement formulates a diagnostic ambition. It also calls for a polemical discussion. A diagnostic word, the word “Anthropocene” translates the superb and painful memory that the Earth keeps of the passage of humans. This neologism uses the radical “cene” which, in geology, designates the Cenozoic eras, such as the Pleistocene or the Holocene."
+			],
+
+			"links":
+			[
+				{
+				"name": "Website",
+				"url": "https://afalflart.carrd.co/"
+			}
+		]
+		},
+
+		"musician":
+		{
+			"name": "Harmonie Aupetit",
+			"bio": "Harmonie Aupetit est née à Guéret en 1989 et vit aujourd’hui à Nanterre. Artiste autodidacte, elle explore divers champs et techniques pour créer des œuvres hybrides. Un « bricolage » qui s’inscrit dans une démarche et une esthétique DIY. Elle fait de la musique au sein du groupe de freak folk Chiens de Faïence.",
+
+			"description":[
+				"Pour faire l'audio sur l'animation d'AFALFL, j'ai utilisé une guitare folk et ma voix, passée dans la pédale d'effets Vocal 300 de DigiTech."
+			],
+
+			"links":
+			[
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/harmonieaupetit/"
+				},
+				{
+					"name": "Website",
+					"url": "https://www.harmonieaupetit.com/"
+				},
+				{
+					"name": "Facebook",
+					"url": "https://www.facebook.com/harmonieaupetitgifs"
+				},
+				{
+					"name": "X",
+					"url": "https://twitter.com/harmonie_a"
+				}
+			]
+		}
+	},
+	{
+		"title": "Webs Of Power, la suite",
+		"folder": "berenice-slayeur",
+		"videast":
+		{
+			"name": "Bérénice Courtin",
+
+			"bio": "“Le travail de Bérénice Courtin prend cohttps://www.instagram.com/cosmoslayeur/mme point de départ l’étude de la machine électromécanique utilisée par son grand-père résistant polonais Kazimierz Gaca, pour chiffrer et déchiffrer des informations.<br>Dans sa pratique artistique, elle compare l’utilisation de cette machine au métier à tisser dans lequel elle insère des codes informatiques.<br>À travers une installation sous forme de métier à tisser collectif, le public est invité à participer à ce dialogue entre artisanat et ère digitale.<br>Il peut interagir avec des personnages modélisés en 3D et des symboles qui sont projetés après manipulation dans un dia- logue entre la matière et le numérique.<br>Le tissage permet ainsi d’établir une forme de langage où cohabitent la structure et la symbolique grâce à l’élaboration de motifs pixelisés.”",
+
+			"description": "",
+
+			"links":
+			[
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/berenice_gaca_courtin/"
+				},
+				{
+					"name": "Website",
+					"url": "https://www.berenicecourtin.com/"
+				}
+			],
+			"sources":
+			[
+				{
+					"name": "process.pdf",
+					"file": "process.pdf"
+				}
+			]
+		},
+
+		"musician":
+		{
+			"name": "Slay3eur",
+			"bio": [
+				"Nom : Mahoungou<br>Prénom : Theo<br>Également : /H\\, Slay3eur, Captain",
+
+				"Être vivant, humain, 1 mètre 85, yeux noires, cheveux noirs, peau noire, dessine à l’encre de chine sur sa peau, passionné par la beauté et la grâce sous toutes ses formes et aussi triple champion de son quartier des plus longues siestes à la chaine.<br>Âgées de 25 ans et est localisé entre Saint-Brice sous Forêt et l’ensemble du bassin parisien. A été étudiant aux beaux-arts de Paris ses deux dernières années, ou /H\\ a pu pratiquer la peinture, le dessin, la céramique, la mosaïque, la performance et l’immobilité, faire quelque recherche sur internet, les machines et leurs liens avec la nature des choses et également bidouiller et créer des sons étranges assistée par ordinateurs.<br> Auteur, interprète, Slay3eur va sortir cette année et défendre sur scène et partout ailleurs son premier projet de musique aux influences hip-hop et rock nommé pour l’instant « 1jour2plui3 »."
+			],
+
+			"description":[
+				"/H\\ + Slay3eur",
+
+				"Je me suis penché sur le travail de Bérénice Gaça Courtin, « Webs of power » et de l’ensemble de son processus de création ainsi que ses inspirations pour créer l’œuvre numérique composé d’image créer par ordinateur et des pièces textiles ayant des patterns spécifiques portés par des performeur/euses.<br> J’ai ensuite visionné la vidéo à plusieurs reprises pour m’inhiber des gestes, signes, couleurs et éléments qui pourraient me guider dans l’élaboration d’une bande son.<br>Perdu entre divers programmes, monde digital, machine, mystique et tissus relatant un mythe, un conte, une histoire passé ou futur, rattaché au corps car portés en tant que vêtement sur des humains reflétant probablement leurs intériorités.",
+
+				"Il me fallait être spontané et commencer une recherche et une mise en place d’un échantillonnage de plusieurs sons afin de coller avec une certaine intention.",
+
+				"Je suis donc parti à la recherche de ce dont je voulais parler en oubliant un peu le propos initial, mais avec la volonté de complété l’œuvre de façon sonore.<br>Connecté un rythme à une électronique douce pas vraiment dénaturé ou déformé en y alliant les pouvoirs ancestraux du mouvement de la terre, carte mère de notre existence.<br>Fusionner technologie et tradition dans un son.",
+
+				"Mise en place du matériel, séquenceur sonore, ordinateur, carte son, casque et différents câbles pour aider au bon fonctionnement du circuit.<br>J’ai pu m’appliquer à chercher sur le web de la matière pour faire des échantillonnages sonores que j’ai réarrangé en suivant mon intention et en y incorporant des prises voix.<br> Arranger le tout et essayer de faire coïncider des éléments sonores avec la vidéo de Bérénice source de ce travail sonore."
+			],
+
+			"links":
+			[
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/cosmoslayeur/"
+				}
+			]
+		}
+	},
+	{
+		"title": "Aqueous divagation",
+		"folder": "wiktoria-içsyp",
+		"videast":
+		{
+			"name": "Wiktoria Glowacka",
+
+			"bio": [
+				"I am a first-grade student at the Strzeminski Academy of Art in Lodz, where I am pursuing a degree in New Media. This program has introduced me to the world of creative coding, and despite being relatively new to this field, I am deeply passionate about exploring its possibilities.",
+
+				"Art has been a significant part of my life for as long as I can remember, and discovering the intersection of art and technology has been a transformative experience for me. Embracing new ways to express my creativity through coding has reignited my passion for art, making me feel rejuvenated and inspired to push the boundaries of my artistic journey."
+			],
+
+			"description": [
+				"Inspiration: The concept for \"Aqueous Divagation\" was born from a desire to evoke a watery effect within an interconnected pixel network, aligning with theme of divagation.",
+
+				"Prototype code: The prototype focused on reducing pixeel count for performance, incorporating PVector dynamics, and establishing dynamic connections. Forces were applied between connected pixels, resulting in smooth but chaotic effect."
+			],
+
+			"links":
+			[],
+
+			"sources":
+			[
+				{
+					"name": "description.png",
+					"file": "screenshot1.png"
+				},
+				{
+					"name": "documentation.png",
+					"file": "screenshot2.png"
+				}
+			]
+		},
+
+		"musician":
+		{
+			"name": "Içsyp",
+			"bio": [
+				"sérgio, from Porto, Portugal.",
+
+				"inspired by the universe, creating art installations, repairing tech and things in general.<br>from physical computing to sound, interfaces and artistic expression.",
+
+				"diy, open-source and comunnity learning.",
+
+				"developing and sharing technological and creativity empowerment tools."
+			],
+
+			"description":[
+				"for the \"Cookie_Collective_Compilation <=> Cool Creative Content  - 31/05/2024\" I was selected to create the sound for the video created by Wiktoria Głowacka -\"wiktoria_glowacka3_muted.mp4\".<br>driven by the flow of the content flowing, I interpreted it by using simple sound sources controlled by a simple superCollider algorithm.",
+
+				"driving divagations into spatial sounds flowing by the ears and bodies that will perceive them. <3",
+
+				"thank you for making this happen <3"
+
+			],
+
+			"links":
+			[
+				{
+					"name": "linktr.ee",
+					"url": "https://linktr.ee/sergiiio"
+				},
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/sergio_cachibache/"
+				}
+			],
+
+			"sources":
+			[
+				{
+					"name": "code.scd",
+					"file": "code.scd"
+				}
+			]
+		}
+	},
+	{
+		"title": "UNTILTED 3",
+		"folder": "ugo-crash",
+		"videast":
+		{
+			"name": "Ugo Arsac",
+
+			"bio": [
+				"<I>Ugo Arsac is a digital and visual artist based in Marseille. Combining urban and human, mythology and anthropology, he produces flms, installations, immersive experiences and graphic works. His work is regularly exhibited at national and international events.</I>",
+
+				"<I>Recently, he has been resident at Villa Albertine in New York and featured in the ofcial selection of the SXSW festival in Austin, Texas. Concurrently, he is once again a prize-winner in the Chroniques Création platform.</I>"
+			],
+
+			"description": [
+				""
+			],
+
+			"links":
+			[],
+
+			"sources":
+			[]
+		},
+		"musician":
+		{
+			"name": "CrashServer",
+			"bio": [
+				"Post Mayhem Livecoding Music"
+			],
+
+			"description":[
+				"Jam ambiante improvisée à 4 mains avec le logiciel de livecoding FoxDot."
+
+			],
+
+			"links":
+			[
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/crashserver"
+				},
+				{
+					"name": "Website",
+					"url": "https://crashserver.fr/"
+				},
+				{
+					"name": "Facebook",
+					"url": "https://www.facebook.com/crashserverlive"
+				},
+				{
+					"name": "X",
+					"url": "https://twitter.com/crashserver2"
+				}
+			]
+		}
+	},
+	{
+		"title": "UNTILTED 4",
+		"folder": "ugo-parvague",
+		"videast":
+		{
+			"name": "Ugo Arsac",
+
+			"bio": [
+				"<I>Ugo Arsac is a digital and visual artist based in Marseille. Combining urban and human, mythology and anthropology, he produces flms, installations, immersive experiences and graphic works. His work is regularly exhibited at national and international events.</I>",
+
+				"<I>Recently, he has been resident at Villa Albertine in New York and featured in the ofcial selection of the SXSW festival in Austin, Texas. Concurrently, he is once again a prize-winner in the Chroniques Création platform.</I>"
+			],
+
+			"description": [
+				""
+			],
+
+			"links":
+			[],
+
+			"sources":
+			[
+
+			]
+		},
+		"musician":
+		{
+			"name": "ParVagues",
+			"bio": [
+				"<b><I>ParVagues, c'est des ondes sonores qui naissent dans un océan binaire pour parfois s'échouer sur vos plages sonores.</I></b>",
+
+				"Du code pour composer et un contrôleur pour interpréter : ParVagues est un projet de musique électronique live à l’intersection de multiples influences. Rythmes technos et drums breaks; guitares funk et basses de gameboy; voix éthérées et synthés fous; tous cohabitent au service d’une ambiance qui va du trip-hop expérimental à la techno instrumentale, utilisant des outils libres pour créer de la musique libre <3"
+			],
+
+			"description":[
+				"<b><I>ParVagues: TidalCycles Livecoding + Ardour DAW + MIDI Input + Audacity Mastering</I></b>",
+
+				"Je compose mes musiques avec TidalCycles, un framework de création musicale permettant de décrire du son avec du code en contrôlant un sampler/séquenceur.<br>Avec ce framework, je construis chaque morceau piste par piste, faisant boucler des samples ou faisant jouer des séquences à des synthétiseurs ; puis en programmant des effets sonores piste par piste ou en les groupant.<br> Je connecte ensuite les volumes de chaque piste et certains effets à un contrôleur MIDI, me permettant d’orchestrer ces pistes et de jouer le morceau final en improvisant son intro, ses transitions, et sa conclusion.",
+
+				"Cet équilibre entre code structuré et improvisation libre permet de remettre du vivant dans cette création numérique, faisant de chaque morceau une collaboration entre l’Humain et la Machine."
+
+			],
+
+			"links":
+			[
+			],
+
+			"sources":
+			[
+				{
+					"name": "process.pdf",
+					"file": "process.pdf"
+				}
+			]
+		}
+	},
+	{
+		"title": "UNTILTED 5",
+		"folder": "ugo-fanny",
+		"videast":
+		{
+			"name": "Ugo Arsac",
+
+			"bio": [
+				"<I>Ugo Arsac is a digital and visual artist based in Marseille. Combining urban and human, mythology and anthropology, he produces flms, installations, immersive experiences and graphic works. His work is regularly exhibited at national and international events.</I>",
+
+				"<I>Recently, he has been resident at Villa Albertine in New York and featured in the ofcial selection of the SXSW festival in Austin, Texas. Concurrently, he is once again a prize-winner in the Chroniques Création platform.</I>"
+			],
+
+			"description": [
+				""
+			],
+
+			"links":
+			[],
+
+			"sources":
+			[
+			]
+		},
+		"musician":
+		{
+			"name": "Fanny Testas",
+			"bio": [
+				"Elle produit des compositions et installations sonores ainsi que des documentaires radiophoniques"
+			],
+
+			"description":[
+				"<I><b>Gyre</I></b><br>Inspirée par l’onde sonore, « Gyre » est une exploration qui se joue des mouvements vibratoires, des espaces invisibles et de ce vers ta track qu’évoque l’errance, la propagation ou encore la résonance."
+
+			],
+
+			"links":
+			[
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/fanny.testas/"
+				}
+			],
+
+			"sources":
+			[
+			]
+		}
+	},
+	{
+		"title": "RAS dans le caison",
+		"folder": "azertype-byt3m3",
+		"videast":
+		{
+			"name": "azertype",
+
+			"bio": [
+				"Ici azertype Pokemon n450 de type cyborg.",
+
+				"Certains dresseurs affirment avoir été sauvés par un azertype sauvage.<br>C’est un Pokemon extrêmement rare et au grand cœur.<br>C’est un Pokemon solitaire doté d’une sensibilité hors du commun grâce à ces multiples capteurs bio-chimique, il est très sensible aux variations de son environnement et a besoin d’être stimulé en permanence.",
+
+				"Déchaîner sa colère serait la pire chose à faire, car malgré son tempérament pacifique, il maîtrise des attaques dévastatrices comme Rayon hypomaniaque.<br>Si vous le mettez en colère, il vous exterminera ou s’autodétruira en essayant",
+
+				"La plupart du temps, il se cache l’hiver et ne dort jamais l’été. On raconte qu’il baragouine des choses que personne ne comprend, pas même les siens.<br>Difficile à capturer, n’espère pas lui faire bouger le moindre petit doigt a moins que vos intentions soit noble et juste.<br>Toute échange d’azertype est donc à bannir.<br>On raconte que son expression favorite « non », que ce Pokemon adore les cookies<br>Certaines personnes pensent que c’est en lui donnant du lithium pour recharger ses batteries qu’il sera plus facile à capturer.<br>Cependant les dernières recherches laissent plutôt à penser le contraire…"
+			],
+
+			"description": [
+				"C’est une capta dans un caisson de transport de satellite, ou on peut me voir bouger, il y a des projection sur une des façade qui est gene pas le soft de livecoding hydra.<br>Cela a ete tournée a St lys Terre blanc un lieu autogere lors du rencontre interhack",
+
+				"Le tout glitché en temps reel avec le lecteur VLC en live"
+			],
+
+			"links":
+			[],
+
+			"sources":
+			[
+			]
+		},
+		"musician":
+		{
+			"name": "byt3 m3chanic",
+			"bio": [
+				"I am a foolish programmer, and computer nerd who grew up with a Commodore 64 and Amiga 500. I started to make weird music and noise with early tracker programs, even getting some music into videos games in college.",
+
+				"I work as a web developer in Washington DC, and code shaders in my spare time when not making music. New to the demoscene even though I feel like I’ve been around it all my life.",
+
+				"Keyboard fanatic, loves tiny computers and new technology, I’m not smart but brute force/hacc my life to the fullest."
+			],
+
+			"description":[
+				"I chose to make music for RAS dans le caison",
+
+				"My song is called Ethereal, I felt it went with the slow moving forms and images in the video.",
+
+				"For the video I started with trying to find sounds and samples that fit the mood. Usually I pick stuff from youtube or other sources and slice them up in an editor (AudioCataylist) and then bring them into Milky Tracker or Renoise (tracker programs). I grew up using early trackers on the Amiga and early PCs.",
+
+				"Once I had the sounds and samples I liked, I started to lay down the beat and drums. I try to block out the time of the video and create changes based as needed. Next I'd slowly edit sections or looping parts as the video progressed.",
+
+				"The rest is iterative editing and tweaking till I felt it sounded good and matched what I saw. The pink colors and slowly moving forms made me feel a deep bass and ethereal chimes and bells, as if a daydream."
+
+			],
+
+			"links":
+			[
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/pjkarlik"
+				},
+				{
+					"name": "Souncloud",
+					"url": "https://soundcloud.com/pjkarlik"
+				},
+				{
+					"name": "X",
+					"url": "https://twitter.com/byt3m3chanic "
+				}
+			],
+
+			"sources":
+			[
+			]
+		}
+	},
+	{
+		"title": "Personne absente",
+		"folder": "aka-jules",
+		"videast":
+		{
+			"name": "Aka.rien",
+
+			"bio": [
+				"Type au hasard, qui fait des trucs pseudo aléatoires.<br>Ce que je fais n’est pas très intéressant, mais au moins c’est original vous ne trouverez pas ça ailleurs.Je sais que je suis qu’un acarien, faut pas se voiler la face.<br>Mes sentiments sont qu’un moyen de rester vivant.",
+
+				"Ce que dieux t’as donné c’est pour toi, ce que 10e t’as pas donné c’est pas pour toi.",
+
+				"« C'est Dieu qui a fait tous les humains hein?<br>Alors pourquoi il a pas fait tout le monde pareil ??<br>Il manque beaucoup de vis à Baya.<br>Des vis pour mon ❤, tu comprends ??<br>Il est cassé, il faut le réparer.C'est Dieu qui m’a fait tout cassé.<br>Tout cassé, oui ?!<br>Et lui aussi, ils et elles l’on cassé. Manque des vis aussi, des vis pour réparer son❤.<br>Mais moi je crois que j’ai toutes les vis pour bien le réparer, tu vois ??<br>Et je sais qu’il a toutes les vis pour me repérer. Toutes les vis qu’il faut ?! Toutes les vis »",
+
+				"Blanc pour Noir - Amer Beton"
+			],
+
+			"description": [
+				"Ca glitch par ici, glitch avec vlc aka meilleur logiciel d'édition vidéo, j’aimerai bien quitter l’interface graphique et utiliser ffmpeg en ligne de commande mais j’ai pas encore le lvl"
+			],
+
+			"links":
+			[],
+
+			"sources":
+			[
+				{
+					"name": "description.png",
+					"file": "screenshot1.png"
+				},
+				{
+					"name": "documentation.png",
+					"file": "screenshot2.png"
+				}
+			]
+		},
+		"musician":
+		{
+			"name": "Déluges",
+			"bio": [
+				"jules déjardin aka Déluges",
+
+				"j’aime le chiffre (-5) en tout cas je l’utilise souvent. Je pense que mon plat préféré en ce moment c’est des aubergines vapeur au sésame et grillé à la poêle. J’utilise supercollider depuis quelques temps car ce langage va me faire accéder aux sons que je fantasme, j’espère. Il me semble aussi que j’aime le sentiment de liberté qu’il procure : tu décris, sa crie. La synthèse c’est méga cool et je voulais pas en faire pendant longtemps, je veux dire que je l’ai boudé pendant une longue période, “ça s'entend trop”. Avant je faisais surtout des prises de son comme source de son. Attention, “que mes précieux sons”, c’est de l’artisanat ou je suis un sale voleur sans identité ? -> je vie/vécu intensément le dilemme du preset, supercollider vanilla ptdr, comme si on pouvait tout faire soit même de AZ. Je n’en veux plus c’est bon, place à l’amusement ! Volez mon <a href='https://github.com/Jules-dejardin'>code</a> et mes <a href='https://freesound.org/people/104-Moonj/'>sons</a> s'il vous plait"
+			],
+
+			"description":[
+				"Personne absente m’a bien inspiré. C’est intime, un peu sombre et saturé. Même si je ne comprends pas l’histoire, le sujet ressort. Le film se prépare puis chante un peu. J’avais une bronchite et je voulais enregistrer le corps malade, le souffle sifflant. Après le REC, la découpe [zombie, dark, duck, couine, plock] hop hop ni une ni deux dans SC. Un petit chaînage d'effets simple que voici dans le fichier.scd",
+
+				"Tout les essais, tests sont REC puis il faut trier un peu. Après avoir choisi j’ai tout monter dans Reaper, en plus on peu mettre des vidéos dedans ça marche super. Y’a d’autres sons fait avec SC ou modifiés dedans en plus."
+
+			],
+
+			"links":
+			[
+				{
+					"name": "Soundcloud",
+					"url": "https://soundcloud.com/deluge_jules"
+				},
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/jules_dejardin/"
+				}
+			],
+
+			"sources":
+			[
+				{
+					"name": "fichier.scd",
+					"file": "code.scd"
+				}
+			]
+		}
+	},
+	{
+		"title": "anti bitmap -> pro vectoriel",
+		"folder": "dr-youssra",
+		"videast":
+		{
+			"name": "dr.one",
+
+			"bio": [
+				"Je navigue sur le vaisseau terre.",
+
+				"Mon activité principale est la respiration",
+
+				"J’aime les choses précises, les choses que l’on peut transposer sans perdre en qualité (comme les idées), les choses non périssables, ce qui sera toujours vrai, abstrait.",
+
+				"Durant mon adolescence j’étais obsédé par la recherche de « la vérité » ce qui est immuable, être dans le monde des idées, depuis un certain temps j’ai renoncé, car je m’intéresse plus à l’humain et aussi parce que trop de masturbation ce n’est pas terrible pour les relations sociales askip ? J’ai beaucoup de difficultés à mémoriser les visages et prénoms, ce qui m’engendre quelques soucis, car je suis jugé prétentieux, alors que je suis plutôt dans l’oubli de ma personne au profit des entités extérieures.",
+
+				".",
+
+				"J’ai pas mal d’obsession, je déteste qu’on me dise ce que je dois faire, on me perçoit comme un être plutôt social, mais c’est compliqué pour moi d’interagir avec les êtres humains surtout quand il y en a beaucoup, souvent on me comprend mal et je comprends mal les choses comme les blagues ^_^. On m’a souvent dit d’aller regarder du côté TSA, c’est sûrement une bonne idée à creuser, mais pour l’instant je dois finir de travailler sur d’autres sujets.",
+
+				"Ça fait plusieurs années que j’ai arrêté de demander au voleur la permission pour récupérer ce qu’ils ont pris, illégal ou pas. Et je vous invite à en faire de même.",
+
+				"Depuis peu, je me suis remis à croire en Jésus, mais pas le celui travesti par l’église",
+
+				"Jésus le OG Gamertags, Jésus le révolutionnaire, comme les Sans Roi.",
+
+				"Vive le peuple, préparons la révolution.",
+
+				"La violence peut-être légitime, la vraie question c’est où et quand",
+
+				"NE JAMAIS PAYER PHOTOSHOP.",
+
+				"vive le vectoriel"
+			],
+
+			"description": [
+				"Un jour quand j'étais en train d’utiliser photoshop cs6 alors que je déteste ça, il est c’est passé un truc d'intéressant.C’est un peu comme si photoshop mélangeais ce qu’il avait dans son cache.J'ai donc lancer une capture vidéo, depuis j'ai une énorme bibliothèque de visu dans laquelle je pioche dès que je dois trouver un visu<br>J’ai essayé de refaire ce bug un jour  => sans succès"
+			],
+
+			"links":
+			[],
+
+			"sources":
+			[
+			]
+		},
+		"musician":
+		{
+			"name": "Youssra",
+			"bio": [
+				"Violoncelliste, improvisateur.rice et compositeur.rice, non binaire. Originaire de Tourcoing.<br>En Amour avec la solitude."
+			],
+
+			"description":[
+				"En voyant la vidéo, j'ai su que je voulais faire quelque chose autour de son pattern de batterie qui se déconstruit.",
+
+				"J'ai d'abord trouvé un pattern qui me plaisait sur une boîte à rythmes – je l'ai enregistré en improvisant pour modifier la structure du pattern et le faire évoluer.",
+
+				"J'ai également voulu garder les sons déjà présents dans la vidéo, afin de les remettre par moments au premier plan, en utilisant des sons captés pendant le processus de création de la vidéo – je trouvais que c'était une jolie mise en abyme.",
+
+				"J'ai ensuite improvisé avec un synthé semi-modulaire pour trouver d'autres éléments intéressants.",
+
+				"Enfin, j'ai beaucoup découpé et transformé les matières, car j'avais trop de contenu, afin de leur donner une forme qui raconte quelque chose."
+
+			],
+
+			"links":
+			[
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/youssrakhechai/"
+				},
+				{
+					"name": "Website",
+					"url": "https://youssra-khechai.jimdosite.com/"
+				}
+			],
+
+			"sources":
+			[
+			]
+		}
+	},
+	{
+		"title": "Finding love and Keep it",
+		"folder": "adel-aya",
+		"videast":
+		{
+			"name": "ADL faure",
+
+			"bio": [
+				"I'm Adel Faure and my work is motivated by an experimental relationship with text-based interfaces. Interested in the design of tools, their influence on creation and culture, I bring back to life forms and practices from a computing era considered obsolete, turn them into games, animation design and illustrations."
+			],
+
+			"description": [
+				"This video is a recording of a little generative sofware I made using Textor.<br>Textor is a javacript, browser-based text mode engine I'm working on. It rely on a render method inspired by GLSL programming (shaders) and focus on the use of custom bitmap fonts with semigraphics.",
+
+				"Here the source :"
+			],
+
+			"links":
+			[],
+
+			"sources":
+			[
+				{
+					"name": "source.txt",
+					"file": "code"
+				}
+			]
+		},
+		"musician":
+		{
+			"name": "aYaTo",
+			"bio": [
+				"French musician, guitarist, HAK lo fi record"
+			],
+
+			"description":[
+				" k7, guitars, overdub"
+
+			],
+
+			"links":
+			[
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/ayato_sn1984/"
+				},
+				{
+					"name": "Soundcloud",
+					"url": "https://soundcloud.com/ayato-sounds"
+				},
+				{
+					"name": "X",
+					"url": "https://ayato.bandcamp.com/"
+				},
+				{
+					"name": "Facebook",
+					"url": "https://www.facebook.com/profile.php?id=100050961081837&locale=fr_FR"
+				}
+			],
+
+			"sources":
+			[
+				{
+					"name": "code.scd",
+					"file": "code.scd"
+				}
+			]
+		}
+	},
+	{
+		"title": "Ambulation",
+		"folder": "ludi-baya",
+		"videast":
+		{
+			"name": "Ludivine Korner",
+
+			"bio": [
+				"<b>LUDE/Ludivine Korner</b><br>Femme<br>Strasbourg, France"
+			],
+
+			"description": [
+				"Je souhaite m’approprier les technologies contemporaines afin de les aborder sensiblement pour laisser place à des imaginaires hors circuit. Ma pratique est motivée par des réflexions sur le <b>détournement, le hacking et les communs.</b><br>Par opposition <I>“à la tendance du capitalisme à créer un environnement visuel homogène”(1),</I><br>je porte une attention particulière à <b>la manière dont sont fabriquées les images numériques contemporaines.</b><br>J’examine nos outils, procédés et contextes, afin de cultiver une démarche critique. Inspirée par les esthétiques laissées pour compte :<br>logiciels de bureautique, imagerie scientifique, interfaces graphiques, mes productions sont <b>brutes, audio/visuelles, lives et interactives.</b><br>Elles témoignent d’un patrimoine commun, universel et intime.<br>Je porte un intérêt particulier aux procédés, j’utilise <b>protocoles et automatismes.</b> Cela me permet d'introduire du hasard et de la de rigueur dans ma pratique, inspirée notamment des surréalistes et situationnistes.<br>Je perçois la création comme résultant de situations, d’observations communes et d’experiences sociales. Dans ce contexte, <b>les ateliers de création</b> (VJing, DJing) font partie de ma pratique artistique.<br>Je m’inscris également dans des dynamiques <b>pluridisciplinaires et collaboratives.</b>",
+
+				"<I>(1).Copier/Varier. Standards, critiques, et contre-emplois des logiciels de création, Anthony Masure</I>"
+			],
+
+			"links":
+			[],
+
+			"sources":
+			[
+				{
+					"name": "Processus.pdf",
+					"file": "process.pdf"
+				}
+			]
+		},
+		"musician":
+		{
+			"name": "Baya",
+			"bio": [
+				""
+			],
+
+			"description":[
+				""
+
+			],
+
+			"links":
+			[
+				{
+					"name": "linktr.ee",
+					"url": "https://linktr.ee/sergiiio"
+				}
+			],
+
+			"sources":
+			[
+				{
+					"name": "code.scd",
+					"file": "code.scd"
+				}
+			]
+		}
+	},
+	{
+		"title": "Cyborg butoh",
+		"folder": "cecile-presence",
+		"videast":
+		{
+			"name": "Cécile Dabo",
+
+			"bio": [
+				"Je suis née en 1986 à Orléans, où j'y ai grandi dans un quartier prioritaire de la ville.<br>Ce qui ne m'empêche pas de me passionner très jeune pour le dessin, la peinture, la musique, et la danse.<br>Je parviens à intégrer l’école des Beaux-Arts de Rennes (EESAB) en 2004 et j'y oriente rapidement mon travail vers une pratique de la vidéo qui lie le corps et la musique, en analogie à une pratique picturale ;<br>ainsi qu'avec une prise en compte forte de l'espace ou du lieu, ce qui m'amène très vite à étendre cette approche vers la performance (je passerai chacun de mes diplômes sous cette forme, en tant que commentaire de l'oeuvre)",
+
+				"J'obtiens le DNAP Art en 2007 et le DNSEP Art en 2009, et je poursuis mon parcours à Strasbourg, où j'intègre le CFPI (Centre de Formation des Plasticiens Intervenants) à l’école des Arts Décoratifs (HEAR).<br>Entre 2009 et 2019 environ, je ferai principalement des performances (expression corporelle-danse) associant la vidéo (avec un travail sur le support de projection) et la création sonore ;<br>auxquelles s'ajoutent quelques installations pluridisciplinaires me permettant de ré-intégrer du dessin et/ou de la peinture (entre autres éléments physiques-arts plastiques)",
+
+				"Après la découverte du live-coding (avec Sonic Pi) en 2018, des difficultés personnelles mais surtout la pandémie de Covid en 2020, je concentre mon travail sur le son/la musique (avec 2 projets solo), et le dessin. En 2021, j'ai l'opportunité de faire une petite tournée musicale m'amenant à Terre-Blanque, lieu qui accueille le Rural Art System, où j'y découvre avec un certain enthousiasme \"l'univers\" des Hackerspaces.<br>C'est ainsi qu'en 2022, j'intègre Hackstub (le hackerspace de Strasbourg).<br>Depuis, je poursuis mes explorations sonores que je ré-augmente peu à peu de mes autres mediums (le dessin et la peinture notamment) ;<br>et c'est aujourd'hui en 2024, que j'y ré-intègre doucement une pratique corporelle, comme précedemment d'abord dans un rapport filmique, pour peut-être dans un futur indéterminé reproposer des performances."
+			],
+
+			"description": [
+				""
+			],
+
+			"links":
+			[
+				{
+					"name": "Website",
+					"url": "https://dabocecilef.wixsite.com/works"
+				},
+				{
+					"name": "Soundcloud-cecile",
+					"url": "https://soundcloud.com/dabo-cecile-f"
+				},
+				{
+					"name": "Soundcloud-Livecoding",
+					"url": "https://soundcloud.com/ph-livecoding"
+				},
+				{
+					"name": "Soundcloud-tarot",
+					"url": "https://soundcloud.com/ph-tarot"
+				},
+				{
+					"name": "Facebook",
+					"url": "https://www.facebook.com/cecile.dabo"
+				},
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/cecile.f.dabo/"
+				}
+			],
+
+			"sources":
+			[
+				{
+					"name": "Processus.pdf",
+					"file": "process.pdf"
+				}
+			]
+		},
+		"musician":
+		{
+			"name": "Presence",
+			"bio": [
+				""
+			],
+
+			"description":[
+				""
+
+			],
+
+			"links":
+			[
+				{
+					"name": "Soundcloud",
+					"url": ""
+				}
+			],
+
+			"sources":
+			[
+				{
+					"name": "code.scd",
+					"file": "code.scd"
+				}
+			]
+		}
+	},
+	{
+		"title": "higher plane of existence",
+		"folder": "zorg-blip",
+		"videast":
+		{
+			"name": "z0rg",
+
+			"bio": [
+				"Hi there,",
+
+				"I'm z0rg a creative coder from paris, I enjoy using code in way it was not meant to, to create fun visual experiences. I'm doing a lot of livecoding in algoraves and shader battles in demoparties. You can follow my projects following this <a href='https://linktr.ee/z0rg'>link</a><br>Don't be shy to reach, I'm always happy to meet new people !"
+			],
+
+			"description": [
+				"This visual experience was assembled using multiple glsl shaders I did (some older and some new).<br>It was done as a tribute to a demoscene pice I love from MFX and Kewlers band. We find many classic visuals of the demoscene culture, checkerboard, chromatic aberrations, raymarching, glow... which is really enjoyable to create with pure shaders. It was all done in shader, it can be found <a href='https://www.shadertoy.com/view/43XSz7'>here</a>"
+			],
+
+			"links":
+			[],
+
+			"sources":
+			[
+				{
+					"name": "Code",
+					"file": "code"
+				}
+			]
+		},
+		"musician":
+		{
+			"name": "lil bleep",
+			"bio": [
+				"I'm Lil Bleep a.k.a. <a href='https://www.instagram.com/djensbeer21/'>@djensbeer21</a> and I'm a live coder from Eindhoven, The Netherlands<br>I'm active in the live coding community and I like to make weird noises and glitches :) "
+			],
+
+			"description":[
+				" I picked up the invite from Azertype to make something for your zine and if Azertype asks you deliver. But I wanted to challenge myself. When I make music, I worked mostly with<br>ORCA<br>ORCA and I felt it's time to broaden my horizon. So, for this project I used Mercury. It was on my radar for a while, because Timo Hoogland made it and he is from our local scene, that being in The Netherlands.<br>I do find importance in using tools that have been made by local developers. So, for me this call was a great motivation to learn a new tool and deliver a creative piece of sound with it.<br>For a live coding language, it feels nice and straight forward. I felt it was accessible.",
+
+				"Sound wise I was looking for something weird and outer-spacy, but also something cold. Because z0rg's video play's trough this weird 3d rendered liminal demo-scene kind of space. This is the feeling I was getting.<br>Even though there are a lot of lights I just couldn't make any sense of it. It kept feeling cold and weird. I did go for some Gameboy Advance synth sounds. Because the fish was also levelling up at some point.<br>It just made me think of all the hours playing Pokémon and other RPG's on the GBA and the sounds that accompanied these weird type vaguely familiar creatures.",
+
+				"In the end I would would call this sound Limenal Goofy, cause that wat the video and the sound is. It's goofy and it moves trough a liminal space."
+
+			],
+
+			"links":
+			[
+			],
+
+			"sources":
+			[
+			]
+		}
+	},
+	{
+		"title": "Estática",
+		"folder": "valg-desire",
+		"videast":
+		{
+			"name": "Val Gigena",
+
+			"bio": [
+				"Born in Córdoba, Argentina, in 1990. Completed high school studies at the Collegium Musical School in 2008. In 2012, began programming with PureData under the guidance of Alexandre Porres (São Paulo, Brazil). In 2020, won the virtual performance award from INT and in 2021, the 1st Figueroa Digital Prize. In 2021, completed the diploma in Video Game Development at UTN. In 2022, graduated from the University Technical Degree in Multimedia Creation at the Provincial University of Córdoba. Completed the Diploma in Artistic Game Development at UNCuyo. Currently pursuing a master's degree in \"Sound Art\" at the National University of Quilmes. Participates in research groups focused on art and technology and live coding at UPC and UNC.",
+
+				"Statement<br>I work from playful experimentation with technology that I can intervene in and reappropriate, such as computers or obsolete video games, software and hardware that allow creative freedoms through programming, modularization, or the construction of new objects. Thus, I explore the particularities of a variety of techniques such as live coding, soundscapes, circuit bending, video games, 3D printing, 3D modeling, circuit construction, programming, video art, glitch, etc. At the same time, I reclaim manual tasks such as blacksmithing, carpentry, sewing, or screen printing, which leads me to prioritize their unexpected potentials and then work on the relationships - whether of tension or articulation - between them.<br> This eclectic and voracious search is carefully materialized, generating tension between the minimalism of gestures and the volatility of experimentation.<br>I am characterized by uncertainty and impermanence, concepts that contradict the productivist tendencies associated with new technologies. I do not attempt to generate spectacle in my works, but still perceive in the viewers a sense of wonder or enjoyment of the strangeness when immersing themselves in the almost fantastical yet very real worlds that I am creating. Although I consider myself a politicized person, it is not evidently easy to trace specific topics of interest in my work, although they are always present in one way or another."
+			],
+
+			"description": [
+				"In this social and political context, Argentina being governed by the far-right after a long time of not-so anti-popular governments. Also, as part of the Global South in a globalized and accelerated world, I often find myself perplexed, almost feverish, in moments when I can stop running, and it is then when I spot these little beings that are always around us. I call them umbríos, dark beings that are not necessarily negative but are indeed part of my necessary ritual of externalization. Vital to materialize that cluster of sensations, experiences, assumptions, and other processes that accompany me closely, as if lurking every day. And I can not continue ignoring what is happening. They can be guardians, they can be lost, they can be symbionts.",
+
+				"The technical process is very different from the rest of my works, in this case, I only notice it, and try to register with my cell phone,(which is another umbrío that always haunts me), small remains of 3D prints or 3D prints specifically made through \"OpenScad,\" a software that generates models from code. Also, sometimes the models hiding these beings can be simple garbage bags. And then a rather simple editing process to achieve high contrasts and the sensation of abstraction. I believe that a fundamental factor is the necessary state in which I engage and through which it is possible to access this style of spontaneous creation.<br> It could be finding a light that is suitable for testing, experimenting, connecting, and disconnecting between this world and the word of the umbríos. Another important part is also sharing this altered vision so that, like a virus, it spreads to other eyes and they too can play with that abstraction. Because this multiple words coexist, and we need to be able to be free and at least see beyond.",
+
+				"En este contexto social y político, Argentina siendo gobernada por la ultra derecha luego de mucho tiempo de gobiernos no tan anti-populares. Además como sur global en un mundo globalizado y acelerado, me suelo encontrar perplejo, casi como afiebrado en los momentos en los cuales puedo dejar de correr y es ahí cuando diviso a estos pequeños seres que siempre están a nuestro alrededor. les llamo umbríos, unos seres oscuros que no son necesariamente negativos, pero que sí son parte de mi ritual de exteriorización necesario. vitales para ver materializado ese cúmulo de secciones, experiencias, suposiciones y demás procesos que nos acompañan de cerca, como acechandonos cada día. Y no seguir ignorando lo que pasa. Pueden ser guardianes, pueden estar perdidos,pueden ser simbiontes.",
+
+				"El proceso técnico es muy diferente al resto de mis obras, en este caso solo me percato a registrar con mi teléfono celular, que es otro umbrío que siempre me acecha, pequeños restos de impresiones 3d o impresiones 3d realizadas específicamente a través de “OpenScad” un software que genera modelos a partir de código. También en ocasiones pueden llegar a ser simples bolsas de basura los modelos que ocultan estos seres. Y luego un proceso de edición bastante simple para lograr altos contrastes y la sensación de abstracción.<br> Creo que un factor fundamental es el estado necesario en el que me involucro y a través del cual es posible acceder a este estilo de creación espontánea. Puede ser encontrar una luz que sea la indicada para probar, experimentar, conectar y desconectar entre este mundo y el de los umbríos. Parte importante también es compartir esta visión alterada, para que como un virus se transmita a otros ojos y puedan estos también jugar a esa abstracción."
+			],
+
+			"links":
+			[],
+
+			"sources":
+			[
+			]
+		},
+		"musician":
+		{
+			"name": "Désiré Bonaventure",
+			"bio": [
+				"R.A.F. RastaKitsch Nomadic No Genre Objectif Conscience"
+			],
+
+			"description":[
+				""
+
+			],
+
+			"links":
+			[
+				{
+					"name": "Bandcamp",
+					"url": "https://euphonic-recordings.bandcamp.com/"
+				},
+				{
+					"name": "Newsletter",
+					"url": "https://static.club1.fr/bonaventure/NEWSLETTER%20R.A.F./"
+				},
+				{
+					"name": "Soundcloud-Désiré",
+					"url": "https://soundcloud.com/desirbonaventure"
+				},
+				{
+					"name": "Soundcloud-RAF-system",
+					"url": "https://soundcloud.com/rien-a-foutre-soundsystem"
+				}
+			],
+
+			"sources":
+			[
+			]
+		}
+	},
+	{
+		"title": "Chahut monodique",
+		"folder": "marlen-gaziel",
+		"videast":
+		{
+			"name": "Marlen",
+
+			"bio": [
+				"Rien<br>à dire<br>sur moi..."
+			],
+
+			"description": [
+				""
+			],
+
+			"links":
+			[
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/m.a.r.l.e.n_b/"
+				}
+			],
+
+			"sources":
+			[
+				{
+					"name": "Processus.pdf",
+					"file": "process.pdf"
+				}
+			]
+		},
+		"musician":
+		{
+			"name": "Gaziel",
+			"bio": [
+				"I like pizza"
+			],
+
+			"description":[
+				"<b>Projet52.</b>",
+
+				"La vidéo m’inspire une ambiance nature, l’autrice, que je connais, aime le live-coding.<br>J’ai essayé de faire une ambiance qui colle au projet 52 avec ces 2 composants.<br>C’est ma première expérience musicale composé, je découvre les outils.",
+
+				"Les outils :<br>● Un kalimba, non accordé.<br>● Un sifflet à eau.<br>● Ibniz, un logiciel de demomaker, utilisé pour sa partie musique.<br>● Reaper, pour le montage.<br>● Un micro pour enregistrer les sons, même le live coding est pris au micro."
+			],
+
+			"links":
+			[
+				{
+					"name": "Website",
+					"url": "http://gaziel.free.fr/"
+				}
+			],
+
+			"sources":
+			[
+				{
+					"name": "Photo.png",
+					"file": "photo.png"
+				}
+			]
+		}
+	},
+	{
+		"title": "In the weeds",
+		"folder": "thesource-biset",
+		"videast":
+		{
+			"name": "the_source",
+
+			"bio": [
+				"Sofy (<a href='https://www.instagram.com/_the_s0urce_/'>@_the_s0urce_</a>) is a site-specific media artist and educator working with sound, video, interactivity, projections, code, paper, and salvaged material. Her work focuses on techno-occult rituals, street performance, and participatory art. Sofy's performances enact and reframe hegemonies, she works with materials that exemplify our deep entanglement with petro-culture and technology’s affect on consciousness. She has worked on projects at Eyebeam, 3LD, the Netherlands Institute voor Media Kunst, Steim, ARS Electronica, Games for Learning Institute, The Guggenheim (NYC), The National Mall and has taught at GAFFTA, MoMA, NYU, Srishti, and the Rubin Museum. She is a PhD Candidate in Audio-Visual Composition at NYU GSAS.",
+
+				""
+			],
+
+			"description": [
+				"This video is a sermon to all the weeds and all the years of bio engineering that have brought us here. Part cosmic horror, part manifeste destiny. Here we live, here we grow, spreading out tendrils into the underground, shooting straight up for the stars.",
+
+				"This video is a collage. It started with a recording of a creek at Franklin Cthonics, which I processed with reverb and delay in Pure Data. Then I played it as well as another video in VDMX accidentally recording the sound from both as I was sending all system sounds out to a hardware mixer and recording off that with a Zoom Recorder. The video footage in this video is from a corn farm in upstate NY. The kaleidoscopic effect was achieved with a lens held in front of my iPhone and the time delay is some interplay between the lens refraction and the iPhone camera, it's all optics and glitches, tho some clips are reversed and cut.",
+
+				"Cette vidéo est un sermon à toutes les mauvaises herbes et à toutes les années de bio-ingénierie qui nous ont amenés ici. En partie horreur cosmique, en partie destin manifeste. Ici nous vivons, ici nous grandissons, déployant nos tendrilles dans le sous-sol, filant droit vers les étoiles.",
+
+				"Cette vidéo est un collage. Tout a commencé avec un enregistrement d'une crique chez Franklin Cthonics, que j'ai traité avec réverbération et delay dans Pure Data. Ensuite, je l'ai joué ainsi qu'une autre vidéo dans VDMX, enregistrant accidentellement le son des deux alors que j'envoyais tous les sons du système vers un mélangeur matériel et que j'enregistrais cela avec un enregistreur Zoom. La séquence vidéo de cette vidéo provient d'une ferme de maïs dans le nord de l'État de New York. L'effet kaléidoscopique a été obtenu avec un objectif tenu devant mon iPhone et le retard est dû à une interaction entre la réfraction de l'objectif et l'appareil photo de l'iPhone, tout n'est qu'optique et problèmes, même si certains clips sont inversés et coupés."
+			],
+
+			"links":
+			[],
+
+			"sources":
+			[
+			]
+		},
+		"musician":
+		{
+			"name": "Bisous Biset",
+			"bio": [
+				"Le Pigeon biset (Columba livia) est une espèce d'oiseaux de la famille des Columbidés. C'est l'espèce qui comprend le pigeon domestique et la plupart des pigeons des villes mais qui subsiste également comme oiseau sauvage dans son milieu naturel original : les falaises et autres milieux rocheux.<br>Le type domestique est différent du type sauvage.",
+
+				"////////////////////////////////////////////////////////",
+
+				"J'oscille constamment entre dance music et musique narrative.",
+
+				"C'est le sound design qui me permet de meler ces pratiques qui, aussi différentes qu'elles soients, se font souvent avec les mêmes outils.",
+
+				"Aujourd'hui, VCV Rack est mon environnement de création sonore privilégié.<br>J'y ai publié plusieurs modules open-source sous le nom Biset.<br>Pour Live coder, séquencer, composer, créer du son, traiter du son ou de simples modules utilitaires.",
+
+				"Je place la contrainte au centre de mon processus de création et particulièrement lorsqu'il s'agit de composition."
+			],
+
+			"description":[
+				"//////////////////////////////////////////////////<br>// Tools / Outils<br>//////////////////////////////////////////////////",
+
+				"- VCV Rack<br><br>- C++<br>- Voix<br>- Bitwig",
+
+				"//////////////////////////////////////////////////<br>// Process - EN<br>//////////////////////////////////////////////////",
+
+				"I mainly used VCV Rack to create the track. VCV Rack is an open-source modular environnement that is incredibly versatile and flexible.",
+
+				"The composition was made in Bitwig in a quite minimal fashion. I played it live without any loop or predefined BPM / rhythm to fit the feeling I had watching the visual creation and the wandering theme.",
+
+				"One of the instruments use a screen-shot I made of the video to slowly modulate the timbre of the instrument through time. It's then processed multiple times through a module I made, among other thing, to add a lot to the stereo space.",
+
+				"After composing with these two instruments, I decided to add another organic layer by using my voice and some recorded sound effects. This layer was also heavily processed by one of my modules (See 1st instrument).",
+
+				"//////////////////////////////////////////////////<br>// Processus - FR<br>//////////////////////////////////////////////////",
+
+				"J'ai crée cette musique en utilisant principalement VCV Rack qui est mon outil de création sonore de prédilection. Il s'agit d'un environnement modulaire open-source extremement riche et ouvert.",
+
+				"La composition a ete faite sur Bitwig de maniere tres minimale puisque je n'ai utilise aucune boucle et ai joue a la main sans rhythme / BPM defini afin de coller au mieux a la creation visuelle et au theme de la divagation.",
+
+				"L'un des instruments utilise un screen-shot de la video comme source de modulation, changeant subtilement le timbre de l'instrument au cours du temps. Le son est en suite traite plusieurs fois par un module que j'ai moi meme developpe qui permet, entre autre, de spacialiser l'instrument d'une maniere plus interessante dans l'espace stereo.",
+
+				"L'autre instrument utilise egalement un screen-shot mais cette fois-ci comme source sonore, ce qui lui donne un aspect assez fantomatique que j'aime beaucoup et permet d'obtenir un timbre radicalement different lorsque plusieurs notes sont jouees en meme temps. Une autre couche de cet instrument est produite par un de mes modules plus experimentaux qui ajoute aussi une certaine profondeur stereo.",
+
+				"Apres avoir compose la musique avec ces deux instruments, j'ai finalement decide d'ajouter une derniere couche organique en utilisant ma voix ainsi que differents bruitages enregistres. Cette couche a egalement ete traitee a plusieurs reprises avec l'un de mes modules (cf 1er instrument)."
+
+			],
+
+			"links":
+			[
+			],
+
+			"sources":
+			[
+			]
+		}
+	},
+	{
+		"title": "Collision",
+		"folder": "eigen-youssra",
+		"videast":
+		{
+			"name": "Eigen",
+
+			"bio": [
+				"hey!",
+
+				"the name is Jordan but i usually go by @eigen online.",
+
+				"i've been toying w/ various lua-based creative code platforms in the last few years. i started w/ PICO-8 but quickly transitioned to the monome norns as it allowed me to combine w/ another obsession which is making music-making tools."
+			],
+
+			"description": [
+				"<b># collision<br>## idea</b>",
+
+				"the idea of this demo was to simulate the visualisation produced at CERN by the LHC (Large Hadron Collider), esp. those from the ATLAS detector.",
+
+				"the LHC is a particle accelerator. its aim is to get a chunk of particles (generally protons) to NOT divagate, or more precisely to do it as late as possible.",
+
+				"the particles are concentrated in beams and accelerated at tremendous speed (99.9999991% the speed of light). doing so requires an elaborate setup: a vacuum environment and extremely powerful superconductive magnets to make the beams converge (as if they were going into a straight line).",
+
+				"but ultimately those constrained particles are let free as 2 beams going in opposite directions collide. allowing them to divagate so late, in such conditions, transforms them. they explode with flair and new particles, wild and extremely short-lived, take their place.",
+
+				"in fact if we sum the mass of all those newly created particles we find a bigger result than the mass of the initial particles. the reason is that the energy of the acceleration gets transformed into particles with a (furtive) mass.",
+
+				"as such, the new particles are not so much the transformation of the original ones. it's more that the (extremely hot) environment resulting from their explosion allows those weird new particles to appear.",
+
+				"<b>## tools<br>#### platform - seamstress</b>",
+
+				"this demo is a script made using <b><a href='https://llllllll.co/t/seamstress-is-a-lua-scripting-environment-for-musical-communication/64556'>[seamstress]</a></b>, a Lua scripting platform heavily inspired (in design) by the <b><a href='https://monome.org/docs/norns'>[monome norns]</a></b>.",
+
+				"both of those platform are limited by design (to enforce creativity) and tailored for building your own tools for making music (be it synths, effets, sequencers or anything in between) thanks to a set of powerful libraries (for dealing w/ midi, osc, scales, tunings...).",
+
+				"their drawing APIs are powerfull enough to make pixel art animations and that exactly what this script is about.",
+
+				"### coding environment",
+
+				"the script is launched from within Emacs for which i made a seamstress extension. launching the script spawn the seamstress windows but also a REPL from within Emacs that can be used to interact with the script (e.g. for doing live coding).",
+
+				"this is how the script got initially developped, in about an evening.",
+
+				"the source code of the script is available as part of seamstress, as an example <a href='https://github.com/ryleelyman/seamstress/blob/main/examples/collision.lua'>code</a>",
+
+				"it can be run with: <code>seamstress -e collision</code>"
+			],
+
+			"links":
+			[
+				{
+					"name": "github",
+					"url": "https://github.com/p3r7"
+				},
+				{
+					"name": "vimeo",
+					"url": "https://vimeo.com/user148783341"
+				},
+				{
+					"name": "llll",
+					"url": "https://llllllll.co/u/eigen/summary"
+				}
+			],
+
+			"sources":
+			[
+				{
+					"name": "Code.lua",
+					"file": "code.lua"
+				}
+			]
+		},
+		"musician":
+		{
+			"name": "Youssra",
+			"bio": [
+				""
+			],
+
+			"description":[
+				""
+
+			],
+
+			"links":
+			[
+			],
+
+			"sources":
+			[
+			]
+		}
+	},
+	{
+		"title": "colon",
+		"folder": "grain-akarien",
+		"videast":
+		{
+			"name": "Grain noir",
+
+			"bio": [
+				"GRAIN noir is a programmer, sound and visual designer working in the interaction field between sound and visual.<br>\"GRAIN\" is the acronym of 「Generative Random Audio Images Numbers」and \"noir\" refers to the hypothetical dark matter.<br> The purpose of his works is to create experiments about technology, philosophy and metaphysics, in a metaphorical and abstract way.<br> As a digital artist, his works range from sound to audio/visual performance, software and installation."
+			],
+
+			"description": [
+				"<b>::PROCESS::</b>",
+
+				"<b>::colon::</b> is a visual live coding environment developed by the audiovisual artist <b>GRAIN noir</b> (<a href='https://grain-noir.com/'>https://grain-noir.com/</a>) initially for <b>Tokyo Algorave</b> (<a href='https://algorave.tokyo/'>https://algorave.tokyo/</a>).",
+
+				"The software is developed with <b>Three.js</b>, a cross-browser <b>JavaScript</b> library and application programming interface (API) used to create and display animated 3D computer graphics in a web browser using <b>WebGL</b>.",
+
+				"The session starts by logging in the terminal before accessing the <b>::colon::</b> interface. The UI is inspired by minimal terminal interfaces and is composed of the following elements:<br>- <b>input terminal</b>: this is where the user enter commands<br>- <b>log</b>: display command helper and system logs<br>- <b>signal</b>: show the raw PCM audio data if audio input is enabled<br>- <b>debug</b> (optional): display camera and objects in debug mode",
+
+				"The commands are used to interact with 3D primitive shapes in the environment (box, sphere, plane) called <I><b>artifacts</b></I>, properties such as position, rotation, scale, colors, amount, resolution, draw mode can be set through the <I><b>create</b></I> command.",
+
+				"The <I><b>goto</b></I> command is the vessel of this 3D exploration system: the camera can indeed be animated to move toward created artifacts or position by specifying an object index, a vector and a duration through the <I><b>goto</b></I> command.",
+
+				"On top of these commands, the audio input can be enabled to map scene parameters to the live raw <b>audio data</b>. The WebGL rendered can also be switched to <b>ASCII mode</b> in order to display the 3D render using characters and symbols.",
+
+				"See the documentation for the complete list of commands and parameter types."
+			],
+
+			"links":
+			[
+				{
+					"name": "Website",
+					"url": "https://grain-noir.com/"
+				},
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/_.gcode/"
+				},
+				{
+					"name": "X",
+					"url": "https://twitter.com/gcode__"
+				},
+				{
+					"name": "Github",
+					"url": "https://github.com/gllmp"
+				},
+				{
+					"name": "Youtube",
+					"url": "https://www.youtube.com/@GrainNoir"
+				},
+				{
+					"name": "Vimeo",
+					"url": "https://vimeo.com/grainnoir"
+				}
+			],
+
+			"sources":
+			[
+				{
+					"name": "description.png",
+					"file": "screenshot1.png"
+				},
+				{
+					"name": "documentation.png",
+					"file": "screenshot2.png"
+				}
+			]
+		},
+		"musician":
+		{
+			"name": "aka.rien",
+			"bio": [
+				""
+			],
+
+			"description":[
+				""
+
+			],
+
+			"links":
+			[
+			],
+
+			"sources":
+			[
+			]
+		}
+	},
+	{
+		"title": "Ce que 10e t'a donné c'est pour toi",
+		"folder": "chaton-paul",
+		"videast":
+		{
+			"name": "Chaton @",
+
+			"bio": [
+				"Dans un premier temps je dois saluer tout le monde ici présent, car ensemble on a la valeur, ensemble on a la puissance .",
+
+				"Je préfère vous parler de ce que l’on voit plutôt que de moi.<br>Il s’agit comme son nom l’indique d’un moment parfait , un moment qui c’est inscrit en dehors du temps.Un moment que je n’aurai peut être pas dû vivre<br>Cette vidéo est le résultat d'un week end magnifique, ou j’ai été retrouvé mon top 2 d'être humains tous sexes confondu.<br>3x la puissance"
+			],
+
+			"description": [
+				"Il s’agit de vidéo capté avec un Sony rx100 défiltré, ce qui veut dire que les filtres natifs ultraviolet et infrarouge ont été enlevés.<br>Ce qu’on appelle un full frame<br>C’est donc un appareil photo qui capte toutes les plages de lumière contrairement à notre œil  (on a justement mis des filtres UV et infrarouges dans les appareils photo pour qu’il puisse restituer ce que l’on voit)",
+
+				"En photo infrarouge lorsqu’il y a du soleil et les arbres rayonnent en blanc comme vous pouvez le voir sur es vidéo.<br>C’est donc un appareil photo qui permet au moldu d’avoir accès au monde des sorciers, il s’agit d’un artefact très précieux à mes yeux qui m’a été dérobés il y a un ans…<br>`désormais je suis redevenu un simple terriens incapable de pratique la magie",
+
+				"Il n’y a aucune retouche, même pas de chromi"
+			],
+
+			"links":
+			[],
+
+			"sources":
+			[]
+		},
+		"musician":
+		{
+			"name": "Paul Laurent",
+			"bio": [
+				"Aussi loin que je remonte, j’ai toujours été très attentif au son et en particulier au son enregistré.",
+
+				"L’enregistrement a été pour moi le moyen de me saisir des sons que j’aime. D’en faire quelque chose qui ai de la valeur. Finalement, c’est construire du temps qui me semble le plus important. Ce temps, c’est mon temps, c’est aussi le temps de l’auditeur éventuel, c’est du temps partagé.",
+
+				"Je m’interroge sur la puissance du son de la majorité des concerts amplifiés. Je plaide pour une sobriété des décibels et pour un regain des nuances.<br>Les performances noise n’en seront que plus pertinentes."
+			],
+
+			"description":[
+				"J’ai utilisé uniquement des ressources que j’avais sous la main. Des prises de sons anciennes et d’autres assez récentes. On y entend des moments de ma vie, enfants, amis, et aussi des moments de travail musical que je n’avais jamais utilisé.<br>J’ai sélectionner des prises qui avaient à faire ensemble et avec le film.<br>C’est une conversation que j’ai voulu très douce, drôle, et vivante."
+
+			],
+
+			"links":
+			[
+				{
+					"name":"Website",
+					"url":"https://www.echoecho.fr/"
+				},
+				{
+					"name":"Instagram",
+					"url":"https://www.instagram.com/polopillaurent/"
+				},
+				{
+					"name":"Facebook",
+					"url":"https://www.facebook.com/paul.laurent.1848/"
+				}
+			],
+
+			"sources":
+			[]
+		}
+	},
+	{
+		"title": "UNTILTED diviagation",
+		"folder": "oz-gros",
+		"videast":
+		{
+			"name": "oz'n'roll",
+
+			"bio": [
+				"Hi, my name is Lorenzo. I was born in Ravenna, Italy, but I’m actually living in Antwerp, Belgium.<br>I’m a musician and I got in contact with creative coding during my master in “Live Electronics” at the Antwerpen’s conservatoire. One of the main classes was about coding and my teacher introduced me to Hydra while I was trying to develop some visuals for my music.<br>At the moment I’m performing as Oz’n’Roll both for music and visuals, using a mix of coding (sonic Pi and Hydra) and hardware synths."
+			],
+
+			"description": [
+				"I’m using hydra to generate my visual, calling as function some patches that I’m familiar and comfortable with and then blending/mixing them together.<br>I like to reach the point where it’s difficult to grasp the start of the pattern.<br>However not too much randomness, I want it to be fluid and somehow organic.<br>Lately I’m always trying to create visuals that can recall the outer space and I thought it could fit with the theme of “divagation”."
+			],
+
+			"links":
+			[],
+
+			"sources":
+			[
+				{
+					"name": "Code Hydra",
+					"file": "code_hydra"
+				}
+			]
+		},
+		"musician":
+		{
+			"name": "gros plan sur la pierre",
+			"bio": [
+				"je, gros plan sur la pierre, a peur des humains, ils les observent et les met sur un piédestal. A force de zoomer sur lui, il se sent tout petit. <br>Je me fuit comme le silence, <br><I>une vague recouvre ses pied *oh que c’est dramatique*</I>. Je dois larguer mes lamentations, pardon, j’aspire à douceur, soleil, merveilles <I><br>*c’est mieux, belle progression*</I>.<br>Ici je vous fait rentrer dans mon laboratoire de collisions plus ou moins vanillées. Rien n’est raté, rien n’est réussi quand c’est expérimental. Aucun risque d’échouer ou de toucher."
+			],
+
+			"description":[
+				"Faire du son pour une vidéo m’a bien amusé, surtout l’idée de faire à partir d’un visu hydra. Tu peux faire du supercollider ou des SynthDef un peu comme hydra, sans être un génie du langage je crois. Un UGEN un peu égale à une fonction hydra. D’abord le générateur, puis les effets à la chaîne, puis un peu d’aléatoire dans le comportement des effets (s’agit pas de respecter le chaînage d’effet classique de studio). On aime faire n’importe quoi, tant que le son est un peu surprenant. Dégager des nouvelles saveurs (ouai c’est ambitieux, mais motivant).",
+
+				"Enfin bon j’ai construit mon SynthDef avec des routines aléatoire pour “explorer” les limites du synthé, puis j’ai fait un bus d’effet avec avec du delay du delay. pour ajouter de la texture et en quelque sorte faire du nappage sur le son déjà produit.<br><I>TextuuRe</I><br>(un peu kitch la représentation du delay fx)<br>Comme le son n’est pas en rythme et qu’il est chelou, c’est cool d’entendre une variation de ce qu’on a déjà entendu je me dit, on est moins perdu ?",
+
+				"Après j’ai joué mes routines un peu calibrées comme j’aimais en regardant la vidéo, c’est à du à peu près quoi, y’a des passages qui match mieux que d’autre non ?<br>Routine pour faire des nappes aigus, pour faire des nappes graves, des objets mobiles au premier plan mais aussi pour les effets. (un peu de reverb d’un plugin psk bon c’est à chier les reverb SC je trouve, oui c’est pas vanilla tant pis - VSTplugin c’est top moumout)",
+
+				"ps : sur mon soundcloud je met tout le code des expérimentations en description"
+
+			],
+
+			"links":
+			[
+				{
+					"name": "Soundcloud",
+					"url": "https://soundcloud.com/grosplansurlapierre/sets/cuisine-de-supercollider"
+				},
+				{
+					"name": "Github",
+					"url": "https://github.com/Jules-dejardin"
+				}
+			],
+
+			"sources":
+			[
+				{
+					"name": "code.scd",
+					"file": "code.scd"
+				}
+			]
+		}
+	},
+	{
+		"title": "Scribble",
+		"folder": "sarah-cloche",
+		"videast":
+		{
+			"name": "Sarah GHP",
+
+			"bio": [
+				"Sarah GHP is an American living in Berlin. She is interested in graphic improvisation and what happens to images when you push them too far. Sarah is inspired by the abstract animations of Norman McLaren and Adam Beckett, as well as the everyday graphics of her childhood in Southern California. She is also very active in the livecode community."
+			],
+
+			"description": [
+				"<b>Scribble process</b><br>This video is a combined software–hardware project, with a computer-generated live sketch fed into an analog framebuffer for manipulation. (See images.)",
+
+				"<b>Software</b><br>The base sketch is driven by La Habra, a Clojurescript framework I wrote to help write SVGs live. The project also makes use of VDMX to handle routing the video out of the laptop.",
+
+				"<b><a href='https://gitlab.com/sarahghp/scribble'>Code</a></b>",
+
+				"<b>Hardware</b><br>The software sketch is converted from HDMI to the Eurorack 1V format demanded by the LZX Memory Palace, a digital-analog framebuffer and effects unit. This conversion process goes through a Blackmagic HDMI to SDI mini-converter and the Blackmagic SDI to Analog converter. This signal is then sent into the LZX TBC2 for conversion to the 1V signal."
+			],
+
+			"links":
+			[],
+
+			"sources":
+			[
+				{
+					"name": "Hardware.png",
+					"file": "hardware.png"
+				},
+				{
+					"name": "Synth.jpg",
+					"file": "synth.jpg"
+				}
+			]
+		},
+		"musician":
+		{
+			"name": "C_Folle",
+			"bio": [
+				""
+			],
+
+			"description":[
+				""
+
+			],
+
+			"links":
+			[
+				{
+					"name": "linktr.ee",
+					"url": "https://linktr.ee/sergiiio"
+				}
+			],
+
+			"sources":
+			[
+				{
+					"name": "code.scd",
+					"file": "code.scd"
+				}
+			]
+		}
+	},
+	{
+		"title": "UNTILTED divag",
+		"folder": "crash-aka",
+		"videast":
+		{
+			"name": "CrashServer",
+
+			"bio": [
+				"CRASH SERVER is a live coding duo from Strasbourg  -  France. They use lines of code to transform computer language into music.",
+
+				"They wander into electro, noise, glitch, ambient music and deep into IDM territories. Crash Server is at the crossroads of many different influences such as post&#45;punk, rock and classical music. It merges digital and analog, algorithmic and organic, chaotic and structured.",
+
+				"They narrate a fight against an alienating server, question our connection to the digital world, our evolution as a technological species, ask questions about the transhumanism relationship, and analyze our relationship to data privacy and our addiction to technology."
+			],
+
+			"description": [
+				"Hello !",
+
+				"Quelques informations sur cette vidéo,",
+
+				"Pour la partie audio : c'est codé en FoxDot avec une toute petite intervention de guitare",
+
+				"Pour la partie video : Alors y a pas mal d'éléments différents, &#45; du procédural avec qql softs différents, vvvv, blender, cables gl &#45; un peu d'open frameworks saupoudré par dessus. &#45; du café &#45; un assemblage des différentes pièces dans un logiciel de montage video (Davinci Resolve)"
+			],
+
+			"links":
+			[],
+
+			"sources":
+			[]
+		},
+		"musician":
+		{
+			"name": "aka.rien",
+			"bio": [
+				""
+			],
+
+			"description":[
+				""
+
+			],
+
+			"links":
+			[
+				{
+					"name": "linktr.ee",
+					"url": "https://linktr.ee/sergiiio"
+				}
+			],
+
+			"sources":
+			[
+				{
+					"name": "code.scd",
+					"file": "code.scd"
+				}
+			]
+		}
+	},
+	{
+		"title": "Mourir demain - Doom",
+		"folder": "stella-plot",
+		"videast":
+		{
+			"name": "Stella Jacob",
+
+			"bio": [
+				"Stella Jacob is a multimedia artist based in Paris,passionate about immersive media. Graduated from Gobelins school in Game Design, she previously worked for five years in the Virtual Reality field. From trash-made costumes to video games, her work is about communities, either online or offline.",
+
+				"Stella Jacob est une artiste multimédia basée à Paris, passionnée par les médias immersifs. Diplômée de l’école des Gobelins en Game Design, elle a travaillé pendant cinq ans dans le domaine de la réalité virtuelle. Des costumes trash-made aux jeux vidéo, son travail porte sur les communautés, qu’elles soient en ligne ou hors ligne."
+			],
+
+			"description": [
+				""
+			],
+
+			"links":
+			[
+				{
+					"name":"Website",
+					"url":"https://stellaykv.net/"
+				}
+			],
+
+			"sources":
+			[
+				{
+					"name": "Processus.pdf",
+					"file": "processus.pdf"
+				}
+			]
+		},
+		"musician":
+		{
+			"name": "Plot",
+			"bio": [
+				""
+			],
+
+			"description":[
+				""
+
+			],
+
+			"links":
+			[
+				{
+					"name": "linktr.ee",
+					"url": "https://linktr.ee/sergiiio"
+				}
+			],
+
+			"sources":
+			[
+				{
+					"name": "code.scd",
+					"file": "code.scd"
+				}
+			]
+		}
+	},
+	{
+		"title": "1 hour live coding session",
+		"folder": "leon-vj",
+		"videast":
+		{
+			"name": "Léon Denise",
+
+			"bio": [
+				"I'm Leon Denise. I'm using video games tools to explore and experiment digital playgrounds. My work is about image filters, glitch effects, fractal shapes, particles systems behaviours and mathematical sculptures. I'm a freelancer shader coder and technical artist, working mostly with creative studios on VR standalone headsets, interactive installations, playful devices, immersive projections and new media movies.<br><a href='https://leon196.github.io/'>https://leon196.github.io/</a>",
+
+				"I participate in the organization of the Cookie Collective which gathers digital artists involved in real-time creation. This covers video games, art installations, video mapping, demoscene, live coding, etc. We collaborate with festivals and institutions to promote live coding audio visual performances and playful alternative installations.<br><a href='https://www.cookie.paris/all/'>https://www.cookie.paris/all/</a>",
+
+				"I'm part of an artist duo with Dorian Rigal: Neon Minuit. We capture pieces of reality to stage them in our playground: the virtual world. Our artistic approach is inspired by scientific experimentation and serendipity. Our work is about immersive interactive digital art and representation of volumetric content data.<br><a href='https://www.neonminuit.xyz/'>https://www.neonminuit.xyz/</a>",
+
+				"Je suis Léon Denise. J'utilise des outils de jeux vidéo pour explorer et expérimenter des terrains de jeux numériques. Mon travail porte sur les filtres d'images, les effets de glitch, les formes fractales, les comportements des systèmes de particules et les sculptures mathématiques. Je suis codeur créatif indépendant spécialisé dans les shaders, travaillant principalement avec des studios de création sur des casques VR autonomes, des installations interactives, des dispositifs ludiques et des projections immersives.<br><a href='https://leon196.github.io/'>https://leon196.github.io/</a>",
+
+				"Je participe à l'organisation du Cookie Collective qui regroupe des artistes numériques impliqués dans la création en temps réel. Cela couvre les jeux vidéo, les installations artistiques, le mapping vidéo, la demoscene, le live coding, etc. Nous collaborons avec des festivals et des institutions pour promouvoir des performances audio-visuelles de live coding et des installations alternatives ludiques.<br><a href='https://www.cookie.paris/all/'>https://www.cookie.paris/all/</a>",
+
+				"Je fais partie d'un duo d'artistes avec Dorian Rigal : Neon Minuit. Nous capturons des morceaux de réalité pour les mettre en scène dans notre terrain de jeu : le monde virtuel. Notre démarche artistique s'inspire de l'expérimentation scientifique et de la sérendipité. Notre travail porte sur l'art numérique interactif immersif et la représentation de données volumétriques.<br><a href='https://www.neonminuit.xyz/'>https://www.neonminuit.xyz/</a>"
+			],
+
+			"description": [
+				"The video is a timelapse of the progression of a computer-generated image programming.<br>The idea is to share the process of creating an image, through the definition of shapes, animations and colors.<br>The technique used to create the image is code, a three-dimensional space is defined mathematically, and each pixel is the result of a geometric ray throw that lands on a surface defined by equations, and is then colored according to its orientation.<br>Technically, it's a shader language, GLSL for Graphic Library Shading Language. It's a code executed on dedicated hardware, the graphic processing unit, which allows a large number of operations thanks to its performance and parallelization. Usually used to display 3D models made by dedicated software, or to apply image filters, here GLSL uses the ray marching algorithm, introduced in 1995 by John C. Hart and more recently popularized by Inigo Quilez and the Shadertoy website.<br>Ray marching lets you explore and experiment with an abstract mathematical, geometric and fractal world.<br>I chose to present this video because it's a demonstration of free improvised programming, also known as live coding.<br>It's a practice that encourages divagation and creative mistakes.",
+
+				"La vidéo est un enregistrement de la progression en accélérée de la programmation d'une image de synthèse.<br>L'idée est de partager le processus de création d'une image, en passant par la définition des formes, des animations et des couleurs.<br>La technique utilisée pour créer l'image est du code, un espace tri dimensionnel est défini mathématiquement, chaque pixel est le résultat d'un lancé de rayon géométrique qui va atterrir sur une surface défini par des équations, pour ensuite être coloré selon son orientation.<br>Techniquement, c'est un langage de shader, le GLSL pour Graphic Library Shading Language. C'est un code exécuté sur du matériel dédié, la carte graphique, qui permet une grande quantité d'opérations de part sa performance et sa parallélisation. D'habitude utilisé pour afficher des modèles 3D fait par un logiciel tiers, ou d'appliquer des filtres d'images, ici le GLSL utilise l'algorithme de ray marching, présenté en 1995 par John C. Hart et plus récemment popularisé par Inigo Quilez et le site Shadertoy.<br>Le ray marching permet d'explorer et d'expérimenter un monde abstrait mathématique, géométrique et fractal.<br>J'ai choisi de présenter cette vidéo, parce que c'est une démonstration de programmation libre et improvisée, aussi appelé live coding.<br>C'est une pratique qui favorise la divagation et les erreurs créativ"
+			],
+
+			"links":
+			[],
+
+			"sources":
+			[]
+		},
+		"musician":
+		{
+			"name": "VJ",
+			"bio": [
+				""
+			],
+
+			"description":[
+				""
+
+			],
+
+			"links":
+			[
+				{
+					"name": "linktr.ee",
+					"url": "https://linktr.ee/sergiiio"
+				}
+			],
+
+			"sources":
+			[
+				{
+					"name": "code.scd",
+					"file": "code.scd"
+				}
+			]
+		}
+	},
+	{
+		"title": "Season 2 - Salvador, Brazil",
+		"folder": "joenio-cipher",
+		"videast":
+		{
+			"name": "Joenio Marques da Costa",
+
+			"bio": [
+				"Joenio M. da Costa is a Research Software Engineer, free software activist, computer artist and experimental musician. He is interested in algorithmic music, audiovisual, demoscene and live coding. He holds a Master’s degree in Software Engineer field and is a expert in Research Software Sustainability. He is a The Carpentries instructor, a Software Heritage ambassador and a contributor to the Debian universal operating system. He creates and maintains its owns live coding tool called dublang."
+			],
+
+			"description": [
+				"The video Atari 2600 Video Remix is a series of video remix, sound art and live coding inspired by the game console Atari 2600, mixed with historical pictures of Brasília city (Brazil capital federal), and Salvador city (also called: The biggest carnival in the world).",
+
+				"The video was eddited and composed by using the free software tool Kdenlive, using as source for composing the video the sounds generated by Tidal Cycles live coding combined with the gameplay video recorded from the Stella emulator, and in addition mixed with the historical images for each episode.",
+
+				"The series is a work-in-progress and soon new eposodes will be released, you can find more info and news on the link below.",
+
+				"<a href='https://atari2600.4two.art'>https://atari2600.4two.art</a>"
+			],
+
+			"links":
+			[
+				{
+					"name": "Website",
+					"url": "https://joenio.me"
+				}
+			],
+
+			"sources":
+			[]
+		},
+		"musician":
+		{
+			"name": "Jules Cipher",
+			"bio": [
+				""
+			],
+
+			"description":[
+				""
+
+			],
+
+			"links":
+			[
+				{
+					"name": "linktr.ee",
+					"url": "https://linktr.ee/sergiiio"
+				}
+			],
+
+			"sources":
+			[
+				{
+					"name": "code.scd",
+					"file": "code.scd"
+				}
+			]
+		}
+	},
+	{
+		"title": "Nouveau goudron",
+		"folder": "yonko-ada",
+		"videast":
+		{
+			"name": "yonko lvl",
+
+			"bio": [
+				"Il fait chaud c’est pour cela que je perle du nez ."
+			],
+
+			"description": [
+				"C’est une vidéo que j’ai prise à Abidjan lors de mes interminables trajets en voiture, sur la nouvelle voie aussi appelée nouveau goudron, car elle a été finie il y a peu .",
+
+				"Abidjan est une ville ou il y a d'énormes embouteillages, car beaucoup de gens y vivent, et il y a très peu de transport en commun.",
+
+				"La vidéo a été glitch en temps réel avec une application pour téléphone."
+			],
+
+			"links":
+			[],
+
+			"sources":
+			[]
+		},
+		"musician":
+		{
+			"name": "Ada",
+			"bio": [
+				""
+			],
+
+			"description":[
+				""
+
+			],
+
+			"links":
+			[
+				{
+					"name": "",
+					"url": ""
+				}
+			],
+
+			"sources":
+			[
+				{
+					"name": "",
+					"file": ""
+				}
+			]
+		}
+	},
+	{
+		"title": "Sader shift",
+		"folder": "ilithya-ralt",
+		"videast":
+		{
+			"name": "Ilithya",
+
+			"bio": [
+				"Ilithya is a multidisciplinary artist and technologist with a background in creative development and design from México, based in Hamburg, Germany. She has a B.A. in Marketing and is a self-taught programmer creating artworks with code and algorithms, sometimes interactive, pushing and pulling the intersection of art and technology. Her preferred medium to produce is writing shaders in OpenGL Shading Language."
+			],
+
+			"description": [
+				"Shifts is a visual art piece created with shaders in GLSL."
+			],
+
+			"links":
+			[
+				{
+					"name": "Website",
+					"url": "https://www.ilithya.rocks/"
+				}
+			],
+
+			"sources":
+			[]
+		},
+		"musician":
+		{
+			"name": "Ralt144mi",
+			"bio": [
+				""
+			],
+
+			"description":[
+				""
+
+			],
+
+			"links":
+			[
+				{
+					"name": "",
+					"url": ""
+				}
+			],
+
+			"sources":
+			[
+				{
+					"name": "code.scd",
+					"file": "code.scd"
+				}
+			]
+		}
+	},
+	{
+		"title": "Cookie tu n'a rien à faire ici",
+		"folder": "homme-noone",
+		"videast":
+		{
+			"name": "l'homme sans titre",
+
+			"bio": [
+				"Je sais pas trop quoi dire, peut être une citation que j’aime bien le meilleur écrivaine de ma génération selon moi",
+
+				"“”comment vous faites pour résister ?<br>C'est quoi vos sorts de protection ?<br>Comment vous faites pour résister ?<br>C'est vos trucs pour vous raconter des histoires mais sans trop vous illusionner<br>Comment ne pas tomber dans le panneau,<br>ne pas se faire tout aspirer, récupérer,<br>exaspérer ?<br>Le capitalisme est sorcier, il nous attrape de par nos tripes et nos délires,<br>de par nos peurs et nos désirs<br>Comment fait-on dans 'monde de fous<br>où il ne faut:<br>ni être fou ni être pauvre ni faire de la taule”",
+
+				"<U>Leila chaix</U> <b>OK chaos</b> chez Lundi matin"
+			],
+
+			"description": [
+				"C’est une capture vidéo d’une extension pour navigateur qui montre tous les Cookie<br>L’idée m’est venue car vous etre le collectif biscuit",
+
+				"<a href='https://monitorito.github.io/'>https://monitorito.github.io/</a>"
+			],
+
+			"links":
+			[],
+
+			"sources":
+			[
+				{
+					"name": "Shot.png",
+					"file": "screenshot.png"
+				}
+			]
+		},
+		"musician":
+		{
+			"name": "No one",
+			"bio": [
+				""
+			],
+
+			"description":[
+				""
+
+			],
+
+			"links":
+			[
+				{
+					"name": "linktr.ee",
+					"url": "https://linktr.ee/sergiiio"
+				}
+			],
+
+			"sources":
+			[
+				{
+					"name": "code.scd",
+					"file": "code.scd"
+				}
+			]
+		}
+	},
+	{
+		"title": "Spider webs and nets",
+		"folder": "hirotoshi-noone",
+		"videast":
+		{
+			"name": "Hirotoshi Uchida",
+
+			"bio": [
+				"I live in Kazo city Saitama pref., Japan, and I'm able to use Japanese, English, Nepalese, and Chinese.<br>About my sex, I think I'm non-binary. Even if I'm male or female, I'd not like to make such a distinction.<br>I have previously released a piece in my musical career with a title referring to the detailed mechanisms of the body, such as cells, and this time I was inspired by that, and you can see scenes in the video where rectangular aggregates that look like nets or groups of cells appear, or where fine lines come together to create a grid or an object.<br>I'm born in 1998, and have developmental disorder, mental disorder hydrocephalus.<br>And I’m an official artist on hearthis.at, so I sometimes make musics, videos, arts and so on.<br>You can find out more about my art activities the following <a href='https://lit.link/hirotoshiuchida'>URL</a><br>I usually work in an office in Tokyo which is a genre of welfare that helps with employment training or life for people who have developmental disorder or mental disorder."
+			],
+
+			"description": [
+				"I used JavaScript to create the video for this work. The part of the grid that is a box is the 'net' part and the part drawn with overlapping delicate lines is the 'spider's web' part, which I have programmed to appear alternately and overlap each other.",
+
+				"Software used:<br>•<b><a href='https://github.com/Uchida16104/CCC/blob/main/index.js'>Hydra</a>(This shows GitHub source code which is included hydra URL.)</b><br>•<a href='https://nodegl.glitch.me/'>NodeGL</a>(Which I developed)<br>•<a href='https://emptyfla.sh/bl4st/'>bl4st</a><br>•<a href='https://shaderpark.com/'>Shader Park</a><br>•<a href='https://nodejs.org/'>Node.js</a><br>",
+
+				"Thank you for all."
+			],
+
+			"links":
+			[],
+
+			"sources":
+			[]
+		},
+		"musician":
+		{
+			"name": "No music",
+			"bio": [
+				""
+			],
+
+			"description":[
+				""
+
+			],
+
+			"links":
+			[
+				{
+					"name": "linktr.ee",
+					"url": "https://linktr.ee/sergiiio"
+				}
+			],
+
+			"sources":
+			[
+				{
+					"name": "code.scd",
+					"file": "code.scd"
+				}
+			]
+		}
+	}
+]

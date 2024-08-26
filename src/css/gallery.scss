@@ -4,7 +4,6 @@
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 16px;
     padding: 16px;
-    // Limit the vertical size to the size of the viewport then scroll
     max-height: 80vh;
     overflow-y: auto;
 }
@@ -14,10 +13,11 @@
     border-radius: 8px;
     overflow: hidden;
     transition: transform 0.2s;
+    border: 1px solid #ccc;
 }
 
 .gallery-item:hover {
-    transform: scale(1.05);
+    transform: scale(1.0);
 }
 
 .gallery-item a {
@@ -51,22 +51,22 @@
 
 .gallery-item-content h1 {
     margin: 0;
-    font-size: 2em;
+    font-size: 1.75em;
     transition: transform 0.2s;
 }
 
 .gallery-item-content h2 {
     margin: 0;
-    font-size: 1.25em;
+    font-size: 1.1em;
     transition: transform 0.2s;
 }
 
 .gallery-item:hover h2 {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .gallery-item:hover h1 {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .gallery-item-content p {
@@ -75,4 +75,10 @@
 
 .gallery-item-content p:last-child {
     font-size: 0.875em;
+}
+
+.gallery-title {
+    font-size: 1vh;
+    text-align: center;
+    padding-bottom: 10pt;
 }

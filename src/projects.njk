@@ -1,0 +1,44 @@
+---
+data: projects
+permalink: projects_list.json
+---
+{
+  "projects": [
+    {% for item in projects %}
+      {
+        "title": "{{ item.title }}",
+        "folder": "{{ item.folder }}",
+        "videast": {
+          "name": "{{ item.videast.name }}",
+          "sources": [
+            {% for source in item.videast.sources %}
+              {
+                "name": "{{ source.name }}",
+                "file": "{{ source.file }}"
+              }{% if not loop.last %},{% endif %}
+            {% endfor %}
+          ]
+        },
+        "musician": {
+          "name": "{{ item.musician.name }}",
+          "links": [
+            {% for link in item.musician.links %}
+              {
+                "name": "{{ link.name }}",
+                "url": "{{ link.url }}"
+              }{% if not loop.last %},{% endif %}
+            {% endfor %}
+          ],
+          "sources": [
+            {% for source in item.musician.sources %}
+              {
+                "name": "{{ source.name }}",
+                "file": "{{ source.file }}"
+              }{% if not loop.last %},{% endif %}
+            {% endfor %}
+          ]
+        }
+      }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}

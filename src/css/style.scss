@@ -1,4 +1,3 @@
-/* variables */
 
 :root
 {
@@ -52,4 +51,31 @@ a:active
     border-radius: 10px;
     box-shadow: 0 0 20px black inset;
     text-shadow: 0 0 10px green;
+}
+
+fieldset {
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15pt;
+}
+
+legend {
+    font-size: 15pt;
+}
+
+.emoji {
+    font-size: 2em;
+    vertical-align: middle;
+}
+
+.project-links {
+    list-style-type: circle;
+}
+
+.project-links a {
+    font-size: 1.15em;
+}
+
+.project-text-content {
+    font-size: 1.15em;
 }

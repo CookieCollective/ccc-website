@@ -1,0 +1,183 @@
+---
+pagination:
+    data: processedProjects
+    size: 1
+    alias: project
+permalink: "projects/{{ project.folder | slugify }}/"
+---
+
+{% include "head.njk" %}
+{% include "navigation.njk" %}
+<div class="page-container">
+    <div class="background"></div>
+    <div class="head">
+        <video class="view box-shadow borders" controls>
+            <source src="/content/projects/{{ project.folder | slugify }}/clip.mp4" type="video/mp4" />
+        </video>
+    </div>
+    <div class="container">
+        <div class="column frost">
+
+            <div class="flex" style="display: flex; justify-content: space-between; align-items: center;">
+                <h2 style="padding-left:0.25em;"><b>Visualist &mdash; </b>{{ project.videast.name  }}</h2>
+                <span class="emoji">👁</span>
+            </div>
+            
+            <fieldset>
+                <legend>Biography</legend>
+                <div class="project-text-content">{{ project.videast.bio | safe }}</div>
+            </fieldset>
+
+            
+            <fieldset>   
+                <legend>Description</legend>
+                <div class="project-text-content">{{ project.videast.description | safe }}</div>
+            </fieldset>
+            
+            <ul>
+            {% for link in project.videast.links %}
+                <li><a href={{ link.url }} target="_blank">{{ link.name }}</a></li>
+            {% endfor %}
+            </ul>
+
+            <fieldset>
+                <legend>Ressources</legend>
+                {% for sources in project.videast.sources %}
+                <p class="button">
+                    <a href="/content/{{ project.title | slugify }}/more/{{ sources.file }}" target="_blank">
+                        {{ sources.name }}
+                    </a>
+                </p>
+                {% endfor %}
+            </fieldset>
+
+        </div>
+
+        <div class="column frost">
+
+            <div class="flex" style="display: flex; justify-content: space-between; align-items: center;">
+                <h2 style="padding-left:0.25em;"><b>Musician &mdash; </b>{{ project.musician.name  }}</h2>
+                <span class="emoji">👂</span>
+            </div>
+
+            <fieldset>
+                <legend>Biography</legend>
+                <div class="project-text-content">{{ project.musician.bio | safe }}</div>
+            </fieldset>
+            
+            {% if project.musician.description %}
+            <fieldset>
+                <legend>Description</legend>
+                <div class="project-text-content">{{ project.musician.description | safe }}</div>
+            </fieldset>
+            {% endif %}
+
+            <fieldset>
+                <legend>Links</legend>
+                    {% for link in project.musician.links %}
+                    <p class="button"><a href="{{ link.url }}" target="_blank">{{ link.name }}</a></p>
+                    {% endfor %}
+            </fieldset>
+
+            <fieldset>
+                <legend>Ressources</legend>
+            {% for sources in project.musician.sources %}
+            <p class="button">
+                <a href="/content/{{ project.title | slugify }}/more/{{ sources.file }}" target="_blank">
+                    {{ sources.name }}
+                </a>
+            </p>
+            {% endfor %}
+            </fieldset>
+        </div>
+    </div>
+</div>
+
+<style>
+    
+    .page-container
+    {
+        margin-top: 60px;
+        background: black;
+    }
+
+    .background
+    {
+        background: center / contain url("/content/projects/{{ project.folder }}/screenshot.png") ;
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        filter: blur(8px);
+    }
+    
+    .container
+    {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: start;
+        justify-content: center;
+    }
+    
+    .column
+    {
+        color: white;
+        flex: 1;
+        min-width: 200px;
+        max-width: 500px;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 10px;
+        z-index: 1;
+        position: relative;
+        overflow: auto;
+    }
+
+    .head
+    {
+        position: relative;
+        max-width: 1080px;
+        margin: auto;
+        padding: 10px;
+    }
+
+    h3
+    {
+        margin: 0;
+    }
+
+    .role
+    {
+        font-size: 40px;
+    }
+
+    .view
+    {
+        position: relative;
+        width: 100%;
+    }
+
+    .button
+    {
+        margin-top: 10px;
+        display: inline-block;
+    }
+
+    .button a
+    {
+        border-radius: 20px;
+        background-color: white;
+        color: #505050;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    .button a:hover
+    {
+        background-color: black;
+        color: white;
+    }
+    
+</style>

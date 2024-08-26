@@ -1,0 +1,138 @@
+<div class="main-bar frost">
+    <div class="logo">
+    </div>
+    <div class="horizontal-scroller">
+        <div><a class="navlink" href="/gallery">All</a></div>
+        <div><a class="navlink" href="javascript:getRandomProject()">Random</a></div>
+        <div><a class="navlink" href="/wall-of-sound">Wall of Sound</a></div>
+        <div><a class="navlink" href="/">Cinema</a></div>
+        <div><a class="navlink" href="/">Fanzine</a></div>
+        <div><a class="navlink" href="/"><img src="/media/icon/cookie_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"></a></div>
+    </div>
+</div>
+
+<script>
+    let folders = [];
+    let shuffledFolders = [];
+
+    function shuffle(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+    }
+
+    function loadState() {
+        const savedFolders = localStorage.getItem('shuffledFolders');
+        if (savedFolders) {
+            shuffledFolders = JSON.parse(savedFolders);
+        }
+    }
+
+    function saveState() {
+        localStorage.setItem('shuffledFolders', JSON.stringify(shuffledFolders));
+    }
+
+    function getRandomProject() {
+        if (shuffledFolders.length === 0) {
+            if (folders.length === 0) {
+                alert("Projects are still loading, please try again.");
+                return;
+            }
+            shuffledFolders = shuffle([...folders]);
+        }
+        const randomFolder = shuffledFolders.pop();
+        saveState();
+        window.location.href = `/projects/${randomFolder}`;
+    }
+
+    fetch('/projects_list.json')
+        .then(response => response.json())
+        .then(data => {
+            folders = data.projects.map(project => {
+                return project.folder.toLowerCase().replace(/ /g, '-');
+            });
+
+            if (shuffledFolders.length === 0) {
+                shuffledFolders = shuffle([...folders]);
+                saveState(); 
+            }
+        });
+
+    loadState();
+</script>
+
+<style>
+
+    .frost
+    {
+        backdrop-filter: blur(40px) brightness(70%);
+    }
+
+
+    .main-bar
+    {
+        display: flex;
+        width: 100%;
+        height: var(--navigation-size);
+        justify-content: space-between;
+        align-items: center;
+        white-space: nowrap;
+        position: fixed;
+        top: 0;
+        z-index: 10;
+    }
+
+    .logo img
+    {
+        line-height: var(--navigation-size);
+        padding: 0 10px;
+    }
+
+    .logo-link
+    {
+        text-decoration: none;
+        color: white;
+    }
+
+    .logo a:hover
+    {
+        background-color: #333;
+        color: white;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .horizontal-scroller
+    {
+        display: flex;
+        gap: 16px;
+        padding: 16px;
+        /**used to scroll text*/
+        white-space: nowrap;    
+        overflow-x: scroll;
+        scrollbar-width: none;
+        overflow-y: hidden;
+    }
+
+    .navlink
+    {
+        white-space: nowrap;
+        text-decoration: none;
+        color: white;
+        font-size: 2vh;
+        padding-left: 1vh;
+        padding-right: 1vh;
+        width: 100%;
+    }
+
+    .navlink:hover
+    {
+        background: white;
+        color: black;
+        padding: 1vh;
+        padding-bottom: 1vh;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+</style>
