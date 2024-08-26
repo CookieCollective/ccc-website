@@ -325,7 +325,15 @@
 			"description":[
 				"« Extrait de la première variation verrillon » est une tentative de sport de glisse : les doigts frôlent les crêtes en boucle."
 			]
-		}
+		},
+
+		"links":
+		[
+			{
+				"name": "Instagram",
+				"url": "https://www.instagram.com/fanny.testas/"
+			}
+		]
 	},
 	{
 		"title": "Looking_for-something-I-had_before",
@@ -2268,22 +2276,24 @@
 		}
 	},
 	{
-		"title": "new1",
-		"folder": "wiktoria-içsyp",
+		"title": "Scribble",
+		"folder": "sarah-cloche",
 		"videast":
 		{
-			"name": "Wiktoria Glowacka",
+			"name": "Sarah GHP",
 
 			"bio": [
-				"I am a first-grade student at the Strzeminski Academy of Art in Lodz, where I am pursuing a degree in New Media. This program has introduced me to the world of creative coding, and despite being relatively new to this field, I am deeply passionate about exploring its possibilities.",
-
-				"Art has been a significant part of my life for as long as I can remember, and discovering the intersection of art and technology has been a transformative experience for me. Embracing new ways to express my creativity through coding has reignited my passion for art, making me feel rejuvenated and inspired to push the boundaries of my artistic journey."
+				"Sarah GHP is an American living in Berlin. She is interested in graphic improvisation and what happens to images when you push them too far. Sarah is inspired by the abstract animations of Norman McLaren and Adam Beckett, as well as the everyday graphics of her childhood in Southern California. She is also very active in the livecode community."
 			],
 
 			"description": [
-				"Inspiration: The concept for \"Aqueous Divagation\" was born from a desire to evoke a watery effect within an interconnected pixel network, aligning with theme of divagation.",
+				"<b>Scribble process</b><br>This video is a combined software–hardware project, with a computer-generated live sketch fed into an analog framebuffer for manipulation. (See images.)",
 
-				"Prototype code: The prototype focused on reducing pixeel count for performance, incorporating PVector dynamics, and establishing dynamic connections. Forces were applied between connected pixels, resulting in smooth but chaotic effect."
+				"<b>Software</b><br>The base sketch is driven by La Habra, a Clojurescript framework I wrote to help write SVGs live. The project also makes use of VDMX to handle routing the video out of the laptop.",
+
+				"<b><a href='https://gitlab.com/sarahghp/scribble'>Code</a></b>",
+
+				"<b>Hardware</b><br>The software sketch is converted from HDMI to the Eurorack 1V format demanded by the LZX Memory Palace, a digital-analog framebuffer and effects unit. This conversion process goes through a Blackmagic HDMI to SDI mini-converter and the Blackmagic SDI to Analog converter. This signal is then sent into the LZX TBC2 for conversion to the 1V signal."
 			],
 
 			"links":
@@ -2292,34 +2302,24 @@
 			"sources":
 			[
 				{
-					"name": "description.png",
-					"file": "screenshot1.png"
+					"name": "Hardware.png",
+					"file": "hardware.png"
 				},
 				{
-					"name": "documentation.png",
-					"file": "screenshot2.png"
+					"name": "Synth.jpg",
+					"file": "synth.jpg"
 				}
 			]
 		},
 		"musician":
 		{
-			"name": "Içsyp",
+			"name": "C_Folle",
 			"bio": [
-				"sérgio, from Porto, Portugal.",
-
-				"inspired by the universe, creating art installations, repairing tech and things in general.<br>from physical computing to sound, interfaces and artistic expression.",
-
-				"diy, open-source and comunnity learning.",
-
-				"developing and sharing technological and creativity empowerment tools."
+				""
 			],
 
 			"description":[
-				"for the \"Cookie_Collective_Compilation <=> Cool Creative Content  - 31/05/2024\" I was selected to create the sound for the video created by Wiktoria Głowacka -\"wiktoria_glowacka3_muted.mp4\".<br>driven by the flow of the content flowing, I interpreted it by using simple sound sources controlled by a simple superCollider algorithm.",
-
-				"driving divagations into spatial sounds flowing by the ears and bodies that will perceive them. <3",
-
-				"thank you for making this happen <3"
+				""
 
 			],
 
@@ -2341,58 +2341,45 @@
 		}
 	},
 	{
-		"title": "new2",
-		"folder": "wiktoria-içsyp",
+		"title": "UNTILTED divag",
+		"folder": "crash-aka",
 		"videast":
 		{
-			"name": "Wiktoria Glowacka",
+			"name": "CrashServer",
 
 			"bio": [
-				"I am a first-grade student at the Strzeminski Academy of Art in Lodz, where I am pursuing a degree in New Media. This program has introduced me to the world of creative coding, and despite being relatively new to this field, I am deeply passionate about exploring its possibilities.",
+				"CRASH SERVER is a live coding duo from Strasbourg  -  France. They use lines of code to transform computer language into music.",
 
-				"Art has been a significant part of my life for as long as I can remember, and discovering the intersection of art and technology has been a transformative experience for me. Embracing new ways to express my creativity through coding has reignited my passion for art, making me feel rejuvenated and inspired to push the boundaries of my artistic journey."
+				"They wander into electro, noise, glitch, ambient music and deep into IDM territories. Crash Server is at the crossroads of many different influences such as post&#45;punk, rock and classical music. It merges digital and analog, algorithmic and organic, chaotic and structured.",
+
+				"They narrate a fight against an alienating server, question our connection to the digital world, our evolution as a technological species, ask questions about the transhumanism relationship, and analyze our relationship to data privacy and our addiction to technology."
 			],
 
 			"description": [
-				"Inspiration: The concept for \"Aqueous Divagation\" was born from a desire to evoke a watery effect within an interconnected pixel network, aligning with theme of divagation.",
+				"Hello !",
 
-				"Prototype code: The prototype focused on reducing pixeel count for performance, incorporating PVector dynamics, and establishing dynamic connections. Forces were applied between connected pixels, resulting in smooth but chaotic effect."
+				"Quelques informations sur cette vidéo,",
+
+				"Pour la partie audio : c'est codé en FoxDot avec une toute petite intervention de guitare",
+
+				"Pour la partie video : Alors y a pas mal d'éléments différents, &#45; du procédural avec qql softs différents, vvvv, blender, cables gl &#45; un peu d'open frameworks saupoudré par dessus. &#45; du café &#45; un assemblage des différentes pièces dans un logiciel de montage video (Davinci Resolve)"
 			],
 
 			"links":
 			[],
 
 			"sources":
-			[
-				{
-					"name": "description.png",
-					"file": "screenshot1.png"
-				},
-				{
-					"name": "documentation.png",
-					"file": "screenshot2.png"
-				}
-			]
+			[]
 		},
 		"musician":
 		{
-			"name": "Içsyp",
+			"name": "aka.rien",
 			"bio": [
-				"sérgio, from Porto, Portugal.",
-
-				"inspired by the universe, creating art installations, repairing tech and things in general.<br>from physical computing to sound, interfaces and artistic expression.",
-
-				"diy, open-source and comunnity learning.",
-
-				"developing and sharing technological and creativity empowerment tools."
+				""
 			],
 
 			"description":[
-				"for the \"Cookie_Collective_Compilation <=> Cool Creative Content  - 31/05/2024\" I was selected to create the sound for the video created by Wiktoria Głowacka -\"wiktoria_glowacka3_muted.mp4\".<br>driven by the flow of the content flowing, I interpreted it by using simple sound sources controlled by a simple superCollider algorithm.",
-
-				"driving divagations into spatial sounds flowing by the ears and bodies that will perceive them. <3",
-
-				"thank you for making this happen <3"
+				""
 
 			],
 
@@ -2414,58 +2401,47 @@
 		}
 	},
 	{
-		"title": "new3",
-		"folder": "wiktoria-içsyp",
+		"title": "Mourir demain - Doom",
+		"folder": "stella-plot",
 		"videast":
 		{
-			"name": "Wiktoria Glowacka",
+			"name": "Stella Jacob",
 
 			"bio": [
-				"I am a first-grade student at the Strzeminski Academy of Art in Lodz, where I am pursuing a degree in New Media. This program has introduced me to the world of creative coding, and despite being relatively new to this field, I am deeply passionate about exploring its possibilities.",
+				"Stella Jacob is a multimedia artist based in Paris,passionate about immersive media. Graduated from Gobelins school in Game Design, she previously worked for five years in the Virtual Reality field. From trash-made costumes to video games, her work is about communities, either online or offline.",
 
-				"Art has been a significant part of my life for as long as I can remember, and discovering the intersection of art and technology has been a transformative experience for me. Embracing new ways to express my creativity through coding has reignited my passion for art, making me feel rejuvenated and inspired to push the boundaries of my artistic journey."
+				"Stella Jacob est une artiste multimédia basée à Paris, passionnée par les médias immersifs. Diplômée de l’école des Gobelins en Game Design, elle a travaillé pendant cinq ans dans le domaine de la réalité virtuelle. Des costumes trash-made aux jeux vidéo, son travail porte sur les communautés, qu’elles soient en ligne ou hors ligne."
 			],
 
 			"description": [
-				"Inspiration: The concept for \"Aqueous Divagation\" was born from a desire to evoke a watery effect within an interconnected pixel network, aligning with theme of divagation.",
-
-				"Prototype code: The prototype focused on reducing pixeel count for performance, incorporating PVector dynamics, and establishing dynamic connections. Forces were applied between connected pixels, resulting in smooth but chaotic effect."
+				""
 			],
 
 			"links":
-			[],
+			[
+				{
+					"name":"Website",
+					"url":"https://stellaykv.net/"
+				}
+			],
 
 			"sources":
 			[
 				{
-					"name": "description.png",
-					"file": "screenshot1.png"
-				},
-				{
-					"name": "documentation.png",
-					"file": "screenshot2.png"
+					"name": "Processus.pdf",
+					"file": "processus.pdf"
 				}
 			]
 		},
 		"musician":
 		{
-			"name": "Içsyp",
+			"name": "Plot",
 			"bio": [
-				"sérgio, from Porto, Portugal.",
-
-				"inspired by the universe, creating art installations, repairing tech and things in general.<br>from physical computing to sound, interfaces and artistic expression.",
-
-				"diy, open-source and comunnity learning.",
-
-				"developing and sharing technological and creativity empowerment tools."
+				""
 			],
 
 			"description":[
-				"for the \"Cookie_Collective_Compilation <=> Cool Creative Content  - 31/05/2024\" I was selected to create the sound for the video created by Wiktoria Głowacka -\"wiktoria_glowacka3_muted.mp4\".<br>driven by the flow of the content flowing, I interpreted it by using simple sound sources controlled by a simple superCollider algorithm.",
-
-				"driving divagations into spatial sounds flowing by the ears and bodies that will perceive them. <3",
-
-				"thank you for making this happen <3"
+				""
 
 			],
 
@@ -2487,58 +2463,47 @@
 		}
 	},
 	{
-		"title": "new4",
-		"folder": "wiktoria-içsyp",
+		"title": "1 hour live coding session",
+		"folder": "leon-vj",
 		"videast":
 		{
-			"name": "Wiktoria Glowacka",
+			"name": "Léon Denise",
 
 			"bio": [
-				"I am a first-grade student at the Strzeminski Academy of Art in Lodz, where I am pursuing a degree in New Media. This program has introduced me to the world of creative coding, and despite being relatively new to this field, I am deeply passionate about exploring its possibilities.",
+				"I'm Leon Denise. I'm using video games tools to explore and experiment digital playgrounds. My work is about image filters, glitch effects, fractal shapes, particles systems behaviours and mathematical sculptures. I'm a freelancer shader coder and technical artist, working mostly with creative studios on VR standalone headsets, interactive installations, playful devices, immersive projections and new media movies.<br><a href='https://leon196.github.io/'>https://leon196.github.io/</a>",
 
-				"Art has been a significant part of my life for as long as I can remember, and discovering the intersection of art and technology has been a transformative experience for me. Embracing new ways to express my creativity through coding has reignited my passion for art, making me feel rejuvenated and inspired to push the boundaries of my artistic journey."
+				"I participate in the organization of the Cookie Collective which gathers digital artists involved in real-time creation. This covers video games, art installations, video mapping, demoscene, live coding, etc. We collaborate with festivals and institutions to promote live coding audio visual performances and playful alternative installations.<br><a href='https://www.cookie.paris/all/'>https://www.cookie.paris/all/</a>",
+
+				"I'm part of an artist duo with Dorian Rigal: Neon Minuit. We capture pieces of reality to stage them in our playground: the virtual world. Our artistic approach is inspired by scientific experimentation and serendipity. Our work is about immersive interactive digital art and representation of volumetric content data.<br><a href='https://www.neonminuit.xyz/'>https://www.neonminuit.xyz/</a>",
+
+				"Je suis Léon Denise. J'utilise des outils de jeux vidéo pour explorer et expérimenter des terrains de jeux numériques. Mon travail porte sur les filtres d'images, les effets de glitch, les formes fractales, les comportements des systèmes de particules et les sculptures mathématiques. Je suis codeur créatif indépendant spécialisé dans les shaders, travaillant principalement avec des studios de création sur des casques VR autonomes, des installations interactives, des dispositifs ludiques et des projections immersives.<br><a href='https://leon196.github.io/'>https://leon196.github.io/</a>",
+
+				"Je participe à l'organisation du Cookie Collective qui regroupe des artistes numériques impliqués dans la création en temps réel. Cela couvre les jeux vidéo, les installations artistiques, le mapping vidéo, la demoscene, le live coding, etc. Nous collaborons avec des festivals et des institutions pour promouvoir des performances audio-visuelles de live coding et des installations alternatives ludiques.<br><a href='https://www.cookie.paris/all/'>https://www.cookie.paris/all/</a>",
+
+				"Je fais partie d'un duo d'artistes avec Dorian Rigal : Neon Minuit. Nous capturons des morceaux de réalité pour les mettre en scène dans notre terrain de jeu : le monde virtuel. Notre démarche artistique s'inspire de l'expérimentation scientifique et de la sérendipité. Notre travail porte sur l'art numérique interactif immersif et la représentation de données volumétriques.<br><a href='https://www.neonminuit.xyz/'>https://www.neonminuit.xyz/</a>"
 			],
 
 			"description": [
-				"Inspiration: The concept for \"Aqueous Divagation\" was born from a desire to evoke a watery effect within an interconnected pixel network, aligning with theme of divagation.",
+				"The video is a timelapse of the progression of a computer-generated image programming.<br>The idea is to share the process of creating an image, through the definition of shapes, animations and colors.<br>The technique used to create the image is code, a three-dimensional space is defined mathematically, and each pixel is the result of a geometric ray throw that lands on a surface defined by equations, and is then colored according to its orientation.<br>Technically, it's a shader language, GLSL for Graphic Library Shading Language. It's a code executed on dedicated hardware, the graphic processing unit, which allows a large number of operations thanks to its performance and parallelization. Usually used to display 3D models made by dedicated software, or to apply image filters, here GLSL uses the ray marching algorithm, introduced in 1995 by John C. Hart and more recently popularized by Inigo Quilez and the Shadertoy website.<br>Ray marching lets you explore and experiment with an abstract mathematical, geometric and fractal world.<br>I chose to present this video because it's a demonstration of free improvised programming, also known as live coding.<br>It's a practice that encourages divagation and creative mistakes.",
 
-				"Prototype code: The prototype focused on reducing pixeel count for performance, incorporating PVector dynamics, and establishing dynamic connections. Forces were applied between connected pixels, resulting in smooth but chaotic effect."
+				"La vidéo est un enregistrement de la progression en accélérée de la programmation d'une image de synthèse.<br>L'idée est de partager le processus de création d'une image, en passant par la définition des formes, des animations et des couleurs.<br>La technique utilisée pour créer l'image est du code, un espace tri dimensionnel est défini mathématiquement, chaque pixel est le résultat d'un lancé de rayon géométrique qui va atterrir sur une surface défini par des équations, pour ensuite être coloré selon son orientation.<br>Techniquement, c'est un langage de shader, le GLSL pour Graphic Library Shading Language. C'est un code exécuté sur du matériel dédié, la carte graphique, qui permet une grande quantité d'opérations de part sa performance et sa parallélisation. D'habitude utilisé pour afficher des modèles 3D fait par un logiciel tiers, ou d'appliquer des filtres d'images, ici le GLSL utilise l'algorithme de ray marching, présenté en 1995 par John C. Hart et plus récemment popularisé par Inigo Quilez et le site Shadertoy.<br>Le ray marching permet d'explorer et d'expérimenter un monde abstrait mathématique, géométrique et fractal.<br>J'ai choisi de présenter cette vidéo, parce que c'est une démonstration de programmation libre et improvisée, aussi appelé live coding.<br>C'est une pratique qui favorise la divagation et les erreurs créativ"
 			],
 
 			"links":
 			[],
 
 			"sources":
-			[
-				{
-					"name": "description.png",
-					"file": "screenshot1.png"
-				},
-				{
-					"name": "documentation.png",
-					"file": "screenshot2.png"
-				}
-			]
+			[]
 		},
 		"musician":
 		{
-			"name": "Içsyp",
+			"name": "VJ",
 			"bio": [
-				"sérgio, from Porto, Portugal.",
-
-				"inspired by the universe, creating art installations, repairing tech and things in general.<br>from physical computing to sound, interfaces and artistic expression.",
-
-				"diy, open-source and comunnity learning.",
-
-				"developing and sharing technological and creativity empowerment tools."
+				""
 			],
 
 			"description":[
-				"for the \"Cookie_Collective_Compilation <=> Cool Creative Content  - 31/05/2024\" I was selected to create the sound for the video created by Wiktoria Głowacka -\"wiktoria_glowacka3_muted.mp4\".<br>driven by the flow of the content flowing, I interpreted it by using simple sound sources controlled by a simple superCollider algorithm.",
-
-				"driving divagations into spatial sounds flowing by the ears and bodies that will perceive them. <3",
-
-				"thank you for making this happen <3"
+				""
 
 			],
 
@@ -2560,58 +2525,46 @@
 		}
 	},
 	{
-		"title": "new5",
-		"folder": "wiktoria-içsyp",
+		"title": "Season 2 - Salvador, Brazil",
+		"folder": "joenio-cipher",
 		"videast":
 		{
-			"name": "Wiktoria Glowacka",
+			"name": "Joenio Marques da Costa",
 
 			"bio": [
-				"I am a first-grade student at the Strzeminski Academy of Art in Lodz, where I am pursuing a degree in New Media. This program has introduced me to the world of creative coding, and despite being relatively new to this field, I am deeply passionate about exploring its possibilities.",
-
-				"Art has been a significant part of my life for as long as I can remember, and discovering the intersection of art and technology has been a transformative experience for me. Embracing new ways to express my creativity through coding has reignited my passion for art, making me feel rejuvenated and inspired to push the boundaries of my artistic journey."
+				"Joenio M. da Costa is a Research Software Engineer, free software activist, computer artist and experimental musician. He is interested in algorithmic music, audiovisual, demoscene and live coding. He holds a Master’s degree in Software Engineer field and is a expert in Research Software Sustainability. He is a The Carpentries instructor, a Software Heritage ambassador and a contributor to the Debian universal operating system. He creates and maintains its owns live coding tool called dublang."
 			],
 
 			"description": [
-				"Inspiration: The concept for \"Aqueous Divagation\" was born from a desire to evoke a watery effect within an interconnected pixel network, aligning with theme of divagation.",
+				"The video Atari 2600 Video Remix is a series of video remix, sound art and live coding inspired by the game console Atari 2600, mixed with historical pictures of Brasília city (Brazil capital federal), and Salvador city (also called: The biggest carnival in the world).",
 
-				"Prototype code: The prototype focused on reducing pixeel count for performance, incorporating PVector dynamics, and establishing dynamic connections. Forces were applied between connected pixels, resulting in smooth but chaotic effect."
+				"The video was eddited and composed by using the free software tool Kdenlive, using as source for composing the video the sounds generated by Tidal Cycles live coding combined with the gameplay video recorded from the Stella emulator, and in addition mixed with the historical images for each episode.",
+
+				"The series is a work-in-progress and soon new eposodes will be released, you can find more info and news on the link below.",
+
+				"<a href='https://atari2600.4two.art'>https://atari2600.4two.art</a>"
 			],
 
 			"links":
-			[],
-
-			"sources":
 			[
 				{
-					"name": "description.png",
-					"file": "screenshot1.png"
-				},
-				{
-					"name": "documentation.png",
-					"file": "screenshot2.png"
+					"name": "Website",
+					"url": "https://joenio.me"
 				}
-			]
+			],
+
+			"sources":
+			[]
 		},
 		"musician":
 		{
-			"name": "Içsyp",
+			"name": "Jules Cipher",
 			"bio": [
-				"sérgio, from Porto, Portugal.",
-
-				"inspired by the universe, creating art installations, repairing tech and things in general.<br>from physical computing to sound, interfaces and artistic expression.",
-
-				"diy, open-source and comunnity learning.",
-
-				"developing and sharing technological and creativity empowerment tools."
+				""
 			],
 
 			"description":[
-				"for the \"Cookie_Collective_Compilation <=> Cool Creative Content  - 31/05/2024\" I was selected to create the sound for the video created by Wiktoria Głowacka -\"wiktoria_glowacka3_muted.mp4\".<br>driven by the flow of the content flowing, I interpreted it by using simple sound sources controlled by a simple superCollider algorithm.",
-
-				"driving divagations into spatial sounds flowing by the ears and bodies that will perceive them. <3",
-
-				"thank you for making this happen <3"
+				""
 
 			],
 
@@ -2633,22 +2586,133 @@
 		}
 	},
 	{
-		"title": "new6",
-		"folder": "wiktoria-içsyp",
+		"title": "Nouveau goudron",
+		"folder": "yonko-ada",
 		"videast":
 		{
-			"name": "Wiktoria Glowacka",
+			"name": "yonko lvl",
 
 			"bio": [
-				"I am a first-grade student at the Strzeminski Academy of Art in Lodz, where I am pursuing a degree in New Media. This program has introduced me to the world of creative coding, and despite being relatively new to this field, I am deeply passionate about exploring its possibilities.",
-
-				"Art has been a significant part of my life for as long as I can remember, and discovering the intersection of art and technology has been a transformative experience for me. Embracing new ways to express my creativity through coding has reignited my passion for art, making me feel rejuvenated and inspired to push the boundaries of my artistic journey."
+				"Il fait chaud c’est pour cela que je perle du nez ."
 			],
 
 			"description": [
-				"Inspiration: The concept for \"Aqueous Divagation\" was born from a desire to evoke a watery effect within an interconnected pixel network, aligning with theme of divagation.",
+				"C’est une vidéo que j’ai prise à Abidjan lors de mes interminables trajets en voiture, sur la nouvelle voie aussi appelée nouveau goudron, car elle a été finie il y a peu .",
 
-				"Prototype code: The prototype focused on reducing pixeel count for performance, incorporating PVector dynamics, and establishing dynamic connections. Forces were applied between connected pixels, resulting in smooth but chaotic effect."
+				"Abidjan est une ville ou il y a d'énormes embouteillages, car beaucoup de gens y vivent, et il y a très peu de transport en commun.",
+
+				"La vidéo a été glitch en temps réel avec une application pour téléphone."
+			],
+
+			"links":
+			[],
+
+			"sources":
+			[]
+		},
+		"musician":
+		{
+			"name": "Ada",
+			"bio": [
+				""
+			],
+
+			"description":[
+				""
+
+			],
+
+			"links":
+			[
+				{
+					"name": "",
+					"url": ""
+				}
+			],
+
+			"sources":
+			[
+				{
+					"name": "",
+					"file": ""
+				}
+			]
+		}
+	},
+	{
+		"title": "Sader shift",
+		"folder": "ilithya-ralt",
+		"videast":
+		{
+			"name": "Ilithya",
+
+			"bio": [
+				"Ilithya is a multidisciplinary artist and technologist with a background in creative development and design from México, based in Hamburg, Germany. She has a B.A. in Marketing and is a self-taught programmer creating artworks with code and algorithms, sometimes interactive, pushing and pulling the intersection of art and technology. Her preferred medium to produce is writing shaders in OpenGL Shading Language."
+			],
+
+			"description": [
+				"Shifts is a visual art piece created with shaders in GLSL."
+			],
+
+			"links":
+			[
+				{
+					"name": "Website",
+					"url": "https://www.ilithya.rocks/"
+				}
+			],
+
+			"sources":
+			[]
+		},
+		"musician":
+		{
+			"name": "Ralt144mi",
+			"bio": [
+				""
+			],
+
+			"description":[
+				""
+
+			],
+
+			"links":
+			[
+				{
+					"name": "",
+					"url": ""
+				}
+			],
+
+			"sources":
+			[
+				{
+					"name": "code.scd",
+					"file": "code.scd"
+				}
+			]
+		}
+	},
+	{
+		"title": "Cookie tu n'a rien à faire ici",
+		"folder": "homme-noone",
+		"videast":
+		{
+			"name": "l'homme sans titre",
+
+			"bio": [
+				"Je sais pas trop quoi dire, peut être une citation que j’aime bien le meilleur écrivaine de ma génération selon moi",
+
+				"“”comment vous faites pour résister ?<br>C'est quoi vos sorts de protection ?<br>Comment vous faites pour résister ?<br>C'est vos trucs pour vous raconter des histoires mais sans trop vous illusionner<br>Comment ne pas tomber dans le panneau,<br>ne pas se faire tout aspirer, récupérer,<br>exaspérer ?<br>Le capitalisme est sorcier, il nous attrape de par nos tripes et nos délires,<br>de par nos peurs et nos désirs<br>Comment fait-on dans 'monde de fous<br>où il ne faut:<br>ni être fou ni être pauvre ni faire de la taule”",
+
+				"<U>Leila chaix</U> <b>OK chaos</b> chez Lundi matin"
+			],
+
+			"description": [
+				"C’est une capture vidéo d’une extension pour navigateur qui montre tous les Cookie<br>L’idée m’est venue car vous etre le collectif biscuit",
+
+				"<a href='https://monitorito.github.io/'>https://monitorito.github.io/</a>"
 			],
 
 			"links":
@@ -2657,34 +2721,20 @@
 			"sources":
 			[
 				{
-					"name": "description.png",
-					"file": "screenshot1.png"
-				},
-				{
-					"name": "documentation.png",
-					"file": "screenshot2.png"
+					"name": "Shot.png",
+					"file": "screenshot.png"
 				}
 			]
 		},
 		"musician":
 		{
-			"name": "Içsyp",
+			"name": "No one",
 			"bio": [
-				"sérgio, from Porto, Portugal.",
-
-				"inspired by the universe, creating art installations, repairing tech and things in general.<br>from physical computing to sound, interfaces and artistic expression.",
-
-				"diy, open-source and comunnity learning.",
-
-				"developing and sharing technological and creativity empowerment tools."
+				""
 			],
 
 			"description":[
-				"for the \"Cookie_Collective_Compilation <=> Cool Creative Content  - 31/05/2024\" I was selected to create the sound for the video created by Wiktoria Głowacka -\"wiktoria_glowacka3_muted.mp4\".<br>driven by the flow of the content flowing, I interpreted it by using simple sound sources controlled by a simple superCollider algorithm.",
-
-				"driving divagations into spatial sounds flowing by the ears and bodies that will perceive them. <3",
-
-				"thank you for making this happen <3"
+				""
 
 			],
 
@@ -2706,204 +2756,39 @@
 		}
 	},
 	{
-		"title": "new7",
-		"folder": "wiktoria-içsyp",
+		"title": "Spider webs and nets",
+		"folder": "hirotoshi-noone",
 		"videast":
 		{
-			"name": "Wiktoria Glowacka",
+			"name": "Hirotoshi Uchida",
 
 			"bio": [
-				"I am a first-grade student at the Strzeminski Academy of Art in Lodz, where I am pursuing a degree in New Media. This program has introduced me to the world of creative coding, and despite being relatively new to this field, I am deeply passionate about exploring its possibilities.",
-
-				"Art has been a significant part of my life for as long as I can remember, and discovering the intersection of art and technology has been a transformative experience for me. Embracing new ways to express my creativity through coding has reignited my passion for art, making me feel rejuvenated and inspired to push the boundaries of my artistic journey."
+				"I live in Kazo city Saitama pref., Japan, and I'm able to use Japanese, English, Nepalese, and Chinese.<br>About my sex, I think I'm non-binary. Even if I'm male or female, I'd not like to make such a distinction.<br>I have previously released a piece in my musical career with a title referring to the detailed mechanisms of the body, such as cells, and this time I was inspired by that, and you can see scenes in the video where rectangular aggregates that look like nets or groups of cells appear, or where fine lines come together to create a grid or an object.<br>I'm born in 1998, and have developmental disorder, mental disorder hydrocephalus.<br>And I’m an official artist on hearthis.at, so I sometimes make musics, videos, arts and so on.<br>You can find out more about my art activities the following <a href='https://lit.link/hirotoshiuchida'>URL</a><br>I usually work in an office in Tokyo which is a genre of welfare that helps with employment training or life for people who have developmental disorder or mental disorder."
 			],
 
 			"description": [
-				"Inspiration: The concept for \"Aqueous Divagation\" was born from a desire to evoke a watery effect within an interconnected pixel network, aligning with theme of divagation.",
+				"I used JavaScript to create the video for this work. The part of the grid that is a box is the 'net' part and the part drawn with overlapping delicate lines is the 'spider's web' part, which I have programmed to appear alternately and overlap each other.",
 
-				"Prototype code: The prototype focused on reducing pixeel count for performance, incorporating PVector dynamics, and establishing dynamic connections. Forces were applied between connected pixels, resulting in smooth but chaotic effect."
+				"Software used:<br>•<b><a href='https://github.com/Uchida16104/CCC/blob/main/index.js'>Hydra</a>(This shows GitHub source code which is included hydra URL.)</b><br>•<a href='https://nodegl.glitch.me/'>NodeGL</a>(Which I developed)<br>•<a href='https://emptyfla.sh/bl4st/'>bl4st</a><br>•<a href='https://shaderpark.com/'>Shader Park</a><br>•<a href='https://nodejs.org/'>Node.js</a><br>",
+
+				"Thank you for all."
 			],
 
 			"links":
 			[],
 
 			"sources":
-			[
-				{
-					"name": "description.png",
-					"file": "screenshot1.png"
-				},
-				{
-					"name": "documentation.png",
-					"file": "screenshot2.png"
-				}
-			]
+			[]
 		},
 		"musician":
 		{
-			"name": "Içsyp",
+			"name": "No music",
 			"bio": [
-				"sérgio, from Porto, Portugal.",
-
-				"inspired by the universe, creating art installations, repairing tech and things in general.<br>from physical computing to sound, interfaces and artistic expression.",
-
-				"diy, open-source and comunnity learning.",
-
-				"developing and sharing technological and creativity empowerment tools."
+				""
 			],
 
 			"description":[
-				"for the \"Cookie_Collective_Compilation <=> Cool Creative Content  - 31/05/2024\" I was selected to create the sound for the video created by Wiktoria Głowacka -\"wiktoria_glowacka3_muted.mp4\".<br>driven by the flow of the content flowing, I interpreted it by using simple sound sources controlled by a simple superCollider algorithm.",
-
-				"driving divagations into spatial sounds flowing by the ears and bodies that will perceive them. <3",
-
-				"thank you for making this happen <3"
-
-			],
-
-			"links":
-			[
-				{
-					"name": "linktr.ee",
-					"url": "https://linktr.ee/sergiiio"
-				}
-			],
-
-			"sources":
-			[
-				{
-					"name": "code.scd",
-					"file": "code.scd"
-				}
-			]
-		}
-	},
-	{
-		"title": "new8",
-		"folder": "wiktoria-içsyp",
-		"videast":
-		{
-			"name": "Wiktoria Glowacka",
-
-			"bio": [
-				"I am a first-grade student at the Strzeminski Academy of Art in Lodz, where I am pursuing a degree in New Media. This program has introduced me to the world of creative coding, and despite being relatively new to this field, I am deeply passionate about exploring its possibilities.",
-
-				"Art has been a significant part of my life for as long as I can remember, and discovering the intersection of art and technology has been a transformative experience for me. Embracing new ways to express my creativity through coding has reignited my passion for art, making me feel rejuvenated and inspired to push the boundaries of my artistic journey."
-			],
-
-			"description": [
-				"Inspiration: The concept for \"Aqueous Divagation\" was born from a desire to evoke a watery effect within an interconnected pixel network, aligning with theme of divagation.",
-
-				"Prototype code: The prototype focused on reducing pixeel count for performance, incorporating PVector dynamics, and establishing dynamic connections. Forces were applied between connected pixels, resulting in smooth but chaotic effect."
-			],
-
-			"links":
-			[],
-
-			"sources":
-			[
-				{
-					"name": "description.png",
-					"file": "screenshot1.png"
-				},
-				{
-					"name": "documentation.png",
-					"file": "screenshot2.png"
-				}
-			]
-		},
-		"musician":
-		{
-			"name": "Içsyp",
-			"bio": [
-				"sérgio, from Porto, Portugal.",
-
-				"inspired by the universe, creating art installations, repairing tech and things in general.<br>from physical computing to sound, interfaces and artistic expression.",
-
-				"diy, open-source and comunnity learning.",
-
-				"developing and sharing technological and creativity empowerment tools."
-			],
-
-			"description":[
-				"for the \"Cookie_Collective_Compilation <=> Cool Creative Content  - 31/05/2024\" I was selected to create the sound for the video created by Wiktoria Głowacka -\"wiktoria_glowacka3_muted.mp4\".<br>driven by the flow of the content flowing, I interpreted it by using simple sound sources controlled by a simple superCollider algorithm.",
-
-				"driving divagations into spatial sounds flowing by the ears and bodies that will perceive them. <3",
-
-				"thank you for making this happen <3"
-
-			],
-
-			"links":
-			[
-				{
-					"name": "linktr.ee",
-					"url": "https://linktr.ee/sergiiio"
-				}
-			],
-
-			"sources":
-			[
-				{
-					"name": "code.scd",
-					"file": "code.scd"
-				}
-			]
-		}
-	},
-	{
-		"title": "new9",
-		"folder": "wiktoria-içsyp",
-		"videast":
-		{
-			"name": "Wiktoria Glowacka",
-
-			"bio": [
-				"I am a first-grade student at the Strzeminski Academy of Art in Lodz, where I am pursuing a degree in New Media. This program has introduced me to the world of creative coding, and despite being relatively new to this field, I am deeply passionate about exploring its possibilities.",
-
-				"Art has been a significant part of my life for as long as I can remember, and discovering the intersection of art and technology has been a transformative experience for me. Embracing new ways to express my creativity through coding has reignited my passion for art, making me feel rejuvenated and inspired to push the boundaries of my artistic journey."
-			],
-
-			"description": [
-				"Inspiration: The concept for \"Aqueous Divagation\" was born from a desire to evoke a watery effect within an interconnected pixel network, aligning with theme of divagation.",
-
-				"Prototype code: The prototype focused on reducing pixeel count for performance, incorporating PVector dynamics, and establishing dynamic connections. Forces were applied between connected pixels, resulting in smooth but chaotic effect."
-			],
-
-			"links":
-			[],
-
-			"sources":
-			[
-				{
-					"name": "description.png",
-					"file": "screenshot1.png"
-				},
-				{
-					"name": "documentation.png",
-					"file": "screenshot2.png"
-				}
-			]
-		},
-		"musician":
-		{
-			"name": "Içsyp",
-			"bio": [
-				"sérgio, from Porto, Portugal.",
-
-				"inspired by the universe, creating art installations, repairing tech and things in general.<br>from physical computing to sound, interfaces and artistic expression.",
-
-				"diy, open-source and comunnity learning.",
-
-				"developing and sharing technological and creativity empowerment tools."
-			],
-
-			"description":[
-				"for the \"Cookie_Collective_Compilation <=> Cool Creative Content  - 31/05/2024\" I was selected to create the sound for the video created by Wiktoria Głowacka -\"wiktoria_glowacka3_muted.mp4\".<br>driven by the flow of the content flowing, I interpreted it by using simple sound sources controlled by a simple superCollider algorithm.",
-
-				"driving divagations into spatial sounds flowing by the ears and bodies that will perceive them. <3",
-
-				"thank you for making this happen <3"
+				""
 
 			],
 
