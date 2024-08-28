@@ -1,0 +1,16 @@
+<b># collision<br>## idea</b>
+the idea of this demo was to simulate the visualisation produced at CERN by the LHC (Large Hadron Collider), esp. those from the ATLAS detector.
+the LHC is a particle accelerator. its aim is to get a chunk of particles (generally protons) to NOT divagate, or more precisely to do it as late as possible.
+the particles are concentrated in beams and accelerated at tremendous speed (99.9999991% the speed of light). doing so requires an elaborate setup: a vacuum environment and extremely powerful superconductive magnets to make the beams converge (as if they were going into a straight line).
+but ultimately those constrained particles are let free as 2 beams going in opposite directions collide. allowing them to divagate so late, in such conditions, transforms them. they explode with flair and new particles, wild and extremely short-lived, take their place.
+in fact if we sum the mass of all those newly created particles we find a bigger result than the mass of the initial particles. the reason is that the energy of the acceleration gets transformed into particles with a (furtive) mass.
+as such, the new particles are not so much the transformation of the original ones. it's more that the (extremely hot) environment resulting from their explosion allows those weird new particles to appear.
+<b>## tools<br>#### platform - seamstress</b>
+this demo is a script made using <b><a href='https://llllllll.co/t/seamstress-is-a-lua-scripting-environment-for-musical-communication/64556'>[seamstress]</a></b>, a Lua scripting platform heavily inspired (in design) by the <b><a href='https://monome.org/docs/norns'>[monome norns]</a></b>.
+both of those platform are limited by design (to enforce creativity) and tailored for building your own tools for making music (be it synths, effets, sequencers or anything in between) thanks to a set of powerful libraries (for dealing w/ midi, osc, scales, tunings...).
+their drawing APIs are powerfull enough to make pixel art animations and that exactly what this script is about.
+### coding environment
+the script is launched from within Emacs for which i made a seamstress extension. launching the script spawn the seamstress windows but also a REPL from within Emacs that can be used to interact with the script (e.g. for doing live coding).
+this is how the script got initially developped, in about an evening.
+the source code of the script is available as part of seamstress, as an example <a href='https://github.com/ryleelyman/seamstress/blob/main/examples/collision.lua'>code</a>
+it can be run with: <code>seamstress -e collision</code>

@@ -1,0 +1,9 @@
+-Adapted an open-source virtual art gallery from <a href='http://github.com/ClementCariou/virtual-art-gallery'>github.com</a>, my modified version is displayed on my <a href='http://www.serendippo.me'>website</a><br>-Captured video while navigating this gallery, simulating endless exploration.<br>-Converted the digital video to analog.<br>-Processed the analog signal into hardware, creating glitches, analog video feedback, titler effect, and recolorization intensifying the disorientation effect typical of the idea of «Divagation»
+This project simulates an art gallery in your browser using <a href='https://github.com/regl-project/regl'>REGL</a>. It aims at reproducing the experience of a real art gallery. The architecture is generated using a 10km long 6th order <a href='https://en.wikipedia.org/wiki/Hilbert_curve'>Hilbert Curve</a>. The paintings are asynchronously loaded from the <a href='https://api.artic.edu'>ARTIC</a> and placed on the walls. You can use this project to display your own artworks.
+ <a href='https://clementcariou.github.io/virtual-art-gallery/build'>Virtual art gallery</a> by <a href='https://github.com/ClementCariou/virtual-art-gallery/commits?author=ClementCariou'>Clement Cariou</a>
+<b>Setup</b>
+Installation :<br>git clone https://github.com/ClementCariou/virtual-art-gallery.git npm install
+Start the budo dev server :<br>npm start
+Build :<br>npm build
+Using it with <a href='https://clementcariou.github.io/virtual-art-gallery/build?api=local'>local images</a>
+The local api is accessible using this URI params in the address bar: ?api=local (it's possible to load automatically this API by changing the default API in the api.js file). You can change the displayed images in the folder <a href='https://github.com/ClementCariou/virtual-art-gallery/blob/master/images'>images</a>, you will need to rebuild the project (or relauch the dev server) to apply the modifications.

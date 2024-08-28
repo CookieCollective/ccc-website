@@ -1,0 +1,15 @@
+Demo réalisée en utilisant Pico8, une Fantasy Console qui propose
+un environement developement de jeu complet (code,sprite,son,level design) inspirée des 
+console 8bit.
+
+Démo réalisée en 1 mois, avec le gros de l'optimisation fait pendant la Revision 2024  
+Pico8 simulant également les soucis de performance des console 8bit. L'on utilise donc pas la puissance 
+brut de l'ordinateur.
+
+
+
+https://www.lexaloffle.com/pico-8.php
+
+Bio
+Damien;
+Programmeur et dévelopeur de jeu vidéo. J'ai découvert Pico8 il y a un an lors d'une demo party.
