@@ -1,11 +1,19 @@
 
+.gallery-page {
+    overflow: hidden 
+}
+
+input {
+    color: white;
+}
+
 .gallery {
     margin-top: 30pt;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 16px;
     padding: 16px;
-    max-height: 80vh;
+    max-height: 90vh;
     overflow-y: auto;
 }
 

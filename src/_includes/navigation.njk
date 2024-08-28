@@ -1,20 +1,25 @@
-<div class="main-bar frost">
+<div class="main-bar">
         <div class="logo">
         </div>
+
         <div class="horizontal-scroller">
             <div><a class="navlink" href="/gallery">Browse</a></div>
             <div><a class="navlink" href="javascript:getRandomProject()">Wander</a></div>
             <div><a class="navlink" href="/wall-of-sound">Wall</a></div>
             <div><a class="navlink" href="/">Cinema</a></div>
             <div><a class="navlink" href="/">Fanzine</a></div>
-            <div><a class="navlink" href="/about">About</a></div>
-            <div><a class="navlink" href="/"><img src="/media/icon/cookie_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"></a></div>
-
+            <div><a class="navlink" style="vertical-align: text-top;" href="/"><img src="/media/icon/cookie_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"></a></div>
         </div>
+
     </div>
 </div>
 
 <script>
+    function myFunction() {
+      var popup = document.getElementById("myPopup");
+      popup.classList.toggle("show");
+    }
+
     let folders = [];
     let shuffledFolders = [];
 
@@ -68,35 +73,39 @@
     // Add event listeners for showing/hiding the navigation bar
     const mainBar = document.querySelector('.main-bar');
     
-    mainBar.addEventListener('mouseenter', () => {
-        clearTimeout(hideTimeout);
-        mainBar.classList.remove('hidden');
-    });
+    // mainBar.addEventListener('mouseenter', () => {
+    //     clearTimeout(hideTimeout);
+    //     mainBar.classList.remove('hidden');
+    // });
 
-    mainBar.addEventListener('mouseleave', () => {
-        hideTimeout = setTimeout(() => {
-            mainBar.classList.add('hidden');
-        }, 3000);
-    });
+    // mainBar.addEventListener('mouseleave', () => {
+    //     hideTimeout = setTimeout(() => {
+    //         mainBar.classList.add('hidden');
+    //     }, 3000);
+    // });
 
-    hideTimeout = setTimeout(() => {
-        mainBar.classList.add('hidden');
-    }, 3000);
+    // hideTimeout = setTimeout(() => {
+    //     mainBar.classList.add('hidden');
+    // }, 3000);
 
 </script>
 
 <style>
     :root {
         --navigation-size: 50px;
+        background-color: black;
     }
+
     body {
         margin: 0;
         padding: 0;
         font-family: Arial, sans-serif;
     }
+
     .frost {
-        backdrop-filter: blur(40px) brightness(70%);
+        backdrop-filter: blur(1.5rem) brightness(80%);
     }
+
     .main-bar {
         display: flex;
         width: 100%;
@@ -107,24 +116,31 @@
         position: fixed;
         top: 0;
         z-index: 10;
+        padding-top: 5px;
+        padding-bottom: 5px;
         transition: transform 0.3s ease;
     }
+
     .main-bar.hidden {
         transform: translateY(calc(-1 * var(--navigation-size)));
     }
+
     .logo img {
         line-height: var(--navigation-size);
-        padding: 0 10px;
+        padding: 0 0px;
     }
+
     .logo-link {
         text-decoration: none;
         color: white;
     }
+
     .logo a:hover {
         background-color: #333;
         color: white;
         transition: background-color 0.3s ease, color 0.3s ease;
     }
+
     .horizontal-scroller {
         display: flex;
         gap: 16px;
@@ -134,6 +150,7 @@
         scrollbar-width: none;
         overflow-y: hidden;
     }
+
     .navlink {
         white-space: nowrap;
         text-decoration: none;
@@ -148,6 +165,7 @@
         color: black;
         padding: 1vh;
         padding-bottom: 1vh;
+        border-radius: 8px;
         transition: background-color 0.3s ease, color 0.3s ease;
     }
 </style>

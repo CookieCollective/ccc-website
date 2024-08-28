@@ -95,8 +95,8 @@ $tab-wrap-border-radius: 6px;
   padding: 40px;
   transition: 0.3s box-shadow ease;
   border-radius: $tab-wrap-border-radius;
-  background-color: white;
-  opacity: 0.75;
+  opacity: 0.85;
+  color: white;
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -111,7 +111,8 @@ $tab-wrap-border-radius: 6px;
     @for $i from 1 through $max-tab-count {
         &:checked:nth-of-type(#{$i}) ~ .tab__content:nth-of-type(#{$i}) {
             font-family: 'IBM Plex Mono', sans-serif;
-            opacity: 1;
+            opacity: 0.85;
+            color: white;
             transition: 0.5s opacity ease-in, 0.8s transform ease;
             position: relative;
             top: 0;
@@ -122,6 +123,7 @@ $tab-wrap-border-radius: 6px;
     }
     &:first-of-type:not(:last-of-type) + label {
         border-top-right-radius: 0;
+        opacity: 0.85;
         border-bottom-right-radius: 0;
     }
     &:not(:first-of-type):not(:last-of-type) + label {
@@ -137,6 +139,7 @@ $tab-wrap-border-radius: 6px;
         &:hover {
             box-shadow: 0 -1px 0 #fff inset;
             background-color: #f0f0f0;
+            color: black;
         }
     }
     + label {
@@ -146,7 +149,7 @@ $tab-wrap-border-radius: 6px;
         cursor: pointer;
         display: block;
         text-decoration: none;
-        color: #333;
+        color: white;
         flex-grow: 3;
         text-align: center;
         user-select: none;

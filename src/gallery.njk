@@ -1,30 +1,33 @@
 {%include "head.njk" %}
 {%include "navigation.njk" %}
 
-<div class="container">
-    <video class="video-background" autoplay muted loop>
-        <source src="/media/ccc.mp4" type="video/mp4">
-        Your browser does not support HTML5 video.
-    </video>
-    <div class="gallery">
-        {% for project in projects | shuffle %}
-        <div class="gallery-item frost box-shadow">
-            <a href="/projects/{{ project.folder | slugify }}">
-                <video class="video-preview" muted autoplay loop alt="{{ project.title }}">
-                    <source type="video/mp4" src="/content/{{ project.folder }}/reduced.mp4" />
-                </video>
-                <div class="gallery-item-content">
-                    <h1 class="gallery-title">{{ project.title }}</h1>
-                    <h2 style="text-align: center;">
-                        <span style="display: inline-block; vertical-align: middle;">🎥 : {{ project.videast.name }}</span>
-                    </h2>
-                    <h2 style="text-align: center;">
-                        <span style="display: inline-block; vertical-align: middle;">🎵 : {{ project.musician.name }}</span>
-                    </h2><h2></h2>
-                </div>
-            </a>
+<div class="gallery-page">
+    <div class="container">
+        <video class="video-background" autoplay muted loop>
+            <source src="/media/ccc.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <div class="gallery">
+            {% for project in projects | shuffle %}
+            <div class="gallery-item frost box-shadow">
+                <a href="/projects/{{ project.folder | slugify }}">
+                    <!-- Ici, récupérer les fichiers et insérer les vidéos en fond -->
+                    <video class="video-preview" muted autoplay loop alt="{{ project.title }}">
+                        <source type="video/mp4" src="/content/{{ project.folder }}/reduced.mp4" />
+                    </video>
+                    <div class="gallery-item-content">
+                        <h1 class="gallery-title">{{ project.title }}</h1>
+                        <h2 style="text-align: center;">
+                            <span style="display: inline-block; vertical-align: middle;">🎥 : {{ project.videast.name }}</span>
+                        </h2>
+                        <h2 style="text-align: center;">
+                            <span style="display: inline-block; vertical-align: middle;">🎵 : {{ project.musician.name }}</span>
+                        </h2><h2></h2>
+                    </div>
+                </a>
+            </div>
+            {% endfor %}
         </div>
-        {% endfor %}
     </div>
 </div>
 
