@@ -10,7 +10,7 @@ input {
 .gallery {
     margin-top: 30pt;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 16px;
     padding: 16px;
     max-height: 90vh;
@@ -22,7 +22,9 @@ input {
     // border-radius: 8px;
     overflow: hidden;
     transition: transform 0.2s;
-    border: 1px solid #ccc;
+    border: 10px solid #ccc;
+    border-style: inset;
+    border-color: mediumvioletred;
 }
 
 .gallery-item:hover {
@@ -54,14 +56,13 @@ input {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0 20px black;
     color: white;
 }
 
 .gallery-item-content h1 {
     margin: 0;
     font-family: 'IBM Plex Mono SemiBold', sans-serif;
-    font-size: 1.75em;
+    font-size: 1em;
     transition: transform 0.2s;
 }
 

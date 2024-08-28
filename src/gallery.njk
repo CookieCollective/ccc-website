@@ -13,16 +13,16 @@
                 <a href="/projects/{{ project.folder | slugify }}">
                     <!-- Ici, récupérer les fichiers et insérer les vidéos en fond -->
                     <video class="video-preview" muted autoplay loop alt="{{ project.title }}">
-                        <source type="video/mp4" src="/content/{{ project.folder }}/reduced.mp4" />
+                        <source type="video/mp4" src="/content/projects/{{project.folder}}/reduced.mp4" />
                     </video>
                     <div class="gallery-item-content">
                         <h1 class="gallery-title">{{ project.title }}</h1>
                         <h2 style="text-align: center;">
-                            <span style="display: inline-block; vertical-align: middle;">🎥 : {{ project.videast.name }}</span>
+                            <span style="display: inline-block; vertical-align: middle;">👁️ : {{ project.videast.name }}</span>
                         </h2>
                         <h2 style="text-align: center;">
-                            <span style="display: inline-block; vertical-align: middle;">🎵 : {{ project.musician.name }}</span>
-                        </h2><h2></h2>
+                            <span style="display: inline-block; vertical-align: middle;">👂 : {{ project.musician.name }}</span>
+                        </h2>
                     </div>
                 </a>
             </div>
