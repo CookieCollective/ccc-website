@@ -1,13 +1,16 @@
 <div class="main-bar frost">
-    <div class="logo">
-    </div>
-    <div class="horizontal-scroller">
-        <div><a class="navlink" href="/gallery">All</a></div>
-        <div><a class="navlink" href="javascript:getRandomProject()">Random</a></div>
-        <div><a class="navlink" href="/wall-of-sound">Wall of Sound</a></div>
-        <div><a class="navlink" href="/">Cinema</a></div>
-        <div><a class="navlink" href="/">Fanzine</a></div>
-        <div><a class="navlink" href="/"><img src="/media/icon/cookie_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"></a></div>
+        <div class="logo">
+        </div>
+        <div class="horizontal-scroller">
+            <div><a class="navlink" href="/gallery">Browse</a></div>
+            <div><a class="navlink" href="javascript:getRandomProject()">Wander</a></div>
+            <div><a class="navlink" href="/wall-of-sound">Wall</a></div>
+            <div><a class="navlink" href="/">Cinema</a></div>
+            <div><a class="navlink" href="/">Fanzine</a></div>
+            <div><a class="navlink" href="/about">About</a></div>
+            <div><a class="navlink" href="/"><img src="/media/icon/cookie_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"></a></div>
+
+        </div>
     </div>
 </div>
 
@@ -61,18 +64,40 @@
         });
 
     loadState();
+
+    // Add event listeners for showing/hiding the navigation bar
+    const mainBar = document.querySelector('.main-bar');
+    
+    mainBar.addEventListener('mouseenter', () => {
+        clearTimeout(hideTimeout);
+        mainBar.classList.remove('hidden');
+    });
+
+    mainBar.addEventListener('mouseleave', () => {
+        hideTimeout = setTimeout(() => {
+            mainBar.classList.add('hidden');
+        }, 3000);
+    });
+
+    hideTimeout = setTimeout(() => {
+        mainBar.classList.add('hidden');
+    }, 3000);
+
 </script>
 
 <style>
-
-    .frost
-    {
+    :root {
+        --navigation-size: 50px;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+    .frost {
         backdrop-filter: blur(40px) brightness(70%);
     }
-
-
-    .main-bar
-    {
+    .main-bar {
         display: flex;
         width: 100%;
         height: var(--navigation-size);
@@ -82,41 +107,34 @@
         position: fixed;
         top: 0;
         z-index: 10;
+        transition: transform 0.3s ease;
     }
-
-    .logo img
-    {
+    .main-bar.hidden {
+        transform: translateY(calc(-1 * var(--navigation-size)));
+    }
+    .logo img {
         line-height: var(--navigation-size);
         padding: 0 10px;
     }
-
-    .logo-link
-    {
+    .logo-link {
         text-decoration: none;
         color: white;
     }
-
-    .logo a:hover
-    {
+    .logo a:hover {
         background-color: #333;
         color: white;
         transition: background-color 0.3s ease, color 0.3s ease;
     }
-
-    .horizontal-scroller
-    {
+    .horizontal-scroller {
         display: flex;
         gap: 16px;
         padding: 16px;
-        /**used to scroll text*/
         white-space: nowrap;    
         overflow-x: scroll;
         scrollbar-width: none;
         overflow-y: hidden;
     }
-
-    .navlink
-    {
+    .navlink {
         white-space: nowrap;
         text-decoration: none;
         color: white;
@@ -125,14 +143,11 @@
         padding-right: 1vh;
         width: 100%;
     }
-
-    .navlink:hover
-    {
+    .navlink:hover {
         background: white;
         color: black;
         padding: 1vh;
         padding-bottom: 1vh;
         transition: background-color 0.3s ease, color 0.3s ease;
     }
-
 </style>

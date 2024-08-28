@@ -1,3 +1,4 @@
+@import url('https://fonts.cdnfonts.com/css/ibm-plex-mono-3');
 
 :root
 {
@@ -10,7 +11,7 @@ body, html
 {
     margin: 0;
     padding: 0;
-    font-family: monospace;
+    font-family: 'IBM Plex Mono', sans-serif;
 }
 
 a,
@@ -19,7 +20,7 @@ a:visited,
 a:hover,
 a:active
 {
-  color: #fff;
+  font-family: 'IBM Plex Mono', sans-serif;
 }
 
 /* effects */
@@ -54,13 +55,20 @@ a:active
 }
 
 fieldset {
+    font-family: 'IBM Plex Mono', sans-serif;
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 15pt;
+    margin-top: 15pt;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
 }
 
 legend {
     font-size: 15pt;
+    font-family: 'IBM Plex Mono', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .emoji {
@@ -78,4 +86,93 @@ legend {
 
 .project-text-content {
     font-size: 1.15em;
+    padding-left: 10px;
+}
+
+$max-tab-count: 5;
+$tab-wrap-border-radius: 6px;
+.tab-wrap {
+  padding: 40px;
+  transition: 0.3s box-shadow ease;
+  border-radius: $tab-wrap-border-radius;
+  background-color: white;
+  opacity: 0.75;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  list-style: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  &:hover {
+    box-shadow: 0 12px 23px rgba(0, 0, 0, 0.23), 0 10px 10px rgba(0, 0, 0, 0.19);
+  }
+}
+.tab {
+    display: none;
+    @for $i from 1 through $max-tab-count {
+        &:checked:nth-of-type(#{$i}) ~ .tab__content:nth-of-type(#{$i}) {
+            font-family: 'IBM Plex Mono', sans-serif;
+            opacity: 1;
+            transition: 0.5s opacity ease-in, 0.8s transform ease;
+            position: relative;
+            top: 0;
+            z-index: 100;
+            transform: translateY(0px);
+            text-shadow: 0 0 0;
+        }
+    }
+    &:first-of-type:not(:last-of-type) + label {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    &:not(:first-of-type):not(:last-of-type) + label {
+        border-radius: 0;
+    }
+    &:last-of-type:not(:first-of-type) + label {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    &:checked + label,
+    &:hover + label { /* Added hover effect */
+        cursor: default;
+        &:hover {
+            box-shadow: 0 -1px 0 #fff inset;
+            background-color: #f0f0f0;
+        }
+    }
+    + label {
+        box-shadow: 0 -1px 0 #eee inset;
+        border-radius: $tab-wrap-border-radius $tab-wrap-border-radius 0 0;
+        font-family: 'IBM Plex Mono SemiBold', sans-serif;
+        cursor: pointer;
+        display: block;
+        text-decoration: none;
+        color: #333;
+        flex-grow: 3;
+        text-align: center;
+        user-select: none;
+        text-align: center;
+        transition: 0.3s background-color ease, 0.3s box-shadow ease;
+        height: 50px;
+        box-sizing: border-box;
+        padding: 15px;
+        &:hover {
+            box-shadow: 0 1px 0 #f4f4f4 inset;
+        }
+    }
+    &__content {
+        padding: 10px 25px;
+        background-color: transparent;
+        position: absolute;
+        width: 100%;
+        z-index: -1;
+        opacity: 0;
+        left: 0;
+        transform: translateY(-3px);
+        border-radius: $tab-wrap-border-radius;
+    }
+}
+
+.ressource-button {
+    padding-left: 6pt;
+    display: inline;
 }

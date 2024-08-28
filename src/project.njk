@@ -15,82 +15,107 @@ permalink: "projects/{{ project.folder | slugify }}/"
             <source src="/content/projects/{{ project.folder | slugify }}/clip.mp4" type="video/mp4" />
         </video>
     </div>
-    <div class="container">
-        <div class="column frost">
 
-            <div class="flex" style="display: flex; justify-content: space-between; align-items: center;">
-                <h2 style="padding-left:0.25em;"><b>Visualist &mdash; </b>{{ project.videast.name  }}</h2>
-                <span class="emoji">👁</span>
-            </div>
+    <div class="tab-wrap box-shadow borders head">
+
+        <input type="radio" id="tab1" name="tabGroup1" class="tab" checked>
+        <label for="tab1"><b>Video 🎥</b></label>
+
+        <input type="radio" id="tab2" name="tabGroup1" class="tab">
+        <label for="tab2"><b>Music 🎶</b></label>
+
+    <div class="tab__content">
+        <div class="flex" style="display: flex; justify-content: space-between; align-items: center;">
+        </div>
             
+        {% if project.videast.bio %}
             <fieldset>
-                <legend>Biography</legend>
+                <legend>Biography: {{project.videast.name }}</legend>
                 <div class="project-text-content">{{ project.videast.bio | safe }}</div>
             </fieldset>
-
+        {% endif %}
             
+        {% if project.videast.description %}
             <fieldset>   
                 <legend>Description</legend>
                 <div class="project-text-content">{{ project.videast.description | safe }}</div>
             </fieldset>
-            
-            <ul>
-            {% for link in project.videast.links %}
-                <li><a href={{ link.url }} target="_blank">{{ link.name }}</a></li>
-            {% endfor %}
-            </ul>
+        {% endif %}
 
+        {% if project.videast.links|length > 0 %}
+            <fieldset>   
+                <legend>Links</legend>
+                {% for link in project.videast.links %}
+                    <div class="ressource-button">
+                        <p class="button"><a href="{{ link.url }}" target="_blank">{{ link.name }}</a></p>
+                    </div>
+                {% endfor %}
+            </fieldset>
+        {% endif %}
+
+        {% if project.videast.sources|length > 0 %}
             <fieldset>
                 <legend>Ressources</legend>
                 {% for sources in project.videast.sources %}
-                <p class="button">
-                    <a href="/content/{{ project.title | slugify }}/more/{{ sources.file }}" target="_blank">
-                        {{ sources.name }}
-                    </a>
-                </p>
+                    <div class="ressource-button">
+                        <p class="button">
+                            <a href="/content/{{ project.title | slugify }}/more/{{ sources.file }}" target="_blank">
+                                {{ sources.name }}
+                            </a>
+                        </p>
+                    </div>
                 {% endfor %}
             </fieldset>
+        {% endif %}
 
+    </div>
+
+    <div class="tab__content">
+        <div class="flex" style="display: flex; justify-content: space-between; align-items: center;">
         </div>
 
-        <div class="column frost">
-
-            <div class="flex" style="display: flex; justify-content: space-between; align-items: center;">
-                <h2 style="padding-left:0.25em;"><b>Musician &mdash; </b>{{ project.musician.name  }}</h2>
-                <span class="emoji">👂</span>
-            </div>
-
+        {% if project.musician.bio %}
             <fieldset>
-                <legend>Biography</legend>
+                <legend>Biography: {{project.musician.name}}</legend>
                 <div class="project-text-content">{{ project.musician.bio | safe }}</div>
             </fieldset>
+        {% endif %}
             
-            {% if project.musician.description %}
+        {% if project.musician.description %}
             <fieldset>
                 <legend>Description</legend>
                 <div class="project-text-content">{{ project.musician.description | safe }}</div>
             </fieldset>
-            {% endif %}
+        {% endif %}
 
+        {% if project.musician.links|length > 0 %}
             <fieldset>
                 <legend>Links</legend>
-                    {% for link in project.musician.links %}
-                    <p class="button"><a href="{{ link.url }}" target="_blank">{{ link.name }}</a></p>
-                    {% endfor %}
+                {% for link in project.musician.links %}
+                    <div class="ressource-button">
+                        <p class="button"><a href="{{ link.url }}" target="_blank">{{ link.name }}</a></p>
+                    </div>
+                {% endfor %}
             </fieldset>
+        {% endif %}
 
+        {% if project.musician.sources|length > 0 %}
             <fieldset>
                 <legend>Ressources</legend>
-            {% for sources in project.musician.sources %}
-            <p class="button">
-                <a href="/content/{{ project.title | slugify }}/more/{{ sources.file }}" target="_blank">
-                    {{ sources.name }}
-                </a>
-            </p>
-            {% endfor %}
+                {% for sources in project.musician.sources %}
+                    <div class="ressource-button">
+                        <p class="button">
+                            <a href="/content/{{ project.title | slugify }}/more/{{ sources.file }}" target="_blank">
+                                {{ sources.name }}
+                            </a>
+                        </p>
+                    </div>
+                {% endfor %}
             </fieldset>
-        </div>
+        {% endif %}
+
     </div>
+  </div>
 </div>
 
 <style>
@@ -100,7 +125,7 @@ permalink: "projects/{{ project.folder | slugify }}/"
         margin-top: 60px;
         background: black;
     }
-
+    
     .background
     {
         background: center / contain url("/content/projects/{{ project.folder }}/screenshot.png") ;
@@ -168,16 +193,18 @@ permalink: "projects/{{ project.folder | slugify }}/"
     .button a
     {
         border-radius: 20px;
-        background-color: white;
-        color: #505050;
+        background-color: black;
+        color: white;
         padding: 10px;
         text-decoration: none;
+        transition: background-color 0.5s, color 0.5s;
     }
 
     .button a:hover
     {
-        background-color: black;
-        color: white;
+        background-color: white;
+        color: black;
     }
+
     
 </style>

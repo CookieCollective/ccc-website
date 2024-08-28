@@ -7,16 +7,20 @@
         Your browser does not support HTML5 video.
     </video>
     <div class="gallery">
-        {% for project in projects %}
-        <div class="gallery-item">
+        {% for project in projects | shuffle %}
+        <div class="gallery-item frost box-shadow">
             <a href="/projects/{{ project.folder | slugify }}">
                 <video class="video-preview" muted autoplay loop alt="{{ project.title }}">
                     <source type="video/mp4" src="/content/{{ project.folder }}/reduced.mp4" />
                 </video>
                 <div class="gallery-item-content">
                     <h1 class="gallery-title">{{ project.title }}</h1>
-                    <h2>{{ project.videast.name }} x {{ project.musician.name }}</h2>
-                    <h2></h2>
+                    <h2 style="text-align: center;">
+                        <span style="display: inline-block; vertical-align: middle;">🎥 : {{ project.videast.name }}</span>
+                    </h2>
+                    <h2 style="text-align: center;">
+                        <span style="display: inline-block; vertical-align: middle;">🎵 : {{ project.musician.name }}</span>
+                    </h2><h2></h2>
                 </div>
             </a>
         </div>
@@ -29,7 +33,7 @@
     .container
     {
         position: absolute;
-        top: var(--navigation-size);
+        top: 0;
         left: 0;
         right: 0;
         bottom: 0;
@@ -51,4 +55,5 @@
         z-index: 0;
         object-fit: cover;
     }
+
 </style>

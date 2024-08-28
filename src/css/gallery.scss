@@ -1,7 +1,8 @@
 
 .gallery {
+    margin-top: 30pt;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 16px;
     padding: 16px;
     max-height: 80vh;
@@ -10,7 +11,7 @@
 
 .gallery-item {
     position: relative;
-    border-radius: 8px;
+    // border-radius: 8px;
     overflow: hidden;
     transition: transform 0.2s;
     border: 1px solid #ccc;
@@ -51,6 +52,7 @@
 
 .gallery-item-content h1 {
     margin: 0;
+    font-family: 'IBM Plex Mono SemiBold', sans-serif;
     font-size: 1.75em;
     transition: transform 0.2s;
 }
