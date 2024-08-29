@@ -18,10 +18,10 @@
                     <div class="gallery-item-content">
                         <h1 class="gallery-title">{{ project.title }}</h1>
                         <h2 style="text-align: center;">
-                            <span style="display: inline-block; vertical-align: middle;">👁️ : {{ project.videast.name }}</span>
+                            <span style="display: inline-block; vertical-align: middle;">{% phicon "eye", "duotone", {style: "color:white", size: 16} %}: {{ project.videast.name }}</span>
                         </h2>
                         <h2 style="text-align: center;">
-                            <span style="display: inline-block; vertical-align: middle;">👂 : {{ project.musician.name }}</span>
+                            <span style="display: inline-block; vertical-align: middle;">{% phicon "ear", "duotone", {style: "color:white", size: 16} %} : {{ project.musician.name }}</span>
                         </h2>
                     </div>
                 </a>

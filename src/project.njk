@@ -12,7 +12,7 @@ permalink: "projects/{{ project.folder | slugify }}/"
     <div class="background"></div>
     <div class="content-wrapper">
         <div class="column videast-column">
-            <h2>Video 🎥</h2>
+            <h2>Video {% phosphor "eye" %} </h2>
             {% if project.videast.bio %}
                 <fieldset>
                     <legend>Biography: <b>{{project.videast.name }}</b></legend>
@@ -59,7 +59,7 @@ permalink: "projects/{{ project.folder | slugify }}/"
         </div>
         
         <div class="column musician-column">
-            <h2>Music 🎵</h2>
+            <h2>Music {% phosphor "ear" %}</h2>
             {% if project.musician.bio %}
                 <fieldset>
                     <legend>Biography: <b>{{project.musician.name}}</b></legend>

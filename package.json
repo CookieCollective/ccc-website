@@ -22,5 +22,8 @@
     "react-dom": "^18.3.1",
     "slugify": "^1.6.6"
   },
-  "browserslist": []
+  "browserslist": [],
+  "devDependencies": {
+    "eleventy-plugin-phosphoricons": "^1.3.0"
+  }
 }

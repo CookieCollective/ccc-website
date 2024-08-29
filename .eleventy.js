@@ -1,6 +1,7 @@
 const eleventySass = require("@11tyrocks/eleventy-plugin-sass-lightningcss");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const mdxPlugin = require("@jamshop/eleventy-plugin-mdx");
+const eleventyPluginPhosphoricons = require('eleventy-plugin-phosphoricons');
 
 module.exports = function (config) {
 	config.addPlugin(syntaxHighlight);
@@ -16,6 +17,12 @@ module.exports = function (config) {
       }
       return shuffledArray;
   });
+  config.addPlugin(eleventyPluginPhosphoricons, {
+        class: "phicon",
+        style: "vertical-align: middle;",
+        size: 32,
+        fill: "currentColor"
+    });
 
   return {
     dir: {
