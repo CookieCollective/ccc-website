@@ -20,6 +20,7 @@ a:visited,
 a:hover,
 a:active
 {
+  font-size: 1em;
   font-family: 'IBM Plex Mono', sans-serif;
 }
 
@@ -65,7 +66,7 @@ fieldset {
 }
 
 legend {
-    font-size: 15pt;
+    font-size: 0.75em;
     font-family: 'IBM Plex Mono', sans-serif;
     padding-left: 10px;
     padding-right: 10px;
@@ -85,8 +86,11 @@ legend {
 }
 
 .project-text-content {
-    font-size: 1.15em;
-    padding-left: 10px;
+    font-size: 0.75em;
+}
+
+.project-text-content a {
+    color: mediumvioletred;
 }
 
 $max-tab-count: 5;
@@ -176,6 +180,17 @@ $tab-wrap-border-radius: 6px;
 }
 
 .ressource-button {
-    padding-left: 6pt;
-    display: inline;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+pre {
+    margin-top: 10px;
+    overflow-x: scroll;
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+    -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+    &::-webkit-scrollbar {
+        display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+    }
 }

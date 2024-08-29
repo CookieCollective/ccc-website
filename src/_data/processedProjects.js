@@ -36,6 +36,5 @@ module.exports = function() {
     return project;
   });
 
-  console.log('processedProjects', processedProjects);
   return processedProjects;
 };

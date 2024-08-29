@@ -7,7 +7,7 @@
             <source src="/media/ccc.mp4" type="video/mp4">
             Your browser does not support HTML5 video.
         </video>
-        <div class="gallery">
+        <div class="gallery" id="gallery-container">
             {% for project in projects | shuffle %}
             <div class="gallery-item frost box-shadow">
                 <a href="/projects/{{ project.folder | slugify }}">
@@ -60,3 +60,36 @@
     }
 
 </style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+
+        const gallery = document.getElementById('gallery-container');
+        const items = Array.from(gallery.children);
+
+        /**
+         * Shuffles the elements in an array using the Fisher-Yates algorithm.
+         *
+         * @param {Array} array - The array to be shuffled.
+         * @returns {Array} - The shuffled array.
+         */
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+
+        /**
+         * Shuffles the gallery items and appends them to the gallery element.
+         */
+        function shuffleGallery() {
+            const shuffledItems = shuffleArray(items);
+            shuffledItems.forEach(item => gallery.appendChild(item));
+        }
+
+        shuffleGallery();
+    });
+
+</script>
