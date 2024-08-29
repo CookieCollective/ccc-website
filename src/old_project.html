@@ -19,15 +19,15 @@ permalink: "projects/{{ project.title | slugify }}/"
         <div class="column frost">
             <h2>{{ project.videast.name }}</h2>
             <h3 class="role">👁️</h3>
-            
+
             {% for paragraph in project.videast.bio %}
             <p>{{ paragraph }}</p>
             {% endfor %}
-            
+
             {% for paragraph in project.videast.description %}
             <p>{{ paragraph }}</p>
             {% endfor %}
-            
+
             {% for link in project.videast.links %}
             <p><a href={{ link.url }} target="_blank">{{ link.name }}</a></p>
             {% endfor %}
@@ -45,15 +45,15 @@ permalink: "projects/{{ project.title | slugify }}/"
 
             <h2>{{ project.musician.name }}</h2>
             <h3 class="role">👂</h3>
-            
+
             {% for paragraph in project.musician.bio %}
             <p>{{ paragraph }}</p>
             {% endfor %}
-            
+
             {% for paragraph in project.musician.description %}
             <p>{{ paragraph }}</p>
             {% endfor %}
-            
+
             {% for link in project.musician.links %}
             <p class="">
                 <a href={{ link.url }} target="_blank">{{ link.name }}</a>
@@ -72,11 +72,11 @@ permalink: "projects/{{ project.title | slugify }}/"
 
         </div>
     </div>
-    
+
 </div>
 
 <style>
-    
+
     .page-container
     {
         margin-top: 60px;
@@ -94,7 +94,7 @@ permalink: "projects/{{ project.title | slugify }}/"
         bottom: 0;
         filter: blur(8px);
     }
-    
+
     .container
     {
         display: flex;
@@ -102,7 +102,7 @@ permalink: "projects/{{ project.title | slugify }}/"
         align-items: start;
         justify-content: center;
     }
-    
+
     .column
     {
         color: white;
@@ -161,5 +161,5 @@ permalink: "projects/{{ project.title | slugify }}/"
         background-color: black;
         color: white;
     }
-    
+
 </style>

@@ -8,6 +8,7 @@ permalink: "projects/{{ project.folder | slugify }}/"
 
 {% include "head.njk" %}
 {% include "navigation.njk" %}
+
 <div class="page-container">
     <div class="background"></div>
     <div class="content-wrapper">
@@ -20,13 +21,13 @@ permalink: "projects/{{ project.folder | slugify }}/"
                 </fieldset>
             {% endif %}
             {% if project.videast.description %}
-                <fieldset>   
+                <fieldset>
                     <legend>Description</legend>
                     <div class="project-text-content">{{ project.videast.description | safe }}</div>
                 </fieldset>
             {% endif %}
             {% if project.videast.links|length > 0 %}
-                <fieldset>   
+                <fieldset>
                     <legend>Links</legend>
                     {% for link in project.videast.links %}
                         <div class="ressource-button">
@@ -50,14 +51,14 @@ permalink: "projects/{{ project.folder | slugify }}/"
                 </fieldset>
             {% endif %}
         </div>
-        
+
         <div class="column video-column">
             <h2>{{project.videast.name}} X {{project.musician.name}} &mdash; {{project.title}} </h2>
             <video class="view box-shadow borders" controls>
                 <source src="/content/projects/{{ project.folder | slugify }}/clip.mp4" type="video/mp4" />
             </video>
         </div>
-        
+
         <div class="column musician-column">
             <h2>Music {% phosphor "ear" %}</h2>
             {% if project.musician.bio %}
