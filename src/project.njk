@@ -9,11 +9,12 @@ permalink: "projects/{{ project.folder | slugify }}/"
 {% include "head.njk" %}
 {% include "navigation.njk" %}
 
+
 <div class="page-container">
     <div class="background"></div>
     <div class="content-wrapper">
         <div class="column videast-column">
-            <h2>Video {% phosphor "eye" %} </h2>
+            <div class="text-icon-combo"><h2>{% phosphor "eye" %}</h2> <h2>Video</h2></div>
             {% if project.videast.bio %}
                 <fieldset>
                     <legend>Biography: <b>{{project.videast.name }}</b></legend>
@@ -53,14 +54,17 @@ permalink: "projects/{{ project.folder | slugify }}/"
         </div>
 
         <div class="column video-column">
-            <h2>{{project.videast.name}} X {{project.musician.name}} &mdash; {{project.title}} </h2>
+            <div class="project-title"</div>
+                <h2>{% phicon "projector-screen" %}</h2>
+                <h2>{{project.videast.name}} X {{project.musician.name}} &mdash; {{project.title}}</h2> 
+            </div>
             <video class="view box-shadow borders" controls>
                 <source src="/content/projects/{{ project.folder | slugify }}/clip.mp4" type="video/mp4" />
             </video>
         </div>
 
         <div class="column musician-column">
-            <h2>Music {% phosphor "ear" %}</h2>
+            <div class="text-icon-combo"><h2>{% phosphor "ear" %}</h2><h2>Music</h2> </div>
             {% if project.musician.bio %}
                 <fieldset>
                     <legend>Biography: <b>{{project.musician.name}}</b></legend>
@@ -108,6 +112,19 @@ permalink: "projects/{{ project.folder | slugify }}/"
         height: 100%;
     }
 
+    .text-icon-combo {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .project-title {
+        padding-top: 5px;
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
     .page-container {
         overflow: hidden;
         @media (max-width: 1024px) {
@@ -119,39 +136,40 @@ permalink: "projects/{{ project.folder | slugify }}/"
         background: black;
         color: white;
         position: relative;
+        padding-top: 25px;
     }
 
     .background {
-        background: center / contain url("/content/projects/{{ project.folder }}/screenshot.png") no-repeat;
+        background: center / cover url("/content/projects/{{ project.folder }}/screenshot.png") no-repeat fixed;
         position: fixed;
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
-        filter: blur(8px);
+        filter: blur(0px);
         z-index: 0;
     }
 
     .content-wrapper {
         display: flex;
         justify-content: space-between;
-        max-width: 1400px;
+        max-height: 90vh;
         margin: 0 auto;
-        padding: 20px;
+        padding: 0px;
         padding-top: 50px;
         position: relative;
         z-index: 1;
     }
 
     .column {
-        max-height: 90vh;
+        max-height: 100vh;
         flex: 1;
         background-color: rgba(0, 0, 0, 0.7);
         border-radius: 10px;
         opacity: 1;
-        background-color: rgba(0, 0, 0, 0.3);
+        background-color: rgba(0, 0, 0, 0.7);
         padding: 10px;
-        margin: 0 10px;
+        margin: 0 5px;
         overflow-y: auto;
         scrollbar-width: none; /* Hide scrollbar for Firefox */
         -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
@@ -169,7 +187,6 @@ permalink: "projects/{{ project.folder | slugify }}/"
 
     .view {
         width: 100%;
-        max-width: 800px;
         margin: 0 auto;
     }
 
@@ -200,18 +217,70 @@ permalink: "projects/{{ project.folder | slugify }}/"
     }
 
     @media (max-width: 1024px) {
+
+        .page-container {
+            padding-top: 50px;
+            overflow: visible;
+            height: auto;
+            min-height: auto;
+        }
+
         .content-wrapper {
+            overflow: visible;
             flex-direction: column;
+            max-height: none;
+            padding-top: 20px;
         }
 
         .column {
+            max-height: none;
+            overflow-y: visible;
             margin: 10px 0;
         }
 
+        // .video-column {
+        //     order: -1;
+        // }
+
         .video-column {
-            order: -1;
+            padding-top: 10px;
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
+
+        .view {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto;
+        }
+
+
+
+
+        body, html {
+            height: auto;
+            overflow-y: auto;
+        }
+
+        .ressource-button {
+            display: flex;
+            justify-content: center;
+        }
+
+        .button {
+            width: 85%;
+        }
+
+        .button a {
+            width: 100%;
+            text-align: center;
+        }
+
     }
+
 </style>
 
 <script>
@@ -219,19 +288,25 @@ document.addEventListener('DOMContentLoaded', function() {
     const videoColumn = document.querySelector('.video-column');
     const videastColumn = document.querySelector('.videast-column');
     const musicianColumn = document.querySelector('.musician-column');
+    const contentWrapper = document.querySelector('.content-wrapper');
 
     function handleResize() {
         if (window.innerWidth <= 1024) {
-            videoColumn.after(videastColumn);
-            videoColumn.after(musicianColumn);
+            if (videastColumn.nextElementSibling !== musicianColumn) {
+                contentWrapper.appendChild(videoColumn);
+                contentWrapper.appendChild(videastColumn);
+                contentWrapper.appendChild(musicianColumn);
+            }
         } else {
-            videoColumn.before(videastColumn);
-            videoColumn.after(musicianColumn);
+            if (videastColumn.nextElementSibling !== videoColumn) {
+                contentWrapper.appendChild(videastColumn);
+                contentWrapper.appendChild(videoColumn);
+                contentWrapper.appendChild(musicianColumn);
+            }
         }
     }
 
     window.addEventListener('resize', handleResize);
-    handleResize();
+    handleResize(); // Call once to set initial state
 });
-
 </script>

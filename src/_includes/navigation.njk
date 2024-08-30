@@ -1,14 +1,13 @@
-<div class="main-bar">
+<div class="main-bar frost">
         <div class="logo">
         </div>
-
         <div class="horizontal-scroller">
-            <div><a class="navlink" href="/gallery">{% phicon "folder" %} Browse</a></div>
-            <div><a class="navlink" href="javascript:getRandomProject()">{% phicon "scribble-loop" %} Wander</a></div>
-            <div><a class="navlink" href="/wall-of-sound">{% phicon "wall" %} Wall</a></div>
-            <div><a class="navlink" href="/">{% phicon "film-reel" %} Cinema</a></div>
-            <div><a class="navlink" href="/">{% phicon "book-open-text" %} Fanzine</a></div>
-            <div><a class="navlink" href="/">{% phicon "cookie" %}</a></div>
+            <div class="text-icon-combo"><a class="navlink" href="/gallery">{% phicon "folder" %} <span>Browse</span></a></div>
+            <div class="text-icon-combo"><a class="navlink" href="javascript:getRandomProject()">{% phicon "scribble-loop" %} <span>Wander</span></a></div>
+            <div class="text-icon-combo"><a class="navlink" href="/wall-of-sound">{% phicon "wall" %} <span>Wall</span></a></div>
+            <div class="text-icon-combo"><a class="navlink" href="/">{% phicon "film-reel" %} <span>Cinema</span></a></div>
+            <div class="text-icon-combo"><a class="navlink" href="/">{% phicon "book-open-text" %} <span>Fanzine</span></a></div>
+            <div class="text-icon-combo"><a class="navlink" href="/">{% phicon "cookie" %}</a></div>
         </div>
 
     </div>
@@ -102,12 +101,19 @@
         font-family: "IBM Plex Mono", sans-serif;
     }
 
+    .text-icon-combo {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
     .frost {
-        backdrop-filter: blur(1.5rem) brightness(80%);
+        backdrop-filter: blur(0px) brightness(50%);
     }
 
     .main-bar {
         display: flex;
+        border-radius: 0px;
         width: 100%;
         height: var(--navigation-size);
         justify-content: space-between;
@@ -152,6 +158,7 @@
     }
 
     .navlink {
+        align-items: center;
         white-space: nowrap;
         text-decoration: none;
         color: white;
