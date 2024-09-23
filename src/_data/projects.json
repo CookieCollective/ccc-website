@@ -3,7 +3,7 @@
 		"title": "Divagation",
 		"folder": "damien-rene-danger",
 		"videast": {
-			"name": "damien",
+			"name": "Damien",
 			"sources": [
 				{
 					"name": "sources.p8",
@@ -30,15 +30,15 @@
 			"sources": [
 				{
 					"name": "sources.gbc",
-					"file": "sources.zip"
+					"file": "LSDJ-CCC-RD.GBC"
 				},
 				{
 					"name": "sources.sav",
-					"file": "sources.zip"
+					"file": "LSDJ-CCC-RD.SAV"
 				},
 				{
 					"name": "process.txt",
-					"file": "sources.zip"
+					"file": "RENE-DANGER_process.txt"
 				}
 			]
 		}
@@ -71,27 +71,27 @@
 	},
 	{
 		"title": "Drift",
-		"folder": "julia-pieczynska-mckinley-street",
+		"folder": "julia-baya",
 		"videast": {
 			"name": "Julia Pieczynska"
 		},
 		"musician": {
-			"name": "mickie / Mckinley Street",
+			"name": "Baya",
 			"links": [
 				{
 					"name": "instagram",
-					"url": "https://www.instagram.com/mckinleystreett/"
+					"url": ""
 				},
 				{
 					"name": "website",
-					"url": "https://mckinleystreett.com/"
+					"url": ""
 				}
 			]
 		}
 	},
 	{
 		"title": "Divagations",
-		"folder": "daria-luka-lucky",
+		"folder": "daria-lucky",
 		"videast": {
 			"name": "Daria Luka",
 			"links": [
@@ -103,6 +103,22 @@
 		},
 		"musician": {
 			"name": "Lucky"
+		}
+	},
+	{
+		"title": "Divagations alternate",
+		"folder": "daria-b01",
+		"videast": {
+			"name": "Daria Luka",
+			"links": [
+				{
+					"name": "instagram",
+					"url": "https://www.instagram.com/keep_it_graphic/"
+				}
+			]
+		},
+		"musician": {
+			"name": "B01"
 		}
 	},
 	{
@@ -127,7 +143,7 @@
 	},
 	{
 		"title": "mon chien errant",
-		"folder": "harmonie-sport",
+		"folder": "aupetit-sport",
 		"videast": {
 			"name": "Harmonie Aupetit",
 			"links": []
@@ -210,7 +226,7 @@
 	},
 	{
 		"title": "Pixelated bad dream",
-		"folder": "nusan-diffty",
+		"folder": "nusan-50D",
 		"videast": {
 			"name": "NuSan",
 			"links": [
@@ -367,6 +383,27 @@
 		},
 		"musician": {
 			"name": "Pango Ornithorynx",
+			"links": []
+		}
+	},
+	{
+		"title": "Motion#39 alternate",
+		"folder": "sheglitch-ovo",
+		"videast": {
+			"name": "≈sheglitchr",
+			"links": [
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/sheglitchr.vj/"
+				},
+				{
+					"name": "Facebook",
+					"url": "https://www.facebook.com/sheglitchr"
+				}
+			]
+		},
+		"musician": {
+			"name": "Ovo",
 			"links": []
 		}
 	},
@@ -528,6 +565,43 @@
 			]
 		}
 	},
+
+	{
+		"title": "Aqueous divagation alternate",
+		"folder": "wiktoria-nabir",
+		"videast": {
+			"name": "Wiktoria Glowacka",
+			"links": [],
+			"sources": [
+				{
+					"name": "description.png",
+					"file": "screenshot1.png"
+				},
+				{
+					"name": "documentation.png",
+					"file": "screenshot2.png"
+				}
+			]
+		},
+		"musician": {
+			"name": "Nabìr",
+			"links": [
+				{
+					"name" : "Facebook",
+					"url" : "https://www.facebook.com/p/Nab%C3%ACr-100067970916447/?_rdr "
+				},
+				{
+					"name" : "Instagram",
+					"url" : "https://www.instagram.com/nabir___/"
+				},
+				{
+					"name" : "Linktree",
+					"url" : "https://linktr.ee/nabir___"
+				}
+			],
+			"sources": []
+		}
+	},
 	{
 		"title": "UNTILTED 3",
 		"folder": "ugo-crash",
@@ -554,6 +628,28 @@
 				{
 					"name": "X",
 					"url": "https://twitter.com/crashserver2"
+				}
+			]
+		}
+	},
+	{
+		"title": "UNTILTED 10",
+		"folder": "ugo-afalfl",
+		"videast": {
+			"name": "Ugo Arsac",
+			"links": [],
+			"sources": []
+		},
+		"musician": {
+			"name": "Afalfl",
+			"links": [
+				{
+					"name" : "Instagram",
+					"url" : "https://www.instagram.com/a_f_alfl/"
+				},
+				{
+					"name": "Website",
+					"url": "https://afalflart.carrd.co/"
 				}
 			]
 		}
@@ -597,6 +693,20 @@
 		}
 	},
 	{
+		"title": "UNTILTED 11",
+		"folder": "ugo-aga",
+		"videast": {
+			"name": "Ugo Arsac",
+			"links": [],
+			"sources": []
+		},
+		"musician": {
+			"name": "Aga",
+			"links": [],
+			"sources": []
+		}
+	},
+	{
 		"title": "RAS dans le caison",
 		"folder": "azertype-byt3m3",
 		"videast": {
@@ -625,9 +735,9 @@
 	},
 	{
 		"title": "Personne absente",
-		"folder": "aka-jules",
+		"folder": "azertype-jules",
 		"videast": {
-			"name": "Aka.rien",
+			"name": "azertype",
 			"links": [],
 			"sources": [
 				{
@@ -641,7 +751,7 @@
 			]
 		},
 		"musician": {
-			"name": "Déluges",
+			"name": "déluges",
 			"links": [
 				{
 					"name": "Soundcloud",
@@ -662,7 +772,7 @@
 	},
 	{
 		"title": "anti bitmap -> pro vectoriel",
-		"folder": "dr-youssra",
+		"folder": "drone-youssra",
 		"videast": {
 			"name": "dr.one",
 			"links": [],
@@ -685,7 +795,7 @@
 	},
 	{
 		"title": "Finding love and Keep it",
-		"folder": "adel-aya",
+		"folder": "adel-ayato",
 		"videast": {
 			"name": "ADL faure",
 			"links": [],
@@ -726,7 +836,7 @@
 	},
 	{
 		"title": "Ambulation",
-		"folder": "ludi-baya",
+		"folder": "ludi-akar1",
 		"videast": {
 			"name": "Ludivine Korner",
 			"links": [],
@@ -755,7 +865,7 @@
 	},
 	{
 		"title": "Cyborg butoh",
-		"folder": "cecile-presence",
+		"folder": "dabo-presence",
 		"videast": {
 			"name": "Cécile Dabo",
 			"links": [
@@ -801,15 +911,64 @@
 			],
 			"sources": [
 				{
-					"name": "code.scd",
-					"file": "code.scd"
+					"name": "Processus.pdf",
+					"file": "presence_process.pdf"
 				}
 			]
 		}
 	},
 	{
+		"title": "Cyborg butoh alternate",
+		"folder": "dabo-rose",
+		"videast": {
+			"name": "Cécile Dabo",
+			"links": [
+				{
+					"name": "Website",
+					"url": "https://dabocecilef.wixsite.com/works"
+				},
+				{
+					"name": "Soundcloud-cecile",
+					"url": "https://soundcloud.com/dabo-cecile-f"
+				},
+				{
+					"name": "Soundcloud-Livecoding",
+					"url": "https://soundcloud.com/ph-livecoding"
+				},
+				{
+					"name": "Soundcloud-tarot",
+					"url": "https://soundcloud.com/ph-tarot"
+				},
+				{
+					"name": "Facebook",
+					"url": "https://www.facebook.com/cecile.dabo"
+				},
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/cecile.f.dabo/"
+				}
+			],
+			"sources": [
+				{
+					"name": "Processus.pdf",
+					"file": "process.pdf"
+				}
+			]
+		},
+		"musician": {
+			"name": "Rose Felicity",
+			"links": [
+				{
+					"name": "Soundcloud",
+					"url": ""
+				}
+			],
+			"sources": []
+		}
+	},
+	{
 		"title": "higher plane of existence",
-		"folder": "zorg-blip",
+		"folder": "zorg-bleep",
 		"videast": {
 			"name": "z0rg",
 			"links": [],
@@ -893,7 +1052,7 @@
 	},
 	{
 		"title": "In the weeds",
-		"folder": "thesource-biset",
+		"folder": "sofy-biset",
 		"videast": {
 			"name": "the_source",
 			"links": [],
@@ -907,7 +1066,7 @@
 	},
 	{
 		"title": "Collision",
-		"folder": "eigen-youssra",
+		"folder": "eigen-cafard",
 		"videast": {
 			"name": "Eigen",
 			"links": [
@@ -932,14 +1091,14 @@
 			]
 		},
 		"musician": {
-			"name": "Youssra",
+			"name": "Cafard Vagabond",
 			"links": [],
 			"sources": []
 		}
 	},
 	{
 		"title": "colon",
-		"folder": "grain-akarien",
+		"folder": "grain-chaton",
 		"videast": {
 			"name": "Grain noir",
 			"links": [
@@ -986,7 +1145,7 @@
 		}
 	},
 	{
-		"title": "Ce que 10e t'a donné c'est pour toi",
+		"title": "La course à l'histoire du rire",
 		"folder": "chaton-paul",
 		"videast": {
 			"name": "Chaton @",
@@ -1047,7 +1206,7 @@
 	},
 	{
 		"title": "Scribble",
-		"folder": "sarah-cloche",
+		"folder": "sarahghp-cfolle",
 		"videast": {
 			"name": "Sarah GHP",
 			"links": [],
@@ -1064,42 +1223,22 @@
 		},
 		"musician": {
 			"name": "C_Folle",
-			"links": [
-				{
-					"name": "linktr.ee",
-					"url": "https://linktr.ee/sergiiio"
-				}
-			],
-			"sources": [
-				{
-					"name": "code.scd",
-					"file": "code.scd"
-				}
-			]
+			"links": [],
+			"sources": []
 		}
 	},
 	{
 		"title": "UNTILTED divag",
-		"folder": "crash-aka",
+		"folder": "crash-azertype",
 		"videast": {
 			"name": "CrashServer",
 			"links": [],
 			"sources": []
 		},
 		"musician": {
-			"name": "aka.rien",
-			"links": [
-				{
-					"name": "linktr.ee",
-					"url": "https://linktr.ee/sergiiio"
-				}
-			],
-			"sources": [
-				{
-					"name": "code.scd",
-					"file": "code.scd"
-				}
-			]
+			"name": "azertype",
+			"links": [],
+			"sources": []
 		}
 	},
 	{
@@ -1138,26 +1277,16 @@
 	},
 	{
 		"title": "1 hour live coding session",
-		"folder": "leon-vj",
+		"folder": "neon-krease",
 		"videast": {
-			"name": "Léon Denise",
+			"name": "Néon Délice",
 			"links": [],
 			"sources": []
 		},
 		"musician": {
-			"name": "VJ",
-			"links": [
-				{
-					"name": "linktr.ee",
-					"url": "https://linktr.ee/sergiiio"
-				}
-			],
-			"sources": [
-				{
-					"name": "code.scd",
-					"file": "code.scd"
-				}
-			]
+			"name": "Krease",
+			"links": [],
+			"sources": []
 		}
 	},
 	{
@@ -1175,18 +1304,8 @@
 		},
 		"musician": {
 			"name": "Jules Cipher",
-			"links": [
-				{
-					"name": "linktr.ee",
-					"url": "https://linktr.ee/sergiiio"
-				}
-			],
-			"sources": [
-				{
-					"name": "code.scd",
-					"file": "code.scd"
-				}
-			]
+			"links": [],
+			"sources": []
 		}
 	},
 	{
@@ -1243,44 +1362,15 @@
 		}
 	},
 	{
-		"title": "Cookie tu n'a rien à faire ici",
-		"folder": "homme-noone",
-		"videast": {
-			"name": "l'homme sans titre",
-			"links": [],
-			"sources": [
-				{
-					"name": "Shot.png",
-					"file": "screenshot.png"
-				}
-			]
-		},
-		"musician": {
-			"name": "No one",
-			"links": [
-				{
-					"name": "linktr.ee",
-					"url": "https://linktr.ee/sergiiio"
-				}
-			],
-			"sources": [
-				{
-					"name": "code.scd",
-					"file": "code.scd"
-				}
-			]
-		}
-	},
-	{
 		"title": "Spider webs and nets",
-		"folder": "hirotoshi-noone",
+		"folder": "hirotoshi-KOinthecosmos",
 		"videast": {
 			"name": "Hirotoshi Uchida",
 			"links": [],
 			"sources": []
 		},
 		"musician": {
-			"name": "No music",
+			"name": "K.Ø.inthecosmos",
 			"links": [
 				{
 					"name": "linktr.ee",

@@ -43,7 +43,7 @@ permalink: "projects/{{ project.folder | slugify }}/"
                     {% for sources in project.videast.sources %}
                         <div class="ressource-button">
                             <p class="button">
-                                <a href="/content/{{ project.title | slugify }}/more/{{ sources.file }}" target="_blank">
+                                <a href="/content/projects/{{ project.folder | slugify }}/more/{{ sources.file }}" target="_blank">
                                     {{ sources.name }}
                                 </a>
                             </p>
@@ -56,7 +56,7 @@ permalink: "projects/{{ project.folder | slugify }}/"
         <div class="column video-column">
             <div class="project-title"</div>
                 <h2>{% phicon "projector-screen" %}</h2>
-                <h2>{{project.videast.name}} X {{project.musician.name}} &mdash; {{project.title}}</h2> 
+                <h2>{{project.videast.name}} X {{project.musician.name}} &mdash; {{project.title}}</h2>
             </div>
             <video class="view box-shadow borders" controls>
                 <source src="/content/projects/{{ project.folder | slugify }}/clip.mp4" type="video/mp4" />
@@ -93,7 +93,7 @@ permalink: "projects/{{ project.folder | slugify }}/"
                     {% for sources in project.musician.sources %}
                         <div class="ressource-button">
                             <p class="button">
-                                <a href="/content/{{ project.title | slugify }}/more/{{ sources.file }}" target="_blank">
+                                <a href="/content/projects/{{ project.folder | slugify }}/more/{{ sources.file }}" target="_blank">
                                     {{ sources.name }}
                                 </a>
                             </p>
