@@ -1,0 +1,76 @@
+Here the source :
+
+```
+// Fit text mode area and canvas
+area.fitCanvas(scale,canvas,font);
+
+// Center canvas in page
+canvas.style.marginTop = window.innerHeight/2-canvas.height*scale/2 + 'px';
+canvas.style.marginLeft = window.innerWidth/2-canvas.width*scale/2 + 'px';
+
+// Init a variable to store render charCode to keep
+let keep = [];
+
+// Keep red hearts
+keep.push(font.encoding.descrToDec({"name":'♥','FG':"Red",'BG':"Black"}));
+
+// Keep red letters F,R,E,P,A,L,E,S,T,I,N,E
+let free_palestine = "FREPALESTINE";
+for (var j = 0; j < free_palestine.length; j++){
+  keep.push(font.encoding.descrToDec({"name":free_palestine[j],'FG':"Red",'BG':"Black"}));
+}
+
+// Set 60 frames per second
+fps = 60;
+
+// Set charCode randomization chances
+let rdmChance = 0.9;
+
+// Declare animation frame process
+animation = function(){
+
+  // Declare area render (Cell process)
+  area.render(
+
+    // This options are defined in a init.js script
+    render_options,
+
+    // This function will be applied to every cell / character render, 'return' sendind character code to render
+    function(){
+
+      // Transform keeped hearts to top left FREE PALESTINE text
+      if (keep.includes(dn[i]) && i == 0) return keep[1];
+      if (keep.includes(dn[i]) && i == 1) return keep[2];
+      if (keep.includes(dn[i]) && i == 2) return keep[3];
+      if (keep.includes(dn[i]) && i == 3) return keep[3];
+      if (keep.includes(dn[i]) && i == 10) return keep[4];
+      if (keep.includes(dn[i]) && i == 11) return keep[5];
+      if (keep.includes(dn[i]) && i == 12) return keep[6];
+      if (keep.includes(dn[i]) && i == 13) return keep[7];
+      if (keep.includes(dn[i]) && i == 14) return keep[8];
+      if (keep.includes(dn[i]) && i == 15) return keep[9];
+      if (keep.includes(dn[i]) && i == 16) return keep[10];
+      if (keep.includes(dn[i]) && i == 17) return keep[11];
+      if (keep.includes(dn[i]) && i == 18) return keep[12];
+      
+      // Keep desired charCodes and eventually randomize character if not
+      if (keep.includes(dn[i]) || Math.random()<rdmChances) return dn[i];
+
+      // Get a random character code
+      let charCode = mf(mr()*font.length);
+      
+      // Check if random character is an heart
+      let is_heart = charCode == font.encoding.descrToDec({"name":'â™¥'});
+
+      // If random character is heart, accelerate radomization chances
+      if (is_heart) found -= 1/(w*h);
+
+      // If random character is heart, colorize it red
+      return font.encoding.mode(charCode,{
+        "FG": is_heart ? "Red" : "Bright Black"
+      });
+    }
+  );
+}
+```
+

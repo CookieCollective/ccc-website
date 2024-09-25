@@ -1,0 +1,700 @@
+This visual experience was assembled using multiple glsl shaders I did (some older and some
+new).
+It was done as a tribute to a demoscene pice I love from MFX and Kewlers band.
+We find many classic visuals of the demoscene culture, checkerboard, chromatic aberrations,
+raymarching, glow... which is really enjoyable to create with pure shaders.
+It was all done in shader, it can be found here https://www.shadertoy.com/view/43XSz7
+CODE :
+#define GLOW_SAMPLES 16
+#define GLOW_DISTANCE 0.05
+#define GLOW_POW 1.9
+#define GLOW_OPACITY .76
+#define sat(a) clamp(a, 0., 1.)
+#define PI 3.14159265
+#define TAU (PI*2.0)
+mat2 r2d(float a) { float c = cos(a), s = sin(a); return mat2(c, -s, s, c); }
+float hash11(float seed)
+{
+return mod(sin(seed*123.456789)*123.456,1.);
+}
+vec3 getCam(vec3 rd, vec2 uv)
+{
+float fov = 3.;
+vec3 r = normalize(cross(rd, vec3(0.,1.,0.)));
+vec3 u = normalize(cross(rd, r));
+return normalize(rd+fov*(r*uv.x+u*uv.y));
+}
+vec2 _min(vec2 a, vec2 b)
+{
+if (a.x < b.x)
+return a;
+return b;
+}
+float _cucube(vec3 p, vec3 s, vec3 th)
+{
+
+vec3 l = abs(p)-s;
+float cube = max(max(l.x, l.y), l.z);
+l = abs(l)-th;
+float x = max(l.y, l.z);
+float y = max(l.x, l.z);
+float z = max(l.x, l.y);
+return max(min(min(x, y), z), cube);
+}
+float _cube(vec3 p, vec3 s)
+{
+vec3 l = abs(p)-s;
+return max(l.x, max(l.y, l.z));
+}
+float _grid(vec3 p, vec3 sp, float sz)
+{
+p = mod(p+sp*.5,sp)-sp*.5;
+return min(length(p.xy)-sz, min(length(p.xz)-sz, length(p.yz)-sz));
+}
+float smin( float a, float b, float k ) { // Thanks IQ
+float h = clamp( 0.5+0.5*(b-a)/k, 0., 1. );
+return mix( b, a, h ) - k*h*(1.0-h);
+}
+
+float _seed;
+float rand()
+{
+_seed++;
+return hash11(_seed);
+}
+float _time;
+vec2 fish(vec3 p)
+{
+p*= .5;
+p.y += sin(p.x*2.+_time*.75)*0.15-.1;
+p.xz *= r2d(sin(_time*2.+p.x*3.)*.3);
+p -= vec3(0.,-.3,0.);
+
+p.xy *= mix(1.,.985,sat(sin((p.x)*100.+_time*5.)*.5+.5));
+float acc = 100.;
+acc = min(acc, length(p*vec3(1.,2.,3.))-.25);
+acc = smin(acc, length(p*vec3(1.,2.,3.)-vec3(-0.25,.0,0.))-.17, .1);
+vec3 pail = p;
+pail.yz *= r2d(.15*sign(pail.z*2.)*sin(_time));
+acc = min(acc, max(abs(pail.y-.06)-0.001,
+(length(pail*vec3(3.,1.,1.)-vec3(.1,0.,0.))-.25)));
+
+vec3 ptail = p*vec3(1.,sign(p.y),1.);
+ptail -= vec3(-.5,0.05,0.);
+ptail.xy *= r2d(.7);
+ptail.z -= sat(10.*-ptail.x)*sin(ptail.y*200.)*.005;
+acc = smin(acc, max(abs(ptail.z)-0.001, length(ptail*vec3(1.,2.,1.))-.125), .05);
+vec3 peye = p-vec3(0.15,-0.03,0);
+peye.z = abs(peye.z)-.05;
+acc = min(acc, length(peye)-.03);
+
+return vec2(acc, 0.);
+}
+vec2 map(vec3 p)
+{
+vec2 acc = vec2(10000.,-1.);
+vec3 pt = p;
+p.xz *= r2d(PI*.35);
+float shape = fish(p).x;
+acc = _min(acc, vec2(shape, 0.));
+float tube = length(pt.xy)-3.;
+acc = _min(acc, vec2(-tube, 1.));
+float planetext = abs(pt.z)-0.001;
+planetext = max(planetext, (length(pt.xy)-2.));
+//acc = _min(acc, vec2(planetext, 2.));
+return acc;
+}
+
+vec3 getNorm(vec3 p, float d)
+{
+vec2 e = vec2(0.01, 0.);
+return normalize(vec3(d)-vec3(map(p-e.xyy).x, map(p-e.yxy).x, map(p-e.yyx).x));
+}
+vec3 textCol;
+vec3 trace(vec3 ro, vec3 rd, int steps)
+{
+textCol = vec3(0.);
+vec3 p = ro;
+for (int i = 0; i < steps && distance(p, ro) < 50.; ++i)
+{
+vec2 res = map(p);
+if (res.x < 0.01 && res.y == 2.)
+{
+res.x += 0.02;
+//textCol = 1.5*vec3(0.996,0.463,0.282)*texture(iChannel2,
+-p.xy*.4+.3+vec2(0.1,.1)).xyz;
+//textCol += texture(iChannel3, -p.xy).xxx;
+}
+if (res.x < 0.01)
+return vec3(res.x, distance(p, ro), res.y);
+p+=rd*res.x*.5;
+}
+return vec3(-1.);
+}
+vec3 getMat(vec3 p, vec3 n, vec3 rd, vec3 res)
+{
+return n*.5+.5;
+}
+float checkerBoardA(vec2 uv, float sz)
+{
+vec2 uvsine = sin(uv/sz);
+float sharp = iResolution.x*sz;
+float checker = sat(uvsine.x*sharp);
+checker = mix(checker, 1.-checker, sat(uvsine.y*sharp));
+return checker;
+}
+vec3 rdrtunnelfish(vec2 uv)
+{
+vec3 col = vec3(0.);
+
+float d = 2.;
+float t = iTime*sign(sin(iTime*.25));
+vec3 rorot = vec3(d*sin(t), -2., d*cos(t));
+vec3 ro = vec3(-3.,2.,-5.)*.3;
+if (mod(iTime, 10.) < 5.)
+ro = -ro;
+if (mod(iTime, 5.) < 2.5)
+ro = rorot;
+vec3 ta = vec3(0.,-.5,0.);
+vec3 rd = normalize(ta-ro);
+rd = getCam(rd, uv);
+vec3 res = trace(ro, rd, 128);
+float depth = 100.;
+if (res.y > 0.)
+{
+depth = res.y;
+vec3 p = ro+rd*res.y;
+vec3 n = getNorm(p, res.x);
+col = n*.5+.5;
+col = getMat(p, n, rd, res);
+col = vec3(0.);
+if (res.z == 1.)
+{
+float an = atan(p.y, p.x);
+vec2 uvc = vec2(an, p.z*.25-iTime*2.25);
+col = .7*vec3(1.)*checkerBoardA(uvc, .1);
+col += vec3(0.894,0.369,0.525)*texture(iChannel3, -uvc*r2d(.5)*2.).x;
+vec3 ldir = normalize(vec3(1.));
+col *= .2+sat(-dot(ldir, n));
+}
+else
+col += vec3(0.,1.,0.)*sat(fwidth(depth)*40.0);
+}
+col += textCol;
+col = mix(col, vec3(0.153,0.706,0.667)*.75, 1.-exp(-depth*0.067));
+float beat = 1./2.1;
+float fbeat = mod(iTime, beat)/beat;
+
+col += vec3(.1)*pow(1.-fbeat,5.);
+return col;
+}
+vec2 maptess(vec3 p)
+{
+vec2 acc = vec2(10000.);
+for (int i = 0; i < 5; ++i)
+{
+p.xy *= r2d(iTime*.5);
+p.xz *= r2d(float(i));
+p *= .8;
+float cucube = _cucube(p, vec3(.85), vec3(.01));
+acc = _min(acc, vec2(cucube, float(i)));
+}
+return acc;
+}
+float tailwing(vec3 p)
+{
+float thick = 0.02;
+float dist = max(abs(p.z)-thick, abs(p.x)-1.);
+dist = max(dist, -p.y+.5);
+dist = max(dist, p.y-3.5);
+dist = max(dist, (p.x+.6*p.y-1.5));
+return dist;
+}
+float plane(vec3 p)
+{
+vec3 rep = vec3(30.);
+vec3 id = floor((p+rep*.5)/rep);
+//p = mod(p+rep*.5,rep)-rep*.5;
+p+= sin(id+iTime)*.5;
+p.y += sin(iTime*3.+p.x*.5)*.5;
+p.yz *= r2d(sin(id.x+iTime*2.)*.05);
+float dist = 10000.;
+float planeLength = 5.;
+// Plane body
+float planeCenter = max(length(p.yz)-1., abs(p.x)-planeLength);
+dist = min(dist, planeCenter);
+
+// Plane nose
+float planeNose = length(p-vec3(planeLength, 0.,0.))-1.;
+vec3 plowerNose = (p-vec3(planeLength, -0.3,0.))*vec3(.65,1.5,1.1);
+planeNose = smin(planeNose, length(plowerNose)-1., .2);
+dist = smin(dist, planeNose, 0.02);
+// Plane tail
+vec3 ptail = p+vec3(planeLength, 0.,0.);
+float tailrad = 1.+ptail.x*.2;
+float planeTail = length(ptail.yz+vec2(ptail.x*.2, 0.))-tailrad;
+planeTail = max(planeTail,ptail.x);
+planeTail = max(planeTail, -ptail.x-3.);
+dist = min(dist, planeTail);
+// plane tailwing
+dist = min(dist, tailwing(ptail+vec3(1.75,0.,0.)));
+vec3 ptailwingsides = ptail+vec3(1.75,0.,0.);
+ptailwingsides.z = -abs(ptailwingsides.z);
+ptailwingsides.yz *= r2d(PI*.5);
+dist = min(dist, tailwing(ptailwingsides));
+vec3 pwings = p+vec3(1.5,0.,0.);
+pwings.z = -abs(pwings.z);
+pwings.yz *= r2d(PI*.5+sin(pwings.z*.5+iTime*5.+length(id)*3.)*.2*sat(-pwings.z*.15));
+dist = smin(dist, tailwing(pwings*.5), .2);
+return dist;
+}
+vec3 tracetess(vec3 ro, vec3 rd, int steps)
+{
+vec3 p = ro;
+for (int i = 0; i < steps; ++i)
+{
+vec2 res = maptess(p);
+if (res.x < 0.01)
+return vec3(res.x, distance(p, ro), res.y);
+p+= rd*res.x;
+}
+vec3(-1.);
+}
+
+vec3 getNormaltess(float d, vec3 p)
+{
+vec2 e = vec2(0.001,0.);
+return normalize(vec3(d) - vec3(maptess(p-e.xyy).x, maptess(p-e.yxy).x,
+maptess(p-e.yyx).x));
+}
+vec3 grad(float f)
+{
+vec3 cols[4];
+cols[0] = vec3(0.1);
+cols[1] = vec3(1.,0.,0.);
+cols[2] = vec3(1.000,0.427,0.180);
+cols[3] = vec3(1.000,0.608,0.439);
+f = f*3.0;
+vec3 prev = cols[int(f)];
+vec3 next = cols[int(min(f+1.,3.))];
+return mix(prev, next, fract(f));
+}
+vec3 rdrtess(vec2 uv)
+{
+vec3 col;
+float d = 11.;
+vec3 ro = vec3(sin(_time)*d,0.,cos(_time)*d);
+vec3 ta = vec3(0.,0.,0.);
+vec3 rd = normalize(ta-ro);
+rd = getCam(rd, uv);
+vec3 res = tracetess(ro, rd, 256);
+if (res.y > 0.)
+{
+vec3 p = ro + rd*res.y;
+vec3 n = getNormaltess(res.x, p);
+col = n*.5+.5;
+col = grad(res.z/5.);
+}
+return col;
+}
+float lenny(vec2 p) { return abs(p.x)+abs(p.y); }
+
+vec3 getDir(vec3 fwd, vec2 uv)
+{
+vec3 r = normalize(cross(normalize(fwd), vec3(0.,1.,0.)));
+vec3 u = normalize(cross(r, normalize(fwd)));
+float fov = .8;
+return uv.x*r+uv.y*u+fov*fwd;
+}
+vec2 add(vec2 a, vec2 b)
+{
+if (a.x < b.x)
+return a;
+return b;
+}
+// Credits to IQ
+float sdBox( vec3 p, vec3 b )
+{
+vec3 q = abs(p) - b;
+return length(max(q,0.0)) + min(max(q.x,max(q.y,q.z)),0.0);
+}
+vec2 maptwist(vec3 p)
+{
+vec3 p2 = p-vec3(0.,1.,0.);
+p2.xz *= r2d(sin(p.y+iTime));
+vec2 box = vec2(sdBox(p2, vec3(1., 3., 1.)), 1.);
+vec2 ground = vec2(p.y, 0.);
+vec2 shape =add(box, ground);
+if (iTime > 185.) {
+shape = ground;
+p.y += -2.;
+shape = _min(shape, vec2(plane(p*2.), 5.));
+}
+return shape;
+}
+// Credits to IQ
+vec3 calcNormal( in vec3 p, in float t )
+{
+
+float e = 0.001*t;
+vec2 h = vec2(1.0,-1.0)*0.5773;
+return normalize( h.xyy*maptwist( p + h.xyy*e ).x +
+h.yyx*maptwist( p + h.yyx*e ).x +
+h.yxy*maptwist( p + h.yxy*e ).x +
+h.xxx*maptwist( p + h.xxx*e ).x );
+
+}
+vec3 rdr2(vec2 uv)
+{
+vec3 grad = (1.-sat(abs(uv.x*1.)))*vec3(0.6, 0.87,1.).zxy;
+vec3 col = grad*.5*(sin(iTime*.5)*.5+.5);
+col += (1.-pow(sat(lenny(uv)-.2), .5))*.5;
+float bps = 1./2.2;
+float beat = mod(iTime, bps)/bps;
+float beat2 = mod(iTime+1., bps)/bps;
+float dist = 12. +1.5*beat;
+float camT = iTime*.5;
+vec3 ro = vec3(dist*sin(camT),4.+sin(camT),dist*cos(camT));//vec3(sin(iTime*.5+1.), 1.,
+-5.+mod(iTime, 30.));
+vec3 target = vec3(0., 2.,0.);
+vec3 rd = getDir(normalize(target-ro),uv);
+float d = 0.01;
+for (int i = 0; i < 128; ++i)
+{
+vec3 p = ro + rd * d;
+vec2 res = maptwist(p);
+if (res.y > 0.5)
+col += .3*pow((1.-sat(res.x*.05)), 5.5)*.03*vec3(0.4,.57,1.);
+if (res.x < 0.01 && d < 100.)
+{
+vec3 norm = calcNormal(p, d);
+vec3 diff = vec3(0.);
+vec3 spec = vec3(0.);//0.3, 0.7,1.);
+if (res.y < 0.5)
+{
+float chkSz = 2.5;
+float sharp = 50.;
+float offz = 0.;
+
+if (iTime > 185.)
+offz = iTime*15.;
+float checkerBoard = mod(p.x*1.+offz, chkSz) - .5*chkSz;
+checkerBoard = clamp(checkerBoard*sharp, -1.0, 1.0);
+checkerBoard *= clamp((mod(p.z*1., chkSz) - .5*chkSz)*sharp, -1., 1.);
+diff = mix(vec3(0.),vec3(1.), sat(checkerBoard*1.));
+spec = vec3(1.,.1,0.1).zxy;
+}
+spec = spec.zyx;
+
+float lSpd = .5;
+vec3 lPos = vec3(0.,1.,0.);
+vec3 lDir = normalize(lPos-p);
+col += vec3(.1); // Ambient
+vec3 h = normalize(lDir+rd);
+col += diff*sat(dot(norm, lDir)); // diffuse
+col += spec*pow(sat(dot(norm,h)), 2.9); // spec
+break;
+}
+d += res.x*.5;
+}
+
+col += grad*.2;
+//col *= 1.-pow(sat(length(uv*.5)), .5);
+if (iTime < 185.)
+;// col += (1.-pow(sat(lenny(uv*.5)), .5))*.1*sat(d-10.)*.15;
+col *= (1.-sat(beat2-.7))*vec3(1.)*(pow(sat(d/100.), .1))*.5;
+return col;
+}
+float _base(vec3 p)
+{
+float stpa = PI*2./12.;
+float an = atan(p.z,p.x);
+float b = mod(an+stpa*.5,stpa)-stpa*.5;
+vec3 p2 = p;
+p2.xz = vec2(sin(b), cos(b))*length(p.xz);
+vec3 p3 = p2-vec3(0.,0.,1.);
+
+p2.yz *= r2d(.7);
+float shape = _cube(p2, vec3(.2,.2,10.))-mod(p.z,.2);
+shape = min(shape, _cube(p3, vec3(.1,1.,.2)));
+return shape;
+}
+float cir(vec2 p, float r)
+{
+return length(p)-r;
+}
+float sqr(vec2 p, vec2 b)
+{
+vec2 q = abs(p)-b;
+return max(q.x,q.y);
+}
+float sdf_zicon(vec2 uv)
+{
+float th = 0.01*2.;
+float sz = 0.1;
+float acc = 1000.;
+acc = abs(cir(uv-vec2(.3), sz))-th;
+acc = min(acc,abs(cir(uv-vec2(-.3), sz))-th);
+acc = min(acc,abs(cir(uv-vec2(-.3,.3), sz*.7))-th);
+acc = min(acc,abs(cir(uv-vec2(.3,-.35), sz*1.3))-th);
+acc = min(acc, sqr(uv-vec2(-0.015,.3), vec2(.21,th)));
+acc = min(acc, sqr((uv-vec2(-0.0,.0))*r2d(-PI/4.), vec2(.32,th)));
+acc = min(acc, sqr((uv-vec2(-0.015,-.3))*r2d(0.1), vec2(.19,th)));
+return acc;
+}
+vec2 mapreaction(vec3 p)
+{
+vec2 acc = vec2(10000.,-1.);
+vec3 pcubes = p;
+vec3 repcubes = vec3(1.);
+
+pcubes = mod(pcubes+repcubes*.5,repcubes)-repcubes*.5;
+float cubes = _cube(pcubes, repcubes*.4);
+cubes = max(cubes, -(length(p)-10.));
+cubes = min(cubes,-(length(p)-12.));
+acc = _min(acc, vec2(cubes, 1.));
+//acc = _min(acc, vec2(length(p)-1., 0.));
+acc = _min(acc, vec2(_base(p-vec3(0.,2.,0.)), 2.));
+acc = _min(acc, vec2(_base(p*vec3(1.,-1.,1.)-vec3(0.,2.,0.)), 2.));
+float beat = 1./2.;
+float fbeat = mod(iTime, beat)/beat;
+if (iTime < 125.)
+fbeat = 1.;
+float sz = mix(.5,1., fbeat);
+float fish = fish(sz*p*.4-vec3(0.,.5,0.)).x;
+float of = fish;
+float oplane = plane(p*vec3(1.,-1.,1.)*3.);
+if (iTime > 135.)
+fish = mix(fish,oplane, sat((iTime-135.)*.25));
+acc = _min(acc, vec2(fish, 5.));
+return acc;
+}
+vec3 getNormreaction(vec3 p, float d)
+{
+vec2 e = vec2(0.001, 0.);
+return normalize(vec3(d)-vec3(mapreaction(p-e.xyy).x,
+mapreaction(p-e.yxy).x, mapreaction(p-e.yyx).x));
+}
+vec3 bubble;
+vec3 accReact;
+vec3 tracereaction(vec3 ro, vec3 rd, int steps)
+{
+accReact = vec3(0.);
+bubble = vec3(0.);
+vec3 p = ro;
+for (int i = 0; i < steps; ++i)
+{
+vec2 res = mapreaction(p);
+if (res.y == 0. && res.x < 0.001) // bubble
+
+{
+res.x += 4.;
+vec3 n = normalize(p);
+bubble += .5*sat(dot(rd,-n))*texture(iChannel2, vec3(1.,-1.,1.)*reflect(rd, n)).xyz*.2;
+}
+if (res.x < 0.001)
+return vec3(res.x, distance(p, ro), res.y);
+if (iTime > 125.)
+accReact += abs(sin(p))*(1.-sat(res.x/.5))*.005;
+p+=rd*res.x*.5;
+}
+return vec3(-1.);
+}
+vec3 getMatreaction(vec3 p, vec3 n, vec3 rd, vec3 res)
+{
+vec3 ambient = vec3(.2);
+vec3 diff = vec3(.2);
+vec3 lpos = vec3(0.);
+vec3 lcol = vec3(.1,.1,.3)*3.;
+vec3 specind = vec3(0.);
+if (res.z == 1. || res.z == 2.)
+{
+specind = vec3(1.000,0.788,0.702)*.1*texture(iChannel2,
+reflect(rd,n)*vec3(1.,-1.,1.)).xyz;
+}
+else
+return (n*.5+.5)*.55;
+return ambient+lcol*sat(dot(-normalize(p-lpos),n))/length(p)
++specind;
+}
+vec3 rdrreaction(vec2 uv)
+{
+uv *= r2d(sin(_time)*.5);
+vec3 col = vec3(0.);
+float sig = 1.;
+if (iTime > 125.)
+sig = sign(sin(iTime*.5));
+float t = _time*.35*sig;
+float d =5.;
+vec2 off = 0.*(vec2(rand(), rand())-.5)*.05;
+
+t+= off.x;
+vec3 ro = vec3(sin(t)*d,-2.+off.y,cos(t)*d);
+vec3 ta = vec3(0.,0.,0.);
+vec3 rd = normalize(ta-ro);
+rd = getCam(rd, uv*.5);
+vec3 res = tracereaction(ro, rd, 256);
+if (res.y > 0.)
+{
+vec3 p = ro+rd*res.y;
+vec3 n = getNormreaction(p, res.x);
+col = getMatreaction(p, n, rd, res);
+}
+col += bubble;
+col += accReact;
+float beat = 1./2.1;
+float fbeat = mod(iTime, beat)/beat;
+col += vec3(.1,.2,.5)*pow(1.-fbeat,5.);
+return col;
+}
+
+void mainImage( out vec4 fragColor, in vec2 fragCoord )
+{
+vec2 ouv = (fragCoord)/iResolution.xy;
+vec2 uv = (fragCoord-.5*iResolution.xy)/iResolution.xx;
+_time = iTime;
+_seed = iTime+texture(iChannel0, uv).x;
+//vec2 off = .75*(vec2(rand(), rand())-.5)*2.*1./iResolution.x;
+float pix = .005;
+//uv = floor(uv/pix)*pix;
+vec2 off = vec2(1., -1.)/(iResolution.x*1.5);
+if (iTime > 80. && iTime < 110.)
+{
+vec2 uv2 = abs(uv);
+uv = uv2-vec2(.1+.1*floor(hash11(floor(iTime*2.))*5.),0.1);
+}
+vec3 col = rdrtunnelfish(uv);
+col = sat(col);
+float f = float(iTime > 67.5 && iTime < 90.);
+if (iTime > 45.0)
+
+col = mix(col, rdr2(uv), sat(sin(iTime*2.)*10.)+f);
+col += .5*sat(sin(iTime)*.5+.5)*rdrtess(uv*.1*sin(iTime*.1))
+*sat(iTime-20.);
+if (iTime > 100.)
+col = mix(col, rdrreaction(uv), sat((iTime-100.)*.25));
+
+if (iTime > 175.) {
+col = rdr2(uv);
+}
+if (iTime > 155. && iTime < 185.)
+col += sat(sin(iTime)*.5+.5)*rdrtess(uv*.1);
+vec3 zicon = vec3(1.)*(1.-sat(sdf_zicon(uv*2./vec2(sin(iTime), 1.))*500.));
+col = mix(col, col*.5+zicon, sat(sat((iTime-200.)*.25)));
+col *= sat(iTime-5.);
+col *= 1.-sat(iTime-210.);
+col += rand()*.2;
+col = sat(col);
+col = mix(col, texture(iChannel1, fragCoord/iResolution.xy).xyz, .5);
+fragColor = vec4(col,1.0);
+}
+
+// This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0
+// Unported License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by-nc-sa/3.0/
+// or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+//
+========================================================================
+=================================
+void mainImage( out vec4 fragColor, in vec2 fragCoord )
+{
+vec2 uv = fragCoord/iResolution.xy;
+const int steps = GLOW_SAMPLES;
+vec3 col = vec3(0.);
+for (int i = 0; i< steps; ++i)
+
+{
+float f = float(i)/float(steps);
+f = (f -.5)*2.;
+float factor = GLOW_DISTANCE;
+vec2 nuv = uv+vec2(f*factor, 0.);
+col += texture(iChannel0, uv+vec2(f*factor,0.)).xyz/float(steps);
+}
+fragColor = vec4(col,1.0);
+}
+
+// Fork of "compilcookie" by z0rg. https://shadertoy.com/view/MfXXW4
+// 2024-02-29 21:02:45
+// Fork of "NewTemplate3D" by z0rg. https://shadertoy.com/view/DdtGz8
+// 2024-01-14 19:06:46
+// Fork of "Template3D" by z0rg. https://shadertoy.com/view/7s2cDh
+// 2023-02-21 12:03:48
+// This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0
+// Unported License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by-nc-sa/3.0/
+// or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+//
+========================================================================
+=================================
+void mainImage( out vec4 fragColor, in vec2 fragCoord )
+{
+vec2 uv = fragCoord/iResolution.xy;
+const int steps = GLOW_SAMPLES;
+vec3 col = vec3(0.);
+for (int i = 0; i< steps; ++i)
+{
+float f = float(i)/float(steps);
+f = (f -.5)*2.;
+float factor = GLOW_DISTANCE;
+vec2 nuv = uv+vec2(0.,f*factor);
+col += texture(iChannel0, uv+vec2(0.,f*factor)).xyz/float(steps);
+}
+
+vec3 rgb = texture(iChannel1, uv).xyz+GLOW_OPACITY*pow(col, vec3(GLOW_POW));
+rgb = pow(rgb*1.2, vec3(2.2));
+vec2 cuv = (fragCoord-.5*iResolution.xy)/iResolution.xx;
+// Trial to flare with mipmap
+/*
+rgb = vec3(0.);
+float cnt =7.;
+float acc = 0.;
+for (float j = 0.; j < cnt; ++j)
+{
+float f = sat(j/cnt);
+f = f*f*f;
+acc += f;
+rgb += texture(iChannel1, uv, j).xyz*f;
+}
+rgb /= acc;
+*/
+fragColor = vec4(rgb,1.0);
+}
+
+// This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0
+// Unported License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by-nc-sa/3.0/
+// or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+//
+========================================================================
+=================================
+vec3 postFX(vec2 uv, float blur)
+{
+vec3 col;
+int cnt = 20;
+float fcnt = float(cnt);
+for (int i = 0;i <cnt;++i)
+{
+float fi = float(i);
+float coef = fi/fcnt;
+float sz = 1.+pow(coef,2.)*blur;
+float samplePerTurn = 2.;
+float an = (fi/(fcnt/samplePerTurn))*PI;
+vec2 p = uv - vec2(sin(an), cos(an))*an*blur*.1;
+vec3 rgb = texture(iChannel0, p).xyz;
+
+col += mix(rgb, vec3(1.)*(rgb.x+rgb.y+rgb.z)/6., .8);
+}
+return col/float(cnt);
+}
+
+void mainImage( out vec4 fragColor, in vec2 fragCoord )
+{
+vec2 uv = fragCoord/iResolution.xy;
+vec3 col = vec3(0.);
+vec2 off = vec2(0.01,0.);
+col.x += postFX(uv+off,.01).x;
+col.y += postFX(uv,.01).y;
+col.z += postFX(uv-off,.01).z;
+col += pow(postFX(uv,.02), vec3(2.55));
+fragColor = vec4(col,1.0);
+}

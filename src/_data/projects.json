@@ -1,6 +1,6 @@
 [
 	{
-		"title": "Divagation",
+		"title": "Divagation U",
 		"folder": "damien-rene-danger",
 		"videast": {
 			"name": "Damien",
@@ -53,8 +53,8 @@
 			"name": "Fuzzy",
 			"sources": [
 				{
-					"name": "picture.png",
-					"file": "instrument.png"
+					"name": "patch.png",
+					"file": "fuzzy_patch.png"
 				}
 			]
 		}
@@ -90,7 +90,7 @@
 		}
 	},
 	{
-		"title": "Divagations",
+		"title": "Divagation V",
 		"folder": "daria-lucky",
 		"videast": {
 			"name": "Daria Luka",
@@ -106,7 +106,7 @@
 		}
 	},
 	{
-		"title": "Divagations alternate",
+		"title": "Divagation T",
 		"folder": "daria-b01",
 		"videast": {
 			"name": "Daria Luka",
@@ -221,6 +221,12 @@
 					"name": "PD_Voice-intro.png",
 					"file": "screenshot4.png"
 				}
+			],
+			"links": [
+				{
+					"name": "instagram",
+					"url": "https://www.instagram.com/fyodor.st/"
+				}
 			]
 		}
 	},
@@ -310,7 +316,7 @@
 		}
 	},
 	{
-		"title": "UNTILTED",
+		"title": "Divagation W",
 		"folder": "andy-verbalizer",
 		"videast": {
 			"name": "Andy",
@@ -366,7 +372,7 @@
 		}
 	},
 	{
-		"title": "Motion#39",
+		"title": "Motion#39 Z",
 		"folder": "sheglitch-pango",
 		"videast": {
 			"name": "≈sheglitchr",
@@ -387,7 +393,7 @@
 		}
 	},
 	{
-		"title": "Motion#39 alternate",
+		"title": "Motion#39 Y",
 		"folder": "sheglitch-ovo",
 		"videast": {
 			"name": "≈sheglitchr",
@@ -463,7 +469,7 @@
 		}
 	},
 	{
-		"title": "UNTILTED 2",
+		"title": "Divagation X",
 		"folder": "afalfl-harmonie",
 		"videast": {
 			"name": "ΛFΛLFL",
@@ -529,7 +535,7 @@
 		}
 	},
 	{
-		"title": "Aqueous divagation",
+		"title": "Aqueous divagation Y",
 		"folder": "wiktoria-icsyp",
 		"videast": {
 			"name": "Wiktoria Glowacka",
@@ -567,7 +573,7 @@
 	},
 
 	{
-		"title": "Aqueous divagation alternate",
+		"title": "Aqueous divagation Z",
 		"folder": "wiktoria-nabir",
 		"videast": {
 			"name": "Wiktoria Glowacka",
@@ -603,7 +609,7 @@
 		}
 	},
 	{
-		"title": "UNTILTED 3",
+		"title": "In Urbe 1",
 		"folder": "ugo-crash",
 		"videast": {
 			"name": "Ugo Arsac",
@@ -633,7 +639,7 @@
 		}
 	},
 	{
-		"title": "UNTILTED 10",
+		"title": "In Urbe 3 Y",
 		"folder": "ugo-afalfl",
 		"videast": {
 			"name": "Ugo Arsac",
@@ -655,7 +661,7 @@
 		}
 	},
 	{
-		"title": "UNTILTED 4",
+		"title": "In Urbe 2",
 		"folder": "ugo-parvague",
 		"videast": {
 			"name": "Ugo Arsac",
@@ -674,7 +680,7 @@
 		}
 	},
 	{
-		"title": "UNTILTED 5",
+		"title": "In Urbe 3 X",
 		"folder": "ugo-fanny",
 		"videast": {
 			"name": "Ugo Arsac",
@@ -693,7 +699,7 @@
 		}
 	},
 	{
-		"title": "UNTILTED 11",
+		"title": "In Urbe 3 Z",
 		"folder": "ugo-aga",
 		"videast": {
 			"name": "Ugo Arsac",
@@ -739,16 +745,7 @@
 		"videast": {
 			"name": "azertype",
 			"links": [],
-			"sources": [
-				{
-					"name": "description.png",
-					"file": "screenshot1.png"
-				},
-				{
-					"name": "documentation.png",
-					"file": "screenshot2.png"
-				}
-			]
+			"sources": []
 		},
 		"musician": {
 			"name": "déluges",
@@ -826,12 +823,7 @@
 					"url": "https://www.facebook.com/profile.php?id=100050961081837&locale=fr_FR"
 				}
 			],
-			"sources": [
-				{
-					"name": "code.scd",
-					"file": "code.scd"
-				}
-			]
+			"sources": []
 		}
 	},
 	{
@@ -855,16 +847,11 @@
 					"url": "https://linktr.ee/sergiiio"
 				}
 			],
-			"sources": [
-				{
-					"name": "code.scd",
-					"file": "code.scd"
-				}
-			]
+			"sources": []
 		}
 	},
 	{
-		"title": "Cyborg butoh",
+		"title": "Cyborg butoh Y",
 		"folder": "dabo-presence",
 		"videast": {
 			"name": "Cécile Dabo",
@@ -906,7 +893,7 @@
 			"links": [
 				{
 					"name": "Soundcloud",
-					"url": ""
+					"url": "https://soundcloud.com/user423832158"
 				}
 			],
 			"sources": [
@@ -918,7 +905,7 @@
 		}
 	},
 	{
-		"title": "Cyborg butoh alternate",
+		"title": "Cyborg butoh Z",
 		"folder": "dabo-rose",
 		"videast": {
 			"name": "Cécile Dabo",
@@ -967,7 +954,7 @@
 		}
 	},
 	{
-		"title": "higher plane of existence",
+		"title": "Higher plane of existence",
 		"folder": "zorg-bleep",
 		"videast": {
 			"name": "z0rg",
@@ -1044,8 +1031,8 @@
 			],
 			"sources": [
 				{
-					"name": "Photo.png",
-					"file": "photo.png"
+					"name": "Projet.pdf",
+					"file": "projet.pdf"
 				}
 			]
 		}
@@ -1086,7 +1073,7 @@
 			"sources": [
 				{
 					"name": "Code.lua",
-					"file": "code.lua"
+					"file": "collision.lua"
 				}
 			]
 		},
@@ -1127,17 +1114,9 @@
 					"url": "https://vimeo.com/grainnoir"
 				}
 			],
-			"sources": [
-				{
-					"name": "description.png",
-					"file": "screenshot1.png"
-				},
-				{
-					"name": "documentation.png",
-					"file": "screenshot2.png"
-				}
-			]
+			"sources": []
 		},
+
 		"musician": {
 			"name": "aka.rien",
 			"links": [],
@@ -1172,7 +1151,7 @@
 		}
 	},
 	{
-		"title": "UNTILTED diviagation",
+		"title": "Divagation Z",
 		"folder": "oz-gros",
 		"videast": {
 			"name": "oz'n'roll",
@@ -1224,11 +1203,16 @@
 		"musician": {
 			"name": "C_Folle",
 			"links": [],
-			"sources": []
+			"sources": [
+				{
+					"name": "Microsounds.pdf",
+					"file": "microsounds.pdf"
+				}
+			]
 		}
 	},
 	{
-		"title": "UNTILTED divag",
+		"title": "Divagation Y",
 		"folder": "crash-azertype",
 		"videast": {
 			"name": "CrashServer",
@@ -1267,12 +1251,7 @@
 					"url": "https://linktr.ee/sergiiio"
 				}
 			],
-			"sources": [
-				{
-					"name": "code.scd",
-					"file": "code.scd"
-				}
-			]
+			"sources": []
 		}
 	},
 	{
@@ -1353,12 +1332,7 @@
 					"url": ""
 				}
 			],
-			"sources": [
-				{
-					"name": "code.scd",
-					"file": "code.scd"
-				}
-			]
+			"sources": []
 		}
 	},
 	{
@@ -1377,12 +1351,7 @@
 					"url": "https://linktr.ee/sergiiio"
 				}
 			],
-			"sources": [
-				{
-					"name": "code.scd",
-					"file": "code.scd"
-				}
-			]
+			"sources": []
 		}
 	}
 ]
