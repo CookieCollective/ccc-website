@@ -228,7 +228,7 @@
 	},
 	{
 		"title": "Pixelated bad dream",
-		"folder": "nusan-50D",
+		"folder": "nusan-50d",
 		"videast": {
 			"name": "NuSan",
 			"links": [
@@ -710,7 +710,7 @@
 	},
 	{
 		"title": "RAS dans le caison",
-		"folder": "azertype-byt3m3",
+		"folder": "aka-rien-byt3m3",
 		"videast": {
 			"name": "azertype",
 			"links": [
@@ -1281,7 +1281,12 @@
 		"musician": {
 			"name": "Krease",
 			"links": [],
-			"sources": []
+			"sources": [
+				{
+				"name": "code.txt",
+				"file": "code.txt"
+			}
+		]
 		}
 	},
 	{

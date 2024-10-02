@@ -1,0 +1,46 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism-okaidia.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-haskell.min.js"></script>
+
+
+**Crushed rain**, le son pour cette chouette video de Joenio et Mari, c'est l'histoire de gouttes numériques aléatoires qui se rangent progressivement pour former une sage mélodie hyperpop et finissent écrasées par un gros kick saturé façon frenchcore...<br>
+... blip ... jump ... blip bloup ... crush<br>
+J'ai appris pour l'occasion à synthétiser des kicks vnr et c'est passionant. Vous pouvez trouver mon preset vital couteau suisse pour cela ici : https://nx34151.your-storageshare.de/s/w7odiyHX3AxbCPa<br>
+Voilà, je vous laisse avec deux morceaux de code Renardo qui m'ont servi à interpréter cette musique.<br>
+<br>
+------- English<br>
+<br>
+**Crushed rain**, the sound for this cool video by Joenio and Mari, is the story of random digital droplets that gradually align to form a neat hyperpop melody and end up crushed by a big saturated kick in a frenchcore style...<br>
+... blip ... jump ... blip bloup ... crush<br>
+I learned for the occasion how to synthesize aggressive kicks, and it’s fascinating. You can find my Swiss army knife Vital preset for that here: https://nx34151.your-storageshare.de/s/w7odiyHX3AxbCPa<br>
+So, I’ll leave you with two pieces of Renardo code that I used to interpret this music...<br>
+<pre><code class="language-haskell">
+  ```python
+# ... des blips
+m1 >> malletsynth(
+    PWhite(0,18, seed=2)[:77],
+    amp=PWhite(.4,1), dur=PWhite(.3,40, seed=2),
+    fx=0, waveshape=0, feedback=0
+)
+m2 >> blip18(
+    PWhite(0,18, seed=2)[:77],
+    amp=PWhite(1,2),
+    dur=PWhite(.3,40, seed=2),
+    sus=1, oct=PRand(2,7),
+    pan=PRand([-1,1,.2,.6,-.7])
+)
+m1.fadep("fx", dur=32, fvalue=1)
+m1.degree=melo
+m2.degree=melo
+
+# ... et les kicks
+k2 >> kickorr(degree=chords, dur=1, sus=.95, oct=4, amp=0)
+k2.oct=[4];k2.speed=0.25;k2.phaser=0;
+k2.filter_mod=0;k2.cutoff=.7
+k2.decay=.5;k2.disto=.3; k2.vol=1.6
+```
+</code></pre>
+
+<script>
+    Prism.highlightAll();
+</script>
