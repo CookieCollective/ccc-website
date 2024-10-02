@@ -6,7 +6,7 @@
             <div class="text-icon-combo"><a class="navlink" href="javascript:getRandomProject()">{% phicon "scribble-loop" %} <span>Wander</span></a></div>
             <div class="text-icon-combo"><a class="navlink" href="/wall-of-sound">{% phicon "wall" %} <span>Wall</span></a></div>
             <div class="text-icon-combo"><a class="navlink" href="/">{% phicon "film-reel" %} <span>Cinema</span></a></div>
-            <div class="text-icon-combo"><a class="navlink" href="/">{% phicon "book-open-text" %} <span>Fanzine</span></a></div>
+            <div class="text-icon-combo"><a class="navlink" href="/fanzine">{% phicon "book-open-text" %} <span>Fanzine</span></a></div>
             <div class="text-icon-combo"><a class="navlink" href="/">{% phicon "cookie" %}</a></div>
         </div>
 
@@ -63,7 +63,7 @@
 
             if (shuffledFolders.length === 0) {
                 shuffledFolders = shuffle([...folders]);
-                saveState(); 
+                saveState();
             }
         });
 
@@ -71,7 +71,7 @@
 
     // Add event listeners for showing/hiding the navigation bar
     const mainBar = document.querySelector('.main-bar');
-    
+
     // mainBar.addEventListener('mouseenter', () => {
     //     clearTimeout(hideTimeout);
     //     mainBar.classList.remove('hidden');
@@ -151,7 +151,7 @@
         display: flex;
         gap: 16px;
         padding: 16px;
-        white-space: nowrap;    
+        white-space: nowrap;
         overflow-x: scroll;
         scrollbar-width: none;
         overflow-y: hidden;
