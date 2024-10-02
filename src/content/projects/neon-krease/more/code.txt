@@ -1,0 +1,563 @@
+dnb livecode//
++--------+
+| |
+| |
+| +--------+
+| |
+
+|
+| |
+| |
+-----+ |
+| |+--------+
+| +--------+
++--------+ |
++--------+
++-- ------++--------+
+|
++--------+
++--------++--------+
++--------++--------+
++--------++--------+
+| |
+| 1114 fffffff
+| |
++-------- ++--------+
+|
++--------+
+(170 *60 )*4 =40800
+#####################
+# todo list
+# call response#
+#oçloading
+# mellodie
+#arpegiator ?
+# rise xxx
+# hh
+#more vocals ####
+#automations midi learn #####
+#chopping breack ?
+#Fx xxx
+#rise fill glitch xxx
+#osc xxxxxxx
+# the flow xxxxxxx
+# mlore drum patern freedom xxxx
+# nedd 2 snar big small and 2 hh >> ghost snare and ghost koick
+#visuals ##
+#record ##
+#ozone 11 ?
+#limiter . compresseur
+#cleaner le son
+
+#preset
+
+
+SC("""~vital.writeProgram("C:/Users/jo/Documents/Vital/{Vitalitypuls}vital1.fxp");""")
+SC("""~vital1.writeProgram("C:/Users/jo/Documents/Vital/{Vitalitypuls}vital2.fxp");""")
+SC("""~kontakt.writeProgram("C:/Users/jo/Documents/Native Instruments/{Vitalitypuls}Kontakt1.fxp");""")
+
+SC(f"""~vst.writeProgram("C:/Users/jo/Krease/dnb/{trackname}soundpaint.fxp");""") ##
+SC(f"""~vst1.writeProgram("C:/Users/jo/Krease/dnb/{trackname}vital1.fxp");""") ##
+
+SC(f"""~vst2.writeProgram("C:/Users/jo/Krease/dnb/{trackname}vital2.fxp");""") ##
+
+SC(f"""~vst3.writeProgram("C:/Users/jo/Krease/dnb/{trackname}vital3.fxp");""") ##
+
+SC(f"""~vst4.writeProgram("C:/Users/jo/Krease/dnb/{trackname}konact.fxp");""") ## todo
+
+SC(f"""~vst6.writeProgram("C:/Users/jo/Krease/dnb/{trackname}TyrellN6(x64).fxp");""") ##
+
+SC(f"""~vst7.writeProgram("C:/Users/jo/Krease/dnb/{trackname}vital7(x64).fxp");""") ##
+
+
+
+SC(f"""~vst8.writeProgram("C:/Users/jo/Krease/dnb/{trackname}vital8(x64).fxp");""") ##
+
+
+panic()
+
+
+
+SC.info()
+trackname= "Abraxas"
+clock.tempo=175
+# Making a new OSC-In Handler
+listener = OSCInHandler(
+ip="127.0.0.1",
+port=44447,
+name="Listener",
+loop=osc_loop
+)
+bowl.add_handler(listener)
+#interesting fx fx:4~10
+SC( """ ~dirt.loadSoundFileFolder("E:/music pack/\Tonal Ambience/","tonal"); """ )
+SC( """ ~dirt.loadSoundFiles("E:/music pack/AKAS DNB ESSENTIALS/drumhits/*"); """ )
+SC( """ ~dirt.loadSoundFiles("E:/music pack/AKAS DNB ESSENTIALS/drumloops"); """ )
+SC( """ ~dirt.loadSoundFileFolder("E:/music pack/Tonal Impacts","impact"); """ )
+SC( """ ~dirt.loadSoundFileFolder("E:/music pack/Trap Chants by Ihaksi","chant"); """ )
+SC( """~dirt.loadSoundFileFolder("E:/music pack/musicradar-stab-samples/Misc Stabs",stab); """ )
+SC( """~dirt.loadSoundFileFolder("E:/music pack/TKNVLT - Free Hardtechno Sample Pack Vol. 1/FX/General FX","fx"); """ )
+SC( """~dirt.loadSoundFileFolder("E:/music pack/Ghosthack Advent Calendar - Day 7 - DnB Kit/Drum&Bass Construction Kit - Fm 175Bpm\STEMS,"Ghperc");""")
+SC( """~dirt.loadSoundFileFolder("E:/Everyday_music/Evolution+-+Devastator+Warzone+-+Free+Edition+(WAV)/Evolution - Devastator Warzone - Free Edition (WAV)/03. ONESHOTS/04.TONAL FX/Rises","devastatorrises");""")
+SC( """~dirt.loadSoundFileFolder("E:/music pack/10-Glitch-Sound-Effects/10 Glitch Sound Effects","glitchs");""")
+
+SC( "~dirt.clearSoundFiles;")
+
+SC('~dirt.postSampleInfo; ')
+
+V.ssp=48
+aa=" kicks:10 "
+bb=" snares:8 "
+cc=" hats: 0 "
+dd=" .. "
+ddd=" . . . "
+dddd=" .... "
+d1=" . "
+d2=".. "
+d3=" ... "
+d4=" .... "
+d5=" ....."
+d6=" ...... "
+d7=" ......."
+d8= " ........ "
+d10= " .......... "
+ee=" percusion:8 "
+ff="drumloops:5 . "
+gg="vsti"
+hh="impact"
+ii="'chant':17"
+jj="vocal"
+kk="stab"
+ll="tonal:11"
+mm="devastatorrises"
+nn="cimpact"
+dr1,dr2,dr3,dr4= [aa,"..."],[bb,"..."] ,["..",aa,d1] ,[bb,"..."]
+dr5,dr6,dr7,dr8,dr9= [aa,".",aa,d1],[bb,bb,d1,bb] ,[d1,aa,d2] ,[bb,bb,bb,bb],[aa,aa,aa,aa]
+def show_part(s, start, length):
+char_array = list(s)
+# Ensure start index is within bounds
+start = max(0, min(start, len(char_array) - 1))
+# Ensure length doesn't exceed string length
+length = min(length, len(char_array) - start)
+# Extract the desired part
+part = char_array[start:start+length]
+# Convert back to string and return
+return ''.join(part)
+
+
+output_one = OSCHandler(
+ip="127.0.0.1", port=12345,
+name="A first test connexion",
+ahead_amount=0.0, loop=osc_loop, # The default OSC loop, don't ask why!
+)
+bowl.add_handler(output_one)
+# Look who's here, the send functions as usual
+one = output_one.send
+
+Pl * d(["rise:4"," .!164"],speed=.5, amp=1.4,oct=4,vel=127,p=1,dur=5)
+
+Pf * d([bb]+["snrl:1"," .!68"],speed=4,amp=1.4,oct=4,vel=127,p=1,d=1,dur=8)
+
+Pf * d([" fx:4~10 .!10"],speed=1,amp=.4,oct=4,vel=127,p=1,d=1,dur=8)
+
+Pf * d(["tonal:1 .!10"],speed=1,amp=.4,oct=4,vel=127,p=1,d=1,dur=8)
+
+Pf * d([mm,".!10"],speed=1,amp=1,oct=4,vel=127,p=1,d=1,dur=8)
+
+Pf * d(["glitchs: 1~3 .!32 "],speed=.851,amp=2,oct=4,vel=127,p=1,d=1,dur=1)
+
+listener.watch('/oscactivate')
+
+oscactivate= listener.get('/oscactivate')['args'][0]
+print(listener.get('/oscactivate')['args'][0]) # a activer chataigne
+
+
+oscactivate =listener.watch('/oscdrumpat')
+
+oscactivatepat= listener.get('/oscdrumpat')['args'][0]
+print(listener.get('/oscdrumpat')['args'][0]) # a activer chataigne
+
+SC.freqscope()
+
+SC.scope()
+
+Pf*d("bd hh")
+
+panic()
+
+#/* vsti */
+SC("""(SynthDef(\\vsti, {|out|Out.ar(out, VSTPlugin.ar(nil, 2, id: \\1));}).add; )""")
+sleep(8000)
+SC("""(~vst = VSTPluginController(Synth(\\vsti)).open("E:/vst/Soundpaint.dll", editor: true, multiThreading: true);)""")
+#//* vsti1 */
+SC("""(SynthDef(\\vsti1, {|out|Out.ar(out, VSTPlugin.ar(nil, 2, id: \\2));}).add; )""")
+sleep(8000)
+SC("""(~vst1 = VSTPluginController(Synth(\\vsti1)).open("E:/vst/Vital.vst3", editor: true, multiThreading: true);)""") #wait
+#//* vsti2 */
+SC("""(SynthDef(\\vsti2, {|out|Out.ar(out, VSTPlugin.ar(nil, 2, id: \\3));}).add; )""")
+sleep(8000)
+SC("""(~vst2 = VSTPluginController(Synth(\\vsti2)).open("E:/vst/Vital.vst3", editor: true, multiThreading: true);)""") #wait
+sleep(8000)
+#//* vsti3 */
+SC("""(SynthDef(\\vsti3, {|out|Out.ar(out, VSTPlugin.ar(nil, 2, id: \\4));}).add; )""")
+sleep(8000)
+SC("""(~vst3 = VSTPluginController(Synth(\\vsti3)).open("E:/vst/Vital.vst3", editor: true, multiThreading: true);)""") #wait
+#//* vsti4*/
+
+
+#//* vsti7 */
+SC("""(SynthDef(\\vsti7, {|out|Out.ar(out, VSTPlugin.ar(nil, 2, id: \\8));}).add; )""")
+sleep(8000)
+SC("""(~vst7 = VSTPluginController(Synth(\\vsti7)).open("E:/vst/Vital.vst3", editor: true, multiThreading: true);)""") #wait
+#//* vsti8 */
+
+sleep(8000)
+SC("""(~vst8 = VSTPluginController(Synth(\\vsti8)).open("E:/vst/Vital.vst3", editor: true, multiThreading: true);)""") #wait
+SC("""(SynthDef(\\vsti8, {|out|Out.ar(out, VSTPlugin.ar(nil, 2, id: \\9));}).add; )""")
+
+
+
+SC("""( ~dirt.soundLibrary.addMIDI(\\vsti, ~vst.midi);)""") #wait
+SC(f"""~vst.readProgram("C:/Users/jo/Krease/dnb/{trackname}soundpaint.fxp");""") ##
+#
+SC(f"""~vst1.readProgram("C:/Users/jo/Krease/dnb/{trackname}vital1.fxp");""") ##
+SC("""( ~dirt.soundLibrary.addMIDI(\\vsti1, ~vst1.midi);)""") #wait
+#
+SC(f"""~vst2.readProgram("C:/Users/jo/Krease/dnb/{trackname}vital2.fxp");""") ##
+SC("""(~dirt.soundLibrary.addMIDI(\\vsti2, ~vst2.midi);)""") #wait
+#
+SC(f"""~vst3.readProgram("C:/Users/jo/Krease/dnb/{trackname}vital3.fxp");""") ##
+SC("""(~dirt.soundLibrary.addMIDI(\\vsti3, ~vst3.midi);)""") #wait
+
+
+#
+SC(f"""~vst4.readProgram("C:/Users/jo/Krease/dnb/{trackname}vital4.fxp");""") ##
+SC("""(~dirt.soundLibrary.addMIDI(\\vsti4, ~vst4.midi);)""") #wait
+#
+SC(f"""~vst6.readProgram("C:/Users/jo/Krease/dnb/{trackname}TyrellN6(x64).fxp");""") ##
+SC("""(~dirt.soundLibrary.addMIDI(\\vsti6, ~vst6.midi);)""") #wait
+#
+
+
+SC(f"""~vst7.readProgram("C:/Users/jo/Krease/dnb/{trackname}vital7(x64).fxp");""") ##
+SC("""(~dirt.soundLibrary.addMIDI(\\vsti7, ~vst7.midi);)""") #wait
+#
+SC(f"""~vst8.readProgram("C:/Users/jo/Krease/dnb/{trackname}vital8(x64).fxp");""") ##
+SC("""(~dirt.soundLibrary.addMIDI(\\vsti8, ~vst8.midi);)""") #wait
+
+SC(f"~vst{8}.editor;") # SC("~vital.gui;")
+
+panic(dnb_track)
+panic()
+
+
+V.ssp=48
+#variation
+@swim()
+def dnb_track(p=1,i=0):
+def void():pass
+dr1,dr2,dr3,dr4= [aa,"..."],[bb,"..."] ,["..",aa,d1] ,[bb,"..."]
+dr5,dr6,dr7,dr8,dr9= [aa,".",aa,d1],[bb,bb,d1,bb] ,[d1,aa,d2] ,[bb,bb,bb,bb],[aa,aa,aa,aa]
+dr10=[aa,d1,bb,d1,bb,aa,bb,d1]
+def x():D((dr1+dr2+dr3+[bb ,d1,bb,d1]),d=V.ssp, speed='1 ', room=0.2, dry=0.2, size=0.5, i=i)
+def xx():D((dr1+dr2+dr3+dr4),d=V.ssp, speed='1 ', room=0.3, dry=0.2, size=0.5, i=i)
+def xxx():D((dr1+dr2+dr5+[bb,"..",bb]),d=V.ssp,rate=1, speed='1 ', room=("0.2~0.4"), dry=0.2, size=0.5, i=i)
+def xxxx():D((dr1+dr2+dr5+[bb,"..",bb]+dr10),d=V.ssp,rate=1, speed='1 ', room=("0.2~0.4"), dry=0.2, size=0.5, i=i)
+def xxxxx():D([bb ,d1,bb,d1]+dr6+dr2+dr8+dr2+dr7+[bb ,d1,bb,d1]+dr6+dr2+dr8+dr2+dr7,amp=.44 ,d=V.ssp ,hcutoff= 10,speed='1 ', room=0.6, dry=0.2, size=0.5, i=i)
+def xxxxxx():D(dr3+dr7+dr10+dr9 ,amp=.44 ,d=V.ssp ,hcutoff= 10,speed='1 ', room=0.6, dry=0.2, size=0.5, i=i)
+#\
+def shakers() :{ D(["[",dd,cc,ddd,cc,d1,"]!16" ]+ ["[",cc,".","]!32" ] ,amp=.024 ,d=V.ssp, rate=P('4.9~4') ,speed='1 ', room=0.6, dry=0.2, size=0.5, i=i),
+D(["[",ee," ... ","]!4" ]+ ["[",ee,d1,"]!8" ] ,d=1, amp=0.14, speed='1 ', room=0.6, dry=0.2, size=0.5, i=i/2) ,
+#D( [ff], amp=.4,d=1,vel=1, speed=' .98 ',rate=1,cutoff=1500,hcutoff= 1550 , room=0, dry=0, snap= -1.8 , size=0, i=i/64)
+}
+def impact(n=3):D( f"impact :{n } .!16", amp=.84,d=1,vel=1, speed=' .98 ',rate=1,hcutoff= 0 , dry=0, snap= -1.8 , size=0, i=i/64),
+def impacts():{D( "impact :7 .!16", amp=.84,d=1,vel=1, speed=' .98 ',rate=1,hcutoff= 0 , dry=0, snap= -1.8 , size=0, i=i/64),
+D( "impact :2 .!8", amp=.84,d=1,vel=1, speed=' .98 ',rate=1,hcutoff= 0 , dry=0, snap= -1.8 , size=0, i=i/64),
+D( "impact :8 .!32", amp=.84,d=1,vel=1, speed=' .98 E',rate=1,hcutoff= 0, dry=0, snap= -1.8 , size=0, i=i/64)
+}
+# D( [ii, ".!32"], amp=.4,d=1,vel=1, speed=' .98 ',rate=1,hcutoff= 0 , room=0, dry=0, snap= -100 , size=0, i=i/64)
+def rise () :D([bb]+["snrl:1"," .!16"],speed=4,amp=1.4,oct=4,vel=127,i=i/64,d=4,dur=64)
+def voc() : D([jj]+[":"]+[2]+["."],speed=1,amp=1.4,oct=4,vel=127,i=i/64,d=4,dur=64)
+#
+def lead() :D("vsti:[ 60 . 62 . 63 . 67 ]+12 ",oct=0,vel=127,dur=5,d=5,i=i/16)
+def wobble() :D('vsti1 : [ E .!12 E .!12 E .!6] ',oct=-1,vel=127 ,dur= 1 , i=i/64) #base32 / 3 \working
+def pad() :D('vsti2:[ E4 .!16 D3 .!16]!3 .!15',d=1,oct=0,vel=12 ,dur= 12, i=i/16)
+def dr(n): functions = [ "" , x, xx,xxx,xxxx,xxxxx,xxxxxx] ;return functions[n]()
+def drums(n=0):
+if n ==0 : dr(P("[ 2 ]", rate=4, i=(i/(2)/24)));
+if n ==1 : dr(P("[2 1 2 2 2 ] ", i=(i/(16)/6)))
+#dr(P("[1 1 1 1 ][1 2 1 1] [3 2 1 1] ", i=(i/(16)/6)))
+if n == 2: dr(P("[2 2 2 2 1 1 3 3 3 3 6] ", i=(i/(16)/6)))
+if n == 3: dr(P("[5 2 5 2] [ 1 5 3 4 3 ]!5 [1 3 5!4 4]", i=(i/(16)/24)))
+#
+def rbass(n=0) :
+if(n==0):D(['vsti3 : [[ F0 E .!3 C1 D D .!1 F F F D0 F21!12] [ F0 F0 .!3 .!1 F F F D0 F21!12]] ']+[d1],oct=-2,vel=127 ,dur= 2 , i=i/4) #base32 / 3 \working
+if(n==1):D(['vsti3 : [[ F-1 E .!3 C1 D D .!1 F F F D0 F0!12] [ F0 F0 .!3 .!1 F0 G G D0 F1!12]] ']+[d1],oct=-2,vel=127 ,dur= 2 , i=i/4) #base32 / 3 \working
+if(n==2):D(['vsti3 : [[ F0 E .!3 C0 D . D0 .!1 F0 F0 F D0 ] [ F0 F0 .!3 .!1 F0 G G D0 F1!12]] ']+[d1],oct=-2,vel=127 ,dur= 4 , i=i/3) #base32 / 3 \working
+def wob() :D('vsti1 : [ C1 .!12 C1 .!12 C1 .!6] ',oct=-0,vel=127 ,dur= 8 , i=i/8) #base32 / 3 \working
+def reese() :D('vsti2 : [.!8 F21 .!4 .!8 F2 .!4 F2 .!6] ',oct=-1,vel=127 ,dur= 8 , i=i/8) #base32 / 3 \working
+def soundpaint() :D('vsti : [ E .!12 E .!12 E .!6] ',oct=("1 0!2 -1!4"),vel=127 ,dur= 8 , i=i/32) #base32 / 3 \working
+def pad() :D('vsti4 : [ C2@hirajoshi E0 .!12 E0 .!12 E0 .!12] ',oct=0,vel=127 ,dur= 12 , i=i/32) #base32 / 3 \working
+def tonal(n=1): D([f"tonal:{n} .!10"],speed=1,amp=.124,hcutoff= 1000,oct=4,vel=127,i=i,d=1,dur=8)
+#
+dtrack="▣"+"▽▽▣▣▶▷ ▣▣+▣◀◁x░░▷░░*▓▓▣▶▷░░░░▷░░░░*▓▓▣▣▣▶▷ #########"
+etrack="▣▽▽▲▽▽▷▣▶▷ "+"▣△△▶△ △△▷ ▣◆◆+◆◆◆▷▶▷▣◇◇◇◇◇+▷▶▣◆◆◆◆▶ ###" #▣▽▽▲▲▲▲▲▽▽▣▶▷ ▣△△△△△△△▷ # ▶▷ ▣####"
+dtrack="-__vvvvv+v -|""--VVVV+VVVV-"+"-vvvv+vvvv-vv-""--VVVV+VVVV-|-""-vvvvvvvvvvv-" #^^^^v^^^^v- " #__-__-__|_-__ _-______-__- _| _-____ | ______ | ______ ______ " #"___^^^^ #_^ _^__-"#"-__-__-|_-_____________-__|"
+etrack="▣"+"▽▽▣▣▶▷ ▣▣+▣◀◁x░░▷░░*▓▓▣▶▷░░░░▷░░░░*▓▓▣▣▣▶▷ #########"
+print(show_part(etrack, 0,1+int(( (i/16)/18))%len(etrack)))
+#match 101:#
+match show_part(etrack, 0,1+int(( (i/16)/18))%len(etrack))[-1]:
+case 101: pass
+case "▽": V.ssp=8 ; tonal(2), shakers();
+case "▣":V.ssp= 4 ; rbass(), impacts();x() ;wob(),D([mm,":7 .!38"],amp=2,i=i/48)
+case "▶" :V.ssp=4 ;impacts() , soundpaint() ,drums(),wob()
+case "▷": V.ssp=4;reese(), D([mm,".!38"],amp=2,i=i/48) ;V.ssp=4,D([mm,".!32"],amp=2,i=i/48) # drums(2),tonal(3);wob(), shakers(),rise(),
+case "△": soundpaint(); V.ssp=P("4!32"); drums(0) ; #,shakers() ;
+case "◆":soundpaint(); V.ssp=P("4!32"); drums(P("1 2 2 2 2 3",i=i/2)) ; #,shakers() ;
+case "◇": V.ssp=P("4!32"); drums(P("1 2 2 2 2 3",i=i/2)) ; shakers() ;
+case "▲" :V.ssp=P("48!2 8!32" ,i=i); drums(); soundpaint()
+case '#' :print("fin"); V.ssp=48 ;panic()
+##########################################################
+case "◁" : drums(2), shakers() ,rbass(2),D("bass",i=(i/16)/4),D([mm,".!8"],amp=2,i=i/48)
+case "░": drums(1), tonal(3);wob(), shakers() ,D("bass",i=(i/16)/4),D([mm,".!38"],amp=2,i=i/48)
+case "▓": drums(2), shakers() ,rbass(2),D("bass",i=(i/16)/4),D([mm,".!38"],amp=2,i=i/48)
+case "█": drums(1), wob(), shakers() ,rbass(2),D("bass",i=(i/16)/4),D([".!38"],amp=2,i=i/48)
+case '-': impacts(), drums(),shakers()
+case '+': impacts(), drums(),shakers() , voc()
+case '*': impacts(),wobble,lead,shakers()
+case 'x': D([nn,":51 .!32 "],i=i/64)
+case 'v':
+case '#': print("fin"),SC("s.stopRecording;"); V.ssp=48 ;panic()
+print(show_part(dtrack, 0,1+int(( (i/16)/18))%len(etrack)))
+print(show_part(dtrack, 0,1+int(( (i/16)/18))%len(dtrack)))
+match 101:# show_part(dtrack, 0,1+int(( (i/16)/18))%len(dtrack))[-1]:
+case "0":pad()
+case "|":D(d10,[kk,":10",d10],i=i/16) , impact(n=3) ,rise()
+case '-':D(["[glitchs: 1~3]!8 .!32 "],speed=.51,dur=0.83,hcutoff= 100,amp=0.21,oct=4,i=i/16)
+case "░": tonal(3);wob(), shakers() ,D("bass",i=(i/16)/4),D([mm,".!38"],amp=.5,i=i/48)
+case "▓": rbass(2),D("bass",i=(i/16)/4),D([mm,".!38"],amp=2,i=i/48)
+case "█": wob(), shakers() ,rbass(2),D("bass",i=(i/16)/4),D([".!38"],amp=1,i=i/48)
+#D('vsti6 : [[E .!6 E3 .!3 E4 .!11 E ] [ E .!6 E3 .!3 E4 C5 E .!11 E .!6]*.]',oct=("-1!5 0!2"),amp=2,vel=127 ,dur= 1 , i=i/4); #base32 / 3 \working
+# D('vsti6 : [ E0 .!4]'),amp=2,vel=127 ,dur= 1 , i=i/4); #base32 / 3 \working
+# D('vsti7 : [ F] ',oct=-1,vel=127 ,dur= ,d=2 ,i=i/32) #base32 / 3 \working
+case '^':
+#D('vsti8 : [E!10 E0 C2@hirajoshi F0 C0 ]',oct=-1,vel=127 ,dur= 2 , i=i/8)
+# D('vsti8 : [E0 C2@hirajoshi F0 C0 ]',oct=2, vel=127 ,dur= 2 , i=i/16)
+D('vsti7 : [ F . F .!1 F .!1 C C C!32 ] ',oct=-2,vel=127 ,dur= 1 , i=i/8) #base32 / 3 \working
+case "v":
+# D('vsti8 : [ C6@hirajoshi C!32 C6@hirajoshi C!32 ]!8 ',oct=-2,vel=127 ,dur= 4 , i=i/264)
+D('vsti8 : [[ E . C!32 ]!8 [ C6@hirajoshi C!32 ]!8 ]',oct=-2,vel=127 ,dur= 4 , i=i/164)
+D('vsti8 :[ [ C2@hirajoshi F0 C0 ]!8 [ E . C!32 ]!8]',oct=-1,vel=127 ,dur= 2 , i=i/6)
+case '+': impacts(), drums,shakers() , voc()
+case "V":
+D('vsti8 : [ F6 . G3 C2 C!32 ]!8 ',oct=-2,vel=127 ,dur= 4 , i=i/64)
+#D('vsti3 : [ F6 . G3 C2 C!32 ]!8 ',oct=-2,vel=127 ,dur= 4 , i=i/64)
+#wob()
+D('vsti8 :[ [ C2@hirajoshi F0 C0 ]!8 [ E . C!32 ]!8 ]',oct=("-1!32 0.!32 1 "),vel=127 ,dur= 2 , i=i/12)
+#base32 / 3 \working
+#print(i/32)
+again(dnb_track,p=1/16,i=i+1)
+
+SC("s.record()")
+SC("s.record()")
+
+SC("s.makewindows")
+
+SC("²s.recChannels = 2; // for stereo")
+SC("""s.prepareForRecord("dnb/Track/recording.aiff");""")
+
+SC("s.stopRecording;")
+
+panic()
+Pb * d('vsti2 : [ F . F .!1 F .!1 C C C C!32 ] ',oct=-2,vel=127 ,dur= 1 , p=1/2) #base32 / 3 \working
+
+Pc * d('vsti8 : [ E0 C2@hirajoshi F0 C0 ] ',oct=-2,vel=127 ,dur= 2 , p=2) #base32 / 3 \working
+Pd * d('vsti8 : [ E!10 E0 C2@hirajoshi F0 C0 ] ',oct=-1,vel=127 ,dur= 2 , p=1/2) #base32 / 3 \working
+
+
+Pa * d('[bb]+["snrl:1"," .!16"',oct=2,vel=127 ,dur= 1 , p=1/32) #base32 / 3 \working
+
+
+
+
+
+
+
+print(show_part(etrack, 0,1+int(( (i/16)/18))%len(etrack)))
+match show_part(etrack, 0,1+int(( (i/16)/18))%len(etrack))[-1]:
+case 101: pass
+case "▽": tonal(2), shakers();V.ssp=8 ;
+case "▶" :impacts() , soundpaint() ,drums(),wob(),D([mm,".!32"],amp=2,i=i/48)
+case "▣" :rbass(), impacts();drums(),wob(),
+case "◀" :wob() , tonal(4) ,impacts() ,soundpaint() ;V.ssp=4 ;drums()
+case "▷" : reese(), drums(2),tonal(3);wob(), shakers(),rise(), D("bass",i=(i/16)/4) ;V.ssp=4
+case "◁" : drums(2), shakers() ,rbass(2),D("bass",i=(i/16)/4),D([mm,".!8"],amp=2,i=i/48)
+case "░": drums(1), tonal(3);wob(), shakers() ,D("bass",i=(i/16)/4),D([mm,".!38"],amp=2,i=i/48)
+case "▓": drums(2), shakers() ,rbass(2),D("bass",i=(i/16)/4),D([mm,".!38"],amp=2,i=i/48)
+case "█": drums(1), wob(), shakers() ,rbass(2),D("bass",i=(i/16)/4),D([".!38"],amp=2,i=i/48)
+case '-': impacts(), drums(),shakers()
+case '+': impacts(), drums(),shakers() , voc()
+case '*': impacts(),wobble,lead,shakers()
+case 'x': D([nn,":51 .!32 "],i=i/64)
+case 'v':SC("²s.recChannels = 2; // for stereo")
+case 'v':SC("""s.prepareForRecord("dnb/Track/recording.aiff");""")
+case 'v':SC("s.stopRecording;")
+case '#': print("fin"),SC("s.stopRecording;"); V.ssp=48 ;panic()
+print(show_part(dtrack, 0,1+int(( (i/16)/18))%len(etrack)))
+match 100: # show_part(dtrack, 0,1+int(( (i/16)/18))%len(etrack))[-1]:
+case "▽": pass
+case "▶" : pass
+case "▣" : pass
+case "◀" : pass
+case "▷" : pass
+case "◁" : pass
+case "░": pass
+case "▓": pass
+case "█": pass
+case '-': impacts(), drums(),shakers()
+case '+': impacts(), drums(),shakers() , voc()
+case '*': impacts(),wobble,lead,shakers()
+#print(i/32)
+again(dnb_track,p=1/16,i=i+1)
+
+panic()
+
+170/16
+#Usually one-note basslines in a minor key (often uses a Phyrigian or Locrian mode), tending to utilize repetition of the same root note and playing with the rhythm.
+
+
+S
+############################################ init
+
+
+
+SC("""( alBus2 = Bus.audio(s, 2);
+~vitalBus3 = Bus.audio(s, 2);
+~simpleSynthBus = Bus.audio(s, 2);
+~ottBus = Bus.audio(s, 2);
+~vstInstrument.do { |instr|
+SynthDef(instr[0], {|out|
+var sound = VSTPlugin.ar(nil, 2, id: instr[1]);
+Out.ar(out, sound);
+}).add;
+};
+SynthDef(\\ott, {
+arg in=0,in1=0, in2=0, in3=0,in4=0, out=0;
+var sig;
+sig = In.ar(in, 2) + In.ar(in1, 2) + In.ar(in2, 2)+ In.ar(in3, 2);
+sig = VSTPlugin.ar(sig, 2, id: \ott);
+Out.ar(out, sig);
+}).add;
+SynthDef(\\master, {
+arg in, out=0, amp=1;
+var sig = In.ar(in, 2);
+Out.ar(out, sig * amp);
+~vstInstrument = [
+[\\vsti, \\1, ~vitalBus, "E:/vst/Vital.vst3,~vital"],
+[\\vsti1,\\2, ~vitalBus1, "E:/vst/Vital.vst3,~vital"],
+[\\vsti2, \\4, ~vitalBus2, "E:/vst/Kontakt 7.vst3,~kontakt"],
+[\\vsti3, \\5, ~vitalBus3, "E:/vst/Kontakt 7.vst3,~vital"]
+];
+~vitalBus = Bus.audio(s, 2);
+~vitalBus1 = Bus.audio(s, 2);
+~vit
+}).add;
+s.sync()
+)""")
+
+SC("""(
+~vital = VSTPluginController(Synth(\\vsti,[\\out, ~vitalBus])).open("E:/vst/Vital.vst3", editor: true, multiThreading: true);
+~vital1 = VSTPluginController(Synth(\\vsti1, [\\out, ~vitalBus1])).open("E:/vst/Vital.vst3", editor: true, multiThreading: true);
+~kontakt = VSTPluginController(Synth(\\vsti2, [\\out, ~vitalBus2])).open("E:/vst/Kontakt 7.vst3", editor: true, multiThreading: true);
+~soundpaint = VSTPluginController(Synth(~vstInstrument[3][0], [\\out, ~vitalBus3])).open("E:/vst/Soundpaint.dll", editor: true, multiThreading: true);
+s.sync;
+~ottController = VSTPluginController(Synth.after(~vital.synth, \\ott,[\\in, ~vitalBus, \\in1, ~vitalBus1, \\in2, ~vitalBus2,\\in2, ~vitalBus3, \\out, ~ottBus])).open("E:/vst/OTT.vst3", editor: true);
+~masterSynth = Synth.after(~ottController.synth, \\master, [\\in, ~ottBus, \\out, 0, \\amp, 1]);
+if(soundpaint.loaded){s.sync;
+~ vstControllers = [
+[\\vsti, ~vital],
+[\\vsti1, ~vital1],
+[\\vsti2, ~kontakt],
+[\\vsti3, ~lab]
+];
+~vstControllers.do { |item|
+var name = item[0];
+var controller = item[1];
+~dirt.soundLibrary.addMIDI(name, controller.midi);
+};})
+""")
+
+
+################################################################################
+SC("~ottController.editor;") # SC("~vital.gui;") vital vital1 kontakt
+
+SC("~vital1.editor;") ,SC("~vital1.gui;") #vital vital1 kontakt=
+
+SC("~soundpaint.editor;") # SC("~vital.gui;") vital vital1 kontakt=
+
+SC("s.newAllocators;")
+
+################################################### automation using midilearn :)
+
+@swim
+def play_c_note(p=1, i=0):
+#N("4 . . . 14 3 . . 3 . . . 14 . . . ",vel=25,i=i/2,chan=0,dur=2)
+CC( 12, 10,2)
+again(play_c_note, p=1, i=i+1)
+
+Pb * cc(ctrl=1, chan=0, value='rand*127',p=1/5) # volume sending a random MIDI control on ctrl 20, channel 0
+
+
+SC("~parameterWatcher.stop;")"
+
+
+############################################ preset {trackname}
+
+SC("""~vital.readProgram("C:/Users/jo/Documents/Vital/{Vitalitypuls}vital1.fxp");""")
+
+SC("""~vital1.readProgram("C:/Users/jo/Documents/Vital/{Vitalitypuls}vital2.fxp");""")
+
+SC("""~kontakt.readProgram("C:/Users/jo/Documents/Native Instruments/VitalitypulsKontakt1.fxp");""")
+
+
+panic()
+
+############################################ wip
+#7+5 triplet 2
+
+Pc * d('vsti : [ E .!6 E .!3 E . E .!11 E .!6] ',oct=-1,vel=127 ,dur= 1 , p=1/4) #base32 / 3 \workingx
+
+Pb * d('vsti5 : [ E .!6 E3 .!3 E4 C5 E .!11 E .!6] ',oct=-1,vel=127 ,dur= 1 , p=1/4) #base32 / 3 \working
+
+Pc * d('vsti : [E .!31 D]',oct=-1,vel=12 ,dur= 1 ,d=2, p=1/16) #base32
+
+Pe * d('vsti3 .!5 ',n="[ E!8 E2!4 ] ",d=1,oct=0,vel=12 ,dur= 1, p=1/4)
+
+Pb * d('vsti7 : [ E .!6 E3 .!3 E4 C5 E .!11 E .!6] ',oct=1,vel=127 ,dur= 1 , p=1/4) #base32 / 3 \working
+
+panic()
+
+############################################################################################
+
+(
+SynthDef(\vsti, { |out| Out.ar(out, VSTPlugin.ar(nil, 2, id: \vital))}).add;
+SynthDef(\ott, { |in, out|var sig = VSTPlugin.ar(In.ar(in, 2), 2, id: \ott);Out.ar(out, sig);}).add;
+Ndef(\vital, \vstDef -> \vsti);
+Ndef(\ott, \vstDef -> \ott);
+Ndef(\ott).set(\in, Ndef(\vital));
+Ndef(\ott).play;
+~vital = VSTPluginNodeProxyController(Ndef(\vital)).open("E:/vst/Vital.vst3", editor: true);
+~ott = VSTPluginNodeProxyController(Ndef(\ott)).open("E:/vst/OTT.vst3", editor: true);
+~dirt.soundLibrary.addMIDI(\vital, vital.midi);
+~vital.editor;
+~ott.editor;
+
+// Example of parameter control
+~vital.set('OSC 1 Level', 0.8);
+~ott.set('In Gain', 0.5);
+
+) melo="^^^^¤^^^^*°°°°<<>>>-____¤___*<<>><<>/ \___~~~~____-___¤____¤___*______-___¤____/----\___________-_______+_____#"
+etrack="___¤___*░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ++--------+_¤___*_______/ \___~~~~____-___¤____¤___*++--------+_¤____/----\_#__++--+################"
+etrack="___¤___♠♠♠♠♠♠♠♠♠♠♠♠♠♠################"
+
+

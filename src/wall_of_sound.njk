@@ -4,6 +4,8 @@ permalink: /wall-of-sound/
 ---
 {%include "head.njk" %}
 {%include "navigation.njk" %}
+
+
 <video class="video-background" autoplay muted loop>
     <source src="/media/hardcore_raver.mp4" type="video/mp4">
     Your browser does not support HTML5 video.
@@ -15,12 +17,12 @@ permalink: /wall-of-sound/
     {% for project in projects | shuffle %}
         {% for i in range(0, 5) -%}
             <div class="audio-player">
-                <audio controls> 
+                <audio controls>
                   <source src="https://ccc-static.cookie.paris/{{ project.folder | slugify }}.wav" type="audio/wav" />
-                  <source src="https://ccc-static.cookie.paris/{{ project.folder | slugify }}.mp3" type="audio/mp3" />
+                  <!-- <source src="https://ccc-static.cookie.paris/{{ project.folder | slugify }}.mp3" type="audio/mp3" /> -->
                   <p>
                     You web browser does not support HTML5 audio. Here is a link
-                    to the file instead: <a href="myAudio.mp3">link</a>.
+                    to the file instead: <a href="myAudio.wav">link</a>.
                   </p>
                 </audio>
             </div>
@@ -45,6 +47,7 @@ permalink: /wall-of-sound/
         padding-top: 10px;
         padding-bottom: 10px;
         width: 1vw;
+        z-index: 10;
     }
 
     .video-background {
@@ -64,4 +67,3 @@ permalink: /wall-of-sound/
     }
 
 </style>
-
