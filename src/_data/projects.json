@@ -80,11 +80,7 @@
 			"links": [
 				{
 					"name": "instagram",
-					"url": ""
-				},
-				{
-					"name": "website",
-					"url": ""
+					"url": "https://www.instagram.com/baya.data/"
 				}
 			]
 		}
@@ -717,7 +713,12 @@
 		"folder": "azertype-byt3m3",
 		"videast": {
 			"name": "azertype",
-			"links": [],
+			"links": [
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/azertype_/"
+				}
+			],
 			"sources": []
 		},
 		"musician": {
@@ -744,7 +745,12 @@
 		"folder": "azertype-jules",
 		"videast": {
 			"name": "azertype",
-			"links": [],
+			"links": [
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/azertype_/"
+				}
+			],
 			"sources": []
 		},
 		"musician": {
@@ -843,8 +849,8 @@
 			"name": "Baya",
 			"links": [
 				{
-					"name": "linktr.ee",
-					"url": "https://linktr.ee/sergiiio"
+					"name": "Instagram",
+					"url": "https://www.instagram.com/aka.rien/"
 				}
 			],
 			"sources": []
@@ -947,7 +953,7 @@
 			"links": [
 				{
 					"name": "Soundcloud",
-					"url": ""
+					"url": "https://soundcloud.com/rosefelicity"
 				}
 			],
 			"sources": []
@@ -1119,7 +1125,12 @@
 
 		"musician": {
 			"name": "aka.rien",
-			"links": [],
+			"links": [
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/aka.rien/"
+				}
+			],
 			"sources": []
 		}
 	},
@@ -1221,7 +1232,12 @@
 		},
 		"musician": {
 			"name": "azertype",
-			"links": [],
+			"links": [
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/azertype_/"
+				}
+			],
 			"sources": []
 		}
 	},
