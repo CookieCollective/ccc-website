@@ -4,21 +4,46 @@ title: Cookie Compilation
 {%include "head.njk" %}
 {%include "navigation.njk"%}
 
-<div class="container">
-    <video autoplay muted loop>
-        <source src="/media/ccc.mp4" type="video/mp4">
-        Your browser does not support HTML5 video.
-    </video>
-</div>
+<video autoplay muted loop>
+    <source src="/media/ccc.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+</video>
 
-<div>
-    <h1>Bonjour je veux écrire quelque chose</h1>
+<div class="container">
+    <div class="ressource-button foreground">
+        <p class="button">
+            <a href="/content/projects/{{ project.folder | slugify }}/more/{{ sources.file }}" target="_blank">
+                Cookie Collective
+            </a>
+        </p>
+    </div>
+    <div class="ressource-button foreground">
+        <p class="button">
+            <a href="/content/projects/{{ project.folder | slugify }}/more/{{ sources.file }}" target="_blank">
+                Soundcloud
+            </a>
+        </p>
+    </div>
+    <div class="ressource-button foreground">
+        <p class="button">
+            <a href="/content/projects/{{ project.folder | slugify }}/more/{{ sources.file }}" target="_blank">
+                LiveCoding.fr
+            </a>
+        </p>
+    </div>
+
 </div>
 
 <style>
+    .main-content {
+        width: 100%;
+        color: white;
+        margin: 5%;
+    }
 
     .container
     {
+        margin: 5%;
         position: absolute;
         top: 0;
         left: 0;
@@ -26,13 +51,50 @@ title: Cookie Compilation
         bottom: 0;
     }
 
-    .card
-    {
+    .card {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
     }
+
+    .ressource-button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .button {
+        width: 85%;
+        font-size: 1.5em;
+    }
+
+    .button a:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .button a {
+        display: block;
+        background-color: white;
+        color: black;
+        padding: 10px;
+        text-decoration: none;
+        transition: background-color 0.3s, color 0.3s;
+        width: 93%;
+    }
+
+
+    .button a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .foreground {
+        position: relative;
+        z-index: 10;
+    }
+
+
 
 </style>

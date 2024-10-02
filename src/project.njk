@@ -59,7 +59,7 @@ permalink: "projects/{{ project.folder | slugify }}/"
                 <h2>{{project.videast.name}} X {{project.musician.name}} &mdash; {{project.title}}</h2>
             </div>
             <video class="view box-shadow borders" controls>
-                <source src="/content/projects/{{ project.folder | slugify }}/clip.mp4" type="video/mp4" />
+                <source src="https://ccc-static.cookie.paris/{project.folder}.mp4" type="video/mp4" />
             </video>
         </div>
 
@@ -256,9 +256,6 @@ permalink: "projects/{{ project.folder | slugify }}/"
             height: auto;
             margin: 0 auto;
         }
-
-
-
 
         body, html {
             height: auto;
