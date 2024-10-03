@@ -10,37 +10,35 @@ title: Cookie Compilation
         Your browser does not support HTML5 video.
     </video>
     <div class="card">
-        <p class="frost">
-        The concept is straightforward: an audiovisual compilation on the theme of Divagation.<br>
-        Divagation is a attractive starting point, that promotes personal errands; letting everyone's singularity emerge (also, it's a pretty flexible theme 🙊)<br>
-        <br>
-        Some definitions:<br>
-        <br>
-        _The act of wandering here and there, out of place.<br>
-        _The action of a mind wandering, wandering at the whim of its _reverie.<br>
-        _The contravention of letting animals wander or abandoning _them on the roads.<br>
-        _Displacement, total or partial, permanent or temporary, of a river bed.<br>
-        <br>
-        Synonyms: elucubration - extravagance - incoherence - rambling - reverie - daydream.’’<br>
-        <br>
-        In the first act, people created videos.<br>
-        For the second act, others created a soudtrack/music/noise for them.<br>
-        <br>
-        Our goal was to create a space of diffusion, for productions/techniques that have few or none, allow encounters to emerge, and foster collaboration between visual art and sound.<br>
-        <br>
-        That's how you ended with this U.F.O (Unidentified Freeform Object) lighting up your retina & tingling your eardrums.<br>
-        <br>
-        The Cookie Collective is an organization of humans, with de-facto roots since 2016. The collective's core is in France and especially the Greater Paris area.<br>
-        Some of us see themselves as technicians; some as artists; some keep pondering this existential question, while others just don't ask.<br>
-        From a focus on realtime visual art, over the last 3 years the musical dimension grew bigger in our collective's works.<br>
-        For this project, we want to bring back the visual to the front stage. A kind of Travel through Time, or rather to an alternative Present which honors the first years of the ollective, a salute to our livecoding pioneers.</p>
+        <div class="too-much frost">
+            <div class="frost">
+                <p lang="en">The concept is straightforward: an audiovisual compilation on the theme of Divagation.
+                Divagation is a attractive starting point, that promotes personal errands; letting everyone's singularity emerge (also, it's a pretty flexible theme 🙊).</p>
+                <p>Some definitions:</p>
+                <ul>
+                    <li lang="en">The act of wandering here and there, out of place.</li>
+                    <li lang="en">The action of a mind wandering, wandering at the whim of its _reverie.</li>
+                    <li lang="en">The contravention of letting animals wander or abandoning _them on<br> the roads.</li>
+                    <li lang="en">Displacement, total or partial, permanent or temporary, of a river bed.</li>
+                </ul>
+                <br>
+                <p lang="en">Synonyms: <i>elucubration</i> - <i>extravagance</i> - <i>incoherence</i> - <i>rambling</i> - <i>reverie</i> - <i>daydream</i>.’’</p>
+                <br>
+                <p lang="en">In the first act, people created videos. For the second act, others created a soudtrack/music/noise for them.
+                Our goal was to create a space of diffusion, for productions/techniques that have few or none, allow encounters to emerge,and foster collaboration between visual art and sound.
+                That's how you ended with this U.F.O (Unidentified Freeform Object) lighting up your retina tingling your eardrums.</p>
+                <p lang="en">The Cookie Collective is an organization of humans, with de-facto roots since 2016. The collective's core is in France and especially the Greater Paris area.
+                Some of us see themselves as technicians; some as artists; some keep pondering this existential question, while others just don't ask.
+                From a focus on realtime visual art, over the last 3 years the musical dimension grew bigger in our collective's works.
+                For this project, we want to bring back the visual to the front stage. A kind of Travel through Time, or rather to an alternative Present which honors the first years of the ollective, a salute to our livecoding pioneers.</p>
+            </p>
+        </div>
     </div>
 </div>
 
 <style>
 
-    .container
-    {
+    .container {
         position: absolute;
         top: 0;
         left: 0;
@@ -48,42 +46,57 @@ title: Cookie Compilation
         bottom: 0;
     }
 
-    video
-    {
+    video {
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
 
-    .card
-    {
+    .card {
         position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
+        top: 15%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
-    .title
-    {
+    .title {
         display: block;
         padding: 5px 20px;
-
         font-size: 9em;
         color: white;
     }
 
-    .cookie-logo
-    {
-        height: 300px;
-        border-radius: 150px;
+
+    .too-much {
+        padding: 1%;
+        overflow-y: scroll;
+        max-height: 70vh;
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none;  /* Internet Explorer 10+ */
     }
 
-    p
-    {
-        color: white;
-        padding: 10px 15px;
-        text-align: left;
+    .too-much::-webkit-scrollbar { 
+        display: none;  /* Safari and Chrome */
     }
+
+    ul {
+        font-size: 2em;
+        color: white;
+        padding-left: 2em;
+        padding-right: 5%;
+
+    }
+
+    p {
+        text-align: justify;
+        font-size: 2em;
+        color: white;
+        hyphens: auto
+        padding-left: 5%;
+        padding-right: 5%;
+        hyphens: auto;
+    }
+
+
 
 </style>

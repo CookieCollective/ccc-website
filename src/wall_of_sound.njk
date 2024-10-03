@@ -28,6 +28,7 @@ permalink: /wall-of-sound/
             </div>
         {%- endfor %}
     {% endfor %}
+
 </div>
 
 <style>
@@ -39,13 +40,12 @@ permalink: /wall-of-sound/
         overflow-y: auto;
         -ms-overflow-style: none;  /* IE and Edge */
         scrollbar-width: none;  /* Firefox */
-        margin:5%;
     }
 
     .audio-player {
-        margin: 10px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        margin: 0.25em;
+        padding-top: 0.5em;
+        padding-bottom: 0em;
         width: 1vw;
         z-index: 10;
     }
@@ -65,5 +65,13 @@ permalink: /wall-of-sound/
         z-index: 0;
         object-fit: cover;
     }
+
+    /* Add larger margin-top for phones */
+    @media (max-width: 600px) {
+        .container {
+            margin-top: 15%;
+        }
+    }
+
 
 </style>
