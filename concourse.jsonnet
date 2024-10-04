@@ -37,7 +37,6 @@ local BUILD_DOCKER_IMAGE_TASK = {
   inputs: [
     {
       name: GIT_REPOSITORY_RESOURCE.name,
-      path: '.',
     },
   ],
   outputs: [
@@ -45,6 +44,9 @@ local BUILD_DOCKER_IMAGE_TASK = {
       name: 'image',
     },
   ],
+  params: {
+    CONTEXT: GIT_REPOSITORY_RESOURCE.name,
+  },
   platform: 'linux',
   run: {
     path: 'build',
