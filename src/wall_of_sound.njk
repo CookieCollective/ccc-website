@@ -2,75 +2,76 @@
 title: Wall of Sound
 permalink: /wall-of-sound/
 ---
-{%include "head.njk" %}
-{%include "navigation.njk" %}
-
+{% include "head.njk" %}
+{% include "navigation.njk" %}
 
 <video class="video-background" autoplay muted loop>
     <source src="/media/hardcore_raver.mp4" type="video/mp4">
     Your browser does not support HTML5 video.
 </video>
 
-
 <div class="container">
-
     {% for project in projects | shuffle %}
-        {% for i in range(0, 5) -%}
-            <div class="audio-player">
-                <audio controls>
-                  <source src="https://ccc-static.cookie.paris/{{ project.folder | slugify }}.wav" type="audio/wav" />
-                  <!-- <source src="https://ccc-static.cookie.paris/{{ project.folder | slugify }}.mp3" type="audio/mp3" /> -->
-                  <p>
-                    You web browser does not support HTML5 audio. Here is a link
-                    to the file instead: <a href="myAudio.wav">link</a>.
-                  </p>
-                </audio>
-            </div>
-        {%- endfor %}
+        <div class="audio-player">
+            <audio controls>
+                <source src="https://ccc-static.cookie.paris/{{ project.folder | slugify }}.wav" type="audio/wav" />
+                <p>
+                    Your web browser does not support HTML5 audio. Here is a link to the file instead: 
+                    <a href="https://ccc-static.cookie.paris/{{ project.folder | slugify }}.wav">link</a>.
+                </p>
+            </audio>
+        </div>
     {% endfor %}
-
 </div>
 
-<style>
 
+<style>
     .container {
+        margin-top: 3%;
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        max-height: 93vh;
+        gap: 1.5em;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+        padding: 1em;
         overflow-y: auto;
-        -ms-overflow-style: none;  /* IE and Edge */
-        scrollbar-width: none;  /* Firefox */
+        max-height: 90vh;
+        justify-items: center;
     }
 
     .audio-player {
-        margin: 0.25em;
-        padding-top: 0.5em;
-        padding-bottom: 0em;
-        width: 1vw;
-        z-index: 10;
+        width: 100%;  
+        max-width: 500px;  
+        padding: 1em;
+        border-radius: 0.5em;
+    }
+
+    audio {
+        width: 100%;
     }
 
     .video-background {
-        position: absolute;
+        position: fixed;
+        top: 0;
+        left: 0;
         width: 100%;
         height: 100%;
         object-fit: cover;
+        z-index: -1;
     }
 
-    .video-preview
-    {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        z-index: 0;
-        object-fit: cover;
-    }
-
-    /* Add larger margin-top for phones */
     @media (max-width: 600px) {
         .container {
             margin-top: 15%;
+            grid-template-columns: 1fr;
         }
+    }
+
+    .container::-webkit-scrollbar {
+        display: none;
+    }
+
+    .container {
+        -ms-overflow-style: none;  /* Internet Explorer 10+ */
+        scrollbar-width: none;  /* Firefox */
     }
 
 
