@@ -14,10 +14,10 @@ permalink: /wall-of-sound/
     {% for project in projects | shuffle %}
         <div class="audio-player">
             <audio controls>
-                <source src="https://ccc-static.cookie.paris/{{ project.folder | slugify }}.wav" type="audio/wav" />
+                <source src="https://ccc-static.cookie.paris/{{ project.folder | slugify }}.mp3" type="audio/mp3" />
                 <p>
-                    Your web browser does not support HTML5 audio. Here is a link to the file instead: 
-                    <a href="https://ccc-static.cookie.paris/{{ project.folder | slugify }}.wav">link</a>.
+                    Your web browser does not support HTML5 audio. Here is a link to the file instead:
+                    <a href="https://ccc-static.cookie.paris/{{ project.folder | slugify }}.mp3">link</a>.
                 </p>
             </audio>
         </div>
@@ -30,7 +30,7 @@ permalink: /wall-of-sound/
         margin-top: 3%;
         display: grid;
         gap: 1.5em;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         padding: 1em;
         overflow-y: auto;
         max-height: 90vh;
@@ -38,8 +38,8 @@ permalink: /wall-of-sound/
     }
 
     .audio-player {
-        width: 100%;  
-        max-width: 500px;  
+        width: 100%;
+        max-width: 500px;
         padding: 1em;
         border-radius: 0.5em;
     }
