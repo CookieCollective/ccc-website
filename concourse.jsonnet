@@ -19,6 +19,7 @@ local GIT_REPOSITORY_RESOURCE = {
     uri: 'https://github.com/CookieCollective/ccc-website.git',
   },
   type: 'git',
+  webhook_token: '((webhook-token))',
 };
 
 local BUILD_DOCKER_IMAGE_TASK = {
