@@ -10,3 +10,6 @@ public
 
 # macOS related files
 .DS_Store
+
+# CICD
+/.concourse

@@ -1,0 +1,18 @@
+{
+	"configs": [
+		{
+			"path": "*",
+			"fileExtension": "*",
+			"headers": [
+				{
+					"key": "Cache-Control",
+					"value": "public, max-age=30, must-revalidate"
+				},
+				{
+					"key": "Strict-Transport-Security",
+					"value": "max-age=31536000; includeSubDomains;"
+				}
+			]
+		}
+	]
+}
