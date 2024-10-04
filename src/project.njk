@@ -55,8 +55,8 @@ permalink: "projects/{{ project.folder | slugify }}/"
 
         <div class="column video-column">
             <div class="project-title"</div>
-                <h2>{% phicon "projector-screen" %}</h2>
-                <h2>{{project.videast.name}} X {{project.musician.name}} &mdash; {{project.title}}</h2>
+                <h2></h2>
+                <h2 class="project-title-one-line">{% phicon "projector-screen" %} {{project.videast.name}} X {{project.musician.name}} &mdash; {{project.title}}</h2>
             </div>
             <video class="view box-shadow borders" controls>
                 <source src="https://ccc-static.cookie.paris/{{project.folder}}.mp4" type="video/mp4" />
