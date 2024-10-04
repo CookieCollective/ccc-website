@@ -12,9 +12,9 @@ title: Cookie Compilation
     <div class="card">
         <div class="too-much frost">
             <div class="frost">
-                <p lang="en">The concept is straightforward: an audiovisual compilation centered around a main theme: Divagation.
-                    Divagation is an intriguing starting point that encourages personal exploration, allowing each individual’s
-                    peculiarity to shine through. It’s also a remarkably versatile theme 🙊.</p>
+                <p lang="en">Our concept is straightforward: an audiovisual compilation centered around a main theme; Divagation.
+                    This single word is an intriguing starting point that encourages personal exploration, allowing each individual’s
+                    peculiarity to shine through. It’s also a remarkably versatile/generic theme.</p>
                 <br>
                 <br>
                 <p>Some definitions:</p>
@@ -24,20 +24,24 @@ title: Cookie Compilation
                     <li lang="en">Contravention for letting animals wander on public roads.</li>
                     <li lang="en">Displacement, total or partial, permanent or temporary, of a river bed.</li>
                 </ul>
-                <p lang="en">Synonyms: <i>elucubration</i> - <i>extravagance</i> - <i>incoherence</i> - <i>rambling</i> - <i>reverie</i> - <i>daydream</i>.’’</p>
+                <p lang="en">Synonyms: <i>elucubration</i> - <i>extravagance</i> - <i>incoherence</i> - <i>rambling</i> - <i>reverie</i> - <i>daydream</i>.</p>
                 <br>
                 <br>
-                <p lang="en">At first, people created videos and then some other people composed music or noise fitting for them.
-                Our goal was to create a broadcasting space for productions and/or techniques that do not have one (or not enough).
+                <p lang="en">First, people created videos; then, some other people added music or noise to fit with the visuals.
+                Our goal through this project is to create a broadcasting space for productions and/or techniques that do not have one (or not enough).
                 We are trying to bring people together, to foster collaboration between visual and sonic arts.
                 That's how you ended up viewing this U.F.O (Unidentified Freeform Object), lighting up your retina and tingling your eardrums.</p> 
                 <br>
                 <br>
 
-                <p lang="en">The Cookie Collective is a human organization in existence, de-facto, since 2016. Most of the members are based in
-                    France, especially in the Greater Paris area. Some of us see themselves as technicians; some as artists; some keep pondering
-                    this existential question. Others just don't care asking themselves the question. The collective once focused on realtime
-                    visual arts. However, the last three years saw a great development of the musical dimension of our collective work.
+                <p lang="en">The Cookie Collective is a human organization. It has existed de facto since 2016.
+                    Most of its members are based in France, especially in the Greater Paris area. Others live and are active all over France.
+                    Some of us see themselves as technicians; some as artists; some keep pondering this existential question.
+                    Others just don't care asking themselves what they are or what they do.</p>
+                <br>
+                <br>
+                <p lang="en"> The collective once focused extensively on realtime visual arts. However, the last three years saw a great
+                    development of musical works in our collective work.
                     This project aims to bring back the visual aspect to the front of the stage. It's a kind of travel through time, or rather
                     to an alternative present which honors the first years of the collective, a tribute to our livecoding pioneers.</p>
             </p>
@@ -62,10 +66,33 @@ title: Cookie Compilation
     }
 
     .card {
+        border-left: 0.5rem solid white;
+        border-right: 0.5rem solid white;
         position: absolute;
         top: 15%;
         margin-left: 10%;
         margin-right: 10%;
+        animation: float 10s linear infinite;
+    }
+
+    @keyframes float {
+
+        0% {
+            transform: translateY(0) rotate(1deg);
+        }
+        25% {
+            transform: translateY(-5px) rotate(0deg);
+        }
+        50% {
+            transform: translateY(-10px) rotate(-1deg);
+        }
+        75% {
+            transform: translateY(-5px) rotate(0deg);
+        }
+        100% {
+            transform: translateY(0) rotate(1deg);
+        }
+
     }
 
     .title {
