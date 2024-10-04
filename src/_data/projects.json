@@ -757,8 +757,12 @@
 			"name": "déluges",
 			"links": [
 				{
-					"name": "Soundcloud",
+					"name": "Déluges",
 					"url": "https://soundcloud.com/deluge_jules"
+				},
+				{
+					"name": "FRONSSONS ʕ •`ᴥ•´ʔ",
+					"url": "https://soundcloud.com/fronssons"
 				},
 				{
 					"name": "Instagram",
@@ -964,7 +968,12 @@
 		"folder": "zorg-bleep",
 		"videast": {
 			"name": "z0rg",
-			"links": [],
+			"links": [
+				{
+					"name": "linktree",
+					"url": "https://linktr.ee/z0rg"
+				}
+			],
 			"sources": [
 				{
 					"name": "Code",
@@ -974,7 +983,16 @@
 		},
 		"musician": {
 			"name": "lil bleep",
-			"links": [],
+			"links": [
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/djensbeer21/"
+				},
+				{
+					"name": "Youtube",
+					"url": "https://www.youtube.com/@wilbertvogel"
+				}
+			],
 			"sources": []
 		}
 	},
@@ -1304,7 +1322,24 @@
 		},
 		"musician": {
 			"name": "Jules Cipher",
-			"links": [],
+			"links": [
+				{
+					"name": "Renardo.org",
+					"url": "https://renardo.org/"
+				},
+				{
+					"name": "instagram",
+					"url": "https://www.instagram.com/jules_cipher/"
+				},
+				{
+					"name": "website",
+					"url": "https://eliegavoty.xyz/"
+				},
+				{
+					"name": "FRONSSONS ʕ •`ᴥ•´ʔ",
+					"url": "https://soundcloud.com/fronssons"
+				}
+			],
 			"sources": []
 		}
 	},
