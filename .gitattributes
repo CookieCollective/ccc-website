@@ -1,3 +1,5 @@
+/concourse.jsonnet eol=lf
+
 # https://gitattributes.io/api/web
 
 # Content
